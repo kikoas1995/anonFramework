@@ -4,6 +4,7 @@ import sys
 sys.path.insert(0, 'src')
 from mailer import anonMailer
 
+
 def option_1():
     print ("¿Qué quieres hacer?")
     input = raw_input("1.   Remailing\n"

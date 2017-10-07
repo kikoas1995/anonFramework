@@ -23,6 +23,7 @@ def anonMailer():
     navegador.set_debug_redirects(False)
     # br.set_proxies({"http": proxy})
 
+
     navegador.select_form(nr=0)
 
     navegador.form['to'] = destinatario
