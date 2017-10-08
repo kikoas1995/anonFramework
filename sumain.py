@@ -1,8 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import sys
-sys.path.insert(0, 'src')
-from mailer import anonMailer
+import src
+
+from src import mailer
 
 
 def option_1():
@@ -12,7 +13,7 @@ def option_1():
                       "\n")
 
     switch = {'1':option_1,
-              '2': anonMailer,
+              '2': mailer.amailer,
               99: error
               }
     try:
@@ -26,6 +27,7 @@ def option_2():
 def error():
     print("La opción seleccionada no está disponible. Selecciona un valor de entre los siguientes")
     init()
+
 
 def init():
     input = raw_input("1.   Mailing\n"

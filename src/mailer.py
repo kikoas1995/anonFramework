@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import mechanize
 
-def anonMailer():
+def amailer():
     navegador = mechanize.Browser()
 
     destinatario = raw_input("Introduce la dirección destino: ")
@@ -41,4 +41,4 @@ def anonMailer():
 
 
 if __name__ == "__main__":
-    anonMailer()
+    amailer()
