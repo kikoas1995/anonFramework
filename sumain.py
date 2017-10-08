@@ -4,7 +4,7 @@ import sys
 import src
 
 from src import mailer
-
+from src import seleniumBot
 
 def option_1():
     print ("¿Qué quieres hacer?")
@@ -20,18 +20,31 @@ def option_1():
         switch[input]()
     except KeyError:
         switch[99]()
+        option_1()
 
 def option_2():
-    print()
+    print ("¿Qué quieres hacer?")
+    input = raw_input("1.   Floodear publicación en FB\n"
+                      "2.   ~\n"
+                      "\n")
+
+    switch = {'1':seleniumBot.FacebookBot,
+              '2': mailer.amailer,
+              99: error
+              }
+    try:
+        switch[input]()
+    except KeyError:
+        switch[99]()
+        option_2()
 
 def error():
     print("La opción seleccionada no está disponible. Selecciona un valor de entre los siguientes")
-    init()
 
 
 def init():
     input = raw_input("1.   Mailing\n"
-                      "2.   Flood anónimo en diversos foros\n"
+                      "2.   Scripts en Selenium\n"
                       "3.   ~~~~~~\n"
                       "\n")
     switch = {'1':option_1,
@@ -42,6 +55,7 @@ def init():
         switch[input]()
     except KeyError:
         switch[99]()
+        init()
 
 def main():
 

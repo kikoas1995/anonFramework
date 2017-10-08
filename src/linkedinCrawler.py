@@ -30,7 +30,7 @@ def getID(url):
     return urlparse.parse_qs(pUrl.query)['id'][0]
 
 
-def ViewBot(browser):
+def LinkedInBot(browser):
     visited = {}
     pList = []
     count = 0
