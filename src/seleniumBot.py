@@ -12,10 +12,10 @@ from random import randint, uniform
 
 
 def FacebookBot():
-    driver = webdriver.Firefox(executable_path='/etc/geckodriver/geckodriver')
+    driver = webdriver.Chrome()
 
-    login_email = "kikoas1995@gmail.com"
-    login_pass = "nintendo.95"
+    login_email = "*2*.com"
+    login_pass = "***"
 
     driver.get('https://www.facebook.com/login.php?login_attempt=1&lwv=110')
     print("Página de log-in de FB")
