@@ -12,7 +12,7 @@ from random import randint, uniform
 
 
 def FacebookBot():
-    driver = webdriver.Chrome()
+    driver = webdriver.Firefox()
 
     login_email = "*2*.com"
     login_pass = "***"
