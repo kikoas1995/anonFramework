@@ -18,7 +18,7 @@ def FacebookBot():
     path = os.path.join(os.path.join(script_dir, os.pardir), 'libraries/geckodriver/geckodriver')
     driver = webdriver.Firefox(executable_path=path)
 
-    login_email = "*2*.com"
+    login_email = "*@*.com"
     login_pass = "***"
 
     driver.get('https://www.facebook.com/login.php?login_attempt=1&lwv=110')
