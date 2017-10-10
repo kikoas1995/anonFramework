@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from selenium import webdriver
+import os
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 from selenium.common.exceptions import TimeoutException
@@ -9,10 +10,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.common.exceptions import NoSuchElementException
 from random import randint, uniform
-
+from selenium.webdriver.chrome.options import Options
 
 def FacebookBot():
-    driver = webdriver.Firefox()
+
+    script_dir = os.path.dirname(__file__)
+    path = os.path.join(os.path.join(script_dir, os.pardir), 'libraries/geckodriver/geckodriver')
+    driver = webdriver.Firefox(executable_path=path)
 
     login_email = "*2*.com"
     login_pass = "***"
