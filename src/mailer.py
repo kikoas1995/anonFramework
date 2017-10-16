@@ -21,7 +21,6 @@ def amailer():
     navegador.set_handle_robots(False)
     navegador.set_debug_http(False)
     navegador.set_debug_redirects(False)
-    # br.set_proxies({"http": proxy})
 
 
     navegador.select_form(nr=0)

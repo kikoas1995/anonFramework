@@ -4,16 +4,17 @@ import sys
 import src
 
 from src import mailer
-from src import seleniumBot
-
+from src import TemporaryInbox
 def option_1():
     print ("¿Qué quieres hacer?")
-    input = raw_input("1.   Remailing\n"
-                      "2.   E-mail anónimo\n"
+    input = raw_input("1.   Remailing (Mixmaster) \n"
+                      "2.   E-mail anónimo (Anonymouse) \n"
+                      "3.   Bandeja de entrada temporal (Tempail) \n"
                       "\n")
 
     switch = {'1':option_1,
-              '2': mailer.amailer,
+              '2':mailer.amailer,
+              '3':TemporaryInbox.TempMail(),
               99: error
               }
     try:
@@ -28,7 +29,7 @@ def option_2():
                       "2.   ~\n"
                       "\n")
 
-    switch = {'1':seleniumBot.FacebookBot,
+    switch = {'1':TemporaryInbox.TempMail(),
               '2': mailer.amailer,
               99: error
               }
