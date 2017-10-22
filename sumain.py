@@ -1,10 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-import sys
-import src
 
-from src import mailer
-from src import TemporaryInbox
+from src.mailing import TemporaryInbox, mailer
+
+
 def option_1():
     print ("¿Qué quieres hacer?")
     input = raw_input("1.   Remailing (Mixmaster) \n"
@@ -12,9 +11,9 @@ def option_1():
                       "3.   Bandeja de entrada temporal (Tempail) \n"
                       "\n")
 
-    switch = {'1':option_1,
-              '2':mailer.amailer,
-              '3':TemporaryInbox.TempMail(),
+    switch = {'1':option_1, # LINKEAR CON MIXMASTER!!
+              '2': mailer.amailer,
+              '3': TemporaryInbox.TempMail,
               99: error
               }
     try:
@@ -25,11 +24,11 @@ def option_1():
 
 def option_2():
     print ("¿Qué quieres hacer?")
-    input = raw_input("1.   Floodear publicación en FB\n"
-                      "2.   ~\n"
+    input = raw_input("1.   Crear cuenta en PatataBrava.com\n"
+                      "2.   \n"
                       "\n")
 
-    switch = {'1':TemporaryInbox.TempMail(),
+    switch = {'1': TemporaryInbox.TempMail(),
               '2': mailer.amailer,
               99: error
               }
