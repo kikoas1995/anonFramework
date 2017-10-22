@@ -13,7 +13,7 @@ def option_1():
 
     switch = {'1':option_1, # LINKEAR CON MIXMASTER!!
               '2': mailer.amailer,
-              '3': TemporaryInbox.TempMail,
+              '3': TemporaryInbox.tempMail,
               99: error
               }
     try:
@@ -28,7 +28,7 @@ def option_2():
                       "2.   \n"
                       "\n")
 
-    switch = {'1': TemporaryInbox.TempMail(),
+    switch = {'1': TemporaryInbox.tempMail(),
               '2': mailer.amailer,
               99: error
               }

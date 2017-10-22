@@ -2,6 +2,7 @@
 import time
 import requests
 from lxml import html
+import re
 
 class mailer:
     def mailBox(self,):
@@ -57,12 +58,24 @@ class mailer:
             mail['body'] = r.content
             return mail
 
-def TempMail():
+def tempMail():
     m = mailer()
     email_address = m.getEmail()
     print 'Correo volátil: %s' % email_address
     while True:
         result = m.mailBox()
         if result:
-            print result
+            print result['body']
+            #print result
         time.sleep(5)
+
+def linkVerification(m):
+    while True:
+        result = m.mailBox()
+        if result:
+            print result['body']
+            #print result
+        time.sleep(5)
+
+if __name__ == "__main__":
+    tempMail()
