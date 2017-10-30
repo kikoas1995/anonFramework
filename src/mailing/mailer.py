@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import mechanize
+from src.obfuscation import obfuscator
 
 def amailer():
     navegador = mechanize.Browser()
@@ -8,6 +9,12 @@ def amailer():
     asunto = raw_input("Introduce un asunto del mensaje: ")
     print "Mensaje: "
     mensaje = raw_input(">")
+    resp = ""
+    while (resp.lower() != "s" and resp.lower() != "n"):
+        resp = raw_input("¿Deseas ofuscar el texto introducido?(s/n)")
+
+    if (resp.lower() == "s"):
+        mensaje = obfuscator.lang_obfuscator(mensaje)
 
     # proxy = "http://127.0.0.1:8080"
     url = "http://anonymouse.org/anonemail.html"
