@@ -1,6 +1,5 @@
 
 # -*- coding: utf-8 -*-
-# -*- coding: utf-8 -*-
 from selenium import webdriver
 import os
 from selenium.webdriver.common.keys import Keys
@@ -77,11 +76,11 @@ class Osoigo(Bot):
         reg_mail = random_user[3]
 
         driver.find_element_by_name('email').send_keys(reg_mail)
-        sleep(randrange(1, 3))
+        sleep(randrange(1, 2))
         driver.find_element_by_name('password').send_keys(reg_pwd)
-        sleep(randrange(1, 3))
+        sleep(randrange(1, 2))
         driver.find_element_by_class_name('boton_login').click()
-        sleep(randrange(1, 3))
+        sleep(randrange(1, 2))
 
         return driver
 
@@ -90,23 +89,29 @@ class Osoigo(Bot):
         driver = self.login()
         driver.get('https://www.osoigo.com/es/preguntas.html')
 
-        apoyos = driver.find_elements_by_class_name('apoyar1')
-        print apoyos.__len__()
-        for boton in apoyos:
+        apoyos = driver.find_elements_by_xpath("//*[contains(text(), 'APOYAR')]")
 
-                boton.click()
-                sleep(randrange(1,3))
+        flag = 0
+        links = []
+
+        for boton in apoyos:
+            links.append(boton.get_attribute('href'))
+        links = set(links)
+
+        for link in links:
+            try:
+                driver.get(link)
+                sleep(randrange(1,2))
                 driver.find_element_by_name('facebook').click()
                 sleep(randrange(1,2))
                 driver.find_element_by_xpath('/html/body/div[6]/div/article[3]/section/div/article/section[2]/form/div/a').click()
-                sleep(randrange(2, 4))
-                driver.get('https://www.osoigo.com/es/preguntas.html')
-                sleep(randrange(2, 4))
+                sleep(randrange(1, 2))
+            except:
                 continue
 
 
 if __name__ == "__main__":
 
     osoigo = Osoigo()
-    osoigo.signup()
+    #osoigo.signup()
     osoigo.supportAll()
