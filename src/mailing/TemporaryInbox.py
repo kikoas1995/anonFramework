@@ -69,13 +69,18 @@ def tempMail():
             #print result
         time.sleep(5)
 
-def linkVerification(m):
+def linkVerification(m, regex):
+    #print 'Correo volátil: %s' % email_address
     while True:
         result = m.mailBox()
         if result:
-            print result['body']
+            try:
+                m = re.search(regex, result['body']).group(0)
+                return m
+            except AttributeError:
+                print "No se encontró el link de confirmación."
             #print result
         time.sleep(5)
 
 if __name__ == "__main__":
-    tempMail()
+    linkVerification(mailer(), '')

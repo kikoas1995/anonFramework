@@ -23,7 +23,7 @@ def get_random_user(table):
         db = sqlcipher.connect("users.db")
         db.executescript('pragma key="testing"; pragma kdf_iter=64000;')
         row = db.execute('SELECT * FROM ' + table + ' ORDER BY RANDOM() LIMIT 1;').fetchall()
-        return row
+        return row[0]
     finally:
         db.close()
 
@@ -33,11 +33,11 @@ def get_selected_user(table, user):
         db = sqlcipher.connect("users.db")
         db.executescript('pragma key="testing"; pragma kdf_iter=64000;')
         row = db.execute("select * from " + table + " where usr like '" + user + "' LIMIT 1").fetchall()
-        return row
+        return row[0]
     finally:
         db.close()
 
 if __name__ == "__main__":
     insert_user("patatabrava", "kiko", "example", "easao@gmail.com")
-    print get_random_user("patatabrava")
-    print get_selected_user("patatabrava", "kiko")
+    a = get_random_user("patatabrava")
+    print a[0]
