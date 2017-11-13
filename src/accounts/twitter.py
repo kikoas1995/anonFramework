@@ -39,7 +39,7 @@ class Instagram(Bot):
         driver.get('https://mobile.twitter.com/signup?type=email')
         sleep(5)
         name = driver.find_element_by_id('oauth_signup_client_fullname')
-        mail = driver.find_element_by_name('oauth_signup_client_phone_number')
+        mail = driver.find_element_by_css_selector('#oauth_signup_client_phone_number')
 
         sleep(randrange(1,2))
         name.send_keys(reg_name)

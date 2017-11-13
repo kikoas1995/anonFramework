@@ -23,6 +23,10 @@ class FaceBook(Bot):
 
     def signup(self):
         script_dir = os.path.dirname(__file__)
+        options = webdriver.()
+
+
+        # options.add_argument("--headless")
         path = os.path.join(os.path.join(script_dir, os.pardir), '../libraries/geckodriver/geckodriver')
         driver = webdriver.Firefox(executable_path=path)
         tm = TemporaryInbox2.TempAddrMail()
