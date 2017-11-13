@@ -7,7 +7,6 @@ from time import sleep
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait as wait
 from selenium.webdriver.support import expected_conditions as EC
-from abc import ABCMeta, abstractmethod
 import names
 from src.mailing import TemporaryInbox
 from random import randrange

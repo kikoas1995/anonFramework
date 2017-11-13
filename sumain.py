@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from src.mailing import TemporaryInbox, mailer
-
+from src.accounts import osoigo
 
 def option_1():
     print ("¿Qué quieres hacer?")
@@ -24,12 +24,13 @@ def option_1():
 
 def option_2():
     print ("¿Qué quieres hacer?")
-    input = raw_input("1.   Crear cuenta en PatataBrava.com\n"
-                      "2.   \n"
-                      "\n")
+    input = raw_input("1.   Registrar usuario en Osoigo.com\n"
+                      "2.   Loguearte en Osoigo(registra al menos a un usario antes!)\n"
+                      "3.   Spam de Support\n")
 
-    switch = {'1': TemporaryInbox.tempMail(),
-              '2': mailer.amailer,
+    switch = {'1': osoigo.osoigo.signup(),
+              '2': osoigo.osoigo.login(),
+              '3': osoigo.osoigo.supportAll(),
               99: error
               }
     try:

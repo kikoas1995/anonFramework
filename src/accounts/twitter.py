@@ -36,28 +36,23 @@ class Instagram(Bot):
         reg_mail = email
         print ("Tu correo es: " + reg_mail)
 
-        driver.get('https://www.instagram.com/accounts/emailsignup/')
+        driver.get('https://mobile.twitter.com/signup?type=email')
         sleep(5)
-        mail = driver.find_element_by_name('emailOrPhone')
-        name = driver.find_element_by_name('fullName')
-        user = driver.find_element_by_name('username')
-        pwd = driver.find_element_by_name('password')
-        button = driver.find_elements_by_tag_name("button")[1]
+        name = driver.find_element_by_id('oauth_signup_client_fullname')
+        mail = driver.find_element_by_name('oauth_signup_client_phone_number')
 
-        sleep(randrange(1,5))
+        sleep(randrange(1,2))
         name.send_keys(reg_name)
-        sleep(randrange(1,5))
-        user.send_keys(reg_user)
-        sleep(randrange(1,5))
+        sleep(randrange(1,2))
         mail.send_keys(reg_mail)
-        sleep(randrange(1,5))
-        pwd.send_keys(reg_pwd)
-        sleep(randrange(1,5))
-        button.click()
-        sleep(randrange(1,5))
+        sleep(randrange(1,2))
+        driver.find_element_by_name('commit')
+        sleep(randrange(1,4))
 
-        print reg_mail
-        print reg_pwd
+        pwd = driver.find_element_by_id('password')
+
+        pwd.send_keys(reg_pwd)
+        sleep(randrange(1,2))
 
         return
 

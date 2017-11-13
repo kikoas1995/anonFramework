@@ -17,7 +17,7 @@ from src.db.cryptodb import *
 from Bot import Bot
 from tempmail import TempMail
 import re
-
+from selenium.webdriver.support.ui import WebDriverWait
 
 class FaceBook(Bot):
 
@@ -25,10 +25,42 @@ class FaceBook(Bot):
         script_dir = os.path.dirname(__file__)
         path = os.path.join(os.path.join(script_dir, os.pardir), '../libraries/geckodriver/geckodriver')
         driver = webdriver.Firefox(executable_path=path)
-
         tm = TempMail()
-        email = tm.get_email_address()
 
+        driver.get('https://facebook.com')
+
+        Wait = WebDriverWait(driver, 20)
+
+        Wait.until(EC.presence_of_element_located((By.XPATH, "//div[@class='mtm _5wa2 _5dbb']")))
+        driver.find_elements_by_css_selector("input[type='radio'][value='1']")[0].click()
+
+        name = driver.find_element_by_name("firstname")
+        surname = driver.find_element_by_name("lastname")
+
+        name.send_keys("prueba")
+        surname.send_keys("prueba")
+
+        reg_email = driver.find_element_by_name("reg_email__")
+        reg_email_confirmation = driver.find_element_by_name("reg_email_confirmation__")
+        reg_passwd = driver.find_element_by_name("reg_passwd__")
+
+        reg_email.send_keys("")
+        sleep(2)
+        reg_email_confirmation.send_keys("")
+        reg_passwd.send_keys("")
+        sleep(2)
+
+        birthday_day = driver.find_element_by_name("birthday_day")
+        birthday_month = driver.find_element_by_name("birthday_month")
+        birthday_year = driver.find_element_by_name("birthday_year")
+
+        birthday_day.send_keys('12')
+        birthday_month.send_keys('11')
+        birthday_year.send_keys('1987')
+
+        return
+        print tm.available_domains
+        email = tm.get_email_address()
         reg_user = ''.join(choice(ascii_lowercase + digits) for _ in range(10))
         reg_pwd = ''.join(choice(ascii_lowercase + digits) for _ in range(10))
         reg_name = names.get_first_name()

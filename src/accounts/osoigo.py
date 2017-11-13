@@ -9,7 +9,6 @@ from selenium.webdriver.support.ui import WebDriverWait as wait
 from selenium.webdriver.support import expected_conditions as EC
 from abc import ABCMeta, abstractmethod
 import names
-from src.mailing import TemporaryInbox
 from random import randrange
 from random import choice
 from string import ascii_lowercase, digits
@@ -34,6 +33,7 @@ class Osoigo(Bot):
         reg_name = names.get_first_name()
         reg_surname = names.get_last_name()
         reg_mail = email
+        reg_pc = randrange(28000, 28045)
         print ("Tu correo es: " + reg_mail)
 
         driver.get('https://www.osoigo.com/es/login.html?action=register')
@@ -45,6 +45,7 @@ class Osoigo(Bot):
         name = driver.find_element_by_name('first_name')
         surname = driver.find_element_by_name('last_name')
         #user = driver.find_element_by_name('username')
+        postalcode = driver.find_element_by_name('postal_code')
         pwd = driver.find_element_by_name('password')
         driver.find_element_by_name('terms_of_use').click()
         button = driver.find_element_by_class_name("boton_login")
@@ -54,13 +55,19 @@ class Osoigo(Bot):
         sleep(randrange(1,2))
         surname.send_keys(reg_surname)
         sleep(randrange(1,2))
+        postalcode.send_keys(reg_pc)
+        sleep(randrange(1,2))
         mail.send_keys(reg_mail)
         sleep(randrange(1,2))
         pwd.send_keys(reg_pwd)
         sleep(randrange(1,2))
         button.click()
         sleep(randrange(1,2))
-
+        try:
+            while (button.is_displayed()):
+                button.click()
+        except:
+            sleep(randrange(1,3))
         insert_user("osoigo", reg_name, reg_pwd, reg_mail)
 
         return
@@ -80,7 +87,6 @@ class Osoigo(Bot):
         driver.find_element_by_name('password').send_keys(reg_pwd)
         sleep(randrange(1, 2))
         driver.find_element_by_class_name('boton_login').click()
-        sleep(randrange(1, 2))
 
         return driver
 
@@ -104,7 +110,14 @@ class Osoigo(Bot):
                 sleep(randrange(1,2))
                 driver.find_element_by_name('facebook').click()
                 sleep(randrange(1,2))
-                driver.find_element_by_xpath('/html/body/div[6]/div/article[3]/section/div/article/section[2]/form/div/a').click()
+                button = driver.find_element_by_xpath('/html/body/div[7]/div/article[3]/section/div/article/section[2]/form/div/a')
+                try:
+                    while (button.is_displayed()):
+                        button.click()
+                except:
+                    sleep(randrange(1, 3))
+
+
                 sleep(randrange(1, 2))
             except:
                 continue
@@ -113,5 +126,5 @@ class Osoigo(Bot):
 if __name__ == "__main__":
 
     osoigo = Osoigo()
-    #osoigo.signup()
+    osoigo.signup()
     osoigo.supportAll()
