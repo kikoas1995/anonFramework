@@ -23,7 +23,7 @@ class Eldiario(Bot):
         regex = 'http:\/\/www.eldiario.es\/usuarios\/confirmacion-alta\/.*l"'
 
 
-        mailer = TemporaryInbox.mailer()
+        mailer = TemporaryInbox.tempailMail()
         reg_mail = mailer.getEmail()
 
         reg_user = ''.join(choice(ascii_lowercase + digits) for _ in range(10))

@@ -22,7 +22,7 @@ class PatataBrava(Bot):
         script_dir = os.path.dirname(__file__)
         path = os.path.join(os.path.join(script_dir, os.pardir), '../libraries/geckodriver/geckodriver')
         driver = webdriver.Firefox(executable_path=path)
-        mailer = TemporaryInbox.mailer()
+        mailer = TemporaryInbox.tempailMail()
         regex = 'http:\/\/www.patatabrava.com\/\?uid.*" '
         reg_user = ''.join(choice(ascii_lowercase + digits) for _ in range(10))
         reg_pwd = reg_user
