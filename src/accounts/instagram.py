@@ -19,13 +19,13 @@ from Bot import Bot
 from tempmail import TempMail
 import re
 
-
 class Instagram(Bot):
 
     def signup(self):
         script_dir = os.path.dirname(__file__)
+
         path = os.path.join(os.path.join(script_dir, os.pardir), '../libraries/geckodriver/geckodriver')
-        driver = webdriver.Firefox(executable_path=path)
+        driver = webdriver.Firefox(executable_path=path)#firefox_profile=profile)
 
         tm = TemporaryInbox2.TempAddrMail()
         email = tm.getEmailAddr()
@@ -70,7 +70,7 @@ class Instagram(Bot):
                     user.send_keys(reg_user + ''.join(choice(ascii_lowercase + digits) for _ in range(3)))
             except:
                 break
-
+        sleep(2)
         elements = driver.find_elements_by_xpath("//*[contains(text(), 'Skip')]")
 
         for element in elements:
@@ -81,6 +81,7 @@ class Instagram(Bot):
                 continue
 
         insert_user("instagram", reg_user, reg_pwd, reg_mail)
+        driver.close()
 
         return
 
@@ -114,14 +115,43 @@ class Instagram(Bot):
     def stalk(self, user):
 
         driver = self.login()
+
         driver.get('https://www.instagram.com/' + user)
 
         elements = driver.find_elements_by_xpath("//*[contains(text(), 'Follow')]")
-
+        for ele in elements:
+            if ele.is_displayed():
+                ele.click()
+                sleep(randrange(3,5))
         driver.get('https://www.instagram.com/')
+        sleep(randrange(5,7))
+
+        x = driver.find_elements_by_xpath('//button[text()="x"]')
+
+        for ele in x:
+            if ele.is_displayed():
+                ele.click()
+                sleep(randrange(3, 5))
+
+        elements = driver.find_elements_by_xpath("//span[contains(text(), 'Like')]")
+        fr = 0
+        to = 500
 
 
 
+        while(1):
+            for e in elements:
+                if e.is_displayed():
+                    sleep(1)
+                    e.click()
+                    sleep(randrange(1,2))
+
+            for _ in range(0, 2):
+                driver.execute_script("window.scrollTo(" + str(fr) + ", " + str(to) + ")")
+                fr += 500
+                to += 500
+
+            elements = driver.find_elements_by_xpath("//span[contains(text(), 'Like')]")
 
     def getConfirmation(self, email):
 
@@ -142,5 +172,5 @@ class Instagram(Bot):
 if __name__ == "__main__":
 
     instagram = Instagram()
-    #instagram.signup()
-    instagram.stalk("angelillama")
+    instagram.signup()
+    instagram.stalk("deadmau5")

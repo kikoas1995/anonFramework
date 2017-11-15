@@ -23,7 +23,6 @@ class FaceBook(Bot):
 
     def signup(self):
         script_dir = os.path.dirname(__file__)
-        options = webdriver.()
 
 
         # options.add_argument("--headless")
@@ -82,20 +81,30 @@ class FaceBook(Bot):
 
         insert_user("facebook", reg_name, reg_pwd, mail)
 
+        driver.close()
+
         return
 
     def login(self):
         script_dir = os.path.dirname(__file__)
         path = os.path.join(os.path.join(script_dir, os.pardir), '../libraries/geckodriver/geckodriver')
         driver = webdriver.Firefox(executable_path=path)
-        random_user = get_random_user("patatabrava")
-        driver.get('http://m.patatabrava.com/es/login/')
+        random_user = get_random_user("facebook")
 
+        driver.get('https://es-es.facebook.com/login/')
 
+        mail = driver.find_element_by_name('email')
+        pwd = driver.find_element_by_name('pass')
+        button = driver.find_element_by_name('login')
 
-    def postsomething(self, text):
-        print "Esta página no permite postear nada sin confirmación. :("
-        pass
+        mail.send_keys(random_user[3])
+        sleep(randrange(1,4))
+        pwd.send_keys(random_user[2])
+        sleep(randrange(1, 4))
+        button.click()
+        sleep(randrange(1, 4))
+
+        return driver
 
     def getConfirmation(self, email):
 
@@ -115,6 +124,7 @@ class FaceBook(Bot):
 
 if __name__ == "__main__":
 
-   facebook = FaceBook()
-   facebook.signup()
-
+    facebook = FaceBook()
+    facebook.signup()
+    driver = facebook.login()
+    driver.close()

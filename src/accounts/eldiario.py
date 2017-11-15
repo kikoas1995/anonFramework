@@ -137,6 +137,6 @@ class Eldiario(Bot):
 if __name__ == "__main__":
 
     eldiario = Eldiario()
-    eldiario.signup()
+    #eldiario.signup()
     #eldiario.login()
     eldiario.comment()
