@@ -126,18 +126,16 @@ class Instagram(Bot):
         driver.get('https://www.instagram.com/')
         sleep(randrange(5,7))
 
-        x = driver.find_elements_by_xpath('//button[text()="x"]')
+        """x = driver.find_elements_by_xpath("//*[text()='x']")
 
         for ele in x:
             if ele.is_displayed():
                 ele.click()
-                sleep(randrange(3, 5))
+                sleep(randrange(3, 5))"""
 
-        elements = driver.find_elements_by_xpath("//span[contains(text(), 'Like')]")
+        elements = driver.find_elements_by_xpath("//*[contains(text(), 'Like')]")
         fr = 0
         to = 500
-
-
 
         while(1):
             for e in elements:
@@ -146,12 +144,17 @@ class Instagram(Bot):
                     e.click()
                     sleep(randrange(1,2))
 
+            if elements.__len__() == 0:
+                break
+
             for _ in range(0, 2):
                 driver.execute_script("window.scrollTo(" + str(fr) + ", " + str(to) + ")")
+                sleep(randrange(1,3))
                 fr += 500
                 to += 500
-
-            elements = driver.find_elements_by_xpath("//span[contains(text(), 'Like')]")
+            sleep(randrange(1,3))
+            elements = driver.find_elements_by_xpath("//*[contains(text(), 'Like')]")
+            sleep(randrange(1, 3))
 
     def getConfirmation(self, email):
 
@@ -173,4 +176,4 @@ if __name__ == "__main__":
 
     instagram = Instagram()
     instagram.signup()
-    instagram.stalk("deadmau5")
+    instagram.stalk("natgeo")
