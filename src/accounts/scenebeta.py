@@ -53,7 +53,6 @@ class SceneBeta(Bot):
 
         verification = TemporaryInbox.linkVerification(tm, regex)
         verification = verification[:-1]
-
         insert_user("scenebeta", reg_user, reg_pwd, reg_mail)
 
 
@@ -131,21 +130,6 @@ class SceneBeta(Bot):
             sleep(randrange(1,3))
             elements = driver.find_elements_by_xpath("//*[contains(text(), 'Like')]")
             sleep(randrange(1, 3))
-
-    def getConfirmation(self, email):
-
-        tm = TempMail()
-        # print email
-        while (1):
-            box = tm.get_mailbox(email)  # list of emails
-            if type(box) is dict:
-                # print "Waiting for mails"
-                sleep(10)
-            elif type(box) is list:
-                # print box[0]['mail_text']
-                m = re.findall('\n\d+\n', box[0]['mail_text'])
-                return m[0][1:-1]
-
 
 
 if __name__ == "__main__":
