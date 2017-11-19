@@ -4,7 +4,7 @@ from selenium import webdriver
 import os
 from time import sleep
 import names
-from src.mailing import TemporaryInbox
+from src.mailing import TemporaryInbox2
 from random import randrange,randint
 from random import choice
 from string import ascii_lowercase, digits
@@ -21,8 +21,8 @@ class SceneBeta(Bot):
         path = os.path.join(os.path.join(script_dir, os.pardir), '../libraries/geckodriver/geckodriver')
         driver = webdriver.Firefox(executable_path=path)#firefox_profile=profile)
 
-        tm = TemporaryInbox.tempMail()
-        email = tm.get_email_address()
+        tm = TemporaryInbox2.TempAddrMail()
+        email = tm.getEmailAddr()
 
         reg_user = names.get_last_name().lower() + str(randint(50,150)) + names.get_first_name().lower()
         if reg_user.__len__() > 12:
@@ -51,8 +51,7 @@ class SceneBeta(Bot):
         sleep(randrange(1, 3))
 
 
-        verification = TemporaryInbox.linkVerification(tm, regex)
-        verification = verification[:-1]
+        pwd = self.getPass(tm)
         insert_user("scenebeta", reg_user, reg_pwd, reg_mail)
 
 
@@ -87,52 +86,25 @@ class SceneBeta(Bot):
 
         return driver
 
-    def stalk(self, user):
+    def getPass(self, tm):
 
-        driver = self.login()
-
-        driver.get('https://www.instagram.com/' + user)
-
-        elements = driver.find_elements_by_xpath("//*[contains(text(), 'Follow')]")
-        for ele in elements:
-            if ele.is_displayed():
-                ele.click()
-                sleep(randrange(3,5))
-        driver.get('https://www.instagram.com/')
-        sleep(randrange(5,7))
-
-        """x = driver.find_elements_by_xpath("//*[text()='x']")
-
-        for ele in x:
-            if ele.is_displayed():
-                ele.click()
-                sleep(randrange(3, 5))"""
-
-        elements = driver.find_elements_by_xpath("//*[contains(text(), 'Like')]")
-        fr = 0
-        to = 500
-
-        while(1):
-            for e in elements:
-                if e.is_displayed():
-                    sleep(1)
-                    e.click()
-                    sleep(randrange(1,2))
-
-            if elements.__len__() == 0:
+        while True:
+            try:
+                tm.driver.find_element_by_css_selector('.f').click()
                 break
+            except:
+                sleep(10)
 
-            for _ in range(0, 2):
-                driver.execute_script("window.scrollTo(" + str(fr) + ", " + str(to) + ")")
-                sleep(randrange(1,3))
-                fr += 500
-                to += 500
-            sleep(randrange(1,3))
-            elements = driver.find_elements_by_xpath("//*[contains(text(), 'Like')]")
-            sleep(randrange(1, 3))
+        txt = tm.driver.find_element_by_xpath("//*[contains(text(), 'usuario:')]").text
+        title_search = re.search('Contraseña(.*)También', txt, re.IGNORECASE)
+        if title_search:
+            title = title_search.group(1)
+        sleep(1)
 
 
 if __name__ == "__main__":
-
-    instagram = SceneBeta()
-    instagram.signup()
+    tm = TemporaryInbox2.TempAddrMail()
+    email = tm.getEmailAddr()
+    print email
+    sb = SceneBeta()
+    sb.getPass(tm)
