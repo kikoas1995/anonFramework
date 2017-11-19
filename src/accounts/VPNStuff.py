@@ -22,7 +22,6 @@ def showmyip():
     new_ip= urllib2.urlopen("http://icanhazip.com/").read()
     print(new_ip)
 
-
 for i in range(3):
     renew_tor()
     connectTor()
