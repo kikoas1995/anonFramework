@@ -1,35 +1,29 @@
-
-# -*- coding: utf-8 -*-
-from selenium import webdriver
-import os
-from selenium.webdriver.common.keys import Keys
-from time import sleep
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait as wait
-from selenium.webdriver.support import expected_conditions as EC
-from abc import ABCMeta, abstractmethod
-import names
-from src.mailing import TemporaryInbox
-from random import randrange
-from random import choice
-from string import ascii_lowercase, digits
-from src.db.cryptodb import *
-from Bot import Bot
-from tempmail import TempMail
-import re
-import socks
+import time
 import socket
+import socks
+import urllib2
 
-class VPNStuff(Bot):
+from stem import Signal
+from stem.control import Controller
 
-    def checkIP(self):
-        script_dir = os.path.dirname(__file__)
-        path = os.path.join(os.path.join(script_dir, os.pardir), '../libraries/geckodriver/geckodriver')
-        driver = webdriver.Firefox(executable_path=path)
 
-        driver.get('https://canihazip.com/s')
+controller = Controller.from_port(port=9051)
+controller.authenticate(password='micontrasenya')
 
-if __name__ == "__main__":
+def connectTor():
+    socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5 , "127.0.0.1", 9050, True)
+    socket.socket = socks.socksocket
 
-    osoigo = VPNStuff()
-    osoigo.checkIP()
+def renew_tor():
+    controller.signal(Signal.NEWNYM)
+    time.sleep(controller.get_newnym_wait())
+
+def showmyip():
+    new_ip= urllib2.urlopen("http://icanhazip.com/").read()
+    print(new_ip)
+
+
+for i in range(3):
+    renew_tor()
+    connectTor()
+    showmyip()

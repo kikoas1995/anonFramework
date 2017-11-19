@@ -95,16 +95,23 @@ class SceneBeta(Bot):
             except:
                 sleep(10)
 
-        txt = tm.driver.find_element_by_xpath("//*[contains(text(), 'usuario:')]").text
-        title_search = re.search('Contraseña(.*)También', txt, re.IGNORECASE)
-        if title_search:
-            title = title_search.group(1)
-        sleep(1)
+        tm.driver.switch_to_default_content()
+        frame = tm.driver.find_element_by_id("idIframe")
+        tm.driver.switch_to_frame(frame)
+        smth = tm.driver.find_element_by_xpath('/html/body')
+        txt = smth.text
+        title_search = re.search('ña:(.*)', txt, re.IGNORECASE)
+        title = title_search.group(1)
+        return
 
 
 if __name__ == "__main__":
     tm = TemporaryInbox2.TempAddrMail()
     email = tm.getEmailAddr()
     print email
+
     sb = SceneBeta()
+    #sb.signup()
+
     sb.getPass(tm)
+
