@@ -81,7 +81,6 @@ class SceneBeta(Bot):
             buttons[1].click()
         else:
             buttons[0].click()
-        driver.get('')
         return driver
 
     def getPass(self, tm):
@@ -105,12 +104,58 @@ class SceneBeta(Bot):
 
         return title
 
+    def comment(self):
+
+        driver = self.login()
+        print("Selecciona el foro donde deseas postear:")
+        print("1. PSP\n2. NDS\n3. WII\n4. Apple\n5. Android\n6. PC\n7. PS3\n")
+        sel = 0
+        input = ''
+        while (sel < 1 or sel > 7):
+            input = raw_input("> ")
+            sel = int(input)
+        switch = {'1': 'http://psp.scenebeta.com/',
+                  '2': 'http://nds.scenebeta.com/',
+                  '3': 'http://wii.scenebeta.com/',
+                  '4': 'http://iapps.scenebeta.com/',
+                  '5': 'http://android.scenebeta.com/',
+                  '6': 'http://www.scenebeta.com/',
+                  '7': 'http://ps3.scenebeta.com/',
+                  }
+
+        url = switch[input]
+
+        driver.get(url)
+
+        print("\nSelecciona una noticia para comentar:\n")
+        nodes = driver.find_elements_by_class_name('node')
+        i=0
+        for node in nodes:
+            elem = node.find_element_by_css_selector('h2:nth-child(1) > a:nth-child(1)')
+            print (str(i+1) + '. ' + elem.text)
+            i+=1
+        sel = 0
+        while (sel < 1 or sel > nodes.__len__()):
+            sel = raw_input("> ")
+            sel = int(sel)
+        nodes[i-1].find_element_by_css_selector('h2:nth-child(1) > a:nth-child(1)').click()
+        sleep(randrange(2,4))
+        driver.find_element_by_css_selector('.comment_add > a:nth-child(1)').click()
+        sleep(randrange(1,3))
+        print("\nIntroduce asunto:\n")
+        asunto = raw_input('> ')
+        print("\nIntroduce cuerpo del mensaje:\n")
+        msg = raw_input('> ')
+        driver.find_element_by_name('subject').send_keys(asunto)
+        driver.find_element_by_css_selector('#wysiwyg-toggle-edit-comment').click()
+        sleep(1)
+        driver.find_element_by_css_selector('#edit-comment').send_keys(msg)
+
+        driver.find_element_by_css_selector('#edit-submit').click()
+
 
 if __name__ == "__main__":
-    """tm = TemporaryInbox2.TempAddrMail()
-    email = tm.getEmailAddr()
-    print email
-    """
+
     sb = SceneBeta()
-    sb.login()
+    sb.comment()
 
