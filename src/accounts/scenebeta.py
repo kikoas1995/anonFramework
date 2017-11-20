@@ -52,7 +52,7 @@ class SceneBeta(Bot):
 
 
         pwd = self.getPass(tm)
-        insert_user("scenebeta", reg_user, reg_pwd, reg_mail)
+        insert_user("scenebeta", reg_user, pwd, reg_mail)
 
 
         driver.close()
@@ -63,27 +63,25 @@ class SceneBeta(Bot):
         script_dir = os.path.dirname(__file__)
         path = os.path.join(os.path.join(script_dir, os.pardir), '../libraries/geckodriver/geckodriver')
         driver = webdriver.Firefox(executable_path=path)
-        random_user = get_random_user("instagram")
-        driver.get('https://www.instagram.com/accounts/login/?hl=es')
+        random_user = get_random_user("scenebeta")
+        driver.get('http://www.scenebeta.com/user/login?destination=comment%2Freply%2F26123%23comment-form')
         sleep(3)
-        user = driver.find_element_by_name('username')
-        pwd = driver.find_element_by_name('password')
+        user = driver.find_element_by_name('name')
+        pwd = driver.find_element_by_name('pass')
 
-        reg_user = random_user[3]
+        reg_user = random_user[1]
         reg_pwd = random_user[2]
 
         user.send_keys(reg_user)
         sleep(randrange(1, 3))
         pwd.send_keys(reg_pwd)
         sleep(randrange(1, 3))
-
-        elements = driver.find_elements_by_xpath("//*[contains(text(), 'Iniciar ')]")
-
-        for ele in elements:
-            if ele.is_displayed():
-                ele.click()
-                sleep(randrange(3,5))
-
+        buttons = driver.find_elements_by_id('edit-submit')
+        if (buttons.__len__() > 1):
+            buttons[1].click()
+        else:
+            buttons[0].click()
+        driver.get('')
         return driver
 
     def getPass(self, tm):
@@ -100,18 +98,19 @@ class SceneBeta(Bot):
         tm.driver.switch_to_frame(frame)
         smth = tm.driver.find_element_by_xpath('/html/body')
         txt = smth.text
-        title_search = re.search('ña:(.*)', txt, re.IGNORECASE)
+        title_search = re.search('a: (.*)', txt, re.IGNORECASE)
         title = title_search.group(1)
-        return
+
+        tm.driver.close()
+
+        return title
 
 
 if __name__ == "__main__":
-    tm = TemporaryInbox2.TempAddrMail()
+    """tm = TemporaryInbox2.TempAddrMail()
     email = tm.getEmailAddr()
     print email
-
+    """
     sb = SceneBeta()
-    #sb.signup()
-
-    sb.getPass(tm)
+    sb.login()
 
