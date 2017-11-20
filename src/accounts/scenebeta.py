@@ -138,7 +138,7 @@ class SceneBeta(Bot):
         while (sel < 1 or sel > nodes.__len__()):
             sel = raw_input("> ")
             sel = int(sel)
-        nodes[i-1].find_element_by_css_selector('h2:nth-child(1) > a:nth-child(1)').click()
+        nodes[sel-1].find_element_by_css_selector('h2:nth-child(1) > a:nth-child(1)').click()
         sleep(randrange(2,4))
         driver.find_element_by_css_selector('.comment_add > a:nth-child(1)').click()
         sleep(randrange(1,3))
@@ -157,5 +157,6 @@ class SceneBeta(Bot):
 if __name__ == "__main__":
 
     sb = SceneBeta()
+    sb.signup()
     sb.comment()
 
