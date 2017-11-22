@@ -8,7 +8,7 @@ from stem import Signal
 from stem.control import Controller
 
 controller = Controller.from_port(port=9051)
-controller.authenticate(password='pwd123')
+controller.authenticate(password='micontrasenya')
 
 def load_tor():
     socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5 , "127.0.0.1", 9050, True)
