@@ -7,5 +7,5 @@ from tbselenium.tbdriver import TorBrowserDriver
 script_dir = os.path.dirname(__file__)
 path = os.path.join(os.path.join(script_dir, os.pardir), '../libraries/geckodriver/tor-browser_en-US/')
 
-with TorBrowserDriver(path) as driver:
-    driver.get('https://check.torproject.org')
+driver = TorBrowserDriver(path)
+driver.get('http://www.icanhazip.com')
