@@ -1,0 +1,25 @@
+\chapter*{Resumen}
+
+\section*{Resumen}
+La tecnología ha tenido un gran impacto social en los últimos años, y cada vez va formando más parte de nuestras vidas.\\
+Las grandes empresas de software lo saben, y muchas de ellas tienen objetivos de dudosa moralidad, como la recopilación de información personal para poder ofrecernos unos servicios más apropiados para cada usuario.\\
+Entre esta información podemos encontrar alguna tan íntima como la dirección, el número de teléfono o incluso los lugares que frecuentamos, y basta con un inicio de sesión en una red social para que dichos datos fluyan por la red. \\
+
+Quizá, y lo que es un problema mayor, es que una gran parte de nosotros no somos conscientes de lo que realmente esto supone, de que dichas corporaciones saben nuestra actividad, estado de ánimo y practicamente todo de nuestor día a día.\\
+Esto mismo ha llevado a muchos el cuestionarse hasta qué punto nuestro derecho a la privacidad se está viendo comprometido y, pese a que mucha otra gente no de la importancia que merece a este tema, lo cierto es que no son pocas las herramientas que han aparecido para ayudarnos a que podamos navegar por internet de una forma \textit{menos pública}.\\
+
+De ahí nace la motivación de este proyecto, de proporcionar varias formas de realizar tareas en internet de la forma más anónima posible, a partir de una única herramienta. Ésta herramienta ha sido codificada en Python, y cuenta con varios paquetes, cada uno con una funcionalidad distinta. \\
+
+El primer paquete cuenta con varias funcionalidades relacionadas con el envío y recepción de correos electrónicos. Un módulo de ese paquete nos permite hacer uso de un \textit{remailer} para proteger lo máximo posible la identidad del emisor de dicho correo, otro módulo que permite enviar correos pero esta vez permitiendo al usuario ofuscar el contenido del mensaje y por último una bandeja de entrada temporal que permite ver en tiempo real los correos que envían a dicha cuenta.\\
+El segundo paquete está relacionada con la automatización de procesos de registro, login e incluso ciertas acciones en páginas web. Para ello se ha hecho uso de \textit{Web-Scraping} en redes sociales, diarios y foros de discusión. Permite, de esta forma, utilizar cuentas de correo volátiles con el fin de anonimizar la identidad al ingresar dichas páginas. Además, se deja a disposición del usuario el poder utilizar el servicio TOR para así mejorar aún más la privacidad.\\
+El último paquete est
+
+\section*{Palabras Clave}
+
+\newpage
+
+%-------------------------------------------------------------------------------------------------------------------------------------
+\section*{Abstract}
+
+
+\section*{Key words}
