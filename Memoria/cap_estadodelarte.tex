@@ -43,7 +43,7 @@ Una vez aclarados sendos términos, procedemos a listar las diferentes vías par
 \begin{itemize}
 	\item Anonimato de emisor: Este tipo consiste en un origen que efectúa un mensaje a un determinado receptor, y el emisor no puede ser reconocido por ningún observador.
 	\item Anonimato de receptor: En este caso, al contrario del anterior, es el receptor el que no puede ser identificado por el observador.
-	\item Anonimato de comunicación: Este capítulo trata con detalle la fase de diseño, teniendo en cuenta la estructura de la aplicación y el flujo de navegación de la misma 
+	\item Anonimato de comunicación: Esto involucra una no vinculación entre emisor y receptor, de forma que es posible identificarlos a ambos por separado pero no la asociación entre ellos.
 
 \end{itemize}
 
@@ -93,7 +93,11 @@ Sin embargo, con el incremento del número de amenazas a nuestra privacidad tamb
 \lsection{Herramientas para la protección de identidad}
 \label{sec:a_favor}
 
-Hoy en día existen numerosas aplicaciones que permiten aumentar nuestro grado de anonimato a la hora de realizar tareas en Internet, usualmente a costa de una más óptima velocidad de conexión,por ejemplo, el servicio \textbf{Tor}, o a cambio de una suscripción temporal, como los \textbf{servicios VPN de pago}.
+A continuación se menciona varias tecnologías utilizables a la fecha de redacción de este documento para ayudar a un usuario a proteger su privacidad en Internet y anonimizarse mediante \textit{proxies}, VPNs, redes anónimas o incluso dificultar la identificación inequívoca de los mismos haciendo uso de \textbf{herramientas de ofuscación}.
+
+Hoy en día existen numerosas aplicaciones que permiten aumentar nuestro grado de anonimato a la hora de realizar tareas en Internet, usualmente a costa de una más óptima velocidad de conexión,por ejemplo, el servicio \textbf{Tor}, o a cambio de una suscripción temporal, como los servicios VPN de pago.
+
+Cada una de estas medidas tiene sus puntos fuertes y sus contrapartidas, y serán tratadas en este subcapítulo.
 
 \subsection{Servidor proxy}
 
@@ -346,15 +350,294 @@ El modo túnel recoge su nombre de la forma en la que una red VPN opera:
 	
 	El caso de los VPN, hasta el momento es imposible interceptar el tráfico que circula por su túnel. Sin embargo, ésto produce un \textbf{único punto de fallo}, y es el servicio VPN. Es necesario asegurarse de que el servicio VPN que utilizamos no guarda logs ni otros datos, pues en el momento en el que dichos logs saliesen a la luz, estaríamos totalmente expuestos.
 	
-\subsection {Tor}
-	
-El uso de Tor supone una tercera entre muchas alternativas para mejorar nuestra privacidad y anonimato.
+\subsection {Deep-web}
+Pese a no ser algo novedoso, el término de la web profunda se ha ido popularizando y extendiendo tanto en la comunidad \textit{hacker} como entre usuarios comunes en Internet 	y, a menudo, es usado de manera incorrecta ya que se suele confundir con la \textit{dark-web}. 
 
-Tor es un software libre que permite defenderte contra el análisis de tráfico, y avoca por la privacidad y libertad del usuario. La forma en la que lo consigue es haciendo "rebotar" nuestra información en distintos \textbf{nodos Tor} intermedios con el objetivo de que el origen de la información se oculte lo máximo posible.
+Para empezar, la \textit{deep-web} se refiere a aquellos contenidos que no están indexados por los prinicipales motores de búsqueda, tales como Google o Bing. Por ende, es bastante complicado localizarlos, ni tan siquiera saber de su existencia.
+Los motivos de no encontrarse indexados son muy variados. Suele ser debido a que el contenido se encuentra protegido por una contraseña, se encuentra en una VPN a la cual no tienen acceso los \textit{crawlers} lanzados por los buscadores, o simplemente son tan antiguos e irrelevantes, que no aparecen en las consultas de los buscadores.
+Cabe mencionar, que algunos de los contenidos sí se encuentren indexados, pero dadas sus características, no aparezcan con los criterios de búsqueda convencionales utilizados por los usuarios.
+
+Por otro lado, la web oscura (o \textit{dark-web}) refiere a contenidos que no es posible indexar debido a que se encuentran protegidos por sus autores, los cuales se encargan de compartirlos en redes anónimas ó sitios web protegidos con contraseña. 
+No existe una finalidad específica para éstos contenidos, pero normalmente se trata de páginas web encargadas para la administración de un portal, o contenido relacionado con actividades ilegales.
+
+Las dimensiones que abarcan los contenidos de la web profunda son enormes, y actualmente no hay forma de medir (ni tan siquiera de forma aproximada)	dicha cantidad de información.
+Una imagen sumamente extendida en Internet representa la relación entre los contenidos de la web profunda y la parte visible de Internet, afirmando que la \textit{deep-web} constituye el 96\% de Internet. De nuevo, ésto no es cierto, puesto que no hay manera de medir, ni tan siquiera con un margen de error aceptable, la cantidad de información disponible en la web profunda. Muchos contenidos de ésta o bien son desconocidos, o bien no se encuentran disponibles durante largos períodos de tiempo.
+
+Otro término muy utilizado es el de \textit{darknet}. Una \textit{darknet }es un subconjunto de la web profunda que representa un espacio protegido por una VPN, o bien al que sólo un número reducido de usuarios autorizados pueden acceder. Los contenidos no son indexados por ningún buscador. Es más, en ciertos casos las direcciones de los servicios \textbf{no son resolubles por medio de mecanismos tan habituales como consultas DNS.} Para poder navegar en estas redes normalmente es necesario hacer uso de un cliente, como bien puede ser el de Tor.
+
+En numerosas ocasiones se relaciona dicho tipo de redes con la ciberdelincuencia. Ésto es debido a que estas redes proporcionan un muy buen grado de privacidad y anonimato al usuario, lo cual es aprovechado para realizar actividades ilegales tales como la venta de armas ó drogas. 
+De hecho, un estudio realizado entre Diciembre de 2013 y Julio de 2015 por un investigador apodado Gwern Branwen sobre las ventas en numerosos mercados de las \textit{darknets} revela que se llegaron a recaudar más de 27 millones de dólares en drogas ilegales.
+
+\begin{figure}[h]
+	\centerline{
+		\mbox{\includegraphics[width=5.00in]{images/darknet_markets.png}}
+	}
+	\caption{Imagen extraída del artículo \textit{The data of the dark web - The Econommist}.}
+	\label{fig:norm_Daugman}
+\end{figure}
+
+Sin embargo, el objetivo de estas herramientas no fue el motivar los actos ilícitos. 
+
+El uso que le de den la mayoría de usuarios no es el que originalmente se perseguía al crear este tipo de redes, que era el de proteger a aquellas personas que viven en países en los que constantemente se producen abusos contra los ciudadanos de forma sistemática, y el de plantear una solución al problema de censura y represión.
+
+Las \textit{darknets} más conocidas a día de hoy son Tor, I2P y Freenet.
+
+\subsubsection {I2P}
+
+I2P es una darknet ó red anónima que nace en el año 2003- Su base funcional es similar a la de Tor. Está escrita en lenguaje Java, con algunos añadidos en C. 
+Una de las ventajas de esta red es el permitir la creación de cualquier tipo de servicio sin mucha complejidad. Es posible poner en marcha servidores HTTP, SSH, FTP o SMB en cualquier instancia I2P sin apenas dificultad. Además, dichos servicios sólo permanecerán accesibles por usuarios internos de I2P.
+
+Existen servicios ocultos de almacenamiento, foros, wikis, documentación, servicios de correo electrónico, repositorios git ocultos, etcétera.
+
+La estructura de una red I2P funciona de la siguiente manera.
+Existen una serie de túneles cuyo objetivo es el envío y recepción de paquetes entre los emisores y receptores que se encuentren en la red. Un túnel es básicamente el conjunto de enrutadores que se encarga de enviar información a un destino determinado, permitiendo una comunicación \textbf{anónima} entre instancias I2P.
+En el momento que un usuario lanza una instancia del software I2P automáticamente se convierte en un enrutador y así, en parte de los túneles que crean otras instancias I2P.
+Una característica de estos túneles es que son de sentido único. Por este motivo, para que una instancia I2P pueda intervenir en las dos partes de la comunicación (emisión y recepción de paquetes)debecrear túneles de salida y de entrada.Los datos que viajan entre cada enrutador del túnel van cifraados y cada enrutador que recibe el paquete sólo puede acceder a la información correspondiente al siguiente enrutador al que se le debe enviar el paquete.
+
+	\begin{figure}[h]
+		\centerline{
+			\mbox{\includegraphics[width=5.00in]{images/tunnel_i2p.png}}
+		}
+		\caption{Funcionamiento básico de la transmisión de paquetes en I2P mediante tunelización.}
+		\label{fig:norm_Daugman}
+	\end{figure}
+
+
+
+\subsubsection {FreeNET}
+
+FreeNET es uno de los proyectos más antiguos que tienen relación con el anonimato en la red. Los inicios del mismo aparecen alrededor del año 2001, y sigue siendo una opción muy viable si bien no es el más utilizado. A diferencia de otros, FreeNET sebasa en un modelo descentralizado, es decir, que no existen servidores para controlar ó gestionar la red y en su lugarcada usuario que se conecta a ésta aporta una cantidad de ancho de banda y reserva espacio en su disco duro para almacenar parte de los contenidos que se encuentran en dicha red. 
+Éste espacio es conocido como \textit{datastore}. Evidentemente no todo usuario tiene acceso completo a estos datos, y sólo el propietario de estos ficheros puede desencriptar sus contenidos utilizando su clave privada.
+
+La principal diferencia con la red Tor, que veremos más adelante, es que el correcto funcionamiento de FreeNET depende de la cantidad de usuarios que se encuentren activos en ese momento, ya que al ser descentralizada, con un gran número de usuarios es muy difícil identificar el origen de una petición determinada. 
+
+Una duda que puede surgir es si los contenidos ubicados en el \textit{datastore} de cada usuario permanecen por siempre. La respuesta es no, ya que al cabo de cierto tiempo, si los datos no son consultados por ningún usuario en la red, terminan siendo eliminados.
+
+Éste modelo descentralizado, con el que se almacena en el disco duro información correspondiente de otros usuarios, también tiene sus \textbf{desventajas y peligros}. En el momento en el que una persona suba a la red \textbf{contenido ilegal}, porciones de dicho contenido son almacenadas por el conjunto de usuarios que se encuentren activos en FreeNET. Esto conlleva dos cosas.
+La primera es que el autor que ha subido dicho contenido será muy difícil de localizar, debido a que los contenidos en el \textit{datastore} no incluyen metadatos del propietario, ni ninguna información identificativa más allá de la que tengan dichos datos.
+El segundo es que un usuario el cual no tenía intenciones maliciosas puede acabar siendo propietario de contenidos que, aunque cifrados, infringen la ley.
+
+Como se ha explicado anteriormente, para acceder a contenidos en FreeNET es necesario conocer la clave que tiene asociado dicho contenido. Existen diferentes tipos de claves:
+
+\begin{itemize}
+	\item {Claves SSK}: Éste tipo identifica a aquellos contenidos dinámicos que cambian frecuentemente. Las siglas corresponden a \textbf{Signed Subspace Key}. Esta clase de claves funciona con mecanismo de clave pública, es decir que el autor del contenido puede firmarlo y sólo aquellos que sean propietarios de una clave privada pueden realizar modificaciones sobre dicho contenido. Está formada por cinco partes:
+	\begin{itemize}
+		\item {Hash de clave pública}.
+		\item {Clave de descifrado del documento}.
+		\item {Configuración criptográfica}.
+		\item {Nombre que le ha dado el usuario}.
+		\item {Versión de los datos}.
+	\end{itemize}
+	\item {Claves CHK}: Son las siglas de \textbf{Content Hash Key}, y es la clave más conocida y habitual. Es usada en ficheros estáticos, a diferencia de la clave anterior(como texto, vídeos, documentos PDF, etcétera). Es básicamente el \textit{hash} del contenido del fichero, el cual es unívoco. Está formada por tres secciones:
+	\begin{itemize}
+		\item {Hash del archivo}.
+		\item {Clave de descifrado del archivo}.
+		\item {Configuración criptográfica}.
+	\end{itemize}
+	\item {Claves USK}: Son el tipo de clves más simples. Las siglas vienen del ingés \textbf{Updateable Subspace Keys}. Son realmente las claves que envuelven a las claves SSK. El formato es el siguiente:
+	
+	{\fontfamily{bch}\selectfont 
+		USK@hash,clave	descifrado,config\_criptográfica /sitio\_web, num\_version
+	}
+	
+	\item {Claves KSK}: También conocidas como \textbf{Keyword Subspace Keys}. Se trata de claves que permiten almacenar documentos de texto ó páginas etiquetadas en la red de FreeNET.
+	El formato es el siguiente: 
+	
+	{\fontfamily{bch}\selectfont 
+		KSK@archivo.tipo
+	}
+\end{itemize}
+
+\subsubsection {Tor}
+Tor es una red anónima que, a diferencia de las anteriores mencionadas, está totalmente centralizada. Fue creada en el año 2003 y actualmente es la más usada de entre las tres redes anónimas mencionadas en este subcapítulo. Cuenta con miles de voluntarios en todo el mundo que usan la red y aportan ancho de banda para mejorar la calidad de servicio.
+
+El servicio Tor permite defenderte contra el análisis de tráfico, y avoca por la privacidad y libertad del usuario. La forma en la que lo consigue es haciendo "rebotar" nuestra información en distintos \textbf{nodos Tor} intermedios con el objetivo de que el origen de la información se oculte lo máximo posible.
+Conforme los paquetes van avanzando por los nodos intermedios, \textbf{se van cifrando }de forma progresiva, como las capas de una cebolla(de ahí su nombre, \textbf{\textit{The onion router}}).
+Dicha encriptación se consigue haciendo uso de las claves públicas de los nodos intermedios. El nodo final es el que descifra el paquete para hacerlo llegar al servidor.
+Los usos principales que se le suele dar al software Tor es el de garantizarnos un buen grado de anonimato y el de darnos acceso a los \textbf{\textit{hidden-services} .onion.}.
+
+Sin embargo, Tor es un servicio que puede dar lugar a fugas o \textit{leaks} de información, que pueden facilitar la identificación de un usuario que busca proteger su privacidad. Un ejemplo de ello es que el uso de los nodos Tor \textbf{únicamente soporta el protocolo TCP}. 
+Esto conlleva a que, en el momento en el que se utilice un protocolo como UDP o ICMP, las peticiones no pasarán a través de los nodos Tor (también llamado \textbf{circuito virtual}), sino que se establece una conexión directa entre cliente y destino.
+
+Como ha sido dicho, el objetivo de Tor no es únicamente el poder acceder a servicios que se encuentren en Internet, sino que también se utiliza para enrutar las peticiones a servicios que se encuentren alojados en el interior de la red. Estos servicios, en su conjunto, constituyen lo que se conoce como la \textbf{red profunda} de Tor.
+Aquí existe un número indeterminado de \textit{hidden services} de todo tipo. Una peculiaridad de estos servicios ocultos es que tienen que estar basados en el protocolo TCP, o de otra manera no pueden estar desplegados sobre la red.
+No se utiliza un mecanismo centralizado para la resolución de nombres de dominio, no existen servidores DNS dedicados a la resolución de direcciones IP. En cambio, existe una tabla distribuida de tipo \textit{hash} compuesta por servidores "\textit{HSDir}" que mantienen el registro de los \textit{hidden services} con sus respectivas direcciones.
+
+Crear un servicio oculto con Tor es muy sencillo, y un tutorial del mismo puede ser visualizado en la página web oficial del proyecto Tor:
+
+	{\fontfamily{bch}\selectfont 
+		https://www.torproject.org/docs/tor-onion-service.html.en
+	}
+
+No obstante, y debido a que éste trabajo está orientado al desarrollo de una herramienta \textbf{Python}, a continuación se explicará de manera breve cómo es posible crear un servicio oculto haciendo uso de varias librerías Python, entre ellas \textbf{Stem y Flask}.
+La explicación del código fuente puede ser consultada en el \textbf{Anexo A }.
+
+En primer lugar es necesario haber instalado Tor previamente y, si tenemos una instancia de Tor corriendo, detenerla haciendo uso del comando:
+
+	{\fontfamily{bch}\selectfont 
+		service tor stop
+	}
+A continuación, generaremos una contraseña que utilizaremos para iniciar un controlador de la librería Stem:
+
+	\begin{figure}[h]
+		\centerline{
+			\mbox{\includegraphics[width=5.00in]{images/hashed_pwd.png}}
+		}
+		\caption{\textit{Output} de la contraseña generada.}
+		\label{fig:norm_Daugman}
+	\end{figure}
+	
+Tras haber generado la contraseña \textit{hash}, es necesario reemplazarla por la existente en el campo \textbf{HashedControlPassword} en el archivo:
+
+	{\fontfamily{bch}\selectfont 
+		/etc/tor/torrc
+	}
+
+Lo único que queda para poder hacer uso del script es aplicar la contraseña propia al parámetro \textit{password} de la función \textit{authenticate} del controlador de Stem(en el caso del ejemplo de arriba, "\textit{trabajofindegrado}"). El resultado sería el siguiente:
+\newpage
+	\begin{figure}[h]
+		\centerline{
+			\mbox{\includegraphics[width=5.00in]{images/controller_auth.png}}
+		}
+		\caption{Configuración del \textit{controller}.}
+		\label{fig:norm_Daugman}
+	\end{figure}
+
+Sólo nos queda lanzar el script, pues no es necesario ninguna configuración adicional. El output por consola es el que sigue:
+
+\begin{figure}[h]
+	\centerline{
+		\mbox{\includegraphics[width=5.00in]{images/hs_running.png}}
+	}
+	\caption{\textit{Output} del script cuando es lanzado el servicio oculto.}
+	\label{fig:norm_Daugman}
+\end{figure}
+
+Tras lanzar el servicio, podemos comprobar que está en funcionamiento entrando en la dirección que nos muestra el anterior output por consola. 
+
+Evidentemente, \textbf{no es necesario estar en la misma red local}, el servicio puede ser visitado sin problema desde cualquier dispositivo, siempre y cuando haga uso del \textbf{proxy Tor}.
+
+\begin{figure}[h]
+	\centerline{
+		\mbox{\includegraphics[width=5.00in]{images/hs_running2.png}}
+	}
+	\caption{\textit{Hidden service} en funcionamiento.}
+	\label{fig:norm_Daugman}
+\end{figure} 
+
+
+Es importante saber que es posible hacer uso de \textbf{\textit{proxychains}}, herramienta de la que ya se ha hablado, \textbf{junto con el servicio Tor}, lo que garantiza un aún mayor grado de anonimato. Esto puede emplearse para escaneos con \textbf{nmap}, establecer conexiones a servidores SSH, etcétera.
+
+Para  ello, basta con ir al archivo de configuración de \textit{proxychains} (Ch. \textbf{2.3.1}) y añadir la dirección IP y el puerto en el cual el servicio Tor está a la escucha. Quedaría de la siguiente forma:
+\begin{figure}[H]
+	\centering{
+		\mbox{\includegraphics[width=4.00in]{images/proxychains_tor.png}}
+	}
+	\caption{Servicio "tor" junto con otros servidores proxy en la herramienta \textit{proxychains}}
+	\label{fig:norm_Daugman}
+\end{figure} 
+Otra herramienta que se beneficia de Tor es \textbf{Onionshare}. 
+Onionshare (el cual ha sido integrado en la herramienta Python desarrollada para este proyecto, pero que conviene explicar su funcionamiento) es una herramienta que permite compartir archivos de cualquier tamaño anónimamente. Su funcionamiento es relativamente simple. Convierte a la máquina que ejecuta la herramienta en un servidor web el cual genera una dirección \textbf{.onion} en la que aloja el fichero que elijamos. 
+Con ello, cualquiera que conozca el enlace puede \textbf{descargar el fichero a través de Tor}, por ejemplo, con \textbf{Tor Browser}. 
+Tiene opciones interesantes como la de desmontar el servidor en el momento en el que alguien descargue el archivo subido. Veamos cómo funciona la herramienta de forma sencilla.
+
+\begin{figure}[h]
+	\centerline{
+		\mbox{\includegraphics[width=5.00in]{images/onionshare1.png}}
+	}
+	\caption{Ejecución de \textit{Onionshare} por consola}
+	\label{fig:norm_Daugman}
+\end{figure} 
+
+Una vez lanzado el script (\textbf{también tiene una versión con interfaz, pero para el ejemplo se ha decidido utilizar la versión por consola}) podemos abrir el servicio oculto desde cualquier dispositivo que esté utilizando el servicio Tor para poder descargar el archivo.
+
+\begin{figure}[h]
+	\centerline{
+		\mbox{\includegraphics[width=5.00in]{images/onionshare2.png}}
+	}
+	\caption{Hidden-service creado, con posibilidad de descargar el archivo}
+	\label{fig:norm_Daugman}
+\end{figure} 
+
+Lo que ocurra después de descargar el archivo depende de la configuración utilizada en el servicio oculto. Puesto que hemos corrido el script con la \textit{flag } --stay-open, el hidden service no será borrado, pudiendo acceder a él otras veces hasta que el servidor pulse Ctrl+C.
+
+\subsection{Otras herramientas de ofuscación}
+
+En apartados anteriores hemos visto varias tecnologías con las que podemos camuflarnos a la hora de acceder a información, ya sea en Internet u otras redes anónimas. Sin embargo, existen incontables tecnologías que poco o nada tienen que ver con las anteriores mencionadas, como las que se expondrán a continuación.
+
+\subsubsection{CacheCloak}
+
+Un usuario que haga uso de un smartphone(es decir, un usuario estándar), debe afrontar riesgos en cuanto a su privacidad en el momento en el que comparte su localización real con los \textbf{LSB} (Servicios Basados en Ubicación). 
+Es por ésto que nace una tecnología llamada \textit{CacheCloak}, un sistema que permite habilitar una \textbf{anonimización en tiempo real} del servicio de localización.
+La manera en la que funciona es simple: Un servidor(de confianza) intermedio recibe la localización real del usuario, la procesa utilizando \textit{CacheCloak} y envía dicha ubicación al LSB.
+Además que la calidad del servicio no sufre, el objetivo (conseguir un buen grado de anonimato) se cumple, puesto que los LSB no consiguen identificar al usuario nada más que un corto período de tiempo. 
+La forma de conseguirlo es mediante una predicción de movilidad(basada en trayectos ya existentes de otros usuarios) que realiza el servidor(mediante métodos estocásticos) y medidas de entropía.
+
+\subsubsection{Ofuscación de estilometría de documentos}
+
+La estilometría es una métrica que hace usos de elementos de estilo lingüísticos para atribuir un autor a un documento. Para ello tiene en cuenta la longitud de frases, palabras, sintaxis, formato, signos de puntuación entre otros. 
+Existen diversas formas de intentar "evitar" la atribución de autores a documentos. 
+
+Una de ellas, podría consistir simplemente en la \textbf{traducción mecánica} de texto desarrollado a diferentes idiomas y, tras ello, la traducción inversa al idioma original. Esto, si bien es efectivo para textos cortos, hace que en los largos se pierda una cantidad considerable de información y sentido al contenido.\\
+La imitación de otros autores es otra medida que se utiliza comúnmente. Hay ejemplos prácticos de análisis de textos de autores para crear nuevos textos a partir de ellos. Un ejemplo es el de \textit{Insta-Trump} (http://trump.frost.works/), el cual genera discursos a partir de otros ya existentes del presidente del gobierno de los Estados Unidos. Esto es logrado mediante \textbf{cadenas de Markov}.\\
+Por último, mencionar que existen una serie de ataques de ofuscación contra análsis estilométrico que permiten crear textos sin aparente estilo distintivo, dificultando la labor de identificar al autor.
+Un ejemplo es \textbf{Anonymouth}, una herramienta que proporciona al usuario advertencias sobre métricas que debería evitar a la hora de redactar textos(como longitudes de palabra, bigramas, etcétera).
+
 \lsection{Herramientas de identificación de usuarios} \label{sec:identificacion}
 \subsection{Introducción}
+
+En apartados anteriores se han visto numerosas herramientas que ayudan a proteger la privacidad de un usuario, así como su grado de anonimato. Todo ello es conseguido, como hemos visto, con distintas tecnologías tales como el uso de servidores proxy, VPNs, redes anónimas ó ataques de ofuscación en estilometrías. 
+Sin embargo, existen también aplicaciones cuyo objetivo es atacar dichas tecnologías. En este apartado se verá como ejemplo \textbf{Tortazo}.
+
+\subsubsection{Tortazo}
+Tortazo es, en pocas palabras, un framework de pruebas de auditoría para realizar \textit{pentesting} sobre \textit{\textbf{hidden services}}(independientemente del protocolo que utilicen, SMB, FTP...) y \textbf{repetidores de salida} en Tor.
+
+El proyecto es relativamente reciente y fue creado por \textbf{\textit{Adastra}}, el creador del blog https://thehackerway.net.
+
+Cuenta con tres modos de funcionamiento, y entre estos modos destaca el modo para \textbf{botnet} el cual ataca servicios SSH por fuerza bruta, y permite descubrir sitios .onion (a partir de una dirección .onion parcial o bien a partir de la generación totalmente aleatoria de 16 caracteres en Base32), y un largo etcétera. Cuenta con una arquitectura basada modular que facilita el añadido de \textit{plug-ins} y permite acoplar herramientas de pentesting conocidas como \textbf{nmap ó W3AF.}
+
+Vamos a tratar de probar brevemente cada uno de los modos de funcionamiento de esta herramienta:
+
+\begin{itemize}
+	\item{\textit{Information gathering}}: El modo de recopilación de información trata de:
+	\begin{enumerate}
+		\item Establecer una conexión con las autoridades de directorio.
+		\item Descargar los descriptores más recientes para así poder conseguir información a partir de los mismos(información como  la dirección IP del descriptor, versión de Tor en uso, ancho de banda necesitado para realizar la conexión, etcétera). 
+		\item Esta información puede utilizarse para posteriormente realizar un escaneo de puertos mediante \textbf{nmap} a los \textbf{nodos de salida de Tor}, ó bien contra \textbf{servicios ocultos}. 
+	\end{enumerate}
+	
+	La herramienta permite recolectar información de los nodos ó descriptores conectándose a las autoridades de directorio (\textit{Onion Routers} principales):
+	
+	{\fontfamily{bch}\selectfont 
+		./Tortazo11-linx86\_64 -m linux -a '-sV -A' -n 35 -v
+	}
+	
+	También permite hacerlo conectándose a los espejos/\textit{backups} de las autoridades de directorio:
+	
+	{\fontfamily{bch}\selectfont 
+		./Tortazo11-linx86\_64 -m linux -a '-sV -A' -n 35 -v -d
+	}
+	
+	Por último, cabe la posibilidad de usar los descriptores de una instancia TOR que ya esté en ejecución. Para ello es necesario que una instancia Tor esté en ejecución (por ejemplo, lanzando el \textit{Tor Browser}).
+	
+	\begin{figure}[h]
+		\centerline{
+			\mbox{\includegraphics[width=5.00in]{images/tortazo_OR1.png}}
+		}
+		\caption{Información recogida de los nodos de salida Tor utilizando una instancia en ejecución}
+		\label{fig:norm_Daugman}
+	\end{figure} 
+	
+	\item{\textit{Botnet Mode}}: Para hacer uso del modo botnet, es preciso en primer lugar editar el fichero tortazo\_botnet.bot, incluido en las carpetas del proyecto, para incluir las direcciones de servidores que se desea controlar por medio de SSH. El comando para utilizarlo sería 
+		{\fontfamily{bch}\selectfont 
+			./Tortazo11-linx86\_64 -z all -r 'uname -a;id' -v
+		}
+	\item{\textit{Onion Repository}}: Aquí la herramienta trata de procesar direcciones .onion a partir de una dirección parcial, o totalmente aleatoria. Esto permite descubrir servicios ocultos en la web profunda de Tor. 
+	En el momento que encuentra una dirección .onion funcional, ésta es almacenada en una base de datos SQLite.
+\end{itemize}
+	Por último, mencionar que cuenta con un buen número de plug-ins(\textit{crawler, bruter, w3afplugin...}), cuya información detallada está disponible en la página del proyecto http://tortazo.readthedocs.io/en/latest/. 
+	
 \lsection{Debate social}
 \label{sec:social}
 \subsection{LOPD GPDR proteccion de datos ley reciente}
-
-\newpage \thispagestyle{empty} % Página vacía 
+Neutralidad

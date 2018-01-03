@@ -1,10 +1,138 @@
 \chapter{Sistema, diseño y desarrollo}
 \label{chap:sistemadesarrollado}
 
-\lsection{Segmentación}
+En este capítulo se realizará un análisis del sistema desarrollado, mostrando un catálogo de requisitos que contendrá los requerimientos funcionales y no funcionales de la aplicación.
+Después, se describirá el diseño de la herramienta, así como el de cada  uno  de  sus módulos haciendo hincapié en las dependencias propias a cada uno, así como la base de datos utilizada, ó librerías necesarias para su correcto funcionamiento.
 
-\lsection{Normalización}
+\section{Catálogo de requisitos}
 
-\lsection{Codificación}
+A continuación se muestra cada uno de los requisitos funcionales y no funcionales del sistema. Éste apartado está seccionado por los distintos módulos del sistema.
 
-\lsection{Matching}
+\subsection{Requisitos funcionales}
+\subsubsection{Requisitos generales del sistema}
+\begin{adjustwidth}{0.5cm}{}
+\textbf{Requisito Funcional \#1: No habrá problemas de dependencias.}\\
+La herramienta podrá ser ejecutada sin que el usuario final necesite instalar librerías extra (más allá del servicio Tor).\\
+\linebreak
+\textbf{Requisito Funcional \#2: Las funciones de la aplicación podrán ser lanzadas mediante una interfaz por \textit{shell}.}\\
+Esta interfaz requerirá que el usuario seleccione la opción que desea realizar. Por lo tanto, requiere que el usuario interaccione con el sistema.\\	
+\linebreak
+\textbf{Requisito Funcional \#3: Las funciones de la aplicación podrán ser lanzadas mediante un \textit{script} por consola.}\\
+El usuario hará uso de los argumentos a la hora de lanzar el programa para que éste ejecute automáticamente, no haciendo necesaria la interacción con el usuario(excepto en aquellos módulos cuya funcionalidad requiera realizar acciones con el mismo).\\
+\linebreak
+\end{adjustwidth}
+\subsubsection{Requisitos de la funcionalidad de \textit{mailing}}
+\begin{adjustwidth}{0.5cm}{}
+	\textbf{Requisito Funcional \#4: El usuario podrá hacer uso de un \textit{remailer} para enviar e-mails.}\\
+	El remailer \textit{Mixmaster} podrá ser lanzada directamente desde la herramienta, el cual permitirá al usuario enviar e-mails \textbf{anónimos}.\\
+	\linebreak
+	\textbf{Requisito Funcional \#5: El usuario podrá enviar e-mails a través de un servicio de e-mails anónimos.}\\
+	Este servicio permite enviar correos directamente desde consola, haciendo uso del servicio \textbf{Anonemail de Anonymouse}. \\
+	\linebreak
+	\textbf{Requisito Funcional \#6: El usuario podrá realizar una ofuscación de estilometría en el envío de e-mails.}\\
+	En el emisor de correos anónimos, el usuario tiene la opción de poder ofuscar su texto, aplicando una doble traducción en el cuerpo del mensaje.\\
+	\linebreak
+	\textbf{Requisito Funcional \#7: El usuario tiene disponible una bandeja de entrada temporal por consola.}\\
+	Ésta opción permite al usuario hacer uso del servicio online de https://tempail.com para visualizar, directamente por consola y en tiempo real, los e-mails que van llegando.\\
+	\linebreak	
+	\textbf{Requisito Funcional \#8: El usuario tiene disponible una bandeja de entrada temporal visible en un navegador.}\\
+	Esta opción abre una instancia del navegador Firefox, donde se puede visualizar en tiempo real los correos entrantes mediante el servicio de bandeja temporal https://temptami.com.\\	
+\end{adjustwidth}
+\subsubsection{Requisitos de la funcionalidad de \textit{accounts}}
+\begin{adjustwidth}{0.5cm}{}
+	\textbf{Requisito Funcional \#9: El usuario podrá crear automáticamente cuentas de usuario en Facebook.}\\
+	Ésta opción automatiza el proceso de registro en la red social Facebook, y logra generar un nombre y apellidos válidos, así como realizar una confirmación de la cuenta mediante correo electrónico(haciendo uso de la bandeja temporal vista en el Requisito Funcional \#8).\\
+	\linebreak
+	\textbf{Requisito Funcional \#10: El usuario podrá loguear automáticamente un usuario ya registrado en Facebook.}\\
+	Este servicio automatiza el proceso de inicio de sesión de un usuario \textbf{(el cual debe haber sido registrado previamente)} en la red social Facebook. \\
+	\linebreak
+	\textbf{Requisito Funcional \11: El usuario podrá crear automáticamente cuentas de usuario en Instagram.}\\
+	Ésta opción automatiza el proceso de registro en la red social Facebook, y logra generar un nombre de usuario y contraseña válidos, así como un correo electrónico temporal con el que registrarse(en este caso no es necesario realizar una confirmación de cuenta mediante correo).\\
+	\linebreak
+	\textbf{Requisito Funcional \#11: El usuario podrá loguear automáticamente un usuario ya registrado en Instagram.}\\
+	Este servicio automatiza el proceso de inicio de sesión de un usuario \textbf{(el cual debe haber sido registrado previamente)} en la red social Instagram. \\
+	\linebreak	
+	\textbf{Requisito Funcional \#12: El usuario podrá realizar una acción automática en Instagram una vez realizado el inicio de sesión.}\\
+	Ésta opción, a modo de ejemplo, permite seguir a una persona y, en el caso de que tenga un perfil público, realizar la acción "Me gusta" a algunas de sus fotos. \\
+	\linebreak		
+	\textbf{Requisito Funcional \#13: El usuario podrá crear automáticamente cuentas de usuario en un periódico on-line.}\\
+	Este requisito implica automatizar el proceso de registro, con su correspondiente confirmación de correo, en la web de un periódico on-line. \\
+	\linebreak
+	\textbf{Requisito Funcional \#14: El usuario podrá loguearse con una cuentas de usuario ya creada en un periódico on-line.}\\
+	Ésta opción permite, una vez realizado al menos un registro en la web, realizar un inicio de sesión con un usuario registrado. \\
+	\linebreak				
+	\textbf{Requisito Funcional \#15: El usuario podrá realizar comentarios en noticias recientes una vez realizado un inicio de sesión.}\\
+	En éste caso, se le brinda al usuario la opción de visualizar los titulares de las noticias recientes con más comentarios, así como realizar comentarios en ellas, \textbf{todo ello mediante consola}. \\
+	\linebreak			
+	\textbf{Requisito Funcional \#16: El usuario podrá realizar comentarios en noticias recientes una vez realizado un inicio de sesión.}\\
+	En éste caso, se le brinda al usuario la opción de visualizar los titulares de las noticias recientes con más comentarios, así como realizar comentarios en ellas, \textbf{todo ello mediante consola}. \\
+	\linebreak	
+	\textbf{Requisito Funcional \#17: El usuario podrá loguearse con una cuentas de usuario ya creada en un periódico on-line.}\\
+	Ésta opción permite, una vez realizado al menos un registro en la web, realizar un inicio de sesión con un usuario registrado. \\
+	\linebreak				
+	\textbf{Requisito Funcional \#18: El usuario podrá realizar comentarios en noticias recientes una vez realizado un inicio de sesión.}\\
+	En éste caso, se le brinda al usuario la opción de visualizar los titulares de las noticias recientes con más comentarios, así como realizar comentarios en ellas, \textbf{todo ello mediante consola}. \\
+	\linebreak			
+	\textbf{Requisito Funcional \#19: El usuario podrá realizar comentarios en noticias recientes una vez realizado un inicio de sesión.}\\
+	En éste caso, se le brinda al usuario la opción de visualizar los titulares de las noticias recientes con más comentarios, así como realizar comentarios en ellas, \textbf{todo ello mediante consola}. \\
+	\linebreak	
+	\textbf{Requisito Funcional \#20: El usuario podrá realizar comentarios en noticias recientes una vez realizado un inicio de sesión.}\\
+	En éste caso, se le brinda al usuario la opción de visualizar los titulares de las noticias recientes con más comentarios, así como realizar comentarios en ellas, \textbf{todo ello mediante consola}. \\
+	\linebreak	
+	\textbf{Requisito Funcional \#21: El usuario podrá realizar comentarios en noticias recientes una vez realizado un inicio de sesión.}\\
+	En éste caso, se le brinda al usuario la opción de visualizar los titulares de las noticias recientes con más comentarios, así como realizar comentarios en ellas, \textbf{todo ello mediante consola}. \\
+	\linebreak	
+	\textbf{Requisito Funcional \#22: El usuario podrá realizar comentarios en noticias recientes una vez realizado un inicio de sesión.}\\
+	En éste caso, se le brinda al usuario la opción de visualizar los titulares de las noticias recientes con más comentarios, así como realizar comentarios en ellas, \textbf{todo ello mediante consola}. \\				
+	\textbf{Requisito Funcional \#23: El usuario podrá registrar un usuario en un foro de discusión.}\\
+	Éste servicio automatiza el proceos de registro de un usuario en un foro de discusión. En este caso, automatiza la confirmación por correo, \textbf{además de resolver un pequeño captcha} que solicita la página al registrarse. \\
+	\linebreak	
+	\textbf{Requisito Funcional \#24: El usuario podrá loguearse con una cuenta ya creada en un foro de discusión.}\\
+	Este requisito automatiza el hecho de realizar un inicio de sesión la página web de un foro de discusión, previo registro. \\
+	\linebreak	
+	\textbf{Requisito Funcional \#25: El usuario puede realizar comentarios en diversos temas de un foro de discusión.}\\
+	El servicio permite al usuario elegir el tema sobre el que realizar un comentario. Tras ello, aparecen los \textit{post} más destacados, donde también se le brinda al usuario la opción de comentar, \textbf{todo ello mediante consola}.\\			
+	\linebreak		
+	\textbf{Requisito Funcional \#26: El usuario puede elegir el navegador utilizado para las tareas automáticas.}\\
+	El usuario tiene a disposición elegir entre un navegador Firefox normal y un navegador que haga uso de \textbf{Tor}(para mayor grado de anonimato).\\				
+\end{adjustwidth}
+\subsubsection{Requisitos de la funcionalidad relativos a la base de datos}
+\begin{adjustwidth}{0.5cm}{}
+	\textbf{Requisito Funcional \#27: El sistema podrá crear una base de datos.}\\
+	En el primer uso de la herramienta con la funcionalidad de \textit{accounts}, el sistema creará una base de datos \textbf{SQLite encriptada mediante el algoritmo AES de 256 bits} para almacenar a los usuarios de diversas páginas. \\
+	\linebreak		
+	\textbf{Requisito Funcional \#28: El sistema podrá crear tablas en la base de datos.}\\
+	El sistema podrá crear varias tablas en la base de datos, una por cada una de las páginas en las que se pueden realizar acciones de registro y logueo de usuarios. \\
+	\linebreak		
+	\textbf{Requisito Funcional \#29: El sistema podrá insertar tuplas.}\\
+	El sistema insertará los usuarios registrados en cada una de las páginas a la tabla que corresponda de la base de datos. \\	
+	\linebreak			
+\end{adjustwidth}
+\subsection{Requisitos no funcionales}
+\begin{adjustwidth}{0.5cm}{}
+	\textbf{Requisito No Funcional \#1: El sistema será de código libre y abierto.}\\
+	Cualquier usuario podrá editar y/o modificar cualquier aspecto de la aplicación. para ello se proporcionará en el manual de usuario un enlace al repositorio de GitHub donde se encuentra el proyecto. \\
+	\linebreak		
+	\textbf{Requisito No Funcional \#2: El código será modular.}\\
+	Se facilitará en la medida de lo posible la inclusión de nuevas funcionalidades a la herramienta, haciendo uso de un código modular que no requiera realizar grandes cambios en el resto del programa. \\
+	\textbf{Requisito No Funcional \#3: El código contendrá comentarios.}\\
+	Cada una de las funciones del código estará documentada, explicando su funcionamiento. \\	
+	\textbf{Requisito No Funcional \#4: El sistema no hará uso de permisos superusuario.}\\
+	La herramienta no requerirá ser un usuario con privilegios para poder usarse. \\	
+	\linebreak
+	\textbf{Requisito No Funcional \#5: El sistema deberá ejecutar las tareas de forma rápida y eficiente.}\\
+	Cualquier tarea ejecutada por el sistema (ya sea dada de alta de usuarios, inicio de sesión, envío de e-mails ó posteo de comentarios) no deberá demorarse en exceso, con un tiempo límite de 2 minutos por tarea. \\		
+\end{adjustwidth}
+
+\section{Diseño del sistema}
+
+Esta sección se encarga de explicar al detalle las decisiones de diseño tomadas, así como la arquitectura final del sistema. 
+
+La herramienta, cuyo objetivo es el de facilitar al usuario el realizar tareas básicas manteniendo siempre la premisa de un buen anonimato, así como la automatización de ciertos procesos, ha sido diseñada en lenguaje Python. 
+
+Se ha elegido Python puesto que la gran mayoría de herramientas de auditoría han sido diseñadas en este lenguaje, y es posible reutilizar código así como importar librerías muy útiles en el campo de la seguridad informática.
+
+La programación del proyecto ha sido elaborada en un entorno Linux, concretamente en una distribución Ubuntu, y únicamente ha sido probada en este sistema operativo.
+
+\subsection{Diseño de la sección de \textit{mailing}}
+
