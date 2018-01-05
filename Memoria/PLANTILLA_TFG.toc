@@ -1,42 +1,63 @@
 \select@language {spanish}
 \select@language {spanish}
-\contentsline {chapter}{\IeC {\'I}ndice de Figuras}{\es@scroman {ix}}
-\contentsline {chapter}{\IeC {\'I}ndice de Tablas}{\es@scroman {x}}
-\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}
-\contentsline {section}{\numberline {1.1}Motivaci\IeC {\'o}n del proyecto}{1}
-\contentsline {section}{\numberline {1.2}Objetivos y enfoque}{2}
-\contentsline {section}{\numberline {1.3}Metodolog\IeC {\'\i }a y plan de trabajo}{2}
-\contentsline {chapter}{\numberline {2}Estado del arte}{5}
-\contentsline {section}{\numberline {2.1}Privacidad y anonimato: conceptos}{5}
-\contentsline {subsection}{\numberline {2.1.1}Procedimientos para incrementar el anonimato}{5}
-\contentsline {section}{\numberline {2.2}Hechos relevantes con respecto a la seguridad en la red}{6}
-\contentsline {section}{\numberline {2.3}Herramientas para la protecci\IeC {\'o}n de identidad}{8}
-\contentsline {subsection}{\numberline {2.3.1}Servidor proxy}{8}
-\contentsline {subsubsection}{Proxy Web}{8}
-\contentsline {subsubsection}{Proxy Cache}{9}
-\contentsline {subsubsection}{Transparent Proxy}{9}
-\contentsline {subsubsection}{Reverse Proxy}{10}
-\contentsline {subsubsection}{NAT proxy \IeC {\'o} enmascaramiento}{10}
-\contentsline {subsubsection}{Proxychains}{10}
-\contentsline {subsection}{\numberline {2.3.2}VPN}{11}
-\contentsline {subsubsection}{OpenVPN}{15}
-\contentsline {subsection}{\numberline {2.3.3}Tor}{15}
-\contentsline {section}{\numberline {2.4}Herramientas de identificaci\IeC {\'o}n de usuarios}{15}
-\contentsline {subsection}{\numberline {2.4.1}Introducci\IeC {\'o}n}{16}
-\contentsline {section}{\numberline {2.5}Debate social}{16}
-\contentsline {subsection}{\numberline {2.5.1}LOPD GPDR proteccion de datos ley reciente}{16}
-\contentsline {chapter}{\numberline {3}Sistema, dise\IeC {\~n}o y desarrollo}{17}
-\contentsline {section}{\numberline {3.1}Segmentaci\IeC {\'o}n}{17}
-\contentsline {section}{\numberline {3.2}Normalizaci\IeC {\'o}n}{17}
-\contentsline {section}{\numberline {3.3}Codificaci\IeC {\'o}n}{17}
-\contentsline {section}{\numberline {3.4}Matching}{17}
-\contentsline {chapter}{\numberline {4}Experimentos Realizados y Resultados}{19}
-\contentsline {section}{\numberline {4.1}Bases de datos y protocolo}{19}
-\contentsline {section}{\numberline {4.2}Sistemas de referencia}{19}
-\contentsline {section}{\numberline {4.3}Escenarios de pruebas}{19}
-\contentsline {section}{\numberline {4.4}Experimentos del sistema completo}{19}
-\contentsline {chapter}{\numberline {5}Conclusiones y trabajo futuro}{21}
-\contentsline {chapter}{Glosario de acr\IeC {\'o}nimos}{23}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{24}
-\contentsline {chapter}{\numberline {A}Manual de utilizaci\IeC {\'o}n}{27}
-\contentsline {chapter}{\numberline {B}Manual del programador}{29}
+\contentsline {chapter}{\IeC {\'I}ndice de Figuras}{\es@scroman {ix}}{chapter*.9}
+\contentsline {chapter}{\IeC {\'I}ndice de Tablas}{\es@scroman {x}}{chapter*.10}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivaci\IeC {\'o}n del proyecto}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Objetivos y enfoque}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Metodolog\IeC {\'\i }a y plan de trabajo}{2}{section.1.3}
+\contentsline {chapter}{\numberline {2}Estado del arte}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Privacidad y anonimato: conceptos}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Procedimientos para incrementar el anonimato}{5}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Hechos relevantes con respecto a la seguridad en la red}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}Herramientas para la protecci\IeC {\'o}n de identidad}{8}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Servidor proxy}{8}{subsection.2.3.1}
+\contentsline {subsubsection}{Proxy Web}{9}{section*.14}
+\contentsline {subsubsection}{Proxy Cache}{9}{section*.16}
+\contentsline {subsubsection}{Transparent Proxy}{9}{section*.18}
+\contentsline {subsubsection}{Reverse Proxy}{10}{section*.20}
+\contentsline {subsubsection}{NAT proxy \IeC {\'o} enmascaramiento}{10}{section*.21}
+\contentsline {subsubsection}{Proxychains}{10}{section*.22}
+\contentsline {subsection}{\numberline {2.3.2}VPN}{12}{subsection.2.3.2}
+\contentsline {subsubsection}{OpenVPN}{15}{section*.28}
+\contentsline {subsection}{\numberline {2.3.3}Deep-web}{16}{subsection.2.3.3}
+\contentsline {subsubsection}{I2P}{17}{section*.30}
+\contentsline {subsubsection}{FreeNET}{18}{section*.32}
+\contentsline {subsubsection}{Tor}{19}{section*.33}
+\contentsline {subsection}{\numberline {2.3.4}Otras herramientas de ofuscaci\IeC {\'o}n}{22}{subsection.2.3.4}
+\contentsline {subsubsection}{CacheCloak}{22}{section*.41}
+\contentsline {subsubsection}{Ofuscaci\IeC {\'o}n de estilometr\IeC {\'\i }a de documentos}{23}{section*.42}
+\contentsline {section}{\numberline {2.4}Herramientas de identificaci\IeC {\'o}n de usuarios}{23}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Introducci\IeC {\'o}n}{23}{subsection.2.4.1}
+\contentsline {subsubsection}{Tortazo}{23}{section*.43}
+\contentsline {section}{\numberline {2.5}Debate social}{25}{section.2.5}
+\contentsline {chapter}{\numberline {3}Sistema, dise\IeC {\~n}o y desarrollo}{27}{chapter.3}
+\contentsline {section}{\numberline {3.1}Cat\IeC {\'a}logo de requisitos}{27}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Requisitos funcionales}{27}{subsection.3.1.1}
+\contentsline {subsubsection}{Requisitos generales del sistema}{27}{section*.45}
+\contentsline {subsubsection}{Requisitos de la funcionalidad de \textit {mailing}}{28}{section*.46}
+\contentsline {subsubsection}{Requisitos de la funcionalidad de \textit {accounts}}{28}{section*.47}
+\contentsline {subsubsection}{Requisitos de la funcionalidad relativos a la base de datos}{30}{section*.48}
+\contentsline {subsection}{\numberline {3.1.2}Requisitos no funcionales}{31}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Dise\IeC {\~n}o del sistema}{32}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Dise\IeC {\~n}o de la secci\IeC {\'o}n de \textit {mailing}}{32}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Dise\IeC {\~n}o de la secci\IeC {\'o}n de \textit {accounts}}{34}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Dise\IeC {\~n}o de la base de datos de \textit {accounts}}{35}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Implementaci\IeC {\'o}n, desarrollo y pruebas}{35}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Librer\IeC {\'\i }as utilizadas}{35}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Desarrollo}{36}{subsection.3.3.2}
+\contentsline {chapter}{\numberline {4}Pruebas}{37}{chapter.4}
+\contentsline {subsection}{\numberline {4.0.1}Pruebas}{37}{subsection.4.0.1}
+\contentsline {subsubsection}{Pruebas unitarias}{37}{section*.53}
+\contentsline {subsubsection}{Pruebas de integraci\IeC {\'o}n}{37}{section*.54}
+\contentsline {section}{\numberline {4.1}Bases de datos y protocolo}{38}{section.4.1}
+\contentsline {section}{\numberline {4.2}Sistemas de referencia}{38}{section.4.2}
+\contentsline {section}{\numberline {4.3}Escenarios de pruebas}{38}{section.4.3}
+\contentsline {section}{\numberline {4.4}Experimentos del sistema completo}{38}{section.4.4}
+\contentsline {chapter}{\numberline {5}Conclusiones y trabajo futuro}{39}{chapter.5}
+\contentsline {section}{\numberline {5.1}Conclusiones}{39}{section.5.1}
+\contentsline {section}{\numberline {5.2}Trabajo futuro}{40}{section.5.2}
+\contentsline {chapter}{Glosario de acr\IeC {\'o}nimos}{41}{chapter*.55}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{42}{chapter*.55}
+\contentsline {chapter}{\numberline {A}Manual de utilizaci\IeC {\'o}n}{45}{appendix.Alph1}
+\contentsline {chapter}{\numberline {B}Manual del programador}{47}{appendix.Alph2}

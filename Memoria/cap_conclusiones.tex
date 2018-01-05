@@ -1,5 +1,37 @@
 \chapter{Conclusiones y trabajo futuro}
 \label{chap:conclusiones}
+\section{Conclusiones}
+El estudio sobre diversas tecnologías que me ha proporcionado este proyecto ha motivado aún más mi interés por la seguridad informática, así como la concienciación sobre la importancia del derecho a la privacidad.
+Es un hecho que en el momento en que nos conectamos a Internet estamos siendo observados tanto por \textbf{entidades privadas} como por aquellas otras financiadas por los gobiernos, las cuales monitorizan y registran cada una de nuestras actividades en la red. Éste hecho es especialmente destacable en países como \textbf{Estados Unidos}, donde mediante las medidas de vigilancia y vigencia de leyes mordaza se le permite al gobierno el forzar secretamente a compañías a garantizar el acceso a datos de clientes y usuarios, transformando con ello un servicio en una herramienta de vigilancia. 
 
+La importancia que le dan los usuarios a la privacidad se ha ido viendo incrementada en los últimos años debido a numerosos hechos(como filtraciones de datos en páginas web reconocidas), pero hay otra gran masa que piensa que no es un problema que sus datos personales circulen por la red. 
+En realidad la exigencia de un mayor grado de privacidad no sería tan necesario de no ser por los continuos abusos y el control que tienen las grandes empresas con todos los usuarios que utilizamos diariamente Internet.
+
+Debido a estas surgentes invasiones a la privacidad, es el momento de considerar el uso de \textbf{tecnologías que apoyen el derecho a la privacidad}. 
+
+Como se ha visto en el capítulo 2.3, el uso de servidores proxy, VPNs ó redes anónimas alternativas a Internet son muy buenas opciones para ello. En la herramienta desarrollada en este proyecto se ha querido partir de la base de algunas de estas tecnologías, como \textit{mailers }anónimos y el servicio Tor, para proporcionar al usuario final una herramienta que permita realizar tareas del día a día en Internet de una forma más anónima. 
+La aplicación diseñada puede considerarse una primera aproximación para proteger nuestros datos personales, y podría utilizarse con medidas adicionales como las ya mencionadas en este documento para incrementar aún más el grado de privacidad.
+
+Para terminar, conviene mencionar que el estudio necesario para el desarrollo de esta herramienta ha reforzado mis conocimientos tanto de librerías que desconocía como del manejo con el propio lenguaje Python. 
+
+\section{Trabajo futuro}
+
+Pese a que se ha realizado un estudio de muchas tecnologías contra la protección de la privacidad, gran parte de ellas no han sido integradas en la aplicación final debido a la envergadura del proyecto.
+
+\begin{itemize}
+	\item \textbf{Actualización continua de los módulos del paquete \textit{accounts}}: La utilización de herramientas de \textit{web-scraping} para la examinación de sitios web con el fin de registrar usuarios automáticamente tiene un problema, y es que \textbf{depende totalmente de la estructura del sitio web.} Es decir, que en el momento en el que la web efectúe algún cambio con respecto a las páginas de formulario de registro ó inicio de sesión, será necesario actualizar el módulo correspondiente a dicha página para hacerla acorde a la nueva estructura. Por ello, el mantenimiento constante de la aplicación es algo esencial para su correcto funcionamiento.
+	\item \textbf{Implementación de nuevos módulos en el paquete de \textit{accounts}}: Se han desarrollado varios módulos de ejemplo en páginas diferentes entre sí. No obstante, la ampliación del número de páginas disponibles no supondría un gran esfuerzo, debido a la posibilidad de reutilizar gran parte del código de otros módulos. También se podría considerar el hecho de añadir más acciones automáticas en cada página.
+	\item \textbf{Adición de nuevas tecnologías existentes}: Habilitar un módulo que conecte automáticamente a un servidor \textit{proxy} ó una VPN, así como la inclusión de nuevas medidas de ofuscación de estilometrías.
+	\item \textbf{Gestor completo de la base de datos}: Una mejora a tener en cuenta sería la de incluir un gestor que permita insertar usuarios manualmente, borrarlos, visualizar los usuarios en cada tabla, todo ello directamente por consola.
+	\item \textbf{Gestor completo de la base de datos}: Una mejora a tener en cuenta sería la de incluir un gestor que permita insertar usuarios manualmente, borrarlos, visualizar los usuarios en cada tabla, etcétera. Todo ello directamente por consola.	
+	\item \textbf{Interfaz gráfica}: Podría estudiarse la posibilidad incluir un entorno gráfico vistoso que permita realizar cada una de las funcionalidades que ofrece la herramienta.
+	\item \textbf{Base de datos compartida}: La compartición de las tablas de usuarios registrados de la base de datos entre dos ó más usuarios de la herramienta haría innecesario el tener que registrar un gran número de usuarios individualmente, al mismo tiempo que favorecería a la ofuscación de emisor, al ser utilizado en más de un equipo.
+	\item \textbf{Sistema de \textit{feedback}}: Habilitar un sistema de opiniones ó recomendaciones al desarrollador por parte de los usuarios de la aplicación.	
+	\item \textbf{Mejoras de tiempo de ejecución}: Se podría conseguir mediante el uso de \textit{WebDrivers} más ligeros como PhantomJS ó la disminución del retardo a la hora de rellenar formularios de registro.	
+	
+\end{itemize}
+
+
+Todas estas mejoras podrían realizarse mediante ayudas de desarrolladores debido a que la aplicación es de código libre y abierto, el enlace al repositorio está incluído en el \textbf{ANEXO}.
 
 \newpage \thispagestyle{empty} % Página vacía 
