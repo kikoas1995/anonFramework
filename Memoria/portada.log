@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.11.29)  2 DEC 2017 22:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.29)  10 JAN 2018 23:47
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **portada.tex
 (./portada.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 8 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 
 ! LaTeX Error: Environment titlepage undefined.
 
@@ -13,7 +13,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 \begin{titlepage}
+l.2 \begin{titlepage}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -26,88 +26,90 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 \begin{center}
+l.4 \begin{center}
                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 3--3
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--4
 [] 
  []
 
 ! Undefined control sequence.
-l.7 \LARGE
-           \textsc{Universidad Autónoma de Madrid}\\
+l.8 \LARGE
+           \textsc{Universidad AutÃ³noma de Madrid}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no ó in font cmcsc10!
+Missing character: There is no Ã in font cmcsc10!
+Missing character: There is no ³ in font cmcsc10!
 
-Overfull \hbox (61.0275pt too wide) in paragraph at lines 7--7
+Overfull \hbox (61.0275pt too wide) in paragraph at lines 8--8
  \OT1/cmr/m/sc/10 Universidad 
  []
 
 
-Overfull \hbox (23.66927pt too wide) in paragraph at lines 7--7
+Overfull \hbox (23.66927pt too wide) in paragraph at lines 8--8
  \OT1/cmr/m/sc/10 Aut- 
  []
 
 
-Overfull \hbox (26.08879pt too wide) in paragraph at lines 7--7
+Overfull \hbox (26.08879pt too wide) in paragraph at lines 8--8
  \OT1/cmr/m/sc/10 noma 
  []
 
 
-Overfull \hbox (11.82217pt too wide) in paragraph at lines 7--7
+Overfull \hbox (11.82217pt too wide) in paragraph at lines 8--8
  \OT1/cmr/m/sc/10 de 
  []
 
 
-Overfull \hbox (37.55536pt too wide) in paragraph at lines 7--7
+Overfull \hbox (37.55536pt too wide) in paragraph at lines 8--8
  \OT1/cmr/m/sc/10 Madrid 
  []
 
 ! Undefined control sequence.
-l.11 \large
-            \textsc{Escuela politécnica superior}\\
+l.12 \large
+            \textsc{Escuela politÃ©cnica superior}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no é in font cmcsc10!
+Missing character: There is no Ã in font cmcsc10!
+Missing character: There is no © in font cmcsc10!
 
-Overfull \hbox (40.88309pt too wide) in paragraph at lines 11--11
+Overfull \hbox (40.88309pt too wide) in paragraph at lines 12--12
  []\OT1/cmr/m/sc/10 Escuela 
  []
 
 
-Overfull \hbox (35.68866pt too wide) in paragraph at lines 11--11
+Overfull \hbox (35.68866pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/sc/10 politc- 
  []
 
 
-Overfull \hbox (21.1999pt too wide) in paragraph at lines 11--11
+Overfull \hbox (21.1999pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/sc/10 nica 
  []
 
 
-Overfull \hbox (14.48882pt too wide) in paragraph at lines 11--11
+Overfull \hbox (14.48882pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/sc/10 su- 
  []
 
 
-Overfull \hbox (14.93323pt too wide) in paragraph at lines 11--11
+Overfull \hbox (14.93323pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/sc/10 pe- 
  []
 
 
-Overfull \hbox (21.42213pt too wide) in paragraph at lines 11--11
+Overfull \hbox (21.42213pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/sc/10 rior 
  []
 
@@ -118,7 +120,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 \begin{figure}
+l.16 \begin{figure}
                    [h]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -130,7 +132,7 @@ Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 <argument> \epsfig 
                    {figure=images/logo_eps.eps,width=0.5\linewidth }
-l.18 ...=images/logo_eps.eps,width=0.5\linewidth}}
+l.19 ...=images/logo_eps.eps,width=0.5\linewidth}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -159,19 +161,19 @@ Missing character: There is no o in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.18 ...=images/logo_eps.eps,width=0.5\linewidth}}
+l.19 ...=images/logo_eps.eps,width=0.5\linewidth}}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 18.
+(Font)              <7> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 18.
+(Font)              <5> on input line 19.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.18 ...=images/logo_eps.eps,width=0.5\linewidth}}
+l.19 ...=images/logo_eps.eps,width=0.5\linewidth}}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -180,7 +182,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.18 ...=images/logo_eps.eps,width=0.5\linewidth}}
+l.19 ...=images/logo_eps.eps,width=0.5\linewidth}}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -192,7 +194,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Extra }, or forgotten $.
 <recently read> }
                  
-l.18 ...=images/logo_eps.eps,width=0.5\linewidth}}
+l.19 ...=images/logo_eps.eps,width=0.5\linewidth}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -203,7 +205,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \rightline #1->\@@line {\hss #1}
                                 
-l.18 ...=images/logo_eps.eps,width=0.5\linewidth}}
+l.19 ...=images/logo_eps.eps,width=0.5\linewidth}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -214,7 +216,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.19         \end{minipage}
+l.20         \end{minipage}
                            
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -222,7 +224,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.19         \end{minipage}
+l.20         \end{minipage}
                            
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -233,7 +235,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.19         \end{minipage}
+l.20         \end{minipage}
                            
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -244,7 +246,7 @@ my insertion and my current dilemma will both disappear.
 ! Undefined control sequence.
 <argument> \epsfig 
                    {figure=images/logo_uam.eps,width=0.5\linewidth }
-l.21 ...=images/logo_uam.eps,width=0.5\linewidth}}
+l.22 ...=images/logo_uam.eps,width=0.5\linewidth}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -273,7 +275,7 @@ Missing character: There is no o in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.21 ...=images/logo_uam.eps,width=0.5\linewidth}}
+l.22 ...=images/logo_uam.eps,width=0.5\linewidth}}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -281,7 +283,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.21 ...=images/logo_uam.eps,width=0.5\linewidth}}
+l.22 ...=images/logo_uam.eps,width=0.5\linewidth}}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -290,7 +292,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.21 ...=images/logo_uam.eps,width=0.5\linewidth}}
+l.22 ...=images/logo_uam.eps,width=0.5\linewidth}}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -302,7 +304,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Extra }, or forgotten $.
 <recently read> }
                  
-l.21 ...=images/logo_uam.eps,width=0.5\linewidth}}
+l.22 ...=images/logo_uam.eps,width=0.5\linewidth}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -313,7 +315,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \leftline #1->\@@line {#1\hss }
                                
-l.21 ...=images/logo_uam.eps,width=0.5\linewidth}}
+l.22 ...=images/logo_uam.eps,width=0.5\linewidth}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -324,7 +326,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.22         \end{minipage}
+l.23         \end{minipage}
                            
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -332,7 +334,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.22         \end{minipage}
+l.23         \end{minipage}
                            
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -343,7 +345,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.22         \end{minipage}
+l.23         \end{minipage}
                            
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -352,20 +354,20 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-! LaTeX Error: \begin{center} on input line 3 ended by \end{figure}.
+! LaTeX Error: \begin{center} on input line 4 ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 \end{figure}
+l.26 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.27 \Huge
+l.28 \Huge
            \carrera\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -374,7 +376,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 \Huge \carrera
+l.28 \Huge \carrera
                    \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -389,14 +391,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 \Huge \carrera\\
+l.28 \Huge \carrera\\
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.31 \Huge
+l.32 \Huge
            \textsc{Trabajo Fin de Grado}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -405,27 +407,27 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (42.54982pt too wide) in paragraph at lines 31--31
+Overfull \hbox (42.54982pt too wide) in paragraph at lines 32--32
  []\OT1/cmr/m/sc/10 Trabajo 
  []
 
 
-Overfull \hbox (16.28046pt too wide) in paragraph at lines 31--31
+Overfull \hbox (16.28046pt too wide) in paragraph at lines 32--32
  \OT1/cmr/m/sc/10 Fin 
  []
 
 
-Overfull \hbox (11.82217pt too wide) in paragraph at lines 31--31
+Overfull \hbox (11.82217pt too wide) in paragraph at lines 32--32
  \OT1/cmr/m/sc/10 de 
  []
 
 
-Overfull \hbox (33.26929pt too wide) in paragraph at lines 31--31
+Overfull \hbox (33.26929pt too wide) in paragraph at lines 32--32
  \OT1/cmr/m/sc/10 Grado 
  []
 
 ! Undefined control sequence.
-l.35 \Huge
+l.36 \Huge
            \MakeUppercase{\textbf{\titulo}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -436,7 +438,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \textbf {\titulo 
                             }
-l.35 \Huge \MakeUppercase{\textbf{\titulo}}
+l.36 \Huge \MakeUppercase{\textbf{\titulo}}
                                            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -445,7 +447,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.40 \Large
+l.41 \Large
             \autor\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -454,7 +456,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.40 \Large \autor
+l.41 \Large \autor
                   \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -469,40 +471,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \Large \autor\\
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-<recently read> \Large 
-                       
-l.41 \Large
-            \tutor\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.41 \Large \tutor
-                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.41 \Large \tutor\\
+l.41 \Large \autor\\
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -512,7 +481,7 @@ or  <return>  to continue without it.
 <recently read> \Large 
                        
 l.42 \Large
-            \ponente\\
+            \tutor
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -520,29 +489,16 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.42 \Large \ponente
-                    \\
+l.42 \Large \tutor
+                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.42 \Large \ponente\\
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 ! Undefined control sequence.
-l.46 \Large
+l.47 \Large
             \fecha
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -551,7 +507,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.46 \Large \fecha
+l.47 \Large \fecha
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -566,7 +522,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 \end{titlepage}
+l.51 \end{titlepage}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -580,7 +536,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 \normalsize
+l.53 \normalsize
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -594,18 +550,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 \newpage
-              \thispagestyle{empty} % Página vacía
+l.56 \newpage
+              \thispagestyle{empty} % PÃ¡gina vacÃ­a
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[1
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 ! Undefined control sequence.
 <write> \newlabel{fig:Escudos}{{}{\thepage 
                                            }}
-l.55 \newpage
-              \thispagestyle{empty} % Página vacía
+l.56 \newpage
+              \thispagestyle{empty} % PÃ¡gina vacÃ­a
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -621,11 +577,11 @@ and I'll forget about whatever was undefined.
 
  
 Here is how much of TeX's memory you used:
- 20 strings out of 494851
- 273 string characters out of 6178049
- 46922 words of memory out of 5000000
- 3417 multiletter control sequences out of 15000+600000
+ 21 strings out of 493029
+ 283 string characters out of 6136234
+ 54067 words of memory out of 5000000
+ 3653 multiletter control sequences out of 15000+600000
  4249 words of font info for 16 fonts, out of 8000000 for 9000
- 62 hyphenation exceptions out of 8191
+ 1141 hyphenation exceptions out of 8191
  20i,4n,13p,109b,221s stack positions out of 5000i,500n,10000p,200000b,80000s
-Output written on portada.dvi (1 page, 344 bytes).
+!  ==> Fatal error occurred, no output PDF file produced!

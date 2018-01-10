@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.3)  5 JAN 2018 02:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.29)  10 JAN 2018 23:48
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **PLANTILLA_TFG.tex
 (./PLANTILLA_TFG.tex
@@ -1077,13 +1077,13 @@ LaTeX Info: Redefining \nameref on input line 85.
 
  (./portada.tex
 Package epstopdf Info: Source file: <images/logo_eps.eps>
-(epstopdf)                    date: 2008-02-26 18:00:01
+(epstopdf)                    date: 2018-01-09 08:58:18
 (epstopdf)                    size: 1349715 bytes
 (epstopdf)             Output file: <images/logo_eps-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-19 13:03:42
+(epstopdf)                    date: 2018-01-09 08:58:18
 (epstopdf)                    size: 42740 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/logo_eps-eps-conver
-ted-to.pdf images/logo_eps.eps>
+(epstopdf)             Command: <epstopdf --outfile=images/logo_eps-eps-convert
+ed-to.pdf images/logo_eps.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1095,13 +1095,13 @@ Package pdftex.def Info: images/logo_eps-eps-converted-to.pdf used on input lin
 e 19.
 (pdftex.def)             Requested size: 112.10844pt x 97.92664pt.
 Package epstopdf Info: Source file: <images/logo_uam.eps>
-(epstopdf)                    date: 2008-02-26 17:59:38
+(epstopdf)                    date: 2018-01-09 08:58:18
 (epstopdf)                    size: 868675 bytes
 (epstopdf)             Output file: <images/logo_uam-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-19 13:03:43
+(epstopdf)                    date: 2018-01-09 08:58:18
 (epstopdf)                    size: 118930 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/logo_uam-eps-conver
-ted-to.pdf images/logo_uam.eps>
+(epstopdf)             Command: <epstopdf --outfile=images/logo_uam-eps-convert
+ed-to.pdf images/logo_uam.eps>
 (epstopdf)             \includegraphics on input line 22.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -3864,36 +3864,35 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 13751 strings out of 493029
- 188576 string characters out of 6136234
- 349300 words of memory out of 5000000
- 16779 multiletter control sequences out of 15000+600000
+ 13750 strings out of 493029
+ 188569 string characters out of 6136234
+ 350268 words of memory out of 5000000
+ 16778 multiletter control sequences out of 15000+600000
  29657 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,12n,47p,3244b,662s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/kiko/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/ki
-ko/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1200.600pk> </home/kiko/.texmf-va
-r/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/kiko/.texmf-var/fonts/pk/l
-jfour/jknappen/ec/ecbi1095.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips
-/base/8r.enc} </home/kiko/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk
-> </home/kiko/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecxc1095.600pk> </home/kik
-o/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/kiko/.texmf-var
-/fonts/pk/ljfour/jknappen/ec/ecti1095.600pk> </home/kiko/.texmf-var/fonts/pk/lj
-four/jknappen/ec/ecrm1095.600pk> </home/kiko/.texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecbx1440.600pk> </home/kiko/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm207
-4.600pk> </home/kiko/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1095.600pk> </h
-ome/kiko/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/kiko/.te
-xmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/kiko/.texmf-var/font
-s/pk/ljfour/jknappen/ec/eccc2488.600pk> </home/kiko/.texmf-var/fonts/pk/ljfour/
-jknappen/ec/ecrm2488.600pk> </home/kiko/.texmf-var/fonts/pk/ljfour/jknappen/ec/
-eccc1200.600pk> </home/kiko/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1728.600
-pk></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on PLANTILLA_TFG.pdf (61 pages, 1447968 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
+e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/t
+ype1/bitstrea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbi10
+95.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbi1200.pfb></usr/share/t
+exmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx144
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1728
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc2488.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texm
+f/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sfrm2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.p
+fb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1095.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/bookman/ubkd8a.pfb>
+Output written on PLANTILLA_TFG.pdf (61 pages, 1590790 bytes).
 PDF statistics:
- 1267 PDF objects out of 1440 (max. 8388607)
- 611 compressed objects within 7 object streams
+ 716 PDF objects out of 1000 (max. 8388607)
+ 594 compressed objects within 6 object streams
  158 named destinations out of 1000 (max. 500000)
  472 words of extra memory for PDF output out of 10000 (max. 10000000)
 
