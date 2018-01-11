@@ -4,24 +4,24 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Porcentaje de poblaci\IeC {\'o}n con perfil en Facebook\relax }}{2}{figure.caption.12}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Resultados del estudio en Pew Research Center's and American Life Project hecho en Julio de 2014\relax }}{6}{figure.caption.13}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Funcionamiento de un Web proxy o Proxy service\relax }}{9}{figure.caption.15}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Funcionamiento de un Proxy Cach\IeC {\'e}\relax }}{9}{figure.caption.17}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Funcionamiento de un Web proxy o Proxy service\relax }}{10}{figure.caption.15}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Funcionamiento de un Proxy Cach\IeC {\'e}\relax }}{10}{figure.caption.17}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Funcionamiento de un Proxy transparente\relax }}{10}{figure.caption.19}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Ejemplo de una cadena de proxies\relax }}{11}{figure.caption.23}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Cadena din\IeC {\'a}mica\relax }}{11}{figure.caption.24}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Cadena estricta\relax }}{11}{figure.caption.25}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Ejemplo de paquetes IP con diferentes niveles de seguridad de encapsulaci\IeC {\'o}n\relax }}{13}{figure.caption.26}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Cadena din\IeC {\'a}mica\relax }}{12}{figure.caption.24}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Cadena estricta\relax }}{12}{figure.caption.25}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Ejemplo de paquetes IP con diferentes niveles de seguridad de encapsulaci\IeC {\'o}n\relax }}{14}{figure.caption.26}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Fuente: \textit {https://technet.microsoft.com/pt-pt/library/cc779919(v=ws.10).aspx}\relax }}{14}{figure.caption.27}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Imagen extra\IeC {\'\i }da del art\IeC {\'\i }culo \textit {The data of the dark web - The Econommist}.\relax }}{17}{figure.caption.29}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Funcionamiento b\IeC {\'a}sico de la transmisi\IeC {\'o}n de paquetes en I2P mediante tunelizaci\IeC {\'o}n.\relax }}{18}{figure.caption.31}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces \textit {Output} de la contrase\IeC {\~n}a generada.\relax }}{20}{figure.caption.34}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Configuraci\IeC {\'o}n del \textit {controller}.\relax }}{21}{figure.caption.35}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces \textit {Output} del script cuando es lanzado el servicio oculto.\relax }}{21}{figure.caption.36}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces \textit {Hidden service} en funcionamiento.\relax }}{21}{figure.caption.37}
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Servicio "tor" junto con otros servidores proxy en la herramienta \textit {proxychains}\relax }}{21}{figure.caption.38}
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Ejecuci\IeC {\'o}n de \textit {Onionshare} por consola\relax }}{22}{figure.caption.39}
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Hidden-service creado, con posibilidad de descargar el archivo\relax }}{22}{figure.caption.40}
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Informaci\IeC {\'o}n recogida de los nodos de salida Tor utilizando una instancia en ejecuci\IeC {\'o}n\relax }}{24}{figure.caption.44}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Imagen extra\IeC {\'\i }da del art\IeC {\'\i }culo \textit {The data of the dark web - The Econommist}.\relax }}{18}{figure.caption.29}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Funcionamiento b\IeC {\'a}sico de la transmisi\IeC {\'o}n de paquetes en I2P mediante tunelizaci\IeC {\'o}n.\relax }}{19}{figure.caption.31}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces \textit {Output} de la contrase\IeC {\~n}a generada.\relax }}{21}{figure.caption.34}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Configuraci\IeC {\'o}n del \textit {controller}.\relax }}{22}{figure.caption.35}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces \textit {Output} del script cuando es lanzado el servicio oculto.\relax }}{22}{figure.caption.36}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces \textit {Hidden service} en funcionamiento.\relax }}{22}{figure.caption.37}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Servicio "tor" junto con otros servidores proxy en la herramienta \textit {proxychains}\relax }}{22}{figure.caption.38}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Ejecuci\IeC {\'o}n de \textit {Onionshare} por consola\relax }}{23}{figure.caption.39}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Hidden-service creado, con posibilidad de descargar el archivo\relax }}{23}{figure.caption.40}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Informaci\IeC {\'o}n recogida de los nodos de salida Tor utilizando una instancia en ejecuci\IeC {\'o}n\relax }}{25}{figure.caption.44}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Ejemplo de uso sin ofuscar el cuerpo de texto\relax }}{33}{figure.caption.49}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Ejemplo de uso ofuscando el cuerpo de texto\relax }}{33}{figure.caption.50}

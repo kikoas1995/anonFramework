@@ -1,8 +1,33 @@
 \begin{thebibliography}{1}
 
-\bibitem{article:Ejemplo}
-Autor Apellidos.
-\newblock Titulo del artículo.
-\newblock {\em Revista de publicación}, pages 65--73, 2008.
+\bibitem{cavoukian2009privacy}
+Ann Cavoukian.
+\newblock Privacy by design.
+\newblock {\em Take the challenge. Information and privacy commissioner of
+  Ontario, Canada}, 2009.
+
+\bibitem{danezis2010critical}
+George Danezis and Seda G{\"u}rses.
+\newblock A critical review of 10 years of privacy technology.
+\newblock {\em Proceedings of surveillance cultures: a global surveillance
+  society}, pages 1--16, 2010.
+
+\bibitem{lane2014privacy}
+Julia Lane, Victoria Stodden, Stefan Bender, and Helen Nissenbaum.
+\newblock {\em Privacy, big data, and the public good: Frameworks for
+  engagement}.
+\newblock Cambridge University Press, 2014.
+
+\bibitem{brunton2015obfuscation}
+Finn Brunton and Helen Nissenbaum.
+\newblock {\em Obfuscation: A user's guide for privacy and protest}.
+\newblock Mit Press, 2015.
+
+\bibitem{pfitzmann2010terminology}
+Andreas Pfitzmann and Marit Hansen.
+\newblock A terminology for talking about privacy by data minimization:
+  Anonymity, unlinkability, undetectability, unobservability, pseudonymity, and
+  identity management.
+\newblock \url{http://dud.inf.tu-dresden.de/Anon_Terminology.shtml}.
 
 \end{thebibliography}
