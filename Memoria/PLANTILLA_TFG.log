@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.29)  11 JAN 2018 01:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.29)  11 JAN 2018 18:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2603,120 +2603,128 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 916.
  [23 <./images/onionshare1.png> <./images/onionshare2.png>]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 943.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 943.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 943.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 943.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 943.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 943.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 944.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 944.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 944.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 944.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 944.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 944.
 
-Overfull \hbox (71.16986pt too wide) in paragraph at lines 960--963
+Package natbib Warning: Citation `caliskan2015coding' on page 24 undefined on i
+nput line 920.
+
+
+Package natbib Warning: Citation `caliskan2015anonymizing' on page 24 undefined
+ on input line 920.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 945.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 945.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 945.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 945.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 945.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 945.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 946.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 946.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 946.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 946.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 946.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 946.
+
+Overfull \hbox (71.16986pt too wide) in paragraph at lines 962--965
 []\T1/cmr/m/n/10.95 El pro-yec-to es re-la-ti-va-men-te re-cien-te y fue crea-d
 o por \T1/cmr/bx/it/10.95 Adas-tra\T1/cmr/m/n/10.95 , el crea-dor del blog http
 s://thehackerway.net. 
  []
 
-LaTeX Info: Redefining \. on input line 973.
-LaTeX Info: Redefining \% on input line 973.
+LaTeX Info: Redefining \. on input line 974.
+LaTeX Info: Redefining \% on input line 974.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 973.
+(babel)             in language  on input line 974.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 973.
+(babel)             in language  on input line 974.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 973.
+(babel)             in language  on input line 974.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 973.
+(babel)             in language  on input line 974.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 973.
+(babel)             in language  on input line 974.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 973.
+(babel)             in language  on input line 974.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 973.
+(babel)             in language  on input line 974.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 973.
+(babel)             in language  on input line 974.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 973.
+(babel)             in language  on input line 974.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 973.
+(babel)             in language  on input line 974.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 973.
+(babel)             in language  on input line 974.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 973.
+(babel)             in language  on input line 974.
 [24] <images/tortazo_OR1.png, id=522, 1551.7975pt x 512.91624pt>
 File: images/tortazo_OR1.png Graphic file (type png)
 
 <use images/tortazo_OR1.png>
-Package pdftex.def Info: images/tortazo_OR1.png used on input line 1001.
+Package pdftex.def Info: images/tortazo_OR1.png used on input line 1003.
 (pdftex.def)             Requested size: 361.34999pt x 119.4318pt.
 
-Overfull \hbox (1.21765pt too wide) in paragraph at lines 1013--1014
+Overfull \hbox (1.21765pt too wide) in paragraph at lines 1015--1016
 \T1/cmr/m/n/10.95 Por úl-ti-mo, men-cio-nar que cuen-ta con un buen nú-me-ro de
  plug-ins(\T1/cmr/m/it/10.95 crawler, bru-ter, w3afplugin...\T1/cmr/m/n/10.95 )
 ,
  []
 
 
-Overfull \hbox (59.97092pt too wide) in paragraph at lines 1013--1014
+Overfull \hbox (59.97092pt too wide) in paragraph at lines 1015--1016
 \T1/cmr/m/n/10.95 cu-ya in-for-ma-ción de-ta-lla-da es-tá dis-po-ni-ble en la p
 á-gi-na del pro-yec-to http://tortazo.readthedocs.io/en/latest/. 
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1015.
+(babel)             in language  on input line 1017.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1015.
+(babel)             in language  on input line 1017.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1015.
+(babel)             in language  on input line 1017.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1015.
+(babel)             in language  on input line 1017.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1015.
+(babel)             in language  on input line 1017.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1015.
-LaTeX Info: Redefining \. on input line 1024.
-LaTeX Info: Redefining \% on input line 1024.
+(babel)             in language  on input line 1017.
+LaTeX Info: Redefining \. on input line 1026.
+LaTeX Info: Redefining \% on input line 1026.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1024.
+(babel)             in language  on input line 1026.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1024.
+(babel)             in language  on input line 1026.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1024.
+(babel)             in language  on input line 1026.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1024.
+(babel)             in language  on input line 1026.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1024.
+(babel)             in language  on input line 1026.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1024.
+(babel)             in language  on input line 1026.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1024.
+(babel)             in language  on input line 1026.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1024.
+(babel)             in language  on input line 1026.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1024.
+(babel)             in language  on input line 1026.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1024.
+(babel)             in language  on input line 1026.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1024.
+(babel)             in language  on input line 1026.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1024.
+(babel)             in language  on input line 1026.
 [25 <./images/tortazo_OR1.png>]) (./cap_sistemadesarrollado.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -3867,9 +3875,12 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 5.
 [47])
+
+Package natbib Warning: There were undefined citations.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
- (./PLANTILLA_TFG.aux
+(./PLANTILLA_TFG.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 LaTeX Info: Redefining \. on input line 27.
@@ -3886,10 +3897,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
  ) 
 Here is how much of TeX's memory you used:
- 13795 strings out of 493029
- 189721 string characters out of 6136234
+ 13797 strings out of 493029
+ 189766 string characters out of 6136234
  350485 words of memory out of 5000000
- 16815 multiletter control sequences out of 15000+600000
+ 16817 multiletter control sequences out of 15000+600000
  29971 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,12n,47p,3244b,662s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3912,7 +3923,7 @@ f/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public
 fb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf
 /fonts/type1/public/cm-super/sfxc1095.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/bookman/ubkd8a.pfb>
-Output written on PLANTILLA_TFG.pdf (61 pages, 1631075 bytes).
+Output written on PLANTILLA_TFG.pdf (61 pages, 1631452 bytes).
 PDF statistics:
  748 PDF objects out of 1000 (max. 8388607)
  624 compressed objects within 7 object streams

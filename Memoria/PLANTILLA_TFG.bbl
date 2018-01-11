@@ -30,4 +30,18 @@ Andreas Pfitzmann and Marit Hansen.
   identity management.
 \newblock \url{http://dud.inf.tu-dresden.de/Anon_Terminology.shtml}.
 
+\bibitem{caliskan2015coding}
+Aylin Caliskan-Islam, Fabian Yamaguchi, Edwin Dauber, Richard Harang, Konrad
+  Rieck, Rachel Greenstadt, and Arvind Narayanan.
+\newblock When coding style survives compilation: De-anonymizing programmers
+  from executable binaries.
+\newblock {\em arXiv preprint arXiv:1512.08546}, 2015.
+
+\bibitem{caliskan2015anonymizing}
+Aylin Caliskan-Islam, Richard Harang, Andrew Liu, Arvind Narayanan, Clare Voss,
+  Fabian Yamaguchi, and Rachel Greenstadt.
+\newblock De-anonymizing programmers via code stylometry.
+\newblock In {\em 24th USENIX Security Symposium (USENIX Security), Washington,
+  DC}, 2015.
+
 \end{thebibliography}

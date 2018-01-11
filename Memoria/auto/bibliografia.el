@@ -7,6 +7,8 @@
     "danezis2010critical"
     "lane2014privacy"
     "brunton2015obfuscation"
-    "pfitzmann2010terminology"))
+    "pfitzmann2010terminology"
+    "caliskan2015anonymizing"
+    "caliskan2015coding"))
  :bibtex)
 
