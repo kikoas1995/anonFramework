@@ -132,7 +132,7 @@ Yoni Heisler.
 
 \bibitem{article:cohen}
 Fred Cohen.
-\newblock Nov. 10, 1983: Computer 'virus' is born.
+\newblock Computer 'virus' is born.
 \newblock
   \url{https://www.wired.com/2009/11/1110fred-cohen-first-computer-virus//},
   Octubre 2009.
@@ -239,11 +239,6 @@ Fernando Gont.
 \newblock
   \url{https://www.si6networks.com/presentations/inet2010/fgont-inet2010-introduccion-ietf.pdf},
   2010.
-
-\bibitem{article:tunnelMode}
-How vpn work - vpn tunneling.
-\newblock
-  \url{https://technet.microsoft.com/pt-pt/library/cc779919(v=ws.10).aspx}.
 
 \bibitem{article:pptp}
 Mike~Erwin Paul~Wolfe, Charlie~Scott.

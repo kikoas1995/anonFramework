@@ -1,7 +1,7 @@
 \select@language {spanish}
 \select@language {spanish}
 \contentsline {chapter}{\IeC {\'I}ndice de Figuras}{\es@scroman {ix}}{chapter*.9}
-\contentsline {chapter}{\IeC {\'I}ndice de Tablas}{\es@scroman {x}}{chapter*.10}
+\contentsline {chapter}{\IeC {\'I}ndice de Tablas}{\es@scroman {ix}}{chapter*.10}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivaci\IeC {\'o}n del proyecto}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Objetivos y enfoque}{2}{section.1.2}

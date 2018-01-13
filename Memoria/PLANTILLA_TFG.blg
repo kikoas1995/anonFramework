@@ -8,14 +8,13 @@ I was expecting a `,' or a `}'---line 45 of file bibliografia.bib
  :  publisher={Cambridge University Press}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "paper:danezis2010"
 Too many commas in name 1 of "Patrick Carnahan, Dusty Roberts, Zack Shay, y Jeff Yeary" for entry article:motivationvirus
 while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "George Danezis, Roger Dingledine, David Hopwood, y Nick Mathewson" for entry article:remailer
 while executing---line 944 of file unsrt.bst
 You've used 48 entries,
             1791 wiz_defined-function locations,
-            663 strings with 11211 characters,
+            662 strings with 11179 characters,
 and the built_in function-call counts, 6319 in all, are:
 = -- 517
 > -- 214
