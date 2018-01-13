@@ -1,4 +1,80 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{article:google}
+Tim Herrera.
+\newblock How to see what the internet knows about you.
+\newblock
+  \url{https://www.nytimes.com/2017/07/03/smarter-living/how-to-see-what-the-internet-knows-about-you.html},
+  Julio 2017.
+
+\bibitem{article:FacebookStats}
+Miniwatts~Marketing Group.
+\newblock Facebook subscribers in the world by geographic regions.
+\newblock \url{http://www.internetworldstats.com/facebook.htm}, 2017.
+
+\bibitem{article:pew}
+Ruogu Kang y Mary~Madden Lee~Rainie, Sara~Kiesler.
+\newblock Anonymity, privacy, and security online.
+\newblock
+  \url{http://www.pewinternet.org/2013/09/05/anonymity-privacy-and-security-online/},
+  Septiembre 2013.
+
+\bibitem{article:proxy_trans}
+Robert Gibb.
+\newblock What is a transparent proxy?
+\newblock \url{https://www.maxcdn.com/one/visual-glossary/transparent-proxy/},
+  Marzo 2015.
+
+\bibitem{article:ibm_ip}
+IBM.
+\newblock Transport mode and tunnel mode.
+\newblock
+  \url{https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.1.0/com.ibm.zos.v2r1.halz002/ipsecurity_ipsec_ah_esp_encap_modes.htm}.
+
+\bibitem{article:tunnelMode}
+How vpn work - vpn tunneling.
+\newblock
+  \url{https://technet.microsoft.com/pt-pt/library/cc779919(v=ws.10).aspx}.
+
+\bibitem{article:gwern}
+The Economist.
+\newblock The data of the dark web.
+\newblock
+  \url{https://www.economist.com/blogs/graphicdetail/2016/07/daily-chart-8},
+  Julio 2016.
+
+\bibitem{book:PrivacyBigDataPublicGood}
+Julia Lane, Victoria Stodden, Stefan Bender, and Helen Nissenbaum.
+\newblock Privacy, big data, and the public good: Frameworks for engagement,
+  2014.
+
+\bibitem{article:GDPRGoogle}
+David Llaró.
+\newblock Desaparece de internet con gdpr.
+\newblock \url{https://www.gruposothis.com/desaparece-internet-gdpr}, Noviembre
+  2017.
+
+\bibitem{article:expCiberseguridad}
+Andrea Núñez-Torrón Stock.
+\newblock Hacen falta 1,5 millones expertos en seguridad para los próximos
+  tres años.
+\newblock
+  \url{http://www.ticbeat.com/seguridad/faltan-expertos-ciberseguridad/},
+  Septiembre 2016.
+
+\bibitem{paper:secbydesign}
+Mark Dixon.
+\newblock Privacy and security by design: An enterprise architecture approach.
+\newblock
+  \url{https://www.ipc.on.ca/wp-content/uploads/Resources/pbd-privacy-and-security-by-design-oracle.pdf},
+  September 2013.
+
+\bibitem{paper:privacybydesign}
+Ann Cavoukian.
+\newblock Privacy by design: Los 7 principios fundamentales.
+\newblock
+  \url{https://www.acc.com/chapters/euro/upload/7foundationalprinciples-spanish.pdf},
+  Febrero 2011.
 
 \bibitem{cavoukian2009privacy}
 Ann Cavoukian.
@@ -6,11 +82,9 @@ Ann Cavoukian.
 \newblock {\em Take the challenge. Information and privacy commissioner of
   Ontario, Canada}, 2009.
 
-\bibitem{danezis2010critical}
+\bibitem{article:danezis2010}
 George Danezis and Seda G{\"u}rses.
-\newblock A critical review of 10 years of privacy technology.
-\newblock {\em Proceedings of surveillance cultures: a global surveillance
-  society}, pages 1--16, 2010.
+\newblock A critical review of 10 years of privacy technology, 2010.
 
 \bibitem{lane2014privacy}
 Julia Lane, Victoria Stodden, Stefan Bender, and Helen Nissenbaum.
@@ -18,30 +92,220 @@ Julia Lane, Victoria Stodden, Stefan Bender, and Helen Nissenbaum.
   engagement}.
 \newblock Cambridge University Press, 2014.
 
-\bibitem{brunton2015obfuscation}
-Finn Brunton and Helen Nissenbaum.
-\newblock {\em Obfuscation: A user's guide for privacy and protest}.
-\newblock Mit Press, 2015.
+\bibitem{article:concernidos}
+Lucy Handley.
+\newblock 60 percent of people in the us are worried about how much companies
+  know about them.
+\newblock
+  \url{https://www.cnbc.com/2017/10/17/60-percent-of-people-in-the-us-worry-about-privacy-and-brands.html},
+  Octubre 2017.
 
-\bibitem{pfitzmann2010terminology}
-Andreas Pfitzmann and Marit Hansen.
-\newblock A terminology for talking about privacy by data minimization:
-  Anonymity, unlinkability, undetectability, unobservability, pseudonymity, and
-  identity management.
-\newblock \url{http://dud.inf.tu-dresden.de/Anon_Terminology.shtml}.
+\bibitem{article:anopseudo}
+Helen Nissenbaum.
+\newblock Obfuscation: A user guide for privacy and protest.
+\newblock Capítulo 2: p.45-46, 2016.
 
-\bibitem{caliskan2015coding}
-Aylin Caliskan-Islam, Fabian Yamaguchi, Edwin Dauber, Richard Harang, Konrad
-  Rieck, Rachel Greenstadt, and Arvind Narayanan.
-\newblock When coding style survives compilation: De-anonymizing programmers
-  from executable binaries.
-\newblock {\em arXiv preprint arXiv:1512.08546}, 2015.
+\bibitem{article:automata}
+John~Von Neumann.
+\newblock The theory of self reproducing automata.
+\newblock \url{http://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf}, 1949.
 
-\bibitem{caliskan2015anonymizing}
-Aylin Caliskan-Islam, Richard Harang, Andrew Liu, Arvind Narayanan, Clare Voss,
-  Fabian Yamaguchi, and Rachel Greenstadt.
-\newblock De-anonymizing programmers via code stylometry.
-\newblock In {\em 24th USENIX Security Symposium (USENIX Security), Washington,
-  DC}, 2015.
+\bibitem{article:motivationvirus}
+Zack Shay y Jeff~Yeary Patrick~Carnahan, Dusty~Roberts.
+\newblock The motivation behind computer viruses.
+\newblock
+  \url{http://nnt.es/The%20motivation%20behind%20computer%20viruses.pdf}.
+
+\bibitem{article:nsa_tcp}
+Stu Sjouwerman.
+\newblock How the nsa killed internet security in 1978.
+\newblock
+  \url{https://blog.knowbe4.com/how-the-nsa-killed-internet-security-in-1978},
+  Junio 2015.
+
+\bibitem{article:cloner}
+Yoni Heisler.
+\newblock World’s first computer virus hit the apple ii 35 years ago.
+\newblock
+  \url{http://bgr.com/2017/03/20/malware-first-computer-virus-apple-elk-cloner/},
+  Marzo 2017.
+
+\bibitem{article:cohen}
+Fred Cohen.
+\newblock Nov. 10, 1983: Computer 'virus' is born.
+\newblock
+  \url{https://www.wired.com/2009/11/1110fred-cohen-first-computer-virus//},
+  Octubre 2009.
+
+\bibitem{article:ley}
+Miguel Estrada~Garavilla.
+\newblock Delitos informáticos.
+\newblock
+  \url{https://www.unifr.ch/ddp1/derechopenal/articulos/a_20080526_32.pdf},
+  Mayo 2008.
+
+\bibitem{article:brain}
+Claire Connelly.
+\newblock The birth of the first personal computer virus, brain.
+\newblock
+  \url{http://www.news.com.au/technology/the-birth-of-the-first-personal-computer-virus-brain/news-story/555b25e198059f56e1f0a4e4e902e8a8},
+  Enero 2011.
+
+\bibitem{article:staog}
+Jesús Maturana.
+\newblock La breve historia de los virus en gnu/linux, haberlos haylos.
+\newblock
+  \url{https://www.muyseguridad.net/2010/11/29/la-breve-historia-de-los-virus-en-gnulinux-haberlos-hailos/},
+  Noviembre 2010.
+
+\bibitem{article:number_malware}
+Bert Rankin.
+\newblock Malware platforms accelerate malware innovation and shift enterprise
+  defense in 2017.
+\newblock
+  \url{http://sandhill.com/article/malware-platforms-accelerate-malware-innovation-and-shift-enterprise-defense-in-2017/#},
+  Noviembre 2016.
+
+\bibitem{article:android}
+Daniela~Muena Bustos.
+\newblock Malware para dispositivos móviles(android).
+\newblock
+  \url{http://premios.eset-la.com/universitario/pdf/malaware_para_dispositivos_moviles_android.pdf},
+  2014.
+
+\bibitem{article:proxy}
+Patrick Lambert.
+\newblock The basics of using a proxy server for privacy and security.
+\newblock
+  \url{https://www.techrepublic.com/blog/it-security/the-basics-of-using-a-proxy-server-for-privacy-and-security/},
+  Diciembre 2012.
+
+\bibitem{article:proxy_rev}
+1 and 1~Digital Guide.
+\newblock Servidor proxy inverso: componente central de la seguridad.
+\newblock
+  \url{https://www.1and1.es/digitalguide/servidores/know-how/que-es-un-servidor-proxy-inverso/},
+  Junio 2017.
+
+\bibitem{article:nat}
+CISCO Papers.
+\newblock Network address translation.
+\newblock
+  \url{https://www.cisco.com/c/es_mx/support/docs/ip/network-address-translation-nat/13772-12.pdf/}.
+
+\bibitem{article:proxychains}
+Sanjib Sinha.
+\newblock Beginning ethical hacking with python.
+\newblock Páginas 179-183, Diciembre 2016.
+
+\bibitem{article:politicas}
+Seguimiento global - los catorce ojos.
+\newblock \url{https://victorhck.gitlab.io/privacytools-es/}.
+
+\bibitem{article:notoriedad}
+Elisa Reyes.
+\newblock Importancia de los vpn y las ventajas de su uso para 2016.
+\newblock
+  \url{https://www.datacenter1.com/blog/seguridad-informatica/la-importancia-de-los-vpn-y-las-ventajas-de-su-uso-para-2016/
+  }, Noviembre 2015.
+
+\bibitem{article:swipe}
+Mike~Chapple James M.~Stewart, Ed~Tittel.
+\newblock Information systems security professional study guide.
+\newblock p.125, 2008.
+
+\bibitem{article:ipsec}
+Hatem Farag.
+\newblock Ipsec story.
+\newblock \url{https://learningnetwork.cisco.com/docs/DOC-31750}, Diciembre
+  2016.
+
+\bibitem{article:levpn}
+Le-VPN.
+\newblock Historia de las vpn.
+\newblock \url{http://www.le-vpn.com/es/la-historia-de-la-vpn/}, Septiembre
+  2016.
+
+\bibitem{article:esp}
+Sergio~De Luz.
+\newblock Ipsec. volumen iii : Esp (carga de seguridad encapsulada).
+\newblock
+  \url{https://www.redeszone.net/2011/09/06/ipsec-volumen-iii-esp-carga-de-seguridad-encapsulada/},
+  Septiembre 2011.
+
+\bibitem{article:ietf}
+Fernando Gont.
+\newblock Introducción a la ietf (internet engineering task force).
+\newblock
+  \url{https://www.si6networks.com/presentations/inet2010/fgont-inet2010-introduccion-ietf.pdf},
+  2010.
+
+\bibitem{article:tunnelMode}
+How vpn work - vpn tunneling.
+\newblock
+  \url{https://technet.microsoft.com/pt-pt/library/cc779919(v=ws.10).aspx}.
+
+\bibitem{article:pptp}
+Mike~Erwin Paul~Wolfe, Charlie~Scott.
+\newblock Virtual private networks.
+\newblock
+  \url{https://www.safaribooksonline.com/library/view/virtual-private-networks/1565925297/ch04s02.html},
+  Diciembre 1998.
+
+\bibitem{article:sstp}
+Jenifer Castellano.
+\newblock Características protocolos vpn (openvpn, sstp, l2tp, ikev2 y pptp).
+\newblock
+  \url{https://www.solvetic.com/page/noticias/s/seguridad/caracteristicas-protocolos-vpn-openvpn-sstp-l2tp-ikev2-pptp},
+  Octubre 2017.
+
+\bibitem{article:deepweb}
+Daniel Echeverri.
+\newblock Deep web: Tor, freenet \& i2p.
+\newblock Capítulos 1.2, 2, 3, 4, 2016.
+
+\bibitem{article:i2p}
+Infosec Institute.
+\newblock Introduction to anonymizing networks – tor vs i2p.
+\newblock
+  \url{http://resources.infosecinstitute.com/anonymizing-networks-tor-vs-i2p/},
+  Novimebre 2012.
+
+\bibitem{article:freenet}
+Infosec Institute.
+\newblock How does freenet work?
+\newblock \url{https://latesthackingnews.com/2017/05/29/19914/}, Mayo 2017.
+
+\bibitem{article:data}
+Helen~Nissenbaum Victoria~Stodden, Stefan~Bender.
+\newblock Privacy big data, and the public good.
+\newblock Páginas 76-96, 2014.
+
+\bibitem{article:inmigrantes}
+Ron Nixon.
+\newblock Las redes sociales de quienes entren a estados unidos serán
+  revisadas.
+\newblock
+  \url{https://www.nytimes.com/es/2017/10/02/revision-redes-sociales-migracion-estados-unidos/},
+  Octubre 2017.
+
+\bibitem{article:matt}
+Sofía Diamante.
+\newblock Seguridad vs. privacidad, el debate del rol de internet.
+\newblock
+  \url{http://www.lanacion.com.ar/2031159-seguridad-vs-privacidad-el-debate-del-rol-de-internet},
+  Junio 2017.
+
+\bibitem{article:remailer}
+David Hopwood y Nick~Mathewson George~Danezis, Roger~Dingledine.
+\newblock Mixminion: Design of a type iii anonymous remailer protocol.
+\newblock
+  \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.508.6690&rep=rep1&type=pdf}.
+
+\bibitem{article:webscraping}
+Renita~Crystal Pereira.
+\newblock Web scraping of social networks.
+\newblock \url{https://www.ijircce.com/upload/2015/sacaim/43_710.pdf}, Octubre
+  2015.
 
 \end{thebibliography}

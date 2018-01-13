@@ -3,47 +3,55 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: PLANTILLA_TFG.aux
 The style file: unsrt.bst
 Database file #1: bibliografia.bib
-Warning--empty journal in pfitzmann2010terminology
-Warning--empty year in pfitzmann2010terminology
-You've used 7 entries,
+I was expecting a `,' or a `}'---line 45 of file bibliografia.bib
+ :  
+ :  publisher={Cambridge University Press}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "paper:danezis2010"
+Too many commas in name 1 of "Patrick Carnahan, Dusty Roberts, Zack Shay, y Jeff Yeary" for entry article:motivationvirus
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "George Danezis, Roger Dingledine, David Hopwood, y Nick Mathewson" for entry article:remailer
+while executing---line 944 of file unsrt.bst
+You've used 48 entries,
             1791 wiz_defined-function locations,
-            478 strings with 4986 characters,
-and the built_in function-call counts, 1374 in all, are:
-= -- 99
-> -- 88
-< -- 1
-+ -- 32
-- -- 25
-* -- 74
-:= -- 239
-add.period$ -- 21
-call.type$ -- 7
-change.case$ -- 5
+            663 strings with 11211 characters,
+and the built_in function-call counts, 6319 in all, are:
+= -- 517
+> -- 214
+< -- 0
++ -- 102
+- -- 54
+* -- 126
+:= -- 970
+add.period$ -- 140
+call.type$ -- 48
+change.case$ -- 47
 chr.to.int$ -- 0
-cite$ -- 9
-duplicate$ -- 70
-empty$ -- 130
-format.name$ -- 25
-if$ -- 300
+cite$ -- 48
+duplicate$ -- 248
+empty$ -- 862
+format.name$ -- 54
+if$ -- 1496
 int.to.chr$ -- 0
-int.to.str$ -- 7
-missing$ -- 9
-newline$ -- 38
-num.names$ -- 7
-pop$ -- 35
+int.to.str$ -- 48
+missing$ -- 3
+newline$ -- 239
+num.names$ -- 46
+pop$ -- 284
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 28
+skip$ -- 160
 stack$ -- 0
-substring$ -- 19
-swap$ -- 12
-text.length$ -- 1
+substring$ -- 0
+swap$ -- 48
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 10
-width$ -- 8
-write$ -- 72
-(There were 2 warnings)
+warning$ -- 0
+while$ -- 46
+width$ -- 50
+write$ -- 468
+(There were 3 error messages)

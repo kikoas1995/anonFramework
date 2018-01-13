@@ -1,5 +1,23 @@
 \chapter{Manual de utilización}
 \label{Anexo:manualuso}
 
+Como se ha explicado, existen dos formas de ejecutar la aplicación. 
 
-\newpage \thispagestyle{empty} % Página vacía 
+La primera, un script el cual contiene un comando de ayuda(en el caso de ejecutar sin parámetros) que muestra una lista de los argumentos disponibles para lanzar el programa. Es importante recalcar que, pese a que el script es automático, algunas de las tareas como el envío de e-mails, requieren del usuario para rellenar los campos de texto en el momento de la ejecución.
+
+En el caso del \textit{main} con interacción por parte del usuario el funcionamiento es el siguiente:
+
+El sistema pide al usuario elegir entre las 3 opciones iniciales.
+\begin{enumerate}
+	\item {Envío y recibo de e-mails anónimos(sección de \textit{mailing}).}
+	
+	\item {Automatización de log-in, registro y diversas tareas(sección de \textit{accounts})}.
+	
+	\item {Visualización de la base de datos de accounts en un servicio oculto con \textbf{Tor}}.
+\end{enumerate}
+
+En el caso de elegir la primera opción, se permite elegir entre el \textbf{remailer}, la \textbf{bandeja de entrada temporal} o el \textbf{mailer} con posibilidad de ofuscar la estilometría.
+
+En el caso de elegir la segunda opción, se dará a elegir al usuario en cuál de los servicios disponibles(periódico online, redes sociales, foro de discusión...) desea realizar una tarea. Dichas tareas son \textbf{registro automático, inicio de sesión automático, ó realización de tarea sencilla(dependiendo de la página)}.
+
+Por último, la tercera opción muestra una dirección .onion donde estará disponible la base de datos hasta el momento en el que la instancia del programa se cierre.

@@ -13,7 +13,7 @@ En el caso de los módulos con funcionalidad específica(como la bandeja de entr
 
 Por otra parte, en el caso de los módulos que contienen varias funciones (el módulo de gestión de la base de datos, ó cualquiera de los módulos en la sección de \textit{accounts}), se ha implementado un método main que ejecute todas y cada una de las funciones del módulo para probar su funcionamiento.
 
-En el caso del módulo de la base de datos, además, se ha comprobado manualmente que la encriptación de la misma es correcta visualizando el contenido de la misma en un editor hexadecimal y comprobando que el contenido de ésta desde dicho editor es ilegible.
+En el caso del módulo de la base de datos, además, se ha comprobado manualmente que la encriptación de la misma es correcta visualizando el contenido de la misma en un editor hexadecimal y comprobando que el contenido de esta desde dicho editor es ilegible.
 
 Por último, cabe mencionar que se ha procurado que el sistema cuente con un buen control de errores en cada uno de los módulos, lo cual impida cierres forzosos.
 
@@ -23,14 +23,7 @@ Para las pruebas de integración, se ha comprobado que es posible lanzar cualqui
 
 Para ello se ha comprobado el arranque de \textbf{cada uno} de los módulos desde los métodos \textit{main} del programa principal.
 
+Asimismo, puesto que un objetivo de la aplicación era preservar la privacidad del usuario, se ha comprobado que usando servicios Tor proporcionados por la aplicación, efectivamente camuflamos nuestra dirección de origen. También se ha comprobado los cambios en las cabeceras del navegador para el módulo de \textit{mailer}.
 
+Por último, se ha probado a lanzar la aplicación a través de la herramienta \textit{proxychains}, y también se ha probado haciendo uso de una VPN a través de \textit{OpenVPN}, las cuales aumentan el grado de anonimato.
 
-\lsection{Bases de datos y protocolo}
-
-\lsection{Sistemas de referencia}
-\label{sect:sistemasreferencia}
-
-\lsection{Escenarios de pruebas}
-\label{sect:escenarios_pruebas}
- 
-\lsection{Experimentos del sistema completo}

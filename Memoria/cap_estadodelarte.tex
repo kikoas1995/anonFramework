@@ -3,71 +3,50 @@
 
 \lsection{Privacidad y anonimato: conceptos}
 \label{sec:conceptos}
-La privacidad es un concepto bastante complejo, una palabra con tantas
-acepciones que en algunos casos puede resultar engañosa o, incluso,
-sin sentido alguno. Los temas donde se trata éste concepto van desde
-las leyes y derechos hasta la tecnología, pasando por campos tan
-ambiguos como la filosofía. \comments{Aquí faltan referencias. No olvide el texto de Danezis al que hago referencia en el capítulo 1: \cite{danezis2010critical}}
+La privacidad es un concepto bastante complejo, una palabra con tantas acepciones que en algunos casos puede resultar engañosa o, incluso, sin sentido alguno. Los temas donde se trata éste concepto van desde las leyes y derechos hasta la tecnología, pasando por campos tan ambiguos como la filosofía.
 
-Por otro lado, el contexto en el que suele ser utilizada va desde los
-ajustes de un navegador hasta uno de los debates más importantes sobre
-el desarrollo de la sociedad.
+Por otro lado, el contexto en el que suele ser utilizada va desde los ajustes de un navegador hasta uno de los debates más importantes sobre el desarrollo de la sociedad.
 
-En resumen, los usos del concepto de privacidad abarcan un número
-incalculable de temas y es por ello por lo que dicho término es
-difícil de definir.  Sin embargo, en este proyecto nos atañe el uso
-relacionado con la red, y aquí se puede definir como el control de la
-información que posee un determinado usuario que se conecta a
-Internet, interactuando con diversos servicios en línea con los que
-intercambia datos durante la navegación.
+En resumen, los usos del concepto de privacidad abarcan un número incalculable de temas y es por ello por lo que dicho término es difícil de definir. De acuerdo a ~\cite{article:danezis2010} se tienen diversas nociones básicas sobre la privacidad.
 
-Cabe mencionar que muchos de los usuarios que navegan día a día no son
-realmente conscientes de los datos personales que circulan por la red.
+En primer lugar, podemos hablar de \textbf{privacidad como confidencialidad}, que se define como "una tradición liberal individualista donde se le concede a la persona una autonomía libre tanto de un estado opresor como de normas sociales". En el campo de la informática, esto se consigue con tecnologías que abogan por la confidencialidad de los datos, y que proporciona servicios que minimizan, anonimizan ó aseguran la colección de información personal referente a los usuarios.
 
-\begin{figure}[h]
+Por otro lado otra noción de privacidad, \textbf{privacidad como control}, la define no sólo como la ocultación de información personal, sino también como la habilidad de controlar qué hacer con ella. ~\cite{lane2014privacy} En este caso, la privacidad se entiende como el derecho de un usuario a decidir qué información sobre él puede ser difundida y bajo qué circunstancia. Este concepto de control sirve como fundamento para los actuales sistemas \textbf{IM}(\textit{identity management}), los cuales deben hacer un uso razonable y  comedido de la información personal de los usuarios. Sin embargo, en un principio esto no era así. 
+Dichos sistemas, los cuales nacieron en la década de 1990, no tomaban en ese momento la privacidad como un requisito importante. Un ejemplo de ello fue Microsoft Passport, un servicio que permitía la creación de una cuenta de usuario, para posteriormente hacer uso de ella en múltiples servicios de terceros. La falta de privacidad venía debido a que Microsoft, la "proveedora de identidades", podía observar cada una de las interacciones entre los usuarios y las aplicaciones de terceros que usaban Passport.
+
+Por último, podemos hablar de \textbf{privacidad como práctica}, que se refiere a los variados mecanismos que hacen posible intervenir en el transcurso de los datos personales, así como proporcionar de manera transparente al usuario la forma en la que los datos son recogidos. En este sentido, la privacidad es vista \textbf{no sólo como un derecho sino como un bien público}.~\cite{lane2014privacy}
+
+En este proyecto, el concepto de privacidad nos atañe al uso relacionado con la red, y aquí se puede definir como el control de la información que posee un determinado usuario que se conecta a Internet, interactuando con diversos servicios en línea con los que intercambia datos durante la navegación. 
+
+Cabe mencionar que muchos de los usuarios que navegan día a día no son realmente conscientes de los datos personales que circulan por la red, y la proporción de personas que aparecen de una u otra forma en Internet es cada día mayor.~\cite{article:concernidos} 
+
+\begin{figure}[H]
 	\centerline{
 		\mbox{\includegraphics[width=5.00in]{images/chart_privacy.png}}
 	}
-	\caption{Resultados del estudio en Pew Research Center's and American Life Project hecho en Julio de 2014}
-	\label{fig:norm_Daugman}
+	\caption{Resultados del estudio en Pew Research Center's and American Life Project hecho en Julio de 2014~\cite{article:pew} }
+	\label{fig:estudioPew}
 \end{figure}
-\comments{Las figuras deben citadas y referencias en el texto mediante
-  \ref{fig:norm_Daugman}. Veo que has empleado la misma etiqueta para
-  todas las figuras: cada figura debe tener una etiqueta distinta. }
 
-La privacidad no debe confundirse con el \textbf{anonimato en la red}
-\comments{Aquí conviene que hables algo de identidad digital. Una
-  misma identidad física puede tener asociadas múltiples identidades
-  digitales, cada una de las cuales se emplea para hacer un uso de un
-  servicio en el ciberespacio. La proyección de la identidad física en
-  el ciberespacio es llevada típicamente a cabo por algún proveedor de
-  servicio, el cual extrae información del usuario a través de las
-  tres vías indicadas en el capítulo 1 de
-  \cite{lane2014privacy}. Además, dicha proyección se realizar de
-  diversas formas: mediante autenticación de usuarios (e.g., usuario y
-  contraseña), pero a veces también es posible identificar usuarios a
-  través de direcciones IP o mediante el análsis de la información que
-  un usuario envía al proveedor de servicio. Dime si no te queda claro
-  este punto. Es muy importante que el texto recoja esta matriz de
-  complejidades en la gestión de la identidad digital.}. Éste último
-término refiere a aquellas acciones destinadas a garantizar que el
-acceso a la red se efectúa de forma que no se conoce quien realiza la
-conexión.
+La privacidad no debe confundirse con el \textbf{anonimato en la red}. Éste último término refiere a aquellas acciones destinadas a garantizar que el acceso a la red se efectúa de forma que no se conoce quien realiza la conexión. Esto es, que no sea posible establecer una relación entre una \textbf{identidad digital} y una \textbf{identidad física}.
 
-Por último conviene hablar de otra expresión que aparecerá también muy
-frecuentemente en este proyecto, y es el de \textbf{ofuscación}. \comments{Faltan referencias. Puedes utilizar el libro que te recomendé \cite{brunton2015obfuscation}}
+Es importante destacar que una identidad física puede estar relacionada a una ó varias identidades digitales. La relación entre ambas identidades puede conseguirse mediante una cuenta de usuario, así como la dirección IP desde la cual la entidad física se conecta al servicio ó incluso mediante los datos ó metadatos que el ISP(\textit{InternetService Provider}) recoge del usuario. La extracción de los datos por parte del ISP se puede conseguir mediante diversas vías:
 
-En su sentido más abstracto, la ofuscación es la producción de ruido
-modelado en una señal existente con el objetivo de hacer una
-recopilación de datos más ambigua, confusa, difícil de
-\textit{explotar} y, por ende, menos valiosa.
+\begin{itemize}
+	\item {\textbf{Monitorización:} El término refiere a la recopilación de información y la adquisición de la misma mediante diversos métodos, tales como \textit{spyware}, ó intervenciones en el servicio mediante monitorización electrónico (\textit{wiretapping}).}
+	\item {\textbf{Adquisición de un biproducto de otra actividad:} Entre éstas actividades podemos encontrar servicios de telecomunicación, páginas y servicios web, aplicaciones, motores de búsqueda, entre otros.} 
+	\item {\textbf{Uso de información ya existente}.}
+\end{itemize} 
+
+Por último conviene hablar de otra expresión que aparecerá también muy frecuentemente en este proyecto, y es el de \textbf{ofuscación}.
+
+En su sentido más abstracto, la ofuscación es la producción de ruido modelado en una señal existente con el objetivo de hacer una recopilación de datos más ambigua, confusa, difícil de \textit{explotar} y, por ende, menos valiosa.
 
 \subsection{Procedimientos para incrementar el anonimato}
 
 Este subcapítulo tiene como objetivo explicar los distintos tipos de procedimientos para lograr un mayor grado de anonimato en la red. 
 
-Antes de nada conviene diferenciar dos conceptos comúnmente confundidos como son el de pseudoanonimato (\textit{pseudonymity} en inglés) y anonimato.
-\comments{Faltan referencias, por ejemplo: \cite{pfitzmann2010terminology}}
+Antes de nada conviene diferenciar dos conceptos comúnmente confundidos como son el de pseudoanonimato (\textit{pseudonymity} en inglés) y anonimato. ~\cite{article:anopseudo}
 
 El primero de ellos refiere al hecho de usar un pseudónimo con el fin de camuflar una identidad real. Su significado literal según su etimología es  "llamado engañosamente".
 Por otra parte, el segundo, cuyo origen etimológico significa "sin nombre", refiere cuando no hay información identificable a nada ni nadie.
@@ -85,181 +64,64 @@ Una vez aclarados sendos términos, procedemos a listar las diferentes vías par
 \end{itemize}
 
 \lsection{Hechos relevantes con respecto a la seguridad en la red} \label{sec:historia}
-\comments{OJO, esta sección parece un poco desconectada del resto. Lo que interesa reseñar aquí son problemas relativos a la correcta gestión de la identidad digital y al tratamietno inadecuado de datos
-  privados de usuarios. Te pongo algunos ejemplos:}
-\begin{itemize}
-  \item \url{https://haveibeenpwned.com/}. Es importante el tema de
-    robo de credenciales, claro está. A veces los problemas no vienen
-    por ataques externos, sino por negligencias internas.
-    \item \url{http://www.wired.co.uk/news/archive/2015-09/17/avg-privacy-policy-browser-search-data}
-    \item \url{https://elpais.com/tecnologia/2017/07/26/actualidad/1501047333_849632.html}
-    \item \url{http://www.theguardian.com/uk-news/2017/aug/19/home-office-secret-emails-data-homeless-eu-nationals}
-    \item \url{http://science.sciencemag.org/content/347/6221/490}
-    \item \url{https://adam.shostack.org/blog/2017/07/voter-records-ssn-and-commercial-authentication/}
-    \item \url{http://www.npr.org/2017/07/31/540610933/watchdog-group-files-complaint-over-google-tracking-in-person-purchases}
-    \item \url{https://www.csoonline.com/article/3239767/security/german-government-wants-backdoors-for-spying-added-to-cars-computers-iot-devices.html}
-    \item \url{https://labs.detectify.com/2016/07/27/how-i-made-lastpass-give-me-all-your-passwords/}      
-  \end{itemize}
 
-  Conviene empezar el capítulo recalcando que Internet no fue
-  concebido como un protocolo de comunicación seguro.  Es por esto que
-  a lo largo de su historia han ocurrido varios sucesos que han puesto
-  \commented{en riesgo (por diversos motivos) la privacidad}
-  \comments{hasta ahora has hablado de seguridad. De hecho, lo que te
-    interesa es destacar problemas de privacidad.} del usuario en la
-  red.
+Conviene empezar el capítulo recalcando que Internet no fue concebido como un protocolo de comunicación seguro. 
+Es por esto que a lo largo de su historia han ocurrido varios sucesos que han puesto en riesgo (por diversos motivos) la seguridad del usuario en la red.
 
-Podemos marcar como primera incursión histórica con respecto a la seguridad un libro publicado por Jon Von Neumann en el año 1949 llamado \textit{The Theory of Self Reproducing Automata}. Dicha publicación sirvió como  base para el desarrollo de los primeros \textbf{virus informáticos}.
+Podemos marcar como primera incursión histórica con respecto a la seguridad un libro publicado por Jon Von Neumann en el año 1949 llamado \textit{The Theory of Self Reproducing Automata}. Dicha publicación sirvió como  base para el desarrollo de los primeros \textbf{virus informáticos}.~\cite{article:automata}
 
-El primer virus que causó un gran impacto social fue el lamado
-\textbf{virus Creeper}, el cual era un programa experimental
-autoreplicante creado por \textbf{Bob Thomas} diseñado con fines
-experimentales y que no causaba un daño real entre las máquinas en las
-que se iba moviendo.  Realmente fue desplazándose de ordenador en
-ordenador alrededor de toda la red ARPANET (la precursora de lo que es
-a día de hoy internet).
+El primer virus que causó un gran impacto social fue el lamado \textbf{virus Creeper}, el cual era un programa experimental autoreplicante creado por \textbf{Bob Thomas} diseñado con fines experimentales y que no causaba un daño real entre las máquinas en las que se iba moviendo. ~\cite{article:motivationvirus}
+Realmente fue desplazándose de ordenador en ordenador alrededor de toda la red ARPANET (la precursora de lo que es a día de hoy internet).
 
-Con el objetivo de acabar con dicho virus apareció \textbf{Reaper}, lo
-que hoy día llamaríamos antivirus pero que en realidad no era más que
-otro programa autoreplicante cuyo propósito era la eliminación de
-Creeper en cada uno de los sistemas donde se encontraba instalado.
+En 1973 Robert Metcalfe, un trabajador de ARPANET y el cuál fundó 3Com (uno de los fabricantes de redes informáticas más importantes), advertía que una incursión a la red interna desde el exterior era algo extremadamente sencillo y, de hecho, son atribuidas durante la década de los 70 varias intrusiones a la red por parte de estudiantes de secundaria. 
+Durante esta etapa no se produjeron descubrimientos destacables con respecto a la seguridad informática. De hecho, en el año 1978 un grupo de científicos propusieron un proyecto de cifrado de paquetes TCP/IP pero encontraron muchas trabas, algunas de ellas incluso por la Agencia de Seguridad Nacional~\cite{article:nsa_tcp}. Por ello, dicho proyecto (que bien podría haber marcado otro camino en la historia de la seguridad en la informática) fue abandonado. 
 
-En 1973 Robert Metcalfe, un trabajador de ARPANET y el cuál fundó 3Com
-(uno de los fabricantes de redes informáticas más importantes),
-advertía que una incursión a la red interna desde el exterior era algo
-extremadamente sencillo y, de hecho, son atribuidas durante la década
-de los 70 varias intrusiones a la red por parte de estudiantes de
-secundaria.  Durante esta etapa no se produjeron descubrimientos
-destacables con respecto a la seguridad informática. De hecho, en el
-año 1978 un grupo de científicos propusieron un proyecto de cifrado de
-paquetes TCP/IP pero encontraron muchas trabas, algunas de ellas
-incluso por la Agencia de Seguridad Nacional. Por ello, dicho proyecto
-(que bien podría haber marcado otro camino en la historia de la
-seguridad en la informática) fue abandonado.
+En 1981 apareció el segundo virus reconocido a nivel mundial, el llamado \textbf{Elk Cloner}~\cite{article:cloner}. Atacaba computadoras Apple II, aunque su único propósito era el de reproducirse en otros dispositivos y no efectuaba ningún daño propiamente dicho. Uno de los datos más impactantes es que fue diseñado por un joven de 15 años. Su propagación era mediante el disquete. 
+Este virus sentó la base para los siguientes que fueron apareciendo, los cuales contendrían todo tipo de código destructivo (robo de datos, manipulación de los mismos, destrucción de software y hardware...) y se propagarían por más medios, como el correo electrónico e Internet.
+Debido a la aparición de los numerosos softwares maliciosos en esta época fueron apareciendo empresas que proporcionaban herramientas para proteger los equipos, los \textbf{antivirus}.
 
-En 1981 apareció el segundo virus reconocido a nivel mundial, el
-llamado \textbf{Elk Cloner}. Atacaba computadoras Apple II, aunque su
-único propósito era el de reproducirse en otros dispositivos y no
-efectuaba ningún daño propiamente dicho. Uno de los datos más
-impactantes es que fue diseñado por un joven de 15 años. Su
-propagación era mediante el disquete.  Este virus sentó la base para
-los siguientes que fueron apareciendo, los cuales contendrían todo
-tipo de código destructivo (robo de datos, manipulación de los mismos,
-destrucción de software y hardware...) y se propagarían por más
-medios, como el correo electrónico e Internet.  Debido a la aparición
-de los numerosos softwares maliciosos en esta época fueron apareciendo
-empresas que proporcionaban herramientas para proteger los equipos,
-los \textbf{antivirus}.
+En el año 1983, se hizo mandatorio que los usuarios de la red ARPANET utilizasen el protocolo TCP/IP. Éste hecho estableció un estándar en la comunicación entre redes y favoreció la aparición de la World Wide Web.
+Éste fue además el año en el que se utilizó por primera vez el término \textit{virus informático} en una tesis académica, dirigida por Fred Cohen~\cite{article:cohen}.
 
-En el año 1983, se hizo mandatorio que los usuarios de la red ARPANET
-utilizasen el protocolo TCP/IP. Éste hecho estableció un estándar en
-la comunicación entre redes y favoreció la aparición de la World Wide
-Web.  Éste fue además el año en el que se utilizó por primera vez el
-término \textit{virus informático} en una tesis académica, dirigida
-por Fred Cohen.
+En 1986 se aprueba una ley llamada La \textit{Ley De Fraude Y Abuso Cibernético}~\cite{article:ley} la cual aparece como contramedida al virus más dañino hasta la fecha como fue Brain~\cite{article:brain}, el primer virus compatible con máquinas IBM. La ley defendía a los usuarios del robo de datos, del acceso a la red no autorizado y demás delitos relacionados con la tecnología.
 
-En 1986 se aprueba una ley llamada La \textit{Ley De Fraude Y Abuso
-  Cibernético } la cual aparece como contramedida al virus más dañino
-hasta la fecha como fue Brain, el primer virus compatible con máquinas
-IBM. La ley defendía a los usuarios del robo de datos, del acceso a la
-red no autorizado y demás delitos relacionados con la tecnología.
+Los tres años siguientes siguieron apareciendo compañías que velaban por la seguridad como Symantec, la cual lanzó el conocido antivirus Norton en el año 1991.
+Sin embargo, esto no hizo que el número de robos de información cesara. Al contrario, pues con la aparición del primer navegador web surgieron nuevas formas de ataque y \textit{phising}. Asimismo surgieron los primeros ataques de denegación de servicio.
 
-1987 fue un año de grandes avances en el campo de la seguridad informática en todo el mundo.
-En primer lugar, se produjo la primera eliminación total de un virus dañino a gran escala por parte de Bernd Fix. 
-Por otra parte Andreas Lűning y Kai Figge lanzan al mercado el primer antivirus diseñado para la plataforma Atari.
-Además, aparece la primera empresa estadounidense de antivirus, creada por John McAfee. 
-Por último, añadir que aparecen los primeros antivirus basados en heurísticas, como son Anti4us y Flushpot.
+En el año 1996, con la aparición del complemento de navegador Flash(que permite la reproducción de vídeo y música) surgen por ende nuevas formas de ataques, debido a las numerosas vulnerabilidades del plug-in. El correo electrónico, que cada vez se encuentra más vigente, también permite recibir correspondencia con un objetivo de robar información personal. En éste año también aparece el primer virus creado para el sistema Linux~\cite{article:staog}, llamado Staog.
 
-Los tres años siguientes siguieron apareciendo compañías que velaban
-por la seguridadm como Symantec, la cual lanzó el conociod antivirus
-Norton en el año 1991.  Sin embargo, ésto no hizo que el número de
-robos de información cesara. Al contrario, pues con la aparición del
-primer navegador web surgieron nuevas formas de ataque y
-\textit{phising}. Asimismo surgieron los primeros ataques de
-denegación de servicio.
+El año 2000 el número de gusanos informáticos que se encuentran en equipos domésticos es desproporcionado. Asimismo, en ésta década los ciberdelincuentes aprenden a anonimizarse más sofisticadamente y hacen más difícil su identificación.
+Para el año 2005 el número de malware únicos asciende a más de 300.000, y ha ascendido más de un 1000\% en diez años. Para el año 2008 dicha cifra asciende 5 millones de malware únicos.~\cite{article:number_malware}
 
-En el año 1996, con la aparición del complemento de navegador
-Flash(que permite la reproducción de vídeo y música) surgen por ende
-nuevas formas de ataques, debido a las numerosas vulnerabilidades del
-plugin. El correo electrónico, que cada vez se encuentra más vigente,
-también permite recibir correspondencia con un objetivo de robar
-información personal. En éste año también aparece el primer virus
-creado para el sistema Linux, llamado Staog.
+En los últimos años la variedad de ataques de robo de información ha cambiado mucho. Con la aparición de los smartphones, surgen nuevas amenazas para nuestra privacidad como \textit{payloads} que corren como un proceso en segundo plano~\cite{article:android} y permiten tracear nuestra ubicación, espiarnos a través de la cámara del dispositivo y un largo etcétera. Esto ha ocasionado que surjan también aplicaciones antivirus en nuestros teléfonos móviles, que actúan de forma \textit{pasiva} vigilando que ningún proceso monitorice de forma maliciosa nuestro dispositivo.
+Por ello, está claro que debemos cuidarnos de agentes externos como los distintos tipos de \textit{malware}, los cuales pueden usurpar nuestra identidad, comprometer nuestros \textbf{datos personales}, entre otras cosas. No todo depende del usuario puesto que muchos de los servicios que utilizamos día a día han sufrido de \textit{leaks} de bases de datos e infiltraciones en el sistema que suponen un riesgo para nuestra privacidad.
 
-El año 2000 el número de gusanos informáticos que se encientran en
-equipos domésticos es desproporcionado. Asimismo, en ésta década los
-ciberdelincuentes aprenden a anonimizarse más sofisticadamente y hacen
-más difícil su identificación.  Para el año 2005 el número de malware
-únicos asciende a más de 300.000, y ha ascendido más de un 1000\% en
-diez años. Para el año 2008 dicha cifra asciende 5 millones de malware
-únicos.
-
-En los últimos años la variedad de ataques de robo de información ha
-cambiado mucho. Con la aparición de los smartphones, surgen nuevas
-amenazas para nuestra privacidad como \textit{payloads} que corren
-como un proceso en segundo plano y permiten tracear nuestra ubicación,
-espiarnos a través de la cámara del dispositivo y un largo
-etcétera. Ésto ha ocasionado que surjan también aplicaciones antivirus
-en nuestros teléfonos móviles, que actúan de forma \textit{pasiva}
-vigilando que ningún proceso monitorice de forma maliciosa nuestro
-dispositivo.
-
-Sin embargo, con el incremento del número de amenazas a nuestra
-privacidad también ha sido necesario que aparezcan herramientas que
-actúen de forma \textit{activa} y nos permitan utilizar los servicios
-de Internet de una forma más segura.
+Sin embargo, con el incremento del número de amenazas a nuestra privacidad también ha sido necesario que aparezcan herramientas que actúen de forma \textit{activa} y nos permitan utilizar los servicios de Internet de una forma más segura.
 
 	
-\lsection{Herramientas para la protección de identidad}
+\lsection{Herramientas para la protección de privacidad mediante anonimato}
 \label{sec:a_favor}
-\comments{No es del todo correcto que hables aquí de protección de
-  identidad. Es cierto que se protege la identidad frente a cualquier
-  intruso en el canal de comunicación, pero no ocurre lo mismo con
-  respecto al destino de las comunicaciones. En este caso, además de
-  ofuscar el origen de las comunicaciones, por ejemplo, hemos de
-  emplear un perfil falso o una identida anónima, además de evitar
-  enviar información al proveedor que permita nuestra
-  re-identificación. }
 
-A continuación se menciona varias tecnologías utilizables a la fecha
-de redacción de este documento para ayudar a un usuario a proteger su
-privacidad en Internet y anonimizarse mediante \textit{proxies}, VPNs,
-redes anónimas o incluso dificultar la identificación inequívoca de
-los mismos haciendo uso de \textbf{herramientas de ofuscación}.
-\comments{Es cierto que estás haciendo ofuscación, pero sólo de
-  tráfico de red. Conviene que subrayes esto y lo diferencies de otras
-  técnicas de ofuscación. }
+A continuación se menciona varias tecnologías utilizables a la fecha de redacción de este documento para ayudar a un usuario a proteger su privacidad en Internet y anonimizarse mediante \textit{proxies}, VPNs, redes anónimas o incluso dificultar la identificación inequívoca del mismo haciendo uso de \textbf{herramientas de ofuscación del tráfico de red}.
 
-Hoy en día existen numerosas aplicaciones que permiten aumentar
-nuestro grado de anonimato a la hora de realizar tareas en Internet,
-usualmente a costa de una más óptima velocidad de conexión,por
-ejemplo, el servicio \textbf{Tor}, o a cambio de una suscripción
-temporal, como los servicios VPN de pago.
+Hoy en día existen numerosas aplicaciones que permiten aumentar nuestro grado de anonimato a la hora de realizar tareas en Internet, usualmente a costa de una más óptima velocidad de conexión,por ejemplo, el servicio \textbf{Tor}, o a cambio de una suscripción temporal, como los servicios VPN de pago.
 
-Cada una de estas medidas tiene sus puntos fuertes y sus
-contrapartidas, y serán tratadas en este subcapítulo.
-\comments{Falta referencias}
+Cada una de estas medidas tiene sus puntos fuertes y sus contrapartidas, y serán tratadas en este subcapítulo.
+
 \subsection{Servidor proxy}
 
-Un servidor proxy es básicamente un mediador entre un usuario que
-realiza una petición y otro servidor.  Su funcionamiento es
-relativamente simple: Cuando un cliente de la red desea acceder a un
-recurso, es el servidor proxy el que realiza la comunicación y el que
-lleva el resultado de la petición al usuario final.
+Un servidor proxy es básicamente un mediador entre un usuario que realiza una petición y otro servidor.
+Su funcionamiento ~\cite{article:proxy}es relativamente simple: Cuando un cliente de la red desea acceder a un recurso, es el servidor proxy el que realiza la comunicación y el que lleva el resultado de la petición al usuario final. 
 
-Los usos de dicha aplicación en ejecución van desde aumentar el
-rendimiento de algunas operaciones sirviendo como memoria caché, hasta
-proteger la identidad del usuario que lo utiliza.  Dicha finalidad
-depende del tipo de proxy que se esté utilizando.  Hay varios tipos,
-los cuales se resumen a continuación.
+Los usos de dicha aplicación en ejecución van desde aumentar el rendimiento de algunas operaciones sirviendo como memoria caché, hasta proteger la identidad del usuario que lo utiliza.
+Dicha finalidad depende del tipo de proxy que se esté utilizando.
+Hay varios tipos, los cuales se resumen a continuación.
 
 \subsubsection{Proxy Web}
 
 Un \textbf{servicio proxy ó proxy web} es un proxy para una aplicación concreta, y permite el uso de los protocolos FTP y HTTP/S.
 
-\commented{Éste} \comments{revisa esto en todo el texto: cuando no es pronombre no lleva tilde, OJO!!!} tipo de proxy es muy comúnmente utilizado para proteger la
-privacidad y se puede utilizar junto con Tor (el cual veremos más
-adelante) para mejorar el grado de anonimato en la red.
+Éste tipo de proxy es muy comúnmente utilizado para proteger la privacidad y se puede utilizar junto con Tor (el cual veremos más adelante) para mejorar el grado de anonimato en la red.
 
 El esquema de funcionamiento es el siguiente:
 
@@ -268,7 +130,7 @@ El esquema de funcionamiento es el siguiente:
 		\mbox{\includegraphics[width=3.00in]{images/proxy_web.png}}
 	}
 	\caption{Funcionamiento de un Web proxy o Proxy service}
-	\label{fig:norm_Daugman}
+	\label{fig:web_proxy}
 \end{figure}
 
 \subsubsection{Proxy Cache}
@@ -281,7 +143,7 @@ Conviene destacar a su vez que un proxy web puede actuar también almacenando la
 		\mbox{\includegraphics[width=3.00in]{images/proxy_cache.png}}
 	}
 	\caption{Funcionamiento de un Proxy Caché}
-	\label{fig:norm_Daugman}
+	\label{fig:proxy_cache}
 \end{figure}
 
 \subsubsection{Transparent Proxy}
@@ -294,37 +156,36 @@ Su uso es principalmente el de filtrar ciertas conexiones (se combina con un \te
 	\centerline{
 		\mbox{\includegraphics[width=3.00in]{images/proxy_transparent.png}}
 	}
-	\caption{Funcionamiento de un Proxy transparente}
-	\label{fig:norm_Daugman}
+	\caption{Funcionamiento de un Proxy transparente~\cite{article:proxy_trans}}
+	\label{fig:trans_proxy}
 \end{figure}
 
 \subsubsection{Reverse Proxy}
 
 Este proxy tiene la peculiaridad de estar alojado en uno o más servidores web.
-Es decir, mientras que un proxy normal es el intermediario entre sus clientes para realizar peticiones a cualquier servidor, un proxy inverso es el intermediario entre sus servidores asociados para ser contactados por cualquier cliente.
+Es decir, mientras que un proxy normal es el intermediario entre sus clientes para realizar peticiones a cualquier servidor, un proxy inverso es el intermediario entre sus servidores asociados para ser contactados por cualquier cliente.~\cite{article:proxy_rev}
 
 \subsubsection{NAT proxy ó enmascaramiento}
 
-El uso de este proxy es también llamado \textbf{enmascaramiento de IP}. En este caso, las direcciones de destino de los paquetes IP son reemplazadas por otras. 
-En este caso la actuación de mediador es entre los equipos de la red interna y la red exterior.
+El uso de este proxy es también llamado \textbf{enmascaramiento de IP}. En este caso, las direcciones de destino de los paquetes IP son reemplazadas por otras. ~\cite{article:nat}
+En este caso la actuación de mediador es entre los equipos de la red interna y la red exterior.\\
 
 Los aquí citados son los principales tipos de proxies. No obstante, existen algunos más, como el \textbf{proxy abierto} y el \textbf{Cross-Domain }proxy.
-
-Una vez dejados claros los conceptos básicos sobre proxies, mencionaremos algunas herramientas útiles que hacen uso de éstos para navegar de una forma más anónima y segura por la red.
+Una vez dejados claros los conceptos básicos sobre proxies, mencionaremos algunas herramientas útiles que hacen uso de estos para navegar de una forma más anónima y segura por la red.
 
 \subsubsection{Proxychains}
 
 Proxychains es un programa disponible únicamente para GNU/Linux y Unix que nos permite crear cadenas de proxies, escondiendo así nuestra dirección IP pública en \textbf{todo tipo de conexiones} (HTTP, FTP, SSH, etcétera). 
 Esto se traduce en que podemos navegar por Internet o realizar cualquier operación en la red de redes sin descubrir nuestra identidad real.
 
-Mientras que en las figuras anteriores mostramos una conexión a la red con la utilización de un sólo proxy, en el caso de \textit{proxychains} (como su propio nombre indica) utilizaremos cadenas de servidores proxy para anonimizar el tráfico que generemos(no necesariamente debe ser tráfico web).
+Mientras que en las figuras anteriores mostramos una conexión a la red con la utilización de un sólo proxy, en el caso de \textit{proxychains} (como su propio nombre indica) utilizaremos cadenas de servidores proxy para anonimizar~\cite{article:proxychains} el tráfico que generemos(no necesariamente debe ser tráfico web).
 
 \begin{figure}[h]
 	\centerline{
 		\mbox{\includegraphics[width=3.00in]{images/proxy_chain.png}}
 	}
 	\caption{Ejemplo de una cadena de proxies}
-	\label{fig:norm_Daugman}
+	\label{fig:proxy_chain}
 \end{figure}
 
 Para hacer funcionar proxychains en un equipo es necesario modificar su fichero de configuración (\textit{proxychains.conf}). En él existen varias opciones en cuanto a la formación de ccadenas de proxies:
@@ -338,7 +199,7 @@ Para hacer funcionar proxychains en un equipo es necesario modificar su fichero 
 			\mbox{\includegraphics[width=3.00in]{images/proxy_dynamic.png}}
 		}
 		\caption{Cadena dinámica}
-		\label{fig:norm_Daugman}
+		\label{fig:dyn_chain}
 	\end{figure}
 		
 	Es decir, aunque uno (o varios) de los servidores proxy que componen la cadena no funcione, siempre se intentará realizar la conexión omitiéndolo.
@@ -350,18 +211,12 @@ Para hacer funcionar proxychains en un equipo es necesario modificar su fichero 
 			\mbox{\includegraphics[width=1.80in]{images/proxy_strict.png}}
 		}
 		\caption{Cadena estricta}
-		\label{fig:norm_Daugman}
+		\label{fig:strict_chain}
 	\end{figure}
 			
-	En el caso de que uno de los servidores proxy falle, la
-        conexión no será satisfactoria. Por ello, las cadenas
-        estrictas tienen la peculiaridad de que siguen el orden de los
-        servidores rigurosamente.
+	En el caso de que uno de los servidores proxy falle, la conexión no será satisfactoria. Por ello, las cadenas estrictas tienen la peculiaridad de que siguen el orden de los servidores rigurosamente.
 	
-      \item \textit{Random chains}: Éste tipo de cadenas es totalmente
-        distinta de las anteriores. Básicamente escoge uno de los
-        servidores proxy que aparecen en el archivo de configuración
-        de forma aleatoria.
+	\item \textit{Random chains}: Éste tipo de cadenas es totalmente distinta de las anteriores. Básicamente escoge uno de los servidores proxy que aparecen en el archivo de configuración de forma aleatoria.
 \end{itemize}
 
 Ahora bien, ¿cómo podemos añadir servidores proxy a nuestra cadena?
@@ -372,165 +227,82 @@ El formato para añadirlos es el siguiente:
 	socks5  192.168.67.78   1080    user   password
 }
 
-El primer elemento es el tipo de proxy. Las posibilidades son HTTP,
-socks4 y socks5. Como nuestro objetivo es el de anonimizarnos y
-proteger nuestra identidad \textbf{siempre que sea posible se
-  intentará utilizar socks5}.  El segundo y tercer elemento es la
-dirección IP y el puerto del proxy, respectivamente.  Por último, el
-cuarto y quinto campo son opcionales y depende de si el proxy que
-utilizaremos cuenta con usuario y contraseña. Normalmente cuentan con
-contraseña los proxies que adquirimos por medio de plataformas de
-pago.
+El primer elemento es el tipo de proxy. Las posibilidades son HTTP, socks4 y socks5. Como nuestro objetivo es el de anonimizarnos y proteger nuestra identidad \textbf{siempre que sea posible se intentará utilizar socks5}.
+El segundo y tercer elemento es la dirección IP y el puerto del proxy, respectivamente. 
+Por último, el cuarto y quinto campo son opcionales y depende de si el proxy que utilizaremos cuenta con usuario y contraseña. Normalmente cuentan con contraseña los proxies que adquirimos por medio de plataformas de pago.
 
-Hay una gran cantidad de páginas que ofrecen servidores proxies, tanto
-gratuitos como de pago. La diferencia radica en la carga de dichos
-servidores. Muchos de los servidores proxy gratuitos publicados en la
-red se encuentran saturados y limitan mucho la velocidad de conexión.
+Hay una gran cantidad de páginas que ofrecen servidores proxies, tanto gratuitos como de pago. La diferencia radica en la carga de dichos servidores. Muchos de los servidores proxy gratuitos publicados en la red se encuentran saturados y limitan mucho la velocidad de conexión.
 
-No obstante, es posible encontrar servidores proxy gratuitos que
-funcionan relativamente bien. Una buena página en la que encontrarlos
-es https://socks-proxy.net/.  Ésta página permite visualizar
-servidores proxy gratuitos con disponibilidad actualizada cada 20
-minutos. Además, permite filtrarlos según tipo y sobre todo, país de
-origen.
+No obstante, es posible encontrar servidores proxy gratuitos que funcionan relativamente bien. Una buena página en la que encontrarlos es https://socks-proxy.net/. 
+Ésta página permite visualizar servidores proxy gratuitos con disponibilidad actualizada cada 20 minutos. Además, permite filtrarlos según tipo y sobre todo, país de origen.
 
-Con el objetivo de mantenernos anónimos en la red, conviene utilizar
-proxies ubicados en países que tengan buenas políticas de
-privacidad. Ejemplo de ello son países como \textbf{Rusia, China o
-  Países Bajos}.
+Con el objetivo de mantenernos anónimos en la red, conviene utilizar proxies ubicados en países que tengan buenas políticas de privacidad~\cite{article:politicas}. Ejemplo de ello son países como \textbf{Rusia, China o Países Bajos}.
 
 \subsection{VPN}
 
-Una VPN (o red virtual privada) no es más que el uso de una red
-privada segura sobre una red pública más grande.  La notoriedad que ha
-cosechado éstos últimos años reside en que nos permite gozar de un
-alto grado de anonimato al darnos acceso al envío y recibo de datos de
-la red pública, teniendo todas las políticas de privacidad de una red
-privada.
+Una VPN (o red virtual privada) no es más que el uso de una red privada segura sobre una red pública más grande. 
+La notoriedad que ha cosechado estos últimos años~\cite{article:notoriedad} reside en que nos permite gozar de un alto grado de anonimato al darnos acceso al envío y recibo de datos de la red pública, teniendo todas las políticas de privacidad de una red privada.
 
 La forma de conseguir esto es, normalmente, estableciendo una conexión extremo a extremo mediante el uso de cifrado y/o conexiones dedicadas.
 
-Pese a que el término se ha visto utilizado enormemente estos últimos
-años, lo cierto es que las redes privadas virtuales existen desde hace
-bastante tiempo.  De hecho, la primera forma de VPN surgió con SwIPe
-(\textit{Software IP Encryption Protocol}), un trabajo experimental
-surgido en el año 1993 por John Ioannidis y su equipo en la
-Universidad de Columbia y AT\&T Labs. Éste proyecto pretendía
-garantizar confidencialidad, integridad y autenticación del tráfico de
-red.
+Pese a que el término se ha visto utilizado enormemente estos últimos años, lo cierto es que las redes privadas virtuales existen desde hace bastante tiempo.
+De hecho, la primera forma de VPN surgió con SwIPe (\textit{Software IP Encryption Protocol})~\cite{article:swipe}, un trabajo experimental surgido en el año 1993 por John Ioannidis y su equipo en la Universidad de Columbia y AT\&T Labs. Éste proyecto pretendía garantizar confidencialidad, integridad y autenticación del tráfico de red.
 
-Tras este experimento, en el año siguiente Xu Wei continuó
-investigando acerca de la seguridad del protocolo IP hasta formar la
-familia de protocolos IPSec, la cual autentica y cifra cada paquete
-compartido a través de una red pública. Después de un tiempo y tras la
-mejora en las velocidades de transmisión de paquetes, y de la función
-\textit{plug-and-play}, fue posible la salida al mercado de
-\textbf{las primeras VPNs}.
+Tras este experimento, en el año siguiente Xu Wei continuó investigando acerca de la seguridad del protocolo IP hasta formar la familia de protocolos IPSec~\cite{article:ipsec}, la cual autentica y cifra cada paquete compartido a través de una red pública. Después de un tiempo y tras la mejora en las velocidades de transmisión de paquetes, y de la función \textit{plug-and-play}, fue posible la salida al mercado de \textbf{las primeras VPNs}.
 
-A la vez que apareció IPSec, se realizó un trabajo en la Biblioteca de
-Investigación NAVAL con ayuda de DARPA (Defense Advanced Research
-Projects Agency) con el que surgió el \textbf{Protocolo de Seguridad
-  de Encapsulación}.  Con ello surgió un gran avance para la seguridad
-en internet y la tecnología VPN.  La Carga de Seguridad Encapsulada,
-\textbf{ESP, ofrece la autenticidad, integridad y protección de la
-  confidencialidad de los paquetes de datos}.  Permite configuraciones
-de autenticación, encriptación, o ambos.  Este protocolo es similar al
-de los Encabezados de Autenticación y proporciona una segunda capa de
-seguridad para las conexiones a Internet.
+A la vez que apareció IPSec, se  realizó un trabajo en la Biblioteca de Investigación NAVAL con ayuda de DARPA (Defense Advanced Research Projects Agency) con el que surgió el \textbf{Protocolo de Seguridad de Encapsulación}~\cite{article:levpn}. 
+Con ello surgió un gran avance para la seguridad en internet y la tecnología VPN. 
+La Carga de Seguridad Encapsulada~\cite{article:esp}, \textbf{ESP, ofrece la autenticidad, integridad y protección de la confidencialidad de los paquetes de datos}. 
+Permite configuraciones de autenticación, encriptación, o ambos. 
+Este protocolo es similar al de los Encabezados de Autenticación y proporciona una segunda capa de seguridad para las conexiones a Internet. 
 
-1995 fue el año en el cuál se creó el grupo de trabajo de IPsec dentro
-de la IETF, o Internet Engineering Task Force, el cual es una
-comunidad de ingenieros de Internet, proveedores, desarrolladores y
-otras personas interesadas en la evolución de internet y su buen
-funcionamiento.
+1995 fue el año en el cuál se creó el grupo de trabajo de IPsec dentro de la IETF~\cite{article:ietf}, o Internet Engineering Task Force, el cual es una comunidad de ingenieros de Internet, proveedores, desarrolladores y otras personas interesadas en la evolución de internet y su buen funcionamiento. 
 
-El objetivo de este grupo era el de crear un conjunto estandarizado de
-protocolos disponibles libremente y examinados abordando los
-componentes, extensiones y la implementación de IPsec.
+El objetivo de este grupo era el de crear un conjunto estandarizado de protocolos disponibles libremente y examinados abordando los componentes, extensiones y la implementación de IPsec.
 
 IPsec está formado por tres subprotocolos:
 
 \begin{itemize}
-  \item \textit{Autentication Header (AH)}: Este protocolo es el
-    encargado de proporcionar integridad de datos en el caso de no
-    haber conexión y autenticación de paquetes IP, además de
-    protección contra ciertos tipos de ataques.  La
-    \textbf{autenticación} es importante porque asegura que los
-    paquetes de datos que envías y recibes son los que deseas, no el
-    malware u otros ataques potencialmente dañinos. Hay varias
-    versiones con diferentes grados de protección a diferentes
-    niveles. En todos los casos, la Carga de Paquetes IP, tus datos
-    personales están protegidos.
+	\item \textit{Autentication Header (AH)}: Este protocolo es el encargado de proporcionar integridad de datos en el caso de no haber conexión y autenticación de paquetes IP, además de protección contra ciertos tipos de ataques. 
+	La \textbf{autenticación} es importante porque asegura que los paquetes de datos que envías y recibes son los que deseas, no el malware u otros ataques potencialmente dañinos. Hay varias versiones con diferentes grados de protección a diferentes niveles. En todos los casos, la Carga de Paquetes IP, tus datos personales están protegidos.
 		
-  \item \textit{Encapsulating Security Payload (ESP)}: Se ocupa de
-    proporcionar la confidencialidad de esos paquetes, al igual que
-    integridad de origen de los datos, la seguridad a los ataques y
-    también seguridad para el tráfico de flujo. Cuando se utiliza en
-    \textbf{Modo Túnel}, proporciona seguridad para todo el Paquete
-    IP.
+ 	\item \textit{Encapsulating Security Payload (ESP)}: Se ocupa de proporcionar la confidencialidad de esos paquetes, al igual que integridad de origen de los datos, la seguridad a los ataques y también seguridad para el tráfico de flujo. Cuando se utiliza en \textbf{Modo Túnel}, proporciona seguridad para todo el Paquete IP.
  	
-	\item \textit{Security Associations (SA)}: Son algoritmos y
-          datos que permiten que AH y ESP funcionen correctamente.
-          Básicamente, los datos se cifran en paquetes en la fuente y
-          luego se transfieren a través de internet de forma
-          \textbf{anónima} para ser recibidos, autenticados y
-          descifrados en el destino. Las asociaciones se crean sobre
-          la base de la Internet Security Association And Key
-          Management Program (ISKAMP) utilizando una serie de números.
+	\item \textit{Security Associations (SA)}: Son algoritmos y datos que permiten que AH y ESP funcionen correctamente. 
+	Básicamente, los datos se cifran en paquetes en la fuente y luego se transfieren a través de internet de forma \textbf{anónima} para ser recibidos, autenticados y descifrados en el destino. Las asociaciones se crean sobre la base de la Internet Security Association And Key Management Program (ISKAMP) utilizando una serie de números.
 \end{itemize}
 
-Además de esto, existen dos modos de funcionamiento:
+Además de esto, existen dos modos de funcionamiento~\cite{article:ibm_ip}:
 
 \begin{itemize}
-  \item \textit{Transport Mode}: En Modo Transporte únicamente la
-    carga Útil de IP es típicamente cifrada asegurando los datos, pero
-    dejando visible la información que se origina.
+	\item \textit{Transport Mode}: En Modo Transporte únicamente la carga Útil de IP es típicamente cifrada asegurando los datos, pero dejando visible la información que se origina.
 	
-  \item \textit{Tunneling Mode}: En Modo de Túnel, todo el Paquete IP
-    está cifrado y encapsulado, se le otorga un nuevo encabezado de
-    autenticación y luego se envía. Modo túnel es la tecnología que
-    impulsa la VPN de hoy en día.
+	\item \textit{Tunneling Mode}: En Modo de Túnel, todo el Paquete IP está cifrado y encapsulado, se le otorga un nuevo encabezado de autenticación y luego se envía. Modo túnel es la tecnología que impulsa la VPN de hoy en día.
 \end{itemize}
 
-Veamos una comparativa entre un paquete IP original, uno que hace uso
-del modo transporte y otro del modo túnel de IPsec:
+Veamos una comparativa entre un paquete IP original, uno que hace uso del modo transporte y otro del modo túnel de IPsec:
 
 	\begin{figure}[h]
 		\centerline{
 			\mbox{\includegraphics[width=5.00in]{images/IPsec.png}}
 		}
-		\caption{Ejemplo de paquetes IP con diferentes niveles de seguridad de encapsulación}
-		\label{fig:norm_Daugman}
+		\caption{Ejemplo de paquetes IP con diferentes niveles de seguridad de encapsulación~\cite{article:ibm_ip}}
+		\label{fig:IPtypes}
 	\end{figure}
 
-        El protocolo de túnel hace de las VPNs una gran opción si el
-        objetivo es la protección de nuestra información personal.
-        Permite a un usuario conectarse a Internet con una dirección
-        IP que no es parte de la red local. La \textbf{tunelización}
-        funciona encriptando y encapsulando los datos, es decir, lo
-        que proporciona un tercer y muy buscado beneficio: \textbf{el
-          anonimato y la privacidad}.
+El protocolo de túnel hace de las VPNs una gran opción si el objetivo es la protección de nuestra información personal. 
+Permite a un usuario conectarse a Internet con una dirección IP que no es parte de la red local. La \textbf{tunelización} funciona encriptando y encapsulando los datos, es decir, lo que proporciona un tercer y muy buscado beneficio: \textbf{el anonimato y la privacidad}. 
 
-        La forma en la que opera es un poco más compleja que con el
-        modo de transporte, los paquetes que contienen la información
-        que realiza el cifrado y el servicio de entrega se llevan a
-        cabo dentro de la carga útil del mensaje original, pero operan
-        a un nivel más alto que la propia carga útil, creando un
-        escudo formado desde dentro y seguro de las influencias
-        externas. Los mejores servicios cifrarán todo el paquete, el
-        marcador de identificación y todo; a continuación, volverán a
-        encapsularlo con una nueva dirección IP y marca de
-        identificación para obtener una completa privacidad.
+La forma en la que opera es un poco más compleja que con el modo de transporte, los paquetes que contienen la información que realiza el cifrado y el servicio de entrega se llevan a cabo dentro de la carga útil del mensaje original, pero operan a un nivel más alto que la propia carga útil, creando un escudo formado desde dentro y seguro de las influencias externas. Los mejores servicios cifrarán todo el paquete, el marcador de identificación y todo; a continuación, volverán a encapsularlo con una nueva dirección IP y marca de identificación para obtener una completa privacidad.
 
-        El modo túnel recoge su nombre de la forma en la que una red
-        VPN opera:
+El modo túnel recoge su nombre de la forma en la que una red VPN opera:
 
   		\begin{figure}[h]
   			\centerline{
   				\mbox{\includegraphics[width=3.50in]{images/vpn.png}}
   			}
-  			\caption{Fuente: \textit{https://technet.microsoft.com/pt-pt/library/cc779919(v=ws.10).aspx}}
-  			\label{fig:norm_Daugman}
+  			\caption{Esquema del \textit{Tunneling mode}~\cite{article:tunnelMode}}
+  			\label{fig:tunnelMode}
   		\end{figure}
  
  Hoy en día, se usan diferentes tecnologías VPN, cada una con sus pros y sus contras.
@@ -538,24 +310,22 @@ del modo transporte y otro del modo túnel de IPsec:
  Entre todas ellas las más destacables son:
  
  \begin{itemize}
- 	\item PPTP: \textit{Point to Point Tunneling Protocol}, la cual está bajo licencia de Microsoft(fue el primer protocolo de VPN compatible con Windows), crea una red privada virtual en redes dial-up. 
+ 	\item PPTP: \textit{Point to Point Tunneling Protocol}, la cual está bajo licencia de Microsoft(fue el primer protocolo de VPN compatible con Windows), crea una red privada virtual en redes dial-up. ~\cite{article:pptp}
  	
  	Su implementación requiere poca sobrecarga de cómputos, lo cual lo hace uno de los protocolos de VPN \textbf{más rápidos} disponibles actualmente.
  	El problema con esta tecnología reside en que \textbf{no es del todo segura}. Aunque ahora normalmente utiliza una encriptación de 128 bits, existen varias vulnerabilidades de seguridad, con la posibilidad de una autenticación MS-CHAP v2 no encapsulada como la más grave. Con todo esto, una red que usase PPTP podría ser decodificada en apenas días.
  	La misma Microsoft, pese a haber corregido el fallo de seguridad, no recomienda el uso de este protocolo, y recomienda el uso de SSTP o L2TP.
  	
- 	\item L2TP y L2TP/IPsec: El protocolo de túnel de capa dos, normalmente se implementa con los protocolos IPsec (explicados anteriormente) para encriptar datos antes de la transmisión, a fin de proveer a los usuarios privacidad y seguridad. Todos los dispositivos y sistemas operativos modernos compatibles con VPN tienen L2TP/IPsec incorporado. La configuración es tan rápida y fácil como la de PPTP, sin embargo en ocasiones puede ser problemático en el caso de que usar un cortafuegos NAT restrictivo.
- 	
- 	\item L2TP y L2TP/IPsec: El protocolo de túnel de capa dos, normalmente se implementa con los protocolos IPsec (explicados anteriormente) para encriptar datos antes de la transmisión, a fin de proveer a los usuarios privacidad y seguridad. Todos los dispositivos y sistemas operativos modernos compatibles con VPN tienen L2TP/IPsec incorporado. La configuración es tan rápida y fácil como la de PPTP, sin embargo en ocasiones puede ser problemático en el caso de que usar un cortafuegos NAT restrictivo.
+ 	\item L2TP y L2TP/IPsec: El protocolo de túnel de capa dos ~\cite{article:pptp}, normalmente se implementa con los protocolos IPsec (explicados anteriormente) para encriptar datos antes de la transmisión, a fin de proveer a los usuarios privacidad y seguridad. Todos los dispositivos y sistemas operativos modernos compatibles con VPN tienen L2TP/IPsec incorporado. La configuración es tan rápida y fácil como la de PPTP, sin embargo en ocasiones puede ser problemático en el caso de que usar un cortafuegos NAT restrictivo.
  	Por el momento, \textbf{no hay vulnerabilidades importantes }relacionadas con la encriptación por IPsec, pero John Gilmore,  miembro fundador y especialista en seguridad de la Electric Frontier foundation, afirma que es probable que el protocolo sea debilitado intencionalmente por la NSA.
  	
- 	\item SSTP: Secure Socket Tunneling Protocol fue presentado por Microsoft en el Service Pack 1 de Windows Vista. Este estándar está además ahora disponible para SEIL, Linux y RouterOS, aunque sigue siendo principalmente una plataforma únicamente para Windows. 
+ 	\item SSTP: Secure Socket Tunneling Protocol~\cite{article:sstp} fue presentado por Microsoft en el Service Pack 1 de Windows Vista. Este estándar está además ahora disponible para SEIL, Linux y RouterOS, aunque sigue siendo principalmente una plataforma únicamente para Windows. 
  	Utiliza SSL v3, y no tendría por qué tener problemas de seguridad aparentes. Sin embargo, hay que recordar que es propiedad de una gigante como Microsoft, y no puede ser analizado en busca de ingresos clandestinos.
  	
- 	\item IKEv2: Internet Key Exchange, en su segunda versión, es un protocolo de túnel basado en IPsec, fue desarrollado por Cisco y Microsoft.
+ 	\item IKEv2: Internet Key Exchange~\cite{article:sstp}, en su segunda versión, es un protocolo de túnel basado en IPsec, fue desarrollado por Cisco y Microsoft.
  	Los dispositivos móviles son los más beneficiados con IKEv2 ya que el protocolo de movilidad y multioproveedor que se ofrece en forma predeterminada lo hace extremadamente flexible para cambiar de redes. Pese a que IKEv2 está disponible en menos plataformas comparado con IPsec, tiene buena reputación en términos de estabilidad, seguridad y rendimiento.
  	
- 	\item OpenVPN: Es un estándar \textit{open-source }relativamente nueva, utiliza los protocolos SSLv3/ TLSv1 y biblioteca OpenSSL para brindar a los usuarios una solución de VPN confiable y potente. El protocolo tiene amplia capacidad de configuración, lo que hace que sea muy difícil de bloquear para servicios como Google.	La principal ventaja de esta tecnología es que OpenSSL, la biblioteca que utiliza, soporta\textbf{ múltiples algoritmos criptográficos }tales como 3DES, AES, Camellia, Blowfish, CAST-128 y más, aunque Blowfish o AES son utilizados casi exclusivamente por proveedores de VPN.
+ 	\item OpenVPN: Es un estándar \textit{open-source }relativamente nueva, utiliza los protocolos SSLv3/ TLSv1 y biblioteca OpenSSL para brindar a los usuarios una solución de VPN confiable y potente~\cite{article:sstp}. El protocolo tiene amplia capacidad de configuración, lo que hace que sea muy difícil de bloquear para servicios como Google.	La principal ventaja de esta tecnología es que OpenSSL, la biblioteca que utiliza, soporta\textbf{ múltiples algoritmos criptográficos }tales como 3DES, AES, Camellia, Blowfish, CAST-128 y más, aunque Blowfish o AES son utilizados casi exclusivamente por proveedores de VPN.
  	La rapidez con la que se desempeña el protocolo OpenVPN depende del nivel de encriptación utilizado, pero normalmente es más rápido que IPsec. Por contra, la configuración, es complicada en comparación con L2TP/IPsec y PPTP.
  \end{itemize}
  
@@ -571,12 +341,9 @@ del modo transporte y otro del modo túnel de IPsec:
 		\#prepend domain-name-servers 127.0.0.1;
 	}
 
-	Evidentemente, hay que cambiar la dirección del servidor de
-        DNS que utilizaremos. Podemos encontrar múltiples servidores,
-        todos ellos seguros, en \textit{https://www.opendns.com}.
+	Evidentemente, hay que cambiar la dirección del servidor de DNS que utilizaremos. Podemos encontrar múltiples servidores, todos ellos seguros, en \textit{https://www.opendns.com}.
 	
-	Tras esto (y reiniciar la red, evidentemente) podemos utilizar
-        openVPN sin riesgo a que ocurran DNS-leaks. 
+	Tras esto (y reiniciar la red, evidentemente) podemos utilizar openVPN sin riesgo a que ocurran DNS-leaks.
 	
 	Utilizar openVPN es tan sencillo como llamar al programa por línea de comandos pasándole como argumento un fichero \textit{.ovpn}, los cuales podemos conseguir, por ejemplo, en \textit{openvpn.com}.
 	
@@ -584,108 +351,46 @@ del modo transporte y otro del modo túnel de IPsec:
 	
 	Lo cierto es que, como veremos, no son las únicas opciones a la hora de obtener un mayor grado de anonimización.Sin embargo, la respuesta no es rotunda puesto que depende de qué servicio VPN y qué proxy se utilice.
 	
-	El uso de un proxy, hay tres protocolos principales, que como
-        hemos visto son HTTP/HTTPS y SOCKS, Si usamos un proxy HTTP ó
-        SOCKS, el uso de éste no proveerá de ningún tipo de
-        encriptación de los datos, mientras que los proxies HTTPS
-        ofrecen un nivel de encriptación igual que una web que
-        funcione con el protocolo SSL. Además, por lo general, el uso
-        de los proxies (sobre todo si se usan cadenas de los mismos)
-        implican una muy baja velocidad de conexión.
+	El uso de un proxy, hay tres protocolos principales, que como hemos visto son HTTP/HTTPS y SOCKS,
+	Si usamos un proxy HTTP ó SOCKS, el uso de éste no proveerá de ningún tipo de encriptación de los datos, mientras que los proxies HTTPS ofrecen un nivel de encriptación igual que una web que funcione con el protocolo SSL. Además, por lo general, el uso de los proxies (sobre todo si se usan cadenas de los mismos) implican una muy baja velocidad de conexión.
 	
-	El caso de los VPN, hasta el momento es imposible interceptar
-        el tráfico que circula por su túnel. Sin embargo, ésto produce
-        un \textbf{único punto de fallo}, y es el servicio VPN. Es
-        necesario asegurarse de que el servicio VPN que utilizamos no
-        guarda logs ni otros datos, pues en el momento en el que
-        dichos logs saliesen a la luz, estaríamos totalmente
-        expuestos.  \comments{Conviene reseñar los diversos servicios
-          VPN existentes, algunos de ellos dados a modo de plugin de
-          Firefox, Chrome (Tunnelo, Hoxx, etc.) Aquí sería pertinente
-          que uses el listado de herramientas que figure en la página
-          que te envíe: no todos los servicios VPN son iguales en
-          términos de protección del anonimato de red. }
+	El caso de los VPN, hasta el momento es imposible interceptar el tráfico que circula por su túnel. Sin embargo, esto produce un \textbf{único punto de fallo}, y es el servicio VPN. Es necesario asegurarse de que el servicio VPN que utilizamos no guarda logs ni otros datos, pues en el momento en el que dichos logs saliesen a la luz, estaríamos totalmente expuestos.
+	
 \subsection {Deep-web}
-Pese a no ser algo novedoso, el término de la web profunda se ha ido
-popularizando y extendiendo tanto en la comunidad \textit{hacker} como
-entre usuarios comunes en Internet y, a menudo, es usado de manera
-incorrecta ya que se suele confundir con la \textit{dark-web}.
+Pese a no ser algo novedoso, el término de la web profunda se ha ido popularizando y extendiendo tanto en la comunidad \textit{hacker} como entre usuarios comunes en Internet 	y, a menudo, es usado de manera incorrecta ya que se suele confundir con la \textit{dark-web}. 
 
-Para empezar, la \textit{deep-web} se refiere a aquellos contenidos
-que no están indexados por los prinicipales motores de búsqueda, tales
-como Google o Bing \comments{falta una referencia}. Por ende, es bastante complicado localizarlos, ni
-tan siquiera saber de su existencia.  Los motivos de no encontrarse
-indexados son muy variados. Suele ser debido a que el contenido se
-encuentra protegido por una contraseña, se encuentra en una VPN a la
-cual no tienen acceso los \textit{crawlers} lanzados por los
-buscadores, o simplemente son tan antiguos e irrelevantes, que no
-aparecen en las consultas de los buscadores.  Cabe mencionar, que
-algunos de los contenidos sí se encuentren indexados, pero dadas sus
-características, no aparezcan con los criterios de búsqueda
-convencionales utilizados por los usuarios.
+Para empezar, la \textit{deep-web}~\cite{article:deepweb} se refiere a aquellos contenidos que no están indexados por los prinicipales motores de búsqueda, tales como Google o Bing. Por ende, es bastante complicado localizarlos, ni tan siquiera saber de su existencia.
+Los motivos de no encontrarse indexados son muy variados. Suele ser debido a que el contenido se encuentra protegido por una contraseña, se encuentra en una VPN a la cual no tienen acceso los \textit{crawlers} lanzados por los buscadores, o simplemente son tan antiguos e irrelevantes, que no aparecen en las consultas de los buscadores.
+Cabe mencionar, que algunos de los contenidos sí se encuentren indexados, pero dadas sus características, no aparezcan con los criterios de búsqueda convencionales utilizados por los usuarios.
 
-Por otro lado, la web oscura (o \textit{dark-web}) refiere a
-contenidos que no es posible indexar debido a que se encuentran
-protegidos por sus autores, los cuales se encargan de compartirlos en
-redes anónimas ó sitios web protegidos con contraseña.  No existe una
-finalidad específica para éstos contenidos, pero normalmente se trata
-de páginas web encargadas para la administración de un portal, o
-contenido relacionado con actividades ilegales.
+Por otro lado, la web oscura (o \textit{dark-web}) refiere a contenidos que no es posible indexar debido a que se encuentran protegidos por sus autores, los cuales se encargan de compartirlos en redes anónimas ó sitios web protegidos con contraseña. 
+No existe una finalidad específica para estos contenidos, pero normalmente se trata de páginas web encargadas para la administración de un portal, o contenido relacionado con actividades ilegales.
 
-Las dimensiones que abarcan los contenidos de la web profunda son
-enormes, y actualmente no hay forma de medir (ni tan siquiera de forma
-aproximada) dicha cantidad de información.  Una imagen sumamente
-extendida en Internet representa la relación entre los contenidos de
-la web profunda y la parte visible de Internet, afirmando que la
-\textit{deep-web} constituye el 96\% de Internet. De nuevo, ésto no es
-cierto, puesto que no hay manera de medir, ni tan siquiera con un
-margen de error aceptable, la cantidad de información disponible en la
-web profunda. Muchos contenidos de ésta o bien son desconocidos, o
-bien no se encuentran disponibles durante largos períodos de tiempo.
+Las dimensiones que abarcan los contenidos de la web profunda son enormes, y actualmente no hay forma de medir (ni tan siquiera de forma aproximada)	dicha cantidad de información.
+Una imagen sumamente extendida en Internet representa la relación entre los contenidos de la web profunda y la parte visible de Internet, afirmando que la \textit{deep-web} constituye el 96\% de Internet. De nuevo, esto no es cierto, puesto que no hay manera de medir, ni tan siquiera con un margen de error aceptable, la cantidad de información disponible en la web profunda. Muchos contenidos de ésta o bien son desconocidos, o bien no se encuentran disponibles durante largos períodos de tiempo.
 
-Otro término muy utilizado es el de \commented{\textit{darknet}}
-\comments{Esto es algo que debe ir en el glosario.}. Una
-\textit{darknet }es un subconjunto de la web profunda que representa
-un espacio protegido por una VPN, o bien al que sólo un número
-reducido de usuarios autorizados pueden acceder. Los contenidos no son
-indexados por ningún buscador. Es más, en ciertos casos las
-direcciones de los servicios \textbf{no son resolubles por medio de
-  mecanismos tan habituales como consultas DNS.} Para poder navegar en
-estas redes normalmente es necesario hacer uso de un cliente, como
-bien puede ser el de Tor.
+Otro término muy utilizado es el de \textit{darknet}. Una \textit{darknet }es un subconjunto de la web profunda que representa un espacio protegido por una VPN, o bien al que sólo un número reducido de usuarios autorizados pueden acceder. Los contenidos no son indexados por ningún buscador. Es más, en ciertos casos las direcciones de los servicios \textbf{no son resolubles por medio de mecanismos tan habituales como consultas DNS.} Para poder navegar en estas redes normalmente es necesario hacer uso de un cliente, como bien puede ser el de Tor.
 
-En numerosas ocasiones se relaciona dicho tipo de redes con la
-ciberdelincuencia. Ésto es debido a que estas redes proporcionan un
-muy buen grado de privacidad y anonimato al usuario, lo cual es
-aprovechado para realizar actividades ilegales tales como la venta de
-armas ó drogas.  De hecho, un estudio realizado entre Diciembre de
-2013 y Julio de 2015 por un investigador apodado Gwern Branwen sobre
-las ventas en numerosos mercados de las \textit{darknets} revela que
-se llegaron a recaudar más de 27 millones de dólares en drogas
-ilegales.
+En numerosas ocasiones se relaciona dicho tipo de redes con la ciberdelincuencia. Ésto es debido a que estas redes proporcionan un muy buen grado de privacidad y anonimato al usuario, lo cual es aprovechado para realizar actividades ilegales tales como la venta de armas ó drogas. 
+De hecho, un estudio realizado entre Diciembre de 2013 y Julio de 2015 por un investigador apodado Gwern Branwen sobre las ventas en numerosos mercados de las \textit{darknets}~\cite{article:gwern} revela que se llegaron a recaudar más de 27 millones de dólares en drogas ilegales.
 
 \begin{figure}[h]
 	\centerline{
 		\mbox{\includegraphics[width=5.00in]{images/darknet_markets.png}}
 	}
-	\caption{Imagen extraída del artículo \textit{The data of the dark web - The Econommist}.}
+	\caption{Imagen extraída del artículo \textit{The data of the dark web - The Econommist}.~\cite{article:gwern}}
 	\label{fig:norm_Daugman}
 \end{figure}
-\comments{Pon la url desde la que has obtenido la figura. Además, pon la fecha del último acceso. }
 
 Sin embargo, el objetivo de estas herramientas no fue el motivar los actos ilícitos. 
 
-El uso que le de den la mayoría de usuarios no es el que originalmente
-se perseguía al crear este tipo de redes, que era el de proteger a
-aquellas personas que viven en países en los que constantemente se
-producen abusos contra los ciudadanos de forma sistemática, y el de
-plantear una solución al problema de censura y represión.
+El uso que le de den la mayoría de usuarios no es el que originalmente se perseguía al crear este tipo de redes, que era el de proteger a aquellas personas que viven en países en los que constantemente se producen abusos contra los ciudadanos de forma sistemática, y el de plantear una solución al problema de censura y represión.
 
 Las \textit{darknets} más conocidas a día de hoy son Tor, I2P y Freenet.
 
 \subsubsection {I2P}
 
-I2P es una darknet ó red anónima que nace en el año 2003- Su base funcional es similar a la de Tor. Está escrita en lenguaje Java, con algunos añadidos en C. 
+I2P es una darknet ó red anónima que nace en el año 2003- Su base funcional es similar a la de Tor. Está escrita en lenguaje Java, con algunos añadidos en C. ~\cite{article:i2p}
 Una de las ventajas de esta red es el permitir la creación de cualquier tipo de servicio sin mucha complejidad. Es posible poner en marcha servidores HTTP, SSH, FTP o SMB en cualquier instancia I2P sin apenas dificultad. Además, dichos servicios sólo permanecerán accesibles por usuarios internos de I2P.
 
 Existen servicios ocultos de almacenamiento, foros, wikis, documentación, servicios de correo electrónico, repositorios git ocultos, etcétera.
@@ -700,49 +405,23 @@ Una característica de estos túneles es que son de sentido único. Por este mot
 			\mbox{\includegraphics[width=5.00in]{images/tunnel_i2p.png}}
 		}
 		\caption{Funcionamiento básico de la transmisión de paquetes en I2P mediante tunelización.}
-		\label{fig:norm_Daugman}
+		\label{fig:I2PTunneling}
 	\end{figure}
 
 
 
 \subsubsection {FreeNET}
 
-FreeNET es uno de los proyectos más antiguos que tienen relación con
-el anonimato en la red. Los inicios del mismo aparecen alrededor del
-año 2001, y sigue siendo una opción muy viable si bien no es el más
-utilizado. A diferencia de otros, FreeNET sebasa en un modelo
-descentralizado, es decir, que no existen servidores para controlar ó
-gestionar la red y en su lugarcada usuario que se conecta a ésta
-aporta una cantidad de ancho de banda y reserva espacio en su disco
-duro para almacenar parte de los contenidos que se encuentran en dicha
-red.  Éste espacio es conocido como \textit{datastore}. Evidentemente
-no todo usuario tiene acceso completo a estos datos, y sólo el
-propietario de estos ficheros puede desencriptar sus contenidos
-utilizando su clave privada.
+FreeNET es uno de los proyectos más antiguos que tienen relación con el anonimato en la red. Los inicios del mismo aparecen alrededor del año 2001, y sigue siendo una opción muy viable si bien no es el más utilizado~\cite{article:freenet}. A diferencia de otros, FreeNET se basa en un modelo descentralizado, es decir, que no existen servidores para controlar ó gestionar la red y en su lugar cada usuario que se conecta a ésta aporta una cantidad de ancho de banda y reserva espacio en su disco duro para almacenar parte de los contenidos que se encuentran en dicha red. 
+Éste espacio es conocido como \textit{datastore}. Evidentemente no todo usuario tiene acceso completo a estos datos, y sólo el propietario de estos ficheros puede desencriptar sus contenidos utilizando su clave privada.
 
-La principal diferencia con la red Tor, que veremos más adelante, es
-que el correcto funcionamiento de FreeNET depende de la cantidad de
-usuarios que se encuentren activos en ese momento, ya que al ser
-descentralizada, con un gran número de usuarios es muy difícil
-identificar el origen de una petición determinada.
+La principal diferencia con la red Tor, que veremos más adelante, es que el correcto funcionamiento de FreeNET depende de la cantidad de usuarios que se encuentren activos en ese momento, ya que al ser descentralizada, con un gran número de usuarios es muy difícil identificar el origen de una petición determinada. 
 
-Una duda que puede surgir es si los contenidos ubicados en el
-\textit{datastore} de cada usuario permanecen por siempre. La
-respuesta es no, ya que al cabo de cierto tiempo, si los datos no son
-consultados por ningún usuario en la red, terminan siendo eliminados.
+Una duda que puede surgir es si los contenidos ubicados en el \textit{datastore} de cada usuario permanecen por siempre. La respuesta es no, ya que al cabo de cierto tiempo, si los datos no son consultados por ningún usuario en la red, terminan siendo eliminados.
 
-Éste modelo descentralizado, con el que se almacena en el disco duro
-información correspondiente de otros usuarios, también tiene sus
-\textbf{desventajas y peligros}. En el momento en el que una persona
-suba a la red \textbf{contenido ilegal}, porciones de dicho contenido
-son almacenadas por el conjunto de usuarios que se encuentren activos
-en FreeNET. Esto conlleva dos cosas.  La primera es que el autor que
-ha subido dicho contenido será muy difícil de localizar, debido a que
-los contenidos en el \textit{datastore} no incluyen metadatos del
-propietario, ni ninguna información identificativa más allá de la que
-tengan dichos datos.  El segundo es que un usuario el cual no tenía
-intenciones maliciosas puede acabar siendo propietario de contenidos
-que, aunque cifrados, infringen la ley.
+Éste modelo descentralizado, con el que se almacena en el disco duro información correspondiente de otros usuarios, también tiene sus \textbf{desventajas y peligros}. En el momento en el que una persona suba a la red \textbf{contenido ilegal}, porciones de dicho contenido son almacenadas por el conjunto de usuarios que se encuentren activos en FreeNET. Esto conlleva dos cosas.
+La primera es que el autor que ha subido dicho contenido será muy difícil de localizar, debido a que los contenidos en el \textit{datastore} no incluyen metadatos del propietario, ni ninguna información identificativa más allá de la que tengan dichos datos.
+El segundo es que un usuario el cual no tenía intenciones maliciosas puede acabar siendo propietario de contenidos que, aunque cifrados, infringen la ley.
 
 Como se ha explicado anteriormente, para acceder a contenidos en FreeNET es necesario conocer la clave que tiene asociado dicho contenido. Existen diferentes tipos de claves:
 
@@ -811,7 +490,7 @@ A continuación, generaremos una contraseña que utilizaremos para iniciar un co
 			\mbox{\includegraphics[width=5.00in]{images/hashed_pwd.png}}
 		}
 		\caption{\textit{Output} de la contraseña generada.}
-		\label{fig:norm_Daugman}
+		\label{fig:TorPwd}
 	\end{figure}
 	
 Tras haber generado la contraseña \textit{hash}, es necesario reemplazarla por la existente en el campo \textbf{HashedControlPassword} en el archivo:
@@ -827,7 +506,7 @@ Lo único que queda para poder hacer uso del script es aplicar la contraseña pr
 			\mbox{\includegraphics[width=5.00in]{images/controller_auth.png}}
 		}
 		\caption{Configuración del \textit{controller}.}
-		\label{fig:norm_Daugman}
+		\label{fig:controller}
 	\end{figure}
 
 Sólo nos queda lanzar el script, pues no es necesario ninguna configuración adicional. El output por consola es el que sigue:
@@ -837,7 +516,7 @@ Sólo nos queda lanzar el script, pues no es necesario ninguna configuración ad
 		\mbox{\includegraphics[width=5.00in]{images/hs_running.png}}
 	}
 	\caption{\textit{Output} del script cuando es lanzado el servicio oculto.}
-	\label{fig:norm_Daugman}
+	\label{fig:StemOut}
 \end{figure}
 
 Tras lanzar el servicio, podemos comprobar que está en funcionamiento entrando en la dirección que nos muestra el anterior output por consola. 
@@ -849,7 +528,7 @@ Evidentemente, \textbf{no es necesario estar en la misma red local}, el servicio
 		\mbox{\includegraphics[width=5.00in]{images/hs_running2.png}}
 	}
 	\caption{\textit{Hidden service} en funcionamiento.}
-	\label{fig:norm_Daugman}
+	\label{fig:hiddenserviceonline}
 \end{figure} 
 
 
@@ -873,7 +552,7 @@ Tiene opciones interesantes como la de desmontar el servidor en el momento en el
 		\mbox{\includegraphics[width=5.00in]{images/onionshare1.png}}
 	}
 	\caption{Ejecución de \textit{Onionshare} por consola}
-	\label{fig:norm_Daugman}
+	\label{fig:onionshare}
 \end{figure} 
 
 Una vez lanzado el script (\textbf{también tiene una versión con interfaz, pero para el ejemplo se ha decidido utilizar la versión por consola}) podemos abrir el servicio oculto desde cualquier dispositivo que esté utilizando el servicio Tor para poder descargar el archivo.
@@ -883,97 +562,64 @@ Una vez lanzado el script (\textbf{también tiene una versión con interfaz, per
 		\mbox{\includegraphics[width=5.00in]{images/onionshare2.png}}
 	}
 	\caption{Hidden-service creado, con posibilidad de descargar el archivo}
-	\label{fig:norm_Daugman}
+	\label{fig:onionsharehiddenservice}
 \end{figure} 
 
 Lo que ocurra después de descargar el archivo depende de la configuración utilizada en el servicio oculto. Puesto que hemos corrido el script con la \textit{flag } --stay-open, el hidden service no será borrado, pudiendo acceder a él otras veces hasta que el servidor pulse Ctrl+C.
 
 \subsection{Otras herramientas de ofuscación}
 
-En apartados anteriores hemos visto varias tecnologías con las que
-podemos camuflarnos a la hora de acceder a información, ya sea en
-Internet u otras redes anónimas. Sin embargo, existen incontables
-tecnologías que poco o nada tienen que ver con las anteriores
-mencionadas, como las que se expondrán a continuación.
+En apartados anteriores hemos visto varias tecnologías con las que podemos camuflarnos a la hora de acceder a información, ya sea en Internet u otras redes anónimas. Sin embargo, existen incontables tecnologías que poco o nada tienen que ver con las anteriores mencionadas, como las que se expondrán a continuación.
 
 \subsubsection{CacheCloak}
 
-Un usuario que haga uso de un smartphone(es decir, un usuario
-estándar), debe afrontar riesgos en cuanto a su privacidad en el
-momento en el que comparte su localización real con los \textbf{LSB}
-(Servicios Basados en Ubicación).  Es por ésto que nace una tecnología
-llamada \textit{CacheCloak}, un sistema que permite habilitar una
-\textbf{anonimización en tiempo real} del servicio de localización.
-La manera en la que funciona es simple: Un servidor(de confianza)
-intermedio recibe la localización real del usuario, la procesa
-utilizando \textit{CacheCloak} y envía dicha ubicación al LSB.  Además
-que la calidad del servicio no sufre, el objetivo (conseguir un buen
-grado de anonimato) se cumple, puesto que los LSB no consiguen
-identificar al usuario nada más que un corto período de tiempo.  La
-forma de conseguirlo es mediante una predicción de movilidad(basada en
-trayectos ya existentes de otros usuarios) que realiza el
-servidor(mediante métodos estocásticos) y medidas de entropía.
+Un usuario que haga uso de un smartphone(es decir, un usuario estándar), debe afrontar riesgos en cuanto a su privacidad en el momento en el que comparte su localización real con los \textbf{LSB} (Servicios Basados en Ubicación). 
+Es por esto que nace una tecnología llamada \textit{CacheCloak}, un sistema que permite habilitar una \textbf{anonimización en tiempo real} del servicio de localización.
+La manera en la que funciona es simple: Un servidor(de confianza) intermedio recibe la localización real del usuario, la procesa utilizando \textit{CacheCloak} y envía dicha ubicación al LSB.
+Además que la calidad del servicio no sufre, el objetivo (conseguir un buen grado de anonimato) se cumple, puesto que los LSB no consiguen identificar al usuario nada más que un corto período de tiempo. 
+La forma de conseguirlo es mediante una predicción de movilidad(basada en trayectos ya existentes de otros usuarios) que realiza el servidor(mediante métodos estocásticos) y medidas de entropía.
+
+\subsubsection{AdNauseam}
+
+Las páginas web que visitamos día a día contienen una gran cantidad de \textit{banners} de publicidad, normalmente de diversos temas. Cuando el usuario accede a alguno de ellos, la información sobre los gustos del usuario es recopilada, para así en un futuro promocionar publicidad similar. 
+
+AdNauseam nace como un plug-in de un navegador, y su propósito es el de ofuscar los gustos del usuario haciendo click en cada uno de los \textit{banners} de la página en cuestión. Al entrar en todos los tipos de publicidad diferentes, se consigue que sea más difícil ofrecer una publicidad adaptativa al usuario y, por tanto, se dificulta la identificación del mismo.
+
+\subsubsection{FaceCloak}
+
+FaceCloak es otro plug-in de navegador cuyo objetivo es la ofuscación de los datos personales de un usuario. En este caso, la herramienta limita el acceso que tiene Facebook a los datos personales del usuario. Funciona de la siguiente manera:
+
+\begin{enumerate}
+	\item En el momento de registro en Facebook, el plug-in genera datos personales \textbf{falsos}, los cuales serán enviados en los servidores de Facebook.
+	\item Una vez que nos registremos, se nos permite agregar nuestros datos personales reales, los cuales daremos acceso a un \textbf{grupo de amigos cerrado}.
+	\item Cualquier que pertenezca al anterior grupo, si tiene también activado el plug-in de FaceCloak, al acceder a nuestro perfil podrá ver los datos reales del usuario. En caso contrario sólo verá la información falsa que se envió en el registro a la página.
+\end{enumerate}
 
 \subsubsection{Ofuscación de estilometría de documentos}
-\comments{No sólo aplica en el campo del lenguaje natural, sino que
-  también hay que tenerlo en cuenta para cualquier tipo de lenguaje
-  \cite{caliskan2015coding,caliskan2015anonymizing}. } La estilometría
-es una métrica que hace usos de elementos de estilo lingüísticos para
-atribuir un autor a un documento. Para ello tiene en cuenta la
-longitud de frases, palabras, sintaxis, formato, signos de puntuación
-entre otros.  Existen diversas formas de intentar "evitar" la
-atribución de autores a documentos.
 
-Una de ellas, podría consistir simplemente en la \textbf{traducción
-  mecánica} de texto desarrollado a diferentes idiomas y, tras ello,
-la traducción inversa al idioma original. Esto, si bien es efectivo
-para textos cortos, hace que en los largos se pierda una cantidad
-considerable de información y sentido al contenido.  La imitación de
-otros autores es otra medida que se utiliza comúnmente. Hay ejemplos
-prácticos de análisis de textos de autores para crear nuevos textos a
-partir de ellos. Un ejemplo es el de \textit{Insta-Trump}
-(http://trump.frost.works/), el cual genera discursos a partir de
-otros ya existentes del presidente del gobierno de los Estados
-Unidos. Esto es logrado mediante \textbf{cadenas de Markov}.  Por
-último, mencionar que existen una serie de ataques de ofuscación
-contra análsis estilométrico que permiten crear textos sin aparente
-estilo distintivo, dificultando la labor de identificar al autor.  Un
-ejemplo es \textbf{Anonymouth}, una herramienta que proporciona al
-usuario advertencias sobre métricas que debería evitar a la hora de
-redactar textos(como longitudes de palabra, bigramas, etcétera).
+La estilometría es una métrica que hace usos de elementos de estilo para atribuir un autor a un documento. Puede ser empleada tanto para un documento de texto, ()para ello tendrá en cuenta la longitud de frases, palabras, sintaxis, formato, signos de puntuación entre otros), así como para ficheros de código fuente (asociación de un usuario mediante el estilo del código). 
+
+Existen diversas formas de intentar "evitar" la atribución de autores a documentos. 
+
+Una de ellas, podría consistir simplemente en la \textbf{traducción mecánica} de texto desarrollado a diferentes idiomas y, tras ello, la traducción inversa al idioma original. Esto, si bien es efectivo para textos cortos, hace que en los largos se pierda una cantidad considerable de información y sentido al contenido.\\
+La imitación de otros autores es otra medida que se utiliza comúnmente. Hay ejemplos prácticos de análisis de textos de autores para crear nuevos textos a partir de ellos. Un ejemplo es el de \textit{Insta-Trump} (http://trump.frost.works/), el cual genera discursos a partir de otros ya existentes del presidente del gobierno de los Estados Unidos. Esto es logrado mediante \textbf{cadenas de Markov}.\\
+Por último, mencionar que existen una serie de ataques de ofuscación contra análsis estilométrico que permiten crear textos sin aparente estilo distintivo, dificultando la labor de identificar al autor.
+Un ejemplo es \textbf{Anonymouth}, una herramienta que proporciona al usuario advertencias sobre métricas que debería evitar a la hora de redactar textos(como longitudes de palabra, bigramas, etcétera).
 
 \lsection{Herramientas de identificación de usuarios} \label{sec:identificacion}
 \subsection{Introducción}
 
-En apartados anteriores se han visto numerosas herramientas que ayudan
-a proteger la privacidad de un usuario, así como su grado de
-anonimato. Todo ello es conseguido, como hemos visto, con distintas
-tecnologías tales como el uso de servidores proxy, VPNs, redes
-anónimas ó ataques de ofuscación en estilometrías.  Sin embargo,
-existen también aplicaciones cuyo objetivo es atacar dichas
-tecnologías. En este apartado se verá como ejemplo \textbf{Tortazo}.
+En apartados anteriores se han visto numerosas herramientas que ayudan a proteger la privacidad de un usuario, así como su grado de anonimato. Todo ello es conseguido, como hemos visto, con distintas tecnologías tales como el uso de servidores proxy, VPNs, redes anónimas ó ataques de ofuscación en estilometrías. 
+Sin embargo, existen también aplicaciones cuyo objetivo es atacar dichas tecnologías. En este apartado se verá como ejemplo \textbf{Tortazo}.
 
 \subsubsection{Tortazo}
-Tortazo es, en pocas palabras, un framework de pruebas de auditoría
-para realizar \textit{pentesting} sobre \textit{\textbf{hidden
-    services}}(independientemente del protocolo que utilicen, SMB,
-FTP...) y \textbf{repetidores de salida} en Tor.
+Tortazo es, en pocas palabras, un framework de pruebas de auditoría para realizar \textit{pentesting} sobre \textit{\textbf{hidden services}}(independientemente del protocolo que utilicen, SMB, FTP...) y \textbf{repetidores de salida} en Tor.
 
-El proyecto es relativamente reciente y fue creado por
-\textbf{\textit{Adastra}}, el creador del blog
-https://thehackerway.net.
+El proyecto es relativamente reciente y fue creado por \textbf{\textit{Adastra}}, el creador del blog https://thehackerway.net.
 
-Cuenta con tres modos de funcionamiento, y entre estos modos destaca
-el modo para \textbf{botnet} el cual ataca servicios SSH por fuerza
-bruta, y permite descubrir sitios .onion (a partir de una dirección
-.onion parcial o bien a partir de la generación totalmente aleatoria
-de 16 caracteres en Base32), y un largo etcétera. Cuenta con una
-arquitectura basada modular que facilita el añadido de
-\textit{plug-ins} y permite acoplar herramientas de pentesting
-conocidas como \textbf{nmap ó W3AF.}
+Cuenta con tres modos de funcionamiento, y entre estos modos destaca el modo para \textbf{botnet} el cual ataca servicios SSH por fuerza bruta, y permite descubrir sitios .onion (a partir de una dirección .onion parcial o bien a partir de la generación totalmente aleatoria de 16 caracteres en Base32), y un largo etcétera. Cuenta con una arquitectura basada modular que facilita el añadido de \textit{plug-ins} y permite acoplar herramientas de pentesting conocidas como \textbf{nmap ó W3AF.}
 
-Vamos a tratar de probar brevemente cada uno de los modos de
-funcionamiento de esta herramienta:
+Vamos a tratar de probar brevemente cada uno de los modos de funcionamiento de esta herramienta:
 
 \begin{itemize}
 	\item{\textit{Information gathering}}: El modo de recopilación de información trata de:
@@ -1002,7 +648,7 @@ funcionamiento de esta herramienta:
 			\mbox{\includegraphics[width=5.00in]{images/tortazo_OR1.png}}
 		}
 		\caption{Información recogida de los nodos de salida Tor utilizando una instancia en ejecución}
-		\label{fig:norm_Daugman}
+		\label{fig:tortazo}
 	\end{figure} 
 	
 	\item{\textit{Botnet Mode}}: Para hacer uso del modo botnet, es preciso en primer lugar editar el fichero tortazo\_botnet.bot, incluido en las carpetas del proyecto, para incluir las direcciones de servidores que se desea controlar por medio de SSH. El comando para utilizarlo sería 
@@ -1017,41 +663,11 @@ funcionamiento de esta herramienta:
 \lsection{Debate social}
 \label{sec:social}
 
-Existen dos posiciones en cuanto a la protección de la privacidad en
-aplicaciones de mensajería y en datos personales en redes
-sociales. Ésta división de opiniones se ha visto acrecentada
-últimamente debido a una serie de sucesos (como actos terroristas
-organizados mediante herramientas de comunicación con cifrado punto a
-punto).
+Existen dos posiciones en cuanto a la protección de la privacidad en aplicaciones de mensajería y en datos personales en redes sociales. Ésta división de opiniones se ha visto acrecentada últimamente debido a una serie de sucesos (como actos terroristas organizados mediante herramientas de comunicación con cifrado punto a punto).
 
-Los \textbf{gobiernos}, por una parte, exigen cada vez un mayor
-control de las empresas tecnológicas para monitorizar los datos
-compartidos(como propaganda extremista), a la par que menos barreras
-de seguridad en aplicaciones como \textbf{WhatsApp} o
-\textbf{Telegram}, para así vigilar comunicaciones y neutralizar
-futuros atentados.  Un ejemplo es la medida que fue tomada en el
-Departamento de Seguridad Nacional en Estados Unidos (DHS) a partir del
-18 de Octubre de 2017, la cual implicaba que toda aquella información
-tanto de inmigrantes como nacionalizados estadounidenses pque se
-encontrase en redes sociales y diversos foros de Internet pasaría a
-formar parte del sistema de registro oficial de datos que guarda el
-gobierno federal. \comments{falta referencia}
+Los \textbf{gobiernos}, por una parte, exigen cada vez un mayor control de las empresas tecnológicas para monitorizar los datos compartidos~\cite{article:data}(como propaganda extremista), a la par que menos barreras de seguridad en aplicaciones como \textbf{WhatsApp} o \textbf{Telegram}, para así vigilar comunicaciones y neutralizar futuros atentados. \\
+Un ejemplo es la medida que fue tomada en el Departamento de Seguridad Nacional en Estados Unidos(DHS) a partir del 18 de Octubre de 2017, la cual implicaba que toda aquella información tanto de inmigrantes como nacionalizados estadounidenses que se encontrase en redes sociales y diversos foros de Internet pasaría a formar parte del sistema de registro oficial de datos que guarda el gobierno federal~\cite{article:inmigrantes}.
 
-Del mismo modo, existen \textbf{activistas} que consideran que dichas
-medidas del gobierno son una invasión a la privacidad y no deberían
-hacerse posible. Matt Cagle, un abogado norteamericano especializado
-en tecnología, es un ejemplo de ello. Él manifestó en el pasado año
-que "las empresas deben ser capaces de proporcionar a sus usuarios una
-encriptación segura de archivos, lo cual ayude a mantener los datos
-seguros y protegerlos del gobierno". También aclaró que "La privacidad
-no significa que un individuo esconda algo, es el derecho de poder
-controlar tu información y el derecho a controlar lo que el mundo y el
-gobierno sabe de un individuo; es el derecho a tener el espacio para
-formar tus opiniones, para tener posturas políticas, y para decidir
-cuándo se quiere llevar esos pensamientos a la esfera pública".
+Del mismo modo, existen \textbf{activistas} que consideran que dichas medidas del gobierno son una invasión a la privacidad y no deberían hacerse posible. Matt Cagle, un abogado norteamericano especializado en tecnología, es un ejemplo de ello. Él manifestó en el pasado año que "las empresas deben ser capaces de proporcionar a sus usuarios una encriptación segura de archivos, lo cual ayude a mantener los datos seguros y protegerlos del gobierno". También aclaró que "La privacidad no significa que un individuo esconda algo, es el derecho de poder controlar tu información y el derecho a controlar lo que el mundo y el gobierno sabe de un individuo; es el derecho a tener el espacio para formar tus opiniones, para tener posturas políticas, y para decidir cuándo se quiere llevar esos pensamientos a la esfera pública"~\cite{article:matt}.
 
-El posicionarse en uno de los bandos no depende más que de la opinión
-personal de cada uno. Sin embargo, una cosa es cierta y es que aún
-tratando de ocultar tu identidad en Internet lo máximo posible, hay
-que tener en cuenta que ningún sistema es totalmente fiable y siempre
-cabe la posibilidad de que la información sea filtrada.
+El posicionarse en uno de los bandos no depende más que de la opinión personal de cada uno. Sin embargo, una cosa es cierta y es que aún tratando de ocultar tu identidad en Internet lo máximo posible, hay que tener en cuenta que ningún sistema es totalmente fiable y siempre cabe la posibilidad de que la información sea filtrada.
