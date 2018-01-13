@@ -80,7 +80,7 @@ En 1981 apareció el segundo virus reconocido a nivel mundial, el llamado \textb
 Este virus sentó la base para los siguientes que fueron apareciendo, los cuales contendrían todo tipo de código destructivo (robo de datos, manipulación de los mismos, destrucción de software y hardware...) y se propagarían por más medios, como el correo electrónico e Internet.
 Debido a la aparición de los numerosos softwares maliciosos en esta época fueron apareciendo empresas que proporcionaban herramientas para proteger los equipos, los \textbf{antivirus}.
 
-En el año 1983, se hizo mandatorio que los usuarios de la red ARPANET utilizasen el protocolo TCP/IP. Éste hecho estableció un estándar en la comunicación entre redes y favoreció la aparición de la World Wide Web.
+En el año 1983, se hizo obligatorio que los usuarios de la red ARPANET utilizasen el protocolo TCP/IP. Éste hecho estableció un estándar en la comunicación entre redes y favoreció la aparición de la World Wide Web.
 Éste fue además el año en el que se utilizó por primera vez el término \textit{virus informático} en una tesis académica, dirigida por Fred Cohen~\cite{article:cohen}.
 
 En 1986 se aprueba una ley llamada La \textit{Ley De Fraude Y Abuso Cibernético}~\cite{article:ley} la cual aparece como contramedida al virus más dañino hasta la fecha como fue Brain~\cite{article:brain}, el primer virus compatible con máquinas IBM. La ley defendía a los usuarios del robo de datos, del acceso a la red no autorizado y demás delitos relacionados con la tecnología.
@@ -94,15 +94,16 @@ El año 2000 el número de gusanos informáticos que se encuentran en equipos do
 Para el año 2005 el número de malware únicos asciende a más de 300.000, y ha ascendido más de un 1000\% en diez años. Para el año 2008 dicha cifra asciende 5 millones de malware únicos.~\cite{article:number_malware}
 
 En los últimos años la variedad de ataques de robo de información ha cambiado mucho. Con la aparición de los smartphones, surgen nuevas amenazas para nuestra privacidad como \textit{payloads} que corren como un proceso en segundo plano~\cite{article:android} y permiten tracear nuestra ubicación, espiarnos a través de la cámara del dispositivo y un largo etcétera. Esto ha ocasionado que surjan también aplicaciones antivirus en nuestros teléfonos móviles, que actúan de forma \textit{pasiva} vigilando que ningún proceso monitorice de forma maliciosa nuestro dispositivo.
-Por ello, está claro que debemos cuidarnos de agentes externos como los distintos tipos de \textit{malware}, los cuales pueden usurpar nuestra identidad, comprometer nuestros \textbf{datos personales}, entre otras cosas. No todo depende del usuario puesto que muchos de los servicios que utilizamos día a día han sufrido de \textit{leaks} de bases de datos e infiltraciones en el sistema que suponen un riesgo para nuestra privacidad.
+Como se ha mencionado, está claro que debemos cuidarnos de agentes externos como los distintos tipos de \textit{malware}, los cuales pueden usurpar nuestra identidad, comprometer nuestros \textbf{datos personales}, entre otras cosas. 
+Sin embargo, \textbf{no todo depende del usuario }puesto que muchos de los servicios que utilizamos día a día han sufrido de \textit{leaks} de bases de datos e infiltraciones en el sistema que suponen un riesgo para nuestra privacidad. Un servicio muy útil para comprobar si hemos sido víctimas de ciberataques (con el riesgo que supone para nuestra privacidad) a sitios donde frecuentamos es https://haveibeenpwned.com/.
 
-Sin embargo, con el incremento del número de amenazas a nuestra privacidad también ha sido necesario que aparezcan herramientas que actúen de forma \textit{activa} y nos permitan utilizar los servicios de Internet de una forma más segura.
+Por todo esto, con el incremento del número de amenazas a nuestra privacidad también ha sido necesario que aparezcan herramientas que actúen de forma \textit{activa} y nos permitan utilizar los servicios de Internet de una forma más segura.
 
 	
 \lsection{Herramientas para la protección de privacidad mediante anonimato}
 \label{sec:a_favor}
 
-A continuación se menciona varias tecnologías utilizables a la fecha de redacción de este documento para ayudar a un usuario a proteger su privacidad en Internet y anonimizarse mediante \textit{proxies}, VPNs, redes anónimas o incluso dificultar la identificación inequívoca del mismo haciendo uso de \textbf{herramientas de ofuscación del tráfico de red}.
+A continuación se menciona varias tecnologías utilizables a la fecha de redacción de este documento para ayudar a un usuario a proteger su privacidad en Internet y anonimizarse mediante \textbf{ofuscación del tráfico de red}, utilizando \textit{proxies}, VPNs, redes anónimas o incluso dificultar la identificación inequívoca del mismo haciendo uso de \textbf{herramientas de ofuscación del tráfico de red}.
 
 Hoy en día existen numerosas aplicaciones que permiten aumentar nuestro grado de anonimato a la hora de realizar tareas en Internet, usualmente a costa de una más óptima velocidad de conexión,por ejemplo, el servicio \textbf{Tor}, o a cambio de una suscripción temporal, como los servicios VPN de pago.
 
@@ -305,9 +306,7 @@ El modo túnel recoge su nombre de la forma en la que una red VPN opera:
   			\label{fig:tunnelMode}
   		\end{figure}
  
- Hoy en día, se usan diferentes tecnologías VPN, cada una con sus pros y sus contras.
- 
- Entre todas ellas las más destacables son:
+ Hoy en día, se usan diferentes tecnologías VPN, cada una con sus pros y sus contras. Entre todas ellas las más destacables son:
  
  \begin{itemize}
  	\item PPTP: \textit{Point to Point Tunneling Protocol}, la cual está bajo licencia de Microsoft(fue el primer protocolo de VPN compatible con Windows), crea una red privada virtual en redes dial-up. ~\cite{article:pptp}
@@ -356,6 +355,22 @@ El modo túnel recoge su nombre de la forma en la que una red VPN opera:
 	
 	El caso de los VPN, hasta el momento es imposible interceptar el tráfico que circula por su túnel. Sin embargo, esto produce un \textbf{único punto de fallo}, y es el servicio VPN. Es necesario asegurarse de que el servicio VPN que utilizamos no guarda logs ni otros datos, pues en el momento en el que dichos logs saliesen a la luz, estaríamos totalmente expuestos.
 	
+	Existen multitud de servicios VPN (cada uno con sus pros y sus contras) que pueden utilizarse mediante OpenVPN. Los servicios más relevantes que defienden la privacidad del usuario por encima de todo, a fecha de redacción de este documento son:
+	
+	\begin{itemize}
+		\item {\textbf{ExpressVPN}}: Servicio de pago que proporciona una conexión mediante VPN y asegura \textbf{no registrar logs de actividad ni de conexión}, lo que garantiza una mayor privacidad para el usuario. Contiene VPN  Sus VPN están ubicadas en 78 países distintos.
+		\item {\textbf{BlackVPN}}: BlackVPN tampoco guarda logs de actividad, ni de conexión. Además el servicio está basado en Kowloon y actúa bajo la jurisdicción de Hong Kong, lugar donde se cuida el derecho a la privacidad del usuario.
+		\item {\textbf{TorGuard}}: Este servicio de nuevo no registra ningún tipo de logs. Además, utilizan una configuración de IP compartida entre todos sus servidores, lo que en conjunto hace imposible establecer una relación entre una persona física y una dirección IP en una fecha concreta. Cuenta con miles de servidores en 49 países distintos.
+		
+	\end{itemize}
+	
+	También existen servicios de VPN más sencillos de configurar que actúan mediante extensiones de navegador:
+	
+	\begin{itemize}
+		\item {\textbf{Hoxx}}: Plug-in disponible para Chrome y Firefox (aunque también cuenta con una aplicación Android oficial) totalmente gratuito. Promete ser un servicio sin límite de banda ancha, que permite anonimizar tu conexión e impedir que el tráfico sea interceptado.
+		\item {\textbf{Tunello}}: Al igual que Hoxx, Tunello es un plug-in de navegador (disponible en Firefox y Chrome) que proporciona un servicio VPN. Tiene un límite de uso de 6 GB de datos mensuales gratuitos y tampoco tiene límite de velocidad.	
+	\end{itemize}
+
 \subsection {Deep-web}
 Pese a no ser algo novedoso, el término de la web profunda se ha ido popularizando y extendiendo tanto en la comunidad \textit{hacker} como entre usuarios comunes en Internet 	y, a menudo, es usado de manera incorrecta ya que se suele confundir con la \textit{dark-web}. 
 
