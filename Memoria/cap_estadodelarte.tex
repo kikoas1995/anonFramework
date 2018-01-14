@@ -40,7 +40,7 @@ Es importante destacar que una identidad física puede estar relacionada a una �
 
 Por último conviene hablar de otra expresión que aparecerá también muy frecuentemente en este proyecto, y es el de \textbf{ofuscación}.
 
-En su sentido más abstracto, la ofuscación es la producción de ruido modelado en una señal existente con el objetivo de hacer una recopilación de datos más ambigua, confusa, difícil de \textit{explotar} y, por ende, menos valiosa.
+En su sentido más abstracto, la  es la producción de ruido modelado en una señal existente con el objetivo de hacer una recopilación de datos más ambigua, confusa, difícil de \textit{explotar} y, por ende, menos valiosa.
 
 \subsection{Procedimientos para incrementar el anonimato}
 
@@ -77,13 +77,13 @@ En 1973 Robert Metcalfe, un trabajador de ARPANET y el cuál fundó 3Com (uno de
 Durante esta etapa no se produjeron descubrimientos destacables con respecto a la seguridad informática. De hecho, en el año 1978 un grupo de científicos propusieron un proyecto de cifrado de paquetes TCP/IP pero encontraron muchas trabas, algunas de ellas incluso por la Agencia de Seguridad Nacional~\cite{article:nsa_tcp}. Por ello, dicho proyecto (que bien podría haber marcado otro camino en la historia de la seguridad en la informática) fue abandonado. 
 
 En 1981 apareció el segundo virus reconocido a nivel mundial, el llamado \textbf{Elk Cloner}~\cite{article:cloner}. Atacaba computadoras Apple II, aunque su único propósito era el de reproducirse en otros dispositivos y no efectuaba ningún daño propiamente dicho. Uno de los datos más impactantes es que fue diseñado por un joven de 15 años. Su propagación era mediante el disquete. 
-Este virus sentó la base para los siguientes que fueron apareciendo, los cuales contendrían todo tipo de código destructivo (robo de datos, manipulación de los mismos, destrucción de software y hardware...) y se propagarían por más medios, como el correo electrónico e Internet.
+Este virus sentó la base para los siguientes que fueron apareciendo, los cuales contendrían todo tipo de código destructivo (robo de información, manipulación de los mismos, destrucción de software y hardware...) y se propagarían por más medios, como el correo electrónico e Internet.
 Debido a la aparición de los numerosos softwares maliciosos en esta época fueron apareciendo empresas que proporcionaban herramientas para proteger los equipos, los \textbf{antivirus}.
 
 En el año 1983, se hizo obligatorio que los usuarios de la red ARPANET utilizasen el protocolo TCP/IP. Este hecho estableció un estándar en la comunicación entre redes y favoreció la aparición de la World Wide Web.
 Este fue además el año en el que se utilizó por primera vez el término \textit{virus informático} en una tesis académica, dirigida por Fred Cohen~\cite{article:cohen}.
 
-En 1986 se aprueba una ley llamada La \textit{Ley De Fraude Y Abuso Cibernético}~\cite{article:ley} la cual aparece como contramedida al virus más dañino hasta la fecha como fue Brain~\cite{article:brain}, el primer virus compatible con máquinas IBM. La ley defendía a los usuarios del robo de datos, del acceso a la red no autorizado y demás delitos relacionados con la tecnología.
+En 1986 se aprueba una ley llamada La \textit{Ley De Fraude Y Abuso Cibernético}~\cite{article:ley} la cual aparece como contramedida al virus más dañino hasta la fecha como fue Brain~\cite{article:brain}, el primer virus compatible con máquinas IBM. La ley defendía a los usuarios del \textbf{robo de datos}, del acceso a la red no autorizado y demás delitos relacionados con la tecnología.
 
 Los tres años siguientes siguieron apareciendo compañías que velaban por la seguridad como Symantec, la cual lanzó el conocido antivirus Norton en el año 1991.
 Sin embargo, esto no hizo que el número de robos de información cesara. Al contrario, pues con la aparición del primer navegador web surgieron nuevas formas de ataque y \textit{phising}. Asimismo surgieron los primeros ataques de denegación de servicio.
@@ -93,17 +93,20 @@ En el año 1996, con la aparición del complemento de navegador Flash(que permit
 El año 2000 el número de gusanos informáticos que se encuentran en equipos domésticos es desproporcionado. Asimismo, en ésta década los ciberdelincuentes aprenden a anonimizarse más sofisticadamente y hacen más difícil su identificación.
 Para el año 2005 el número de malware únicos asciende a más de 300.000, y ha ascendido más de un 1000\% en diez años. Para el año 2008 dicha cifra asciende 5 millones de malware únicos.~\cite{article:number_malware}
 
-En los últimos años la variedad de ataques de robo de información ha cambiado mucho. Con la aparición de los smartphones, surgen nuevas amenazas para nuestra privacidad como \textit{payloads} que corren como un proceso en segundo plano~\cite{article:android} y permiten tracear nuestra ubicación, espiarnos a través de la cámara del dispositivo y un largo etcétera. Esto ha ocasionado que surjan también aplicaciones antivirus en nuestros teléfonos móviles, que actúan de forma \textit{pasiva} vigilando que ningún proceso monitorice de forma maliciosa nuestro dispositivo.
+En los últimos años la variedad de ataques de robo de información ha cambiado mucho. Han habido noticias recientes con elementos tecnológicos tan cotidianos como la empresa fabricadora de robots-aspiradora Roomba, la cual vende información a terceros sobre los planos de tu casa~\cite{article:roomba}. 
+
+Con la aparición de los smartphones, surgen nuevas amenazas para nuestra privacidad como \textit{payloads} que corren como un proceso en segundo plano~\cite{article:android} y permiten tracear nuestra ubicación, espiarnos a través de la cámara del dispositivo y un largo etcétera. Esto ha ocasionado que surjan también aplicaciones antivirus en nuestros teléfonos móviles, que actúan de forma \textit{pasiva} vigilando que ningún proceso monitorice de forma maliciosa nuestro dispositivo. 
+
 Como se ha mencionado, está claro que debemos cuidarnos de agentes externos como los distintos tipos de \textit{malware}, los cuales pueden usurpar nuestra identidad, comprometer nuestros \textbf{datos personales}, entre otras cosas. 
 Sin embargo, \textbf{no todo depende del usuario }puesto que muchos de los servicios que utilizamos día a día han sufrido de \textit{leaks} de bases de datos e infiltraciones en el sistema que suponen un riesgo para nuestra privacidad. Un servicio muy útil para comprobar si hemos sido víctimas de ciberataques (con el riesgo que supone para nuestra privacidad) a sitios donde frecuentamos es \url{https://haveibeenpwned.com/}.
 
 Por todo esto, con el incremento del número de amenazas a nuestra privacidad también ha sido necesario que aparezcan herramientas que actúen de forma \textit{activa} y nos permitan utilizar los servicios de Internet de una forma más segura.
 
 	
-\lsection{Herramientas para la protección de privacidad mediante anonimato}
+\lsection{Herramientas que ofuscan la identificación del usuario}
 \label{sec:a_favor}
 
-A continuación se menciona varias tecnologías utilizables a la fecha de redacción de este documento para ayudar a un usuario a proteger su identidad en Internet y anonimizarse mediante \textbf{ofuscación del tráfico de red}, utilizando \textit{proxies}, VPNs, redes anónimas o incluso dificultar la identificación inequívoca del mismo haciendo uso de \textbf{herramientas basadas en otros tipos de ofuscación}.
+A continuación se menciona varias tecnologías utilizables a la fecha de redacción de este documento para ayudar a un usuario a proteger su identidad en Internet y anonimizarse mediante \textbf{ofuscación del tráfico de red}, utilizando \textit{proxies}, VPNs, redes anónimas o incluso dificultar la identificación inequívoca del mismo haciendo uso de \textbf{herramientas basadas en otros tipos de ofuscación}, como la de estilometría.
 
 Hoy en día existen numerosas aplicaciones que permiten aumentar nuestro grado de anonimato a la hora de realizar tareas en Internet, usualmente a costa de una más óptima velocidad de conexión,por ejemplo, el servicio \textbf{Tor}, o a cambio de una suscripción temporal, como los servicios VPN de pago.
 
@@ -237,7 +240,9 @@ Hay una gran cantidad de páginas que ofrecen servidores proxies, tanto gratuito
 No obstante, es posible encontrar servidores proxy gratuitos que funcionan relativamente bien. Una buena página en la que encontrarlos es \url{https://socks-proxy.net/}. 
 Esta página permite visualizar servidores proxy gratuitos con disponibilidad actualizada cada 20 minutos. Además, permite filtrarlos según tipo y sobre todo, país de origen.
 
-Con el objetivo de mantenernos anónimos en la red, conviene utilizar proxies ubicados en países que tengan buenas políticas de privacidad~\cite{article:politicas}. Ejemplo de ello son países como \textbf{Rusia, China o Países Bajos}.
+Con el objetivo de mantenernos anónimos en la red, conviene utilizar proxies ubicados en países que tengan buenas políticas de privacidad. Ejemplo de ello son países como \textbf{Rusia, China o Países Bajos}. 
+
+Otros países, como Estados Unidos, Reino unido, Nueva Zelanda, Australia o Canadá (grupo conocido como los Cinco Ojos~\cite{article:politicas}), están enfocados en recopilar y analizar datos entre sí, por lo que \textbf{no conviene utilizar} servicios basados en estas ubicaciones si el objetivo es mantener nuestra privacidad a salvo.  
 
 \subsection{VPN}
 
@@ -623,7 +628,7 @@ La imitación de otros autores es otra medida que se utiliza comúnmente. Hay ej
 Por último, mencionar que existen una serie de ataques de ofuscación contra análsis estilométrico que permiten crear textos sin aparente estilo distintivo, dificultando la labor de identificar al autor.
 Un ejemplo es \textbf{Anonymouth}, una herramienta que proporciona al usuario advertencias sobre métricas que debería evitar a la hora de redactar textos(como longitudes de palabra, bigramas, etcétera).
 
-\lsection{Herramientas de identificación de usuarios} \label{sec:identificacion}
+\lsection{Herramientas que ayudan a la identificación de usuarios} \label{sec:identificacion}
 \subsection{Introducción}
 
 En apartados anteriores se han visto numerosas herramientas que ayudan a proteger la privacidad de un usuario, así como su grado de anonimato. Todo ello se consigue, como hemos visto, con distintas tecnologías tales como el uso de servidores proxy, VPNs, redes anónimas ó ataques de ofuscación en estilometrías. 
@@ -699,5 +704,9 @@ La Ley aplicará sobre cualquier empresa que recopile datos personales de ciudad
 
 Una de las medidas que afectarán positivamente al ciudadano de a pie es que será necesario un \textbf{consentimiento explícito} para la recopilación de datos personales por parte de la empresa, imponiéndose sanciones severas en caso contrario.
 
-Otro hecho importante es que el responsable de tratamiento de datos de los usuarios estará obligado a la notificación de cualquier fallo de seguridad que concierna a los usuarios a la Autoridad de Protección de Datos Local (en España es la Agencia Española de Protección de Datos).
+Otro hecho importante es que el responsable de tratamiento de datos de los usuarios estará obligado a la notificación de cualquier fallo de seguridad que concierna a los usuarios a la autoridad de protección de datos local~\cite{article:AEPD} (en España es la Agencia Española de Protección de Datos) en un plazo máximo de 72 horas.
+
+Lo cierto es que pese a que a los ciudadanos el GDPR nos favorecerá, \textbf{hay numerosas empresas que podrían caer en chantajes de ciberatacantes} debido al valor que consigue la Personally Identifiable Information (PII)~\cite{article:chantajeGDPR}. Las empresas se podrían ver forzadas a pagarles pues, de lo contrario, un reporte de un ciberatacante sobre una brecha de seguridad por la cual acceder a datos personales podrían llevar a la compañía en cuestión a graves sanciones e indemnizaciones reclamadas de los afectados.
+
+ 
 

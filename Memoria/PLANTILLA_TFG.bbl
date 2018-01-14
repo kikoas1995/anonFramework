@@ -111,7 +111,7 @@ John~Von Neumann.
 \newblock \url{http://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf}, 1949.
 
 \bibitem{article:motivationvirus}
-Zack Shay y Jeff~Yeary Patrick~Carnahan, Dusty~Roberts.
+Zack Shay Jeff~Yeary Patrick~Carnahan, Dusty~Roberts.
 \newblock The motivation behind computer viruses.
 \newblock
   \url{http://nnt.es/The%20motivation%20behind%20computer%20viruses.pdf}.
@@ -165,6 +165,13 @@ Bert Rankin.
 \newblock
   \url{http://sandhill.com/article/malware-platforms-accelerate-malware-innovation-and-shift-enterprise-defense-in-2017/#},
   Noviembre 2016.
+
+\bibitem{article:roomba}
+Rosa~Jiménez Cano.
+\newblock Roomba, la aspiradora que te espía.
+\newblock
+  \url{https://elpais.com/tecnologia/2017/07/26/actualidad/1501047333_849632.html},
+  Julio 2017.
 
 \bibitem{article:android}
 Daniela~Muena Bustos.
@@ -290,6 +297,20 @@ Sofía Diamante.
 \newblock
   \url{http://www.lanacion.com.ar/2031159-seguridad-vs-privacidad-el-debate-del-rol-de-internet},
   Junio 2017.
+
+\bibitem{article:AEPD}
+Alberto~Iglesias Fraga.
+\newblock ¿qué es el gdpr y cómo va a revolucionar los datos en europa?
+\newblock
+  \url{http://www.ticbeat.com/seguridad/que-es-el-gdpr-y-como-va-a-revolucionar-la-proteccion-de-datos-en-europa/},
+  Noviembre 2016.
+
+\bibitem{article:chantajeGDPR}
+PandaSecurity.
+\newblock Gdpr, ¿una oportunidad para los ciberatacantes?
+\newblock
+  \url{https://www.pandasecurity.com/spain/mediacenter/seguridad/gdpr-oportunidad-ciberatacantes/},
+  Diciembre 2017.
 
 \bibitem{article:remailer}
 David Hopwood y Nick~Mathewson George~Danezis, Roger~Dingledine.

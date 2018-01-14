@@ -3,54 +3,49 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: PLANTILLA_TFG.aux
 The style file: unsrt.bst
 Database file #1: bibliografia.bib
-I was expecting a `,' or a `}'---line 45 of file bibliografia.bib
- :  
- :  publisher={Cambridge University Press}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Too many commas in name 1 of "Patrick Carnahan, Dusty Roberts, Zack Shay, y Jeff Yeary" for entry article:motivationvirus
+Too many commas in name 1 of "Patrick Carnahan, Dusty Roberts, Zack Shay, Jeff Yeary" for entry article:motivationvirus
 while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "George Danezis, Roger Dingledine, David Hopwood, y Nick Mathewson" for entry article:remailer
 while executing---line 944 of file unsrt.bst
-You've used 48 entries,
+You've used 51 entries,
             1791 wiz_defined-function locations,
-            662 strings with 11179 characters,
-and the built_in function-call counts, 6319 in all, are:
-= -- 517
-> -- 214
+            676 strings with 11743 characters,
+and the built_in function-call counts, 6712 in all, are:
+= -- 550
+> -- 226
 < -- 0
-+ -- 102
-- -- 54
-* -- 126
-:= -- 970
-add.period$ -- 140
-call.type$ -- 48
-change.case$ -- 47
++ -- 108
+- -- 57
+* -- 135
+:= -- 1030
+add.period$ -- 149
+call.type$ -- 51
+change.case$ -- 50
 chr.to.int$ -- 0
-cite$ -- 48
-duplicate$ -- 248
-empty$ -- 862
-format.name$ -- 54
-if$ -- 1496
+cite$ -- 51
+duplicate$ -- 263
+empty$ -- 916
+format.name$ -- 57
+if$ -- 1589
 int.to.chr$ -- 0
-int.to.str$ -- 48
+int.to.str$ -- 51
 missing$ -- 3
-newline$ -- 239
-num.names$ -- 46
-pop$ -- 284
+newline$ -- 254
+num.names$ -- 49
+pop$ -- 302
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 160
+skip$ -- 169
 stack$ -- 0
 substring$ -- 0
-swap$ -- 48
+swap$ -- 51
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 46
-width$ -- 50
-write$ -- 468
-(There were 3 error messages)
+while$ -- 49
+width$ -- 53
+write$ -- 498
+(There were 2 error messages)

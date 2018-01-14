@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {2.1}Privacidad y anonimato: conceptos}{5}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Procedimientos para incrementar el anonimato}{7}{subsection.2.1.1}
 \contentsline {section}{\numberline {2.2}Hechos relevantes con respecto a la seguridad en la red}{7}{section.2.2}
-\contentsline {section}{\numberline {2.3}Herramientas para la protecci\IeC {\'o}n de privacidad mediante anonimato}{9}{section.2.3}
+\contentsline {section}{\numberline {2.3}Herramientas que ofuscan la identificaci\IeC {\'o}n del usuario}{9}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Servidor proxy}{9}{subsection.2.3.1}
 \contentsline {subsubsection}{Proxy Web}{9}{section*.14}
 \contentsline {subsubsection}{Proxy Cache}{10}{section*.16}
@@ -18,22 +18,22 @@
 \contentsline {subsubsection}{Reverse Proxy}{11}{section*.20}
 \contentsline {subsubsection}{NAT proxy \IeC {\'o} enmascaramiento}{11}{section*.21}
 \contentsline {subsubsection}{Proxychains}{11}{section*.22}
-\contentsline {subsection}{\numberline {2.3.2}VPN}{12}{subsection.2.3.2}
-\contentsline {subsubsection}{OpenVPN}{15}{section*.28}
+\contentsline {subsection}{\numberline {2.3.2}VPN}{13}{subsection.2.3.2}
+\contentsline {subsubsection}{OpenVPN}{16}{section*.28}
 \contentsline {subsection}{\numberline {2.3.3}Deep-web}{17}{subsection.2.3.3}
-\contentsline {subsubsection}{I2P}{18}{section*.30}
+\contentsline {subsubsection}{I2P}{19}{section*.30}
 \contentsline {subsubsection}{FreeNET}{19}{section*.32}
-\contentsline {subsubsection}{Tor}{20}{section*.33}
-\contentsline {subsection}{\numberline {2.3.4}Otras herramientas de ofuscaci\IeC {\'o}n}{23}{subsection.2.3.4}
-\contentsline {subsubsection}{CacheCloak}{23}{section*.41}
-\contentsline {subsubsection}{AdNauseam}{24}{section*.42}
-\contentsline {subsubsection}{FaceCloak}{24}{section*.43}
-\contentsline {subsubsection}{Ofuscaci\IeC {\'o}n de estilometr\IeC {\'\i }a de documentos}{24}{section*.44}
-\contentsline {section}{\numberline {2.4}Herramientas de identificaci\IeC {\'o}n de usuarios}{25}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Introducci\IeC {\'o}n}{25}{subsection.2.4.1}
-\contentsline {subsubsection}{Tortazo}{25}{section*.45}
-\contentsline {section}{\numberline {2.5}Debate social}{26}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Ley De Protecci\IeC {\'o}n de Datos europea (GDPR)}{27}{subsection.2.5.1}
+\contentsline {subsubsection}{Tor}{21}{section*.33}
+\contentsline {subsection}{\numberline {2.3.4}Otras herramientas de ofuscaci\IeC {\'o}n}{24}{subsection.2.3.4}
+\contentsline {subsubsection}{CacheCloak}{24}{section*.41}
+\contentsline {subsubsection}{AdNauseam}{25}{section*.42}
+\contentsline {subsubsection}{FaceCloak}{25}{section*.43}
+\contentsline {subsubsection}{Ofuscaci\IeC {\'o}n de estilometr\IeC {\'\i }a de documentos}{25}{section*.44}
+\contentsline {section}{\numberline {2.4}Herramientas que ayudan a la identificaci\IeC {\'o}n de usuarios}{26}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Introducci\IeC {\'o}n}{26}{subsection.2.4.1}
+\contentsline {subsubsection}{Tortazo}{26}{section*.45}
+\contentsline {section}{\numberline {2.5}Debate social}{27}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Ley De Protecci\IeC {\'o}n de Datos europea (GDPR)}{28}{subsection.2.5.1}
 \contentsline {chapter}{\numberline {3}Sistema, dise\IeC {\~n}o y desarrollo}{29}{chapter.3}
 \contentsline {section}{\numberline {3.1}Cat\IeC {\'a}logo de requisitos}{29}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Requisitos funcionales}{29}{subsection.3.1.1}
