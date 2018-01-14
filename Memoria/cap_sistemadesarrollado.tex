@@ -112,7 +112,7 @@ El usuario hará uso de los argumentos a la hora de lanzar el programa para que 
 	La herramienta no requerirá ser un usuario con privilegios para poder usarse. \\	
 	\linebreak
 	\textbf{Requisito No Funcional \#5: El sistema deberá ejecutar las tareas de forma rápida y eficiente.}\\
-	Cualquier tarea ejecutada por el sistema (ya sea dada de alta de usuarios, inicio de sesión, envío de e-mails ó posteo de comentarios) no deberá demorarse en exceso, con un tiempo límite de 2 minutos por tarea. \\		
+	Cualquier tarea ejecutada por el sistema (ya sea dada de alta de usuarios, inicio de sesión, envío de e-mails o posteo de comentarios) no deberá demorarse en exceso, con un tiempo límite de 2 minutos por tarea. \\		
 \end{adjustwidth}
 \newpage
 \section{Diseño del sistema}
@@ -235,7 +235,7 @@ Cabe destacar que las \textbf{páginas grandes} como Facebook e Instagram, restr
 	\item El segundo basado en un navegador Firefox con un proxy Tor habilitado (\textbf{Tor Browser}).
 \end{itemize} 
 
-Mientras que el uso del WebDriver de Firefox con configuración por defecto agiliza los procesos de registro e inicio de sesión con una velocidad más que aceptable(del orden de menos de\textbf{ dos minutos} para el registro e inicio de sesión completos), el navegador \textbf{Tor Browser} impide que páginas como Facebook ó Instagram restrinjan el número de registros tan fácilmente, aumentando además nuestro nivel de \textbf{privacidad y anonimato}.
+Mientras que el uso del WebDriver de Firefox con configuración por defecto agiliza los procesos de registro e inicio de sesión con una velocidad más que aceptable(del orden de menos de\textbf{ dos minutos} para el registro e inicio de sesión completos), el navegador \textbf{Tor Browser} impide que páginas como Facebook o Instagram restrinjan el número de registros tan fácilmente, aumentando además nuestro nivel de \textbf{privacidad y anonimato}.
 
 \subsection{Diseño de la base de datos de \textit{accounts}}
 
@@ -243,7 +243,7 @@ La herramienta contiene un módulo dedicado a la implementación de una base de 
 
 El encriptación, la cual usa un esquema AES de 256 bit transparente al usuario, se consigue mediante el uso de la librería \textbf{pysqlcipher}.
 
-El módulo dedicado a la base de datos, contiene varias funciones para el manejo de la misma. Dichas funciones son llamadas desde los módulos de la sección de \textbf{accounts}. Entre ellas hay funciones para la inserción de tuplas(con creación automática de la tabla en el caso de que no exista), consultas para obtener una tupla concreta ó aleatoria.
+El módulo dedicado a la base de datos, contiene varias funciones para el manejo de la misma. Dichas funciones son llamadas desde los módulos de la sección de \textbf{accounts}. Entre ellas hay funciones para la inserción de tuplas(con creación automática de la tabla en el caso de que no exista), consultas para obtener una tupla concreta o aleatoria.
 
 La base de datos que se crea contiene tantas tablas como páginas en las que se ha implementado un registro de usuarios, y todas ellas tendrán la misma estructura, contando con campos como \textbf{username registrado, contraseña y e-mail de registro.}
 

@@ -16,7 +16,7 @@
 \contentsline {subsubsection}{Proxy Cache}{10}{section*.16}
 \contentsline {subsubsection}{Transparent Proxy}{10}{section*.18}
 \contentsline {subsubsection}{Reverse Proxy}{11}{section*.20}
-\contentsline {subsubsection}{NAT proxy \IeC {\'o} enmascaramiento}{11}{section*.21}
+\contentsline {subsubsection}{NAT proxy o enmascaramiento}{11}{section*.21}
 \contentsline {subsubsection}{Proxychains}{11}{section*.22}
 \contentsline {subsection}{\numberline {2.3.2}VPN}{13}{subsection.2.3.2}
 \contentsline {subsubsection}{OpenVPN}{16}{section*.28}
