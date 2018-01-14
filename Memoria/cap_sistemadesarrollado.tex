@@ -33,10 +33,10 @@ El usuario hará uso de los argumentos a la hora de lanzar el programa para que 
 	En el emisor de correos anónimos, el usuario tiene la opción de poder ofuscar su texto, aplicando una doble traducción en el cuerpo del mensaje.\\
 	\linebreak
 	\textbf{Requisito Funcional \#7: El usuario tiene disponible una bandeja de entrada temporal por consola.}\\
-	Esta opción permite al usuario hacer uso del servicio online de https://tempail.com para visualizar directamente por consola y en tiempo real los e-mails que van llegando.\\
+	Esta opción permite al usuario hacer uso del servicio online de \url{https://tempail.com} para visualizar directamente por consola y en tiempo real los e-mails que van llegando.\\
 	\linebreak	
 	\textbf{Requisito Funcional \#8: El usuario tiene disponible una bandeja de entrada temporal visible en un navegador.}\\
-	Esta opción abre una instancia del navegador Firefox, donde se puede visualizar en tiempo real los correos entrantes mediante el servicio de bandeja temporal https://temptami.com.\\	
+	Esta opción abre una instancia del navegador Firefox, donde se puede visualizar en tiempo real los correos entrantes mediante el servicio de bandeja temporal \url{https://temptami.com}.\\	
 \end{adjustwidth}
 \subsubsection{Requisitos de la funcionalidad de \textit{accounts}}
 \begin{adjustwidth}{0.5cm}{}
@@ -140,10 +140,10 @@ En esta aplicación se han tenido en cuenta dos modos de ejecución.
 
 La funcionalidad de mailing la podemos dividir en los módulos en los que está compuesta. 
 
-El \textbf{módulo de envío de correos anónimo} se encarga de la extracción de información de la página \textbf{http://anonymouse.org/anonemail.html}. La extracción de información se realiza mediante el uso de la librería \textbf{\textit{mechanize}}. Esta potente librería disponible en Python se utiliza para automatizar información con páginas web. Automáticamente almacena y envía \textit{cookies}, permite redirecciones web y puede \textbf{interactuar y enviar formularios}(lo que nos permite el envío de correos por medio de esta página).
+El \textbf{módulo de envío de correos anónimo} se encarga de la extracción de información de la página \url{http://anonymouse.org/anonemail.html}. La extracción de información se realiza mediante el uso de la librería \textbf{\textit{mechanize}}. Esta potente librería disponible en Python se utiliza para automatizar información con páginas web. Automáticamente almacena y envía \textit{cookies}, permite redirecciones web y puede \textbf{interactuar y enviar formularios}(lo que nos permite el envío de correos por medio de esta página).
 Se ha incluido una modificación en las \textit{headers} del navegador, para tratar de evitar el traceo de identidad.
 
-También se ha añadido la posibilidad de realizar un proceso de \textbf{ofuscación de estilometría} rápido y simple. Para ello se hace uso del ofuscador disponible en la página https://skaillz.net/obfuscator/. La ofuscación se realiza mediante un doble proceso de traducción automático. 
+También se ha añadido la posibilidad de realizar un proceso de \textbf{ofuscación de estilometría} rápido y simple. Para ello se hace uso del ofuscador disponible en la página \url{https://skaillz.net/obfuscator/}. La ofuscación se realiza mediante un doble proceso de traducción automático. 
 Esta opción está disponible en el cuerpo del mensaje/correo.
 
 La interfaz al uso es la siguiente:
@@ -188,7 +188,7 @@ Debido a la cola de mensajes de la página, el envío se puede llegar a demorar 
 
 En cuanto a bandejas de entrada volátiles, se han implementado \textbf{dos}. El motivo es que muchas de las páginas utilizadas en la sección de \textit{accounts} bloqueaban alguna de las dos, así que convenía tener una alternativa.
 
-En la \textbf{primera} se hace uso de la página https://tempail.com/ para poder visualizar los correos entrantes en tiempo real directamente desde la interfaz del programa. Se hizo uso de las librerías \textbf{requests} y \textbf{html} para lograr la funcionalidad deseada. A continuación una captura de la bandeja de entrada en funcionamiento:
+En la \textbf{primera} se hace uso de la página \url{https://tempail.com/} para poder visualizar los correos entrantes en tiempo real directamente desde la interfaz del programa. Se hizo uso de las librerías \textbf{requests} y \textbf{html} para lograr la funcionalidad deseada. A continuación una captura de la bandeja de entrada en funcionamiento:
 
 \begin{figure}[H]
 	\centerline{
@@ -198,7 +198,7 @@ En la \textbf{primera} se hace uso de la página https://tempail.com/ para poder
 	\label{fig:tempail_inbox}
 \end{figure}
 
-La otra bandeja de entrada volátil hace uso de la web https://temptami.com/, un servicio de bandeja de entrada temporal algo menos conocido que tempail y, por ende, con menos restricciones para el uso en registros de diversas páginas como FaceBook. A diferencia de los anteriores módulos, esta página hace necesario realizar \textit{web-scraping} teniendo en cuenta código JavaScript. Es por ello que la librería para examinar la página ahora es \textbf{Selenium}, una librería que provee al usuario de automatización de procesos en páginas web, mediante un \textbf{WebDriver}, que es el nombre de la interfaz donde se ejecutan dichos procesos. 
+La otra bandeja de entrada volátil hace uso de la web \url{https://temptami.com/}, un servicio de bandeja de entrada temporal algo menos conocido que tempail y, por ende, con menos restricciones para el uso en registros de diversas páginas como FaceBook. A diferencia de los anteriores módulos, esta página hace necesario realizar \textit{web-scraping} teniendo en cuenta código JavaScript. Es por ello que la librería para examinar la página ahora es \textbf{Selenium}, una librería que provee al usuario de automatización de procesos en páginas web, mediante un \textbf{WebDriver}, que es el nombre de la interfaz donde se ejecutan dichos procesos. 
 
 La bandeja de entrada temporal del servicio \textbf{TempTami}, por ende, tiene como objetivo principal la validación de \textbf{correos de confirmación} para el registro en varias páginas web, que veremos en el apartado siguiente. 
 

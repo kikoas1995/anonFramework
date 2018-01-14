@@ -33,6 +33,7 @@
 \contentsline {subsection}{\numberline {2.4.1}Introducci\IeC {\'o}n}{25}{subsection.2.4.1}
 \contentsline {subsubsection}{Tortazo}{25}{section*.45}
 \contentsline {section}{\numberline {2.5}Debate social}{26}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Ley De Protecci\IeC {\'o}n de Datos europea (GDPR)}{27}{subsection.2.5.1}
 \contentsline {chapter}{\numberline {3}Sistema, dise\IeC {\~n}o y desarrollo}{29}{chapter.3}
 \contentsline {section}{\numberline {3.1}Cat\IeC {\'a}logo de requisitos}{29}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Requisitos funcionales}{29}{subsection.3.1.1}
