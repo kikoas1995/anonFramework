@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.3)  15 JAN 2018 18:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.3)  15 JAN 2018 18:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4184,7 +4184,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 160.
 Here is how much of TeX's memory you used:
  14289 strings out of 493029
  198831 string characters out of 6136234
- 363109 words of memory out of 5000000
+ 362121 words of memory out of 5000000
  17225 multiletter control sequences out of 15000+600000
  29971 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -4209,7 +4209,7 @@ pk> </home/kiko/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1728.600pk></usr/sha
 re/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on PLANTILLA_TFG.pdf (71 pages, 1572817 bytes).
+Output written on PLANTILLA_TFG.pdf (71 pages, 1572913 bytes).
 PDF statistics:
  1635 PDF objects out of 1728 (max. 8388607)
  898 compressed objects within 9 object streams
