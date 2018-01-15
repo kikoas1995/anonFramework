@@ -4,6 +4,7 @@
 Miniwatts~Marketing Group.
 \newblock Facebook subscribers in the world by geographic regions.
 \newblock \url{http://www.internetworldstats.com/facebook.htm}, 2017.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:pew}
 Ruogu Kang y Mary~Madden Lee~Rainie, Sara~Kiesler.
@@ -11,23 +12,27 @@ Ruogu Kang y Mary~Madden Lee~Rainie, Sara~Kiesler.
 \newblock
   \url{http://www.pewinternet.org/2013/09/05/anonymity-privacy-and-security-online/},
   Septiembre 2013.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:proxy_trans}
 Robert Gibb.
 \newblock What is a transparent proxy?
 \newblock \url{https://www.maxcdn.com/one/visual-glossary/transparent-proxy/},
   Marzo 2015.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:ibm_ip}
 IBM.
 \newblock Transport mode and tunnel mode.
 \newblock
   \url{https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.1.0/com.ibm.zos.v2r1.halz002/ipsecurity_ipsec_ah_esp_encap_modes.htm}.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:tunnelMode}
 How vpn work - vpn tunneling.
 \newblock
   \url{https://technet.microsoft.com/pt-pt/library/cc779919(v=ws.10).aspx}.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:gwern}
 The Economist.
@@ -35,12 +40,22 @@ The Economist.
 \newblock
   \url{https://www.economist.com/blogs/graphicdetail/2016/07/daily-chart-8},
   Julio 2016.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{book:PrivacyBigDataPublicGood}
 Julia Lane, Victoria Stodden, Stefan Bender, and Helen Nissenbaum.
-\newblock {\em Privacy, big data, and the public good: Frameworks for
-  engagement}.
-\newblock Cambridge University Press, 2014.
+\newblock Privacy, big data, and the public good: Frameworks for engagement,
+  2014.
+\newblock Último acceso 15 de Enero de 2018.
+
+\bibitem{article:GPSTracking}
+Chris Smith.
+\newblock Google has been secretly tracked your android phone, even if you
+  disabled location services.
+\newblock
+  \url{http://bgr.com/2017/11/21/android-location-data-disabled-google-tracked-phones/},
+  November 2017.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{hadnagy2010social}
 Christopher Hadnagy.
@@ -49,9 +64,18 @@ Christopher Hadnagy.
 
 \bibitem{article:GDPRGoogle}
 David Llaró.
-\newblock Desaparece de internet con {GDPR}.
+\newblock Desaparece de internet con gdpr.
 \newblock \url{https://www.gruposothis.com/desaparece-internet-gdpr}, Noviembre
   2017.
+\newblock Último acceso 15 de Enero de 2018.
+
+\bibitem{article:compraventa}
+Manuel Contreras.
+\newblock Así es como las grandes empresas venden tus datos en internet.
+\newblock
+  \url{https://www.elconfidencial.com/tecnologia/2015-09-14/asi-es-como-venden-tus-datos-personales-en-internet_1011071/},
+  Septiembre 2015.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{diaz2015privacy}
 Jesus Diaz, Seung~Geol Choi, David Arroyo, Angelos~D Keromytis, Francisco~B
@@ -85,6 +109,7 @@ Andrea Núñez-Torrón Stock.
 \newblock
   \url{http://www.ticbeat.com/seguridad/faltan-expertos-ciberseguridad/},
   Septiembre 2016.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{paper:secbydesign}
 Mark Dixon.
@@ -92,6 +117,7 @@ Mark Dixon.
 \newblock
   \url{https://www.ipc.on.ca/wp-content/uploads/Resources/pbd-privacy-and-security-by-design-oracle.pdf},
   September 2013.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{paper:privacybydesign}
 Ann Cavoukian.
@@ -99,6 +125,7 @@ Ann Cavoukian.
 \newblock
   \url{https://www.acc.com/chapters/euro/upload/7foundationalprinciples-spanish.pdf},
   Febrero 2011.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{cavoukian2009privacy}
 Ann Cavoukian.
@@ -106,11 +133,18 @@ Ann Cavoukian.
 \newblock {\em Take the challenge. Information and privacy commissioner of
   Ontario, Canada}, 2009.
 
+\bibitem{article:PbDGDPR}
+Ben Davis.
+\newblock Gdpr requires privacy by design, but what is it and how can marketers
+  comply?
+\newblock
+  \url{https://www.econsultancy.com/blog/69376-gdpr-requires-privacy-by-design-but-what-is-it-and-how-can-marketers-comply},
+  Septiembre 2017.
+\newblock Último acceso 15 de Enero de 2018.
+
 \bibitem{article:danezis2010}
 George Danezis and Seda G{\"u}rses.
-\newblock A critical review of 10 years of privacy technology.
-\newblock In {\em Proceedings of surveillance cultures: a global surveillance
-  society}, pages 1--16, 2010.
+\newblock A critical review of 10 years of privacy technology, 2010.
 
 \bibitem{solove2002conceptualizing}
 Daniel~J Solove.
@@ -124,22 +158,26 @@ Lucy Handley.
 \newblock
   \url{https://www.cnbc.com/2017/10/17/60-percent-of-people-in-the-us-worry-about-privacy-and-brands.html},
   Octubre 2017.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:anopseudo}
 Helen Nissenbaum.
 \newblock Obfuscation: A user guide for privacy and protest.
 \newblock Capítulo 2: p.45-46, 2016.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:automata}
 John~Von Neumann.
 \newblock The theory of self reproducing automata.
 \newblock \url{http://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf}, 1949.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:motivationvirus}
 Zack Shay Jeff~Yeary Patrick~Carnahan, Dusty~Roberts.
 \newblock The motivation behind computer viruses.
 \newblock
   \url{http://nnt.es/The%20motivation%20behind%20computer%20viruses.pdf}.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:nsa_tcp}
 Stu Sjouwerman.
@@ -147,6 +185,7 @@ Stu Sjouwerman.
 \newblock
   \url{https://blog.knowbe4.com/how-the-nsa-killed-internet-security-in-1978},
   Junio 2015.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:cloner}
 Yoni Heisler.
@@ -154,6 +193,7 @@ Yoni Heisler.
 \newblock
   \url{http://bgr.com/2017/03/20/malware-first-computer-virus-apple-elk-cloner/},
   Marzo 2017.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:cohen}
 Fred Cohen.
@@ -161,6 +201,7 @@ Fred Cohen.
 \newblock
   \url{https://www.wired.com/2009/11/1110fred-cohen-first-computer-virus//},
   Octubre 2009.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:ley}
 Miguel Estrada~Garavilla.
@@ -168,6 +209,7 @@ Miguel Estrada~Garavilla.
 \newblock
   \url{https://www.unifr.ch/ddp1/derechopenal/articulos/a_20080526_32.pdf},
   Mayo 2008.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:brain}
 Claire Connelly.
@@ -175,6 +217,7 @@ Claire Connelly.
 \newblock
   \url{http://www.news.com.au/technology/the-birth-of-the-first-personal-computer-virus-brain/news-story/555b25e198059f56e1f0a4e4e902e8a8},
   Enero 2011.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:staog}
 Jesús Maturana.
@@ -182,15 +225,16 @@ Jesús Maturana.
 \newblock
   \url{https://www.muyseguridad.net/2010/11/29/la-breve-historia-de-los-virus-en-gnulinux-haberlos-hailos/},
   Noviembre 2010.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:number_malware}
 Bert Rankin.
 \newblock Malware platforms accelerate malware innovation and shift enterprise
   defense in 2017.
 \newblock
-  \url{http://sandhill.com/article/malware-platforms-accelerate-malware-innovation-and-shift-enterprise-defense-in-2017/},
+  \url{http://sandhill.com/article/malware-platforms-accelerate-malware-innovation-and-shift-enterprise-defense-in-2017/#},
   Noviembre 2016.
-\newblock Last accessed 15 January 2018.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:roomba}
 Rosa~Jiménez Cano.
@@ -198,6 +242,7 @@ Rosa~Jiménez Cano.
 \newblock
   \url{https://elpais.com/tecnologia/2017/07/26/actualidad/1501047333_849632.html},
   Julio 2017.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:android}
 Daniela~Muena Bustos.
@@ -205,6 +250,7 @@ Daniela~Muena Bustos.
 \newblock
   \url{http://premios.eset-la.com/universitario/pdf/malaware_para_dispositivos_moviles_android.pdf},
   2014.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:proxy}
 Patrick Lambert.
@@ -212,6 +258,7 @@ Patrick Lambert.
 \newblock
   \url{https://www.techrepublic.com/blog/it-security/the-basics-of-using-a-proxy-server-for-privacy-and-security/},
   Diciembre 2012.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:proxy_rev}
 1 and 1~Digital Guide.
@@ -219,17 +266,20 @@ Patrick Lambert.
 \newblock
   \url{https://www.1and1.es/digitalguide/servidores/know-how/que-es-un-servidor-proxy-inverso/},
   Junio 2017.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:nat}
 CISCO Papers.
 \newblock Network address translation.
 \newblock
   \url{https://www.cisco.com/c/es_mx/support/docs/ip/network-address-translation-nat/13772-12.pdf/}.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:proxychains}
 Sanjib Sinha.
 \newblock Beginning ethical hacking with python.
 \newblock Páginas 179-183, Diciembre 2016.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:politicas}
 Seguimiento global - los catorce ojos.
@@ -241,23 +291,27 @@ Elisa Reyes.
 \newblock
   \url{https://www.datacenter1.com/blog/seguridad-informatica/la-importancia-de-los-vpn-y-las-ventajas-de-su-uso-para-2016/
   }, Noviembre 2015.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:swipe}
 Mike~Chapple James M.~Stewart, Ed~Tittel.
 \newblock Information systems security professional study guide.
 \newblock p.125, 2008.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:ipsec}
 Hatem Farag.
 \newblock Ipsec story.
 \newblock \url{https://learningnetwork.cisco.com/docs/DOC-31750}, Diciembre
   2016.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:levpn}
 Le-VPN.
 \newblock Historia de las vpn.
 \newblock \url{http://www.le-vpn.com/es/la-historia-de-la-vpn/}, Septiembre
   2016.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:esp}
 Sergio~De Luz.
@@ -265,6 +319,7 @@ Sergio~De Luz.
 \newblock
   \url{https://www.redeszone.net/2011/09/06/ipsec-volumen-iii-esp-carga-de-seguridad-encapsulada/},
   Septiembre 2011.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:ietf}
 Fernando Gont.
@@ -272,6 +327,7 @@ Fernando Gont.
 \newblock
   \url{https://www.si6networks.com/presentations/inet2010/fgont-inet2010-introduccion-ietf.pdf},
   2010.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:pptp}
 Mike~Erwin Paul~Wolfe, Charlie~Scott.
@@ -279,6 +335,7 @@ Mike~Erwin Paul~Wolfe, Charlie~Scott.
 \newblock
   \url{https://www.safaribooksonline.com/library/view/virtual-private-networks/1565925297/ch04s02.html},
   Diciembre 1998.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:sstp}
 Jenifer Castellano.
@@ -286,6 +343,7 @@ Jenifer Castellano.
 \newblock
   \url{https://www.solvetic.com/page/noticias/s/seguridad/caracteristicas-protocolos-vpn-openvpn-sstp-l2tp-ikev2-pptp},
   Octubre 2017.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:deepweb}
 Daniel Echeverri.
@@ -298,11 +356,13 @@ Infosec Institute.
 \newblock
   \url{http://resources.infosecinstitute.com/anonymizing-networks-tor-vs-i2p/},
   Novimebre 2012.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:freenet}
 Infosec Institute.
 \newblock How does freenet work?
 \newblock \url{https://latesthackingnews.com/2017/05/29/19914/}, Mayo 2017.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:data}
 Helen~Nissenbaum Victoria~Stodden, Stefan~Bender.
@@ -316,6 +376,7 @@ Ron Nixon.
 \newblock
   \url{https://www.nytimes.com/es/2017/10/02/revision-redes-sociales-migracion-estados-unidos/},
   Octubre 2017.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:matt}
 Sofía Diamante.
@@ -323,31 +384,36 @@ Sofía Diamante.
 \newblock
   \url{http://www.lanacion.com.ar/2031159-seguridad-vs-privacidad-el-debate-del-rol-de-internet},
   Junio 2017.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:AEPD}
 Alberto~Iglesias Fraga.
-\newblock ¿qué es el {GDPR} y cómo va a revolucionar los datos en europa?
+\newblock ¿qué es el gdpr y cómo va a revolucionar los datos en europa?
 \newblock
   \url{http://www.ticbeat.com/seguridad/que-es-el-gdpr-y-como-va-a-revolucionar-la-proteccion-de-datos-en-europa/},
   Noviembre 2016.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:chantajeGDPR}
 PandaSecurity.
-\newblock {GDPR}, ¿una oportunidad para los ciberatacantes?
+\newblock Gdpr, ¿una oportunidad para los ciberatacantes?
 \newblock
   \url{https://www.pandasecurity.com/spain/mediacenter/seguridad/gdpr-oportunidad-ciberatacantes/},
   Diciembre 2017.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:remailer}
 David Hopwood y Nick~Mathewson George~Danezis, Roger~Dingledine.
 \newblock Mixminion: Design of a type iii anonymous remailer protocol.
 \newblock
   \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.508.6690&rep=rep1&type=pdf}.
+\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:webscraping}
 Renita~Crystal Pereira.
 \newblock Web scraping of social networks.
 \newblock \url{https://www.ijircce.com/upload/2015/sacaim/43_710.pdf}, Octubre
   2015.
+\newblock Último acceso 15 de Enero de 2018.
 
 \end{thebibliography}

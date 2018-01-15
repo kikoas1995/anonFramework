@@ -25,18 +25,22 @@ No son pocas las noticias que están apareciendo últimamente sobre
 empresas como Google relacionadas con la invasión a la
 privacidad. Esto, en gran parte, se ha visto incrementado debido a la
 llegada de los \textit{smartphones} al mercado(algo relativamente
-reciente, hace alrededor de 10 años). El poder llevar en nuestro
-bolsillo todo un ordenador tiene el inconveniente de que grandes
-empresas como las anteriormente mencionadas pueden tener acceso a
+reciente, hace alrededor de 10 años). 
+
+El poder llevar en nuestro bolsillo todo un ordenador tiene el inconveniente de que grandes empresas como las anteriormente mencionadas pueden tener acceso a
 información en tiempo real de nosotros, como por ejemplo a la hora a
 la que nos levantamos, la localización de nuestra propia casa e
 incluso la ubicación real en todo momento (y sí, de poco sirve
 deshabilitar la ubicación por GPS en tu smartphone~\cite{article:GPSTracking} pues también la
 pueden averiguar mediante el inicio de sesión en una red WiFi).
+
+Un servicio que hace uso de la geolocalización de usuarios mediante su Identificador de Servicio de la red inalámbrica (SSID) es \url{https://wigle.net}.
 \comments{Te falta alguna referencia, por ejemplo,
   \url{https://techcrunch.com/2017/11/21/android-devices-seen-covertly-sending-location-data-to-google/}. También
 es relevante tener en cuenta esto: \url{https://wigle.net/}. Permite
 geolocalizar usuarios a través de los SSID. }
+
+
 
 Por otro lado está el tema de las redes sociales. Con el auge de
 Facebook, Instagram y Twitter, gran parte de la población (en el caso
@@ -61,7 +65,7 @@ servicio por parte del proveedor. }
 Esto de por sí no es un dato negativo, el problema viene cuando para
 realizar un registro en una página (como por ejemplo, la web de un
 diario), la forma más sencilla es conectando con tu perfil personal de
-Facebook. Esto causa que, al interaccionar con dicha página\commented{ (ya sea
+Facebook. Esto causa que, al interaccionar con dicha página \commented{ (ya sea
 publicando un comentario, o cualquier tipo de actividad)} \comments{he
 visto que sueles olvidar el espacio antes de los paréntesis. Verifica esto.}, te
 arriesgues a que aparezca tu nombre real, con todo lo que ello
@@ -77,11 +81,15 @@ documento).
 
 En otros casos el iniciar sesión con la cuenta de Google o Facebook
 sirve para que dichas empresas conozcan mejor tus gustos y
-\commented{hobbies} \comments{mejor aficiones, o ponerlo en
+\commented{aficiones} \comments{mejor aficiones, o ponerlo en
   cursiva. Los neologismos deben aparecer en cursiva, en caso de que
   no exista traducción. Si existe traducción, es preferible que figure
 la misma.},
-para así ofrecerte publicidad a medida. \comments{Esta circunstancia
+para así ofrecerte publicidad a medida. Si bien esto no es realmente una invasión a la privacidad por parte del servicio utilizado (excepto en el caso de que el proveedor no cumple con las normas de uso del servicio), estamos proporcionando pasivamente de información personal a terceros, muchas veces desde nuestro desconocimiento, la cual puede ser utilizada con fines económicos que benefician a la empresa en cuestión ~\cite{article:compraventa}. 
+
+De hecho, es posible una identificación de un usuario de forma anónima, sin que ello impida la monitorización del mismo (véase \url{https://privacypass.github.io/})
+
+ \comments{Esta circunstancia
   no tiene por qué suponer una erosión de nuestra privacidad, de forma
 que sólo se configura como tal en aquello supuestos en los que el
 proveedor de servicios no respeta los términos que el usuario aceptó
@@ -94,7 +102,16 @@ sin que eso imposibilite un debido control de acceso y una necesaria
 monitorización de actividad de usuario.}
 
 \comments{Sigue siendo díficil captar tu mensaje. Intentaría ser más
-  claro. Algo en esta línea}\modified{De acuerdo con todo lo anterior, parece
+  claro. Algo en esta línea}
+En definitiva, al igual que en nuestra vida diaria existen peligros a los que debemos enfrentarnos, como los robos, nuestra actividad en la red también conlleva varias amenazas, como suplantaciones de identidad o hurto de información personal. Es más, gran parte de los riesgos en el ciberespacio son debidos a la compleja proyección entre nuestra identidad real y la digital (mediante la cual somos aceptados en cierto servicio concreto). Dicha proyección es realizada  normalmente por un tercero, al que delegamos la confianza para la correcta gestión de nuestro \textit{yo} digital, y el riesgo reside en que dicha entidad no siempre actúa de forma ética.
+
+En el ámbito de la seguridad informática, existe un principio que trata de impedir la ocurrencia de estas amenazas (entre otras muchas) y es el \textbf{Principio del mínimo privilegio~\cite{schneider2003least}}, una piedra angular de la seguridad que sugiere que toda acción debe ser realizada con los mínimos privilegios posibles, de forma que cualquier fallo o ataque tenga el mínimo impacto. 
+
+Además, muchas de estas vulneraciones a la privacidad podrían evitarse en el momento que toda entidad que ofrezca un servicio dejase claro mediante unas \textbf{normas de uso} cuáles son sus propósitos, y qué implica que el usuario las acepte (mediante un \textbf{consentimiento informado}~\cite{lane2014privacy} ). Esto, claro está, también supone la implicación del usuario en preocuparse sobre qué información personal va a estar expuesta a la hora de utilizar un servicio.
+
+En este caso, a un proveedor de servicio se le proporciona únicamente la información mínima para la correcta realización del servicio, momento en el cual se le dará consentimiento explícito en caso de estar de acuerdo en utilizar el servicio en cuestión. 
+
+\modified{De acuerdo con todo lo anterior, parece
   claro que la navegación por el denominado ciberespacio no está
   exenta de peligros. Si en el mundo físico podemos sufrir robos, en
   el ciberespacio igualmente podemos sufrir sustracción de datos y
@@ -142,8 +159,7 @@ sistema(\textit{security-by-design}~\cite{paper:secbydesign}), y sobre
 todo que dicho sistema respete la privacidad del usuario
 (\textit{privacy-by-design}~\cite{paper:privacybydesign}
 ~\cite{cavoukian2009privacy}). Además, este requisito pasará a ser
-obligatorio a partir de que entre en vigor \commented{la ya mencionada
-  GDPR} \comments{en el texto principal todavía no la has
+obligatorio a partir de que entre en vigor \commented{la GDPR ~\cite{article:PbDGDPR}} \comments{en el texto principal todavía no la has
   mencionada. Añade, por otra parte, referencia al texto de la GDPR.}, por
 lo que las empresas desarrolladoras de software deberán tener en
 cuenta la privacidad de los datos de cada usuario en las fases de
@@ -157,7 +173,7 @@ Principalmente se pretenden lograr dos objetivos fundamentales en este proyecto.
 El primero es el de hacernos conocedores más a fondo de las diferentes
 vías a la hora de anonimizarnos en Internet, las variadas herramientas
 que pretenden conseguir este objetivo (así como las que pretenden
-identificar a un usuario), \modified{así como de las diferentes
+identificar a un usuario), \modified{como también de las diferentes
   nociones} del término
 privacidad~\cite{article:danezis2010}. \comments{Te conviene destacar
   algo en esta línea $\rightarrow$ En este último punto, conviene
@@ -180,6 +196,8 @@ probado una herramienta con numerosas y diversas funciones, cuyo
 principal propósito es el de \modified{proporcionarnos una experiencia
   de navegación en Internet} lo más
 anónima posible en todo momento.
+
+Por último, aclarar que el presente documento aborda sobre todo la dimensión tecnológica de la privacidad, y no trata el debate legal entre el punto de vista estadounidense ( \textit{privacy-as-secrecy}) y el europeo (\textit{privacy-as-personhood}~\cite{solove2002conceptualizing}). Se trata sobre todo de una investigación a fondo de la privacidad en la red y las diversas maneras de conseguirla.
 
 
 

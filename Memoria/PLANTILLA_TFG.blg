@@ -3,49 +3,53 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: PLANTILLA_TFG.aux
 The style file: unsrt.bst
 Database file #1: bibliografia.bib
+I was expecting an "="---line 1861 of file bibliografia.bib
+ : <<<<<<< 
+ :         HEAD
+I'm skipping whatever remains of this entry
 Too many commas in name 1 of "Patrick Carnahan, Dusty Roberts, Zack Shay, Jeff Yeary" for entry article:motivationvirus
 while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "George Danezis, Roger Dingledine, David Hopwood, y Nick Mathewson" for entry article:remailer
 while executing---line 944 of file unsrt.bst
-You've used 55 entries,
+You've used 58 entries,
             1791 wiz_defined-function locations,
-            705 strings with 12418 characters,
-and the built_in function-call counts, 8297 in all, are:
-= -- 718
-> -- 268
-< -- 4
-+ -- 124
-- -- 69
-* -- 229
-:= -- 1245
-add.period$ -- 166
-call.type$ -- 55
-change.case$ -- 52
+            719 strings with 13096 characters,
+and the built_in function-call counts, 8921 in all, are:
+= -- 821
+> -- 280
+< -- 3
++ -- 130
+- -- 72
+* -- 225
+:= -- 1373
+add.period$ -- 219
+call.type$ -- 58
+change.case$ -- 56
 chr.to.int$ -- 0
-cite$ -- 55
-duplicate$ -- 357
-empty$ -- 1063
-format.name$ -- 69
-if$ -- 1975
+cite$ -- 58
+duplicate$ -- 355
+empty$ -- 1101
+format.name$ -- 72
+if$ -- 2113
 int.to.chr$ -- 0
-int.to.str$ -- 55
-missing$ -- 12
-newline$ -- 277
-num.names$ -- 53
-pop$ -- 318
+int.to.str$ -- 58
+missing$ -- 9
+newline$ -- 336
+num.names$ -- 56
+pop$ -- 347
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 220
+skip$ -- 169
 stack$ -- 0
-substring$ -- 142
-swap$ -- 91
-text.length$ -- 4
+substring$ -- 123
+swap$ -- 88
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
 while$ -- 67
-width$ -- 57
-write$ -- 551
-(There were 2 error messages)
+width$ -- 60
+write$ -- 668
+(There were 3 error messages)
