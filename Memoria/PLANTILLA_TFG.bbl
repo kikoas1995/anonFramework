@@ -64,7 +64,7 @@ Christopher Hadnagy.
 
 \bibitem{article:GDPRGoogle}
 David Llaró.
-\newblock Desaparece de internet con gdpr.
+\newblock Desaparece de internet con {GDPR}.
 \newblock \url{https://www.gruposothis.com/desaparece-internet-gdpr}, Noviembre
   2017.
 \newblock Último acceso 15 de Enero de 2018.
@@ -135,8 +135,8 @@ Ann Cavoukian.
 
 \bibitem{article:PbDGDPR}
 Ben Davis.
-\newblock Gdpr requires privacy by design, but what is it and how can marketers
-  comply?
+\newblock {GDPR} requires privacy by design, but what is it and how can
+  marketers comply?
 \newblock
   \url{https://www.econsultancy.com/blog/69376-gdpr-requires-privacy-by-design-but-what-is-it-and-how-can-marketers-comply},
   Septiembre 2017.
@@ -173,7 +173,7 @@ John~Von Neumann.
 \newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:motivationvirus}
-Zack Shay Jeff~Yeary Patrick~Carnahan, Dusty~Roberts.
+Patrick Carnahan, Dusty Roberts, Zack Shay, and Jeff Yeary.
 \newblock The motivation behind computer viruses.
 \newblock
   \url{http://nnt.es/The%20motivation%20behind%20computer%20viruses.pdf}.
@@ -388,7 +388,7 @@ Sofía Diamante.
 
 \bibitem{article:AEPD}
 Alberto~Iglesias Fraga.
-\newblock ¿qué es el gdpr y cómo va a revolucionar los datos en europa?
+\newblock ¿qué es el {GDPR} y cómo va a revolucionar los datos en europa?
 \newblock
   \url{http://www.ticbeat.com/seguridad/que-es-el-gdpr-y-como-va-a-revolucionar-la-proteccion-de-datos-en-europa/},
   Noviembre 2016.
@@ -396,14 +396,14 @@ Alberto~Iglesias Fraga.
 
 \bibitem{article:chantajeGDPR}
 PandaSecurity.
-\newblock Gdpr, ¿una oportunidad para los ciberatacantes?
+\newblock {GDPR}, ¿una oportunidad para los ciberatacantes?
 \newblock
   \url{https://www.pandasecurity.com/spain/mediacenter/seguridad/gdpr-oportunidad-ciberatacantes/},
   Diciembre 2017.
 \newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:remailer}
-David Hopwood y Nick~Mathewson George~Danezis, Roger~Dingledine.
+George Danezis, Roger Dingledine, David Hopwood, and Nick Mathewson.
 \newblock Mixminion: Design of a type iii anonymous remailer protocol.
 \newblock
   \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.508.6690&rep=rep1&type=pdf}.

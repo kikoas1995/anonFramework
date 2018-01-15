@@ -3,21 +3,17 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: PLANTILLA_TFG.aux
 The style file: unsrt.bst
 Database file #1: bibliografia.bib
-Too many commas in name 1 of "Patrick Carnahan, Dusty Roberts, Zack Shay, Jeff Yeary" for entry article:motivationvirus
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "George Danezis, Roger Dingledine, David Hopwood, y Nick Mathewson" for entry article:remailer
-while executing---line 944 of file unsrt.bst
 You've used 58 entries,
             1791 wiz_defined-function locations,
-            719 strings with 13076 characters,
-and the built_in function-call counts, 8921 in all, are:
-= -- 821
-> -- 280
+            719 strings with 13100 characters,
+and the built_in function-call counts, 9009 in all, are:
+= -- 823
+> -- 300
 < -- 3
-+ -- 130
-- -- 72
-* -- 225
-:= -- 1373
++ -- 136
+- -- 78
+* -- 239
+:= -- 1391
 add.period$ -- 219
 call.type$ -- 58
 change.case$ -- 56
@@ -25,8 +21,8 @@ chr.to.int$ -- 0
 cite$ -- 58
 duplicate$ -- 355
 empty$ -- 1101
-format.name$ -- 72
-if$ -- 2113
+format.name$ -- 78
+if$ -- 2129
 int.to.chr$ -- 0
 int.to.str$ -- 58
 missing$ -- 9
@@ -48,4 +44,3 @@ warning$ -- 0
 while$ -- 67
 width$ -- 60
 write$ -- 668
-(There were 2 error messages)
