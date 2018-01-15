@@ -58,6 +58,13 @@
     "hyperref"
     "fancyhdr")
    (TeX-add-symbols
+    '("commentswho" 2)
+    '("doubtwho" 2)
+    '("modifiedsout" 1)
+    '("modified" 1)
+    '("commented" 1)
+    '("comments" 1)
+    '("todo" 1)
     '("NOcaptionFigure" 2)
     '("captionFigure" 2)
     '("lsection" 1)
@@ -78,6 +85,8 @@
     "bibliografia")
    (LaTeX-add-lengths
     "salto"
-    "resalto"))
+    "resalto")
+   (LaTeX-add-xcolor-definecolors
+    "dgreen"))
  :latex)
 
