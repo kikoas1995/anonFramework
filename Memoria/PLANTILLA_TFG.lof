@@ -6,7 +6,7 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Resultados del estudio en Pew Research Center's and American Life Project hecho en Julio de 2014~\cite {article:pew} \relax }}{6}{figure.caption.13}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Funcionamiento de un Web proxy o Proxy service\relax }}{10}{figure.caption.15}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Funcionamiento de un Proxy Cach\IeC {\'e}\relax }}{10}{figure.caption.17}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Funcionamiento de un Proxy transparente~\cite {article:proxy_trans}\relax }}{10}{figure.caption.19}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Funcionamiento de un Proxy transparente~\cite {article:proxy_trans}\relax }}{11}{figure.caption.19}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Ejemplo de una cadena de proxies\relax }}{11}{figure.caption.23}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Cadena din\IeC {\'a}mica\relax }}{12}{figure.caption.24}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Cadena estricta\relax }}{12}{figure.caption.25}
@@ -14,7 +14,7 @@
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Esquema del \textit {Tunneling mode}~\cite {article:tunnelMode}\relax }}{15}{figure.caption.27}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Imagen extra\IeC {\'\i }da del art\IeC {\'\i }culo \textit {The data of the dark web - The Econommist}.~\cite {article:gwern}\relax }}{18}{figure.caption.29}
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Funcionamiento b\IeC {\'a}sico de la transmisi\IeC {\'o}n de paquetes en I2P mediante tunelizaci\IeC {\'o}n.\relax }}{19}{figure.caption.31}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces \textit {Output} de la contrase\IeC {\~n}a generada.\relax }}{21}{figure.caption.34}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces \textit {Output} de la contrase\IeC {\~n}a generada.\relax }}{22}{figure.caption.34}
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Configuraci\IeC {\'o}n del \textit {controller}.\relax }}{23}{figure.caption.35}
 \contentsline {figure}{\numberline {2.14}{\ignorespaces \textit {Output} del script cuando es lanzado el servicio oculto.\relax }}{23}{figure.caption.36}
 \contentsline {figure}{\numberline {2.15}{\ignorespaces \textit {Hidden service} en funcionamiento.\relax }}{23}{figure.caption.37}

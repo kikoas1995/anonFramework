@@ -59,6 +59,11 @@
     "pfitzmann2010terminology"
     "caliskan2015anonymizing"
     "caliskan2015coding"
-    "solove2002conceptualizing"))
+    "solove2002conceptualizing"
+    "hadnagy2010social"
+    "cao-ndss17"
+    "schneider2003least"
+    "sanchez2018review"
+    "diaz2015privacy"))
  :bibtex)
 

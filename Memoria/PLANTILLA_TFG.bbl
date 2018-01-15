@@ -1,12 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{article:google}
-Tim Herrera.
-\newblock How to see what the internet knows about you.
-\newblock
-  \url{https://www.nytimes.com/2017/07/03/smarter-living/how-to-see-what-the-internet-knows-about-you.html},
-  Julio 2017.
-
 \bibitem{article:FacebookStats}
 Miniwatts~Marketing Group.
 \newblock Facebook subscribers in the world by geographic regions.
@@ -49,11 +42,41 @@ Julia Lane, Victoria Stodden, Stefan Bender, and Helen Nissenbaum.
   engagement}.
 \newblock Cambridge University Press, 2014.
 
+\bibitem{hadnagy2010social}
+Christopher Hadnagy.
+\newblock {\em Social engineering: The art of human hacking}.
+\newblock John Wiley \& Sons, 2010.
+
 \bibitem{article:GDPRGoogle}
 David Llaró.
 \newblock Desaparece de internet con {GDPR}.
 \newblock \url{https://www.gruposothis.com/desaparece-internet-gdpr}, Noviembre
   2017.
+
+\bibitem{diaz2015privacy}
+Jesus Diaz, Seung~Geol Choi, David Arroyo, Angelos~D Keromytis, Francisco~B
+  Rodriguez, and Moti Yung.
+\newblock Privacy threats in e-shopping (position paper).
+\newblock In {\em International Workshop on Data Privacy Management}, pages
+  217--225. Springer, 2015.
+
+\bibitem{schneider2003least}
+Fred~B Schneider.
+\newblock Least privilege and more [computer security].
+\newblock {\em IEEE Security \& Privacy}, 99(5):55--59, 2003.
+
+\bibitem{lane2014privacy}
+Julia Lane, Victoria Stodden, Stefan Bender, and Helen Nissenbaum.
+\newblock {\em Privacy, big data, and the public good: Frameworks for
+  engagement}.
+\newblock Cambridge University Press, 2014.
+
+\bibitem{sanchez2018review}
+Alejandro Sanchez-Gomez, Jesus Diaz, Luis Hernandez-Encinas, and David Arroyo.
+\newblock Review of the main security threats and challenges in free-access
+  public cloud storage servers.
+\newblock In {\em Computer and Network Security Essentials}, pages 263--281.
+  Springer, 2018.
 
 \bibitem{article:expCiberseguridad}
 Andrea Núñez-Torrón Stock.
@@ -89,11 +112,10 @@ George Danezis and Seda G{\"u}rses.
 \newblock In {\em Proceedings of surveillance cultures: a global surveillance
   society}, pages 1--16, 2010.
 
-\bibitem{lane2014privacy}
-Julia Lane, Victoria Stodden, Stefan Bender, and Helen Nissenbaum.
-\newblock {\em Privacy, big data, and the public good: Frameworks for
-  engagement}.
-\newblock Cambridge University Press, 2014.
+\bibitem{solove2002conceptualizing}
+Daniel~J Solove.
+\newblock Conceptualizing privacy.
+\newblock {\em California law review}, pages 1087--1155, 2002.
 
 \bibitem{article:concernidos}
 Lucy Handley.
