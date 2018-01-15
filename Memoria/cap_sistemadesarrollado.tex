@@ -146,7 +146,7 @@ Se ha incluido una modificación en las \textit{headers} del navegador, para tra
 También se ha añadido la posibilidad de realizar un proceso de \textbf{ofuscación de estilometría} rápido y simple. Para ello se hace uso del ofuscador disponible en la página \url{https://skaillz.net/obfuscator/}. La ofuscación se realiza mediante un doble proceso de traducción automático. 
 Esta opción está disponible en el cuerpo del mensaje/correo.
 
-La interfaz al uso es la siguiente:
+La interfaz al uso es la siguiente (ver Figura~\ref{fig:mailer}, Figura~\ref{fig:mailer2}):
 
 \begin{figure}[H]
 	\centering
@@ -172,23 +172,23 @@ La interfaz al uso es la siguiente:
 		\centering
 		\mbox{\includegraphics[width=3.50in]{images/con_ofuscar.png}}
 		\caption{Mensaje enviado}
-		\label{fig:sub1}
+		\label{fig:sub3}
 	\end{subfigure}%
 	\begin{subfigure}{0.5\textwidth}
 		\centering
 		\mbox{\includegraphics[width=2.6in]{images/recibido_con.png}}
 		\caption{Mensaje recibido}
-		\label{fig:sub2}
+		\label{fig:sub4}
 	\end{subfigure}
 	\caption{Ejemplo de uso ofuscando el cuerpo de texto}
-	\label{fig:mailer}
+	\label{fig:mailer2}
 \end{figure}
 
 Debido a la cola de mensajes de la página, el envío se puede llegar a demorar bastante, así que el destinatario recibirá el correo en un intervalo de \textbf{24-48} horas.
 
 En cuanto a bandejas de entrada volátiles, se han implementado \textbf{dos}. El motivo es que muchas de las páginas utilizadas en la sección de \textit{accounts} bloqueaban alguna de las dos, así que convenía tener una alternativa.
 
-En la \textbf{primera} se hace uso de la página \url{https://tempail.com/} para poder visualizar los correos entrantes en tiempo real directamente desde la interfaz del programa. Se hizo uso de las librerías \textbf{requests} y \textbf{html} para lograr la funcionalidad deseada. A continuación una captura de la bandeja de entrada en funcionamiento:
+En la \textbf{primera} se hace uso de la página \url{https://tempail.com/} para poder visualizar los correos entrantes en tiempo real directamente desde la interfaz del programa (ver Figura~\ref{fig:tempail_inbox}). Se hizo uso de las librerías \textbf{requests} y \textbf{html} para lograr la funcionalidad deseada. A continuación una captura de la bandeja de entrada en funcionamiento:
 
 \begin{figure}[H]
 	\centerline{
@@ -249,7 +249,7 @@ La base de datos que se crea contiene tantas tablas como páginas en las que se 
 
 \begin{table}[H]
 	\centering
-	\label{my-label}
+	\label{tabla}
 	\begin{tabular}{|c|c|c|c|}
 		\hline
 		\rowcolor[HTML]{BBDAFF} 

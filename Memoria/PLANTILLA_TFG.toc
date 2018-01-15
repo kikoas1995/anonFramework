@@ -20,19 +20,19 @@
 \contentsline {subsection}{\numberline {2.3.2}VPN}{15}{subsection.2.3.2}
 \contentsline {subsubsection}{OpenVPN}{18}{section*.27}
 \contentsline {subsection}{\numberline {2.3.3}Deep-web}{19}{subsection.2.3.3}
-\contentsline {subsubsection}{I2P}{20}{section*.29}
-\contentsline {subsubsection}{FreeNET}{21}{section*.31}
-\contentsline {subsubsection}{Tor}{22}{section*.32}
-\contentsline {subsection}{\numberline {2.3.4}Otras herramientas de ofuscaci\IeC {\'o}n}{24}{subsection.2.3.4}
-\contentsline {subsubsection}{CacheCloak}{24}{section*.40}
-\contentsline {subsubsection}{AdNauseam}{24}{section*.41}
-\contentsline {subsubsection}{FaceCloak}{24}{section*.42}
-\contentsline {subsubsection}{Ofuscaci\IeC {\'o}n de estilometr\IeC {\'\i }a de documentos}{25}{section*.43}
-\contentsline {section}{\numberline {2.4}Herramientas que ayudan a la identificaci\IeC {\'o}n de usuarios}{25}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Introducci\IeC {\'o}n}{25}{subsection.2.4.1}
-\contentsline {subsubsection}{Tortazo}{25}{section*.44}
-\contentsline {section}{\numberline {2.5}Debate social}{26}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Ley De Protecci\IeC {\'o}n de Datos europea (GDPR)}{27}{subsection.2.5.1}
+\contentsline {subsubsection}{I2P}{21}{section*.29}
+\contentsline {subsubsection}{FreeNET}{22}{section*.31}
+\contentsline {subsubsection}{Tor}{23}{section*.32}
+\contentsline {subsection}{\numberline {2.3.4}Otras herramientas de ofuscaci\IeC {\'o}n}{26}{subsection.2.3.4}
+\contentsline {subsubsection}{CacheCloak}{26}{section*.40}
+\contentsline {subsubsection}{AdNauseam}{26}{section*.41}
+\contentsline {subsubsection}{FaceCloak}{27}{section*.42}
+\contentsline {subsubsection}{Ofuscaci\IeC {\'o}n de estilometr\IeC {\'\i }a de documentos}{27}{section*.43}
+\contentsline {section}{\numberline {2.4}Herramientas que ayudan a la identificaci\IeC {\'o}n de usuarios}{27}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Introducci\IeC {\'o}n}{27}{subsection.2.4.1}
+\contentsline {subsubsection}{Tortazo}{28}{section*.44}
+\contentsline {section}{\numberline {2.5}Debate social}{29}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Ley De Protecci\IeC {\'o}n de Datos europea (GDPR)}{29}{subsection.2.5.1}
 \contentsline {chapter}{\numberline {3}Sistema, dise\IeC {\~n}o y desarrollo}{31}{chapter.3}
 \contentsline {section}{\numberline {3.1}Cat\IeC {\'a}logo de requisitos}{31}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Requisitos funcionales}{31}{subsection.3.1.1}

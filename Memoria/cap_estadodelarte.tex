@@ -64,7 +64,7 @@ Internet, interactuando con diversos servicios en línea con los que
 intercambia datos durante la navegación.
 
 Cabe mencionar que muchos de los usuarios que navegan día a día no son
-realmente conscientes de los datos personales que circulan por la red,
+realmente conscientes de los datos personales que circulan por la red (ver Figura~\ref{fig:estudioPew}),
 y la proporción de personas que aparecen de una u otra forma en
 Internet es cada día mayor~\cite{article:concernidos}.
 
@@ -210,9 +210,9 @@ Un \textbf{servicio proxy o proxy web} es un proxy para una aplicación concreta
 
 Este tipo de proxy es muy comúnmente utilizado para proteger la privacidad y se puede utilizar junto con Tor (el cual veremos más adelante) para mejorar el grado de anonimato en la red.
 
-El esquema de funcionamiento es el siguiente:
+El esquema de funcionamiento es el siguiente (ver Figura~\ref{fig:web_proxy}):
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centerline{
 		\mbox{\includegraphics[width=3.00in]{images/proxy_web.png}}
 	}
@@ -223,9 +223,9 @@ El esquema de funcionamiento es el siguiente:
 \subsubsection{Proxy Cache}
 
 Su propósito es el de guardar el contenido solicitado por el usuario para así mejorar la velocidad de respuesta en futuras solicitudes de recursos. 
-Conviene destacar a su vez que un proxy web puede actuar también almacenando las páginas web solicitadas, actuando de cierta manera como un proxy caché. Funciona de la siguiente manera:
+Conviene destacar a su vez que un proxy web puede actuar también almacenando las páginas web solicitadas, actuando de cierta manera como un proxy caché. Funciona de la siguiente manera (ver Figura~\ref{fig:proxy_cache}):
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centerline{
 		\mbox{\includegraphics[width=3.00in]{images/proxy_cache.png}}
 	}
@@ -237,9 +237,9 @@ Conviene destacar a su vez que un proxy web puede actuar también almacenando la
 
 También es conocido como proxy forzado, y tiene la peculiaridad de no modificar la petición realizada por el cliente o respuesta más allá de la autenticación del propio proxy.
 Se le llama transparente puesto que el usuario final no necesita realizar ningún tipo de configuración adicional en el navegador.
-Su uso es principalmente el de filtrar ciertas conexiones (se combina con un \textit{cortafuegos}) y para proporcionar seguridad.
+Su uso es principalmente el de filtrar ciertas conexiones (se combina con un \textit{cortafuegos}) y para proporcionar seguridad (ver Figura~\ref{fig:trans_proxy}).
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centerline{
 		\mbox{\includegraphics[width=3.00in]{images/proxy_transparent.png}}
 	}
@@ -265,9 +265,9 @@ Una vez dejados claros los conceptos básicos sobre proxies, mencionaremos algun
 Proxychains es un programa disponible únicamente para GNU/Linux y Unix que nos permite crear cadenas de proxies, escondiendo así nuestra dirección IP pública en \textbf{todo tipo de conexiones} (HTTP, FTP, SSH, etcétera). 
 Esto se traduce en que podemos navegar por Internet o realizar cualquier operación en la red de redes sin descubrir nuestra identidad real.
 
-Mientras que en las figuras anteriores mostramos una conexión a la red con la utilización de un sólo proxy, en el caso de \textit{proxychains} (como su propio nombre indica) utilizaremos cadenas de servidores proxy para anonimizar~\cite{article:proxychains} el tráfico que generemos(no necesariamente debe ser tráfico web).
+Mientras que en las figuras anteriores mostramos una conexión a la red con la utilización de un sólo proxy, en el caso de \textit{proxychains} (como su propio nombre indica) utilizaremos cadenas de servidores proxy (ver Figura~\ref{fig:proxy_chain}) para anonimizar~\cite{article:proxychains} el tráfico que generemos(no necesariamente debe ser tráfico web).
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centerline{
 		\mbox{\includegraphics[width=3.00in]{images/proxy_chain.png}}
 	}
@@ -279,9 +279,9 @@ Para hacer funcionar proxychains en un equipo es necesario modificar su fichero 
 
 \begin{itemize}
 	\item \textit{Dynamic chains}: Supongamos que tenemos 4 servidores proxies añadidos en nuestro archivo de configuración, en este orden: A, B, C y D.
-	En el caso de que, por ejemplo, el servidor B esté caído y el resto funcionen perfectamente, la conexión se realizará de la siguiente manera:
+	En el caso de que, por ejemplo, el servidor B esté caído y el resto funcionen perfectamente, la conexión se realizará de la siguiente manera (ver Figura~\ref{fig:dyn_chain}):
 	
-	\begin{figure}[h]
+	\begin{figure}[H]
 		\centerline{
 			\mbox{\includegraphics[width=3.00in]{images/proxy_dynamic.png}}
 		}
@@ -291,9 +291,9 @@ Para hacer funcionar proxychains en un equipo es necesario modificar su fichero 
 		
 	Es decir, aunque uno (o varios) de los servidores proxy que componen la cadena no funcione, siempre se intentará realizar la conexión omitiéndolo.
 	
-	\item \textit{Strict chains}: Si tomamos el ejemplo anterior, en el caso de una cadena estricta ocurre lo siguiente:
+	\item \textit{Strict chains}: Si tomamos el ejemplo anterior, en el caso de una cadena estricta ocurre lo siguiente (ver Figura~\ref{fig:strict_chain}):
 	
-	\begin{figure}[h]
+	\begin{figure}[H]
 		\centerline{
 			\mbox{\includegraphics[width=1.80in]{images/proxy_strict.png}}
 		}
@@ -369,9 +369,9 @@ Además de esto, existen dos modos de funcionamiento~\cite{article:ibm_ip}:
 	\item \textit{Tunneling Mode}: En Modo de Túnel todo el Paquete IP está cifrado y encapsulado, se le otorga un nuevo encabezado de autenticación y luego se envía. Modo túnel es la tecnología que impulsa la VPN de hoy en día.
 \end{itemize}
 
-Veamos una comparativa entre un paquete IP original, uno que hace uso del modo transporte y otro del modo túnel de IPsec:
+Veamos una comparativa entre un paquete IP original, uno que hace uso del modo transporte y otro del modo túnel de IPsec (ver Figura~\ref{fig:IPtypes}):
 
-	\begin{figure}[h]
+	\begin{figure}[H]
 		\centerline{
 			\mbox{\includegraphics[width=5.00in]{images/IPsec.png}}
 		}
@@ -384,9 +384,9 @@ Permite al usuario conectarse a Internet con una dirección IP que no es parte d
 
 La forma en la que opera es un poco más compleja que con el modo de transporte, los paquetes que contienen la información que realiza el cifrado y el servicio de entrega se llevan a cabo dentro de la carga útil del mensaje original, pero operan a un nivel más alto que la propia carga útil, creando un escudo formado desde dentro y seguro de las influencias externas. Los mejores servicios cifrarán todo el paquete, el marcador de identificación y todo; a continuación, volverán a encapsularlo con una nueva dirección IP y marca de identificación para obtener una completa privacidad.
 
-El modo túnel recoge su nombre de la forma en la que una red VPN opera:
+El modo túnel recoge su nombre de la forma en la que una red VPN opera (ver Figura~\ref{fig:tunnelMode}):
 
-  		\begin{figure}[h]
+  		\begin{figure}[H]
   			\centerline{
   				\mbox{\includegraphics[width=3.50in]{images/vpn.png}}
   			}
@@ -475,14 +475,14 @@ Una imagen sumamente extendida en Internet representa la relación entre los con
 Otro término muy utilizado es el de \textit{darknet}. Una \textit{darknet }es un subconjunto de la web profunda que representa un espacio protegido por una VPN, o bien al que sólo un número reducido de usuarios autorizados pueden acceder. Los contenidos no son indexados por ningún buscador. Es más, en ciertos casos las direcciones de los servicios \textbf{no son resolubles por medio de mecanismos tan habituales como consultas DNS.} Para poder navegar en estas redes normalmente es necesario hacer uso de un cliente, como bien puede ser el de Tor.
 
 En numerosas ocasiones se relaciona dicho tipo de redes con la ciberdelincuencia. Esto es debido a que estas redes proporcionan un muy buen grado de privacidad y anonimato al usuario, lo cual es aprovechado para realizar actividades ilegales tales como la venta de armas o drogas. 
-De hecho, un estudio realizado entre Diciembre de 2013 y Julio de 2015 por un investigador apodado Gwern Branwen sobre las ventas en numerosos mercados de las \textit{darknets}~\cite{article:gwern} revela que se llegaron a recaudar más de 27 millones de dólares en drogas ilegales.
+De hecho, un estudio realizado entre Diciembre de 2013 y Julio de 2015 por un investigador apodado Gwern Branwen sobre las ventas en numerosos mercados de las \textit{darknets}~\cite{article:gwern} revela que se llegaron a recaudar más de 27 millones de dólares en drogas ilegales (ver Figura~\ref{fig:gwern}).
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centerline{
-		\mbox{\includegraphics[width=5.00in]{images/darknet_markets.png}}
+		\mbox{\includegraphics[width=2.70in]{images/darknet_markets.png}}
 	}
 	\caption{Imagen extraída del artículo \textit{The data of the dark web - The Econommist}~\cite{article:gwern}}.
-	\label{fig:norm_Daugman}
+	\label{fig:gwern}
 \end{figure}
 
 Sin embargo, el objetivo de estas herramientas no fue el motivar los actos ilícitos. 
@@ -499,7 +499,7 @@ Una de las ventajas de esta red es el permitir la creación de cualquier tipo de
 Existen servicios ocultos de almacenamiento, foros, wikis, documentación, servicios de correo electrónico, repositorios git ocultos, etcétera.
 
 La estructura de una red I2P funciona de la siguiente manera.
-Existen una serie de túneles cuyo objetivo es el envío y recepción de paquetes entre los emisores y receptores que se encuentren en la red. Un túnel es básicamente el conjunto de enrutadores que se encarga de enviar información a un destino determinado, permitiendo una comunicación \textbf{anónima} entre instancias I2P.
+Existen una serie de túneles cuyo objetivo es el envío y recepción de paquetes entre los emisores y receptores que se encuentren en la red (ver Figura~\ref{fig:I2PTunneling}). Un túnel es básicamente el conjunto de enrutadores que se encarga de enviar información a un destino determinado, permitiendo una comunicación \textbf{anónima} entre instancias I2P.
 En el momento que un usuario lanza una instancia del software I2P automáticamente se convierte en un enrutador y así, en parte de los túneles que crean otras instancias I2P.
 Una característica de estos túneles es que son de sentido único. Por este motivo, para que una instancia I2P pueda intervenir en las dos partes de la comunicación (emisión y recepción de paquetes)debecrear túneles de salida y de entrada. Los datos que viajan entre cada enrutador del túnel van cifraados y cada enrutador que recibe el paquete sólo puede acceder a la información correspondiente al siguiente enrutador al que se le debe enviar el paquete.
 
@@ -586,9 +586,9 @@ En primer lugar es necesario haber instalado Tor previamente y, si tenemos una i
 	{\fontfamily{bch}\selectfont 
 		service tor stop
 	}
-A continuación, generaremos una contraseña que utilizaremos para iniciar un controlador de la librería Stem:
+A continuación, generaremos una contraseña que utilizaremos para iniciar un controlador de la librería Stem (ver Figura~\ref{fig:TorPwd}):
 
-	\begin{figure}[h]
+	\begin{figure}[H]
 		\centerline{
 			\mbox{\includegraphics[width=5.00in]{images/hashed_pwd.png}}
 		}
@@ -602,9 +602,9 @@ Tras haber generado la contraseña \textit{hash}, es necesario reemplazarla por 
 		/etc/tor/torrc
 	}
 
-Lo único que queda para poder hacer uso del script es aplicar la contraseña propia al parámetro \textit{password} de la función \textit{authenticate} del controlador de Stem(en el caso del ejemplo de arriba, "\textit{trabajofindegrado}"). El resultado sería el siguiente:
+Lo único que queda para poder hacer uso del script es aplicar la contraseña propia al parámetro \textit{password} de la función \textit{authenticate} del controlador de Stem(en el caso del ejemplo de arriba, "\textit{trabajofindegrado}"). El resultado sería el siguiente (ver Figura~\ref{fig:controller}):
 
-	\begin{figure}[h]
+	\begin{figure}[H]
 		\centerline{
 			\mbox{\includegraphics[width=5.00in]{images/controller_auth.png}}
 		}
@@ -612,9 +612,9 @@ Lo único que queda para poder hacer uso del script es aplicar la contraseña pr
 		\label{fig:controller}
 	\end{figure}
 
-Sólo nos queda lanzar el script, pues no es necesario ninguna configuración adicional. El output por consola es el que sigue:
+Sólo nos queda lanzar el script, pues no es necesario ninguna configuración adicional. El output por consola es el que sigue (ver Figura~\ref{fig:StemOut}):
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centerline{
 		\mbox{\includegraphics[width=5.00in]{images/hs_running.png}}
 	}
@@ -624,9 +624,9 @@ Sólo nos queda lanzar el script, pues no es necesario ninguna configuración ad
 
 Tras lanzar el servicio, podemos comprobar que está en funcionamiento entrando en la dirección que nos muestra el anterior output por consola. 
 
-Evidentemente, \textbf{no es necesario estar en la misma red local}, el servicio puede ser visitado sin problema desde cualquier dispositivo, siempre y cuando haga uso del \textbf{proxy Tor}.
+Evidentemente, \textbf{no es necesario estar en la misma red local}, el servicio puede ser visitado sin problema desde cualquier dispositivo, siempre y cuando haga uso del \textbf{proxy Tor} (ver Figura~\ref{fig:hiddenserviceonline}).
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centerline{
 		\mbox{\includegraphics[width=5.00in]{images/hs_running2.png}}
 	}
@@ -637,20 +637,20 @@ Evidentemente, \textbf{no es necesario estar en la misma red local}, el servicio
 
 Es importante saber que es posible hacer uso de \textbf{\textit{proxychains}}, herramienta de la que ya se ha hablado, \textbf{junto con el servicio Tor}, lo que garantiza un aún mayor grado de anonimato. Esto puede emplearse para escaneos con \textbf{nmap}, establecer conexiones a servidores SSH, etcétera.
 
-Para  ello, basta con ir al archivo de configuración de \textit{proxychains} (Ch. \textbf{2.3.1}) y añadir la dirección IP y el puerto en el cual el servicio Tor está a la escucha. Quedaría de la siguiente forma:
+Para  ello, basta con ir al archivo de configuración de \textit{proxychains} (Ch. \textbf{2.3.1}) y añadir la dirección IP y el puerto en el cual el servicio Tor está a la escucha. Quedaría de la siguiente forma (ver Figura~\ref{fig:pctor}):
 \begin{figure}[H]
 	\centering{
 		\mbox{\includegraphics[width=4.00in]{images/proxychains_tor.png}}
 	}
 	\caption{Servicio "tor" junto con otros servidores proxy en la herramienta \textit{proxychains}}
-	\label{fig:norm_Daugman}
+	\label{fig:pctor}
 \end{figure} 
 Otra herramienta que se beneficia de Tor es \textbf{Onionshare}. 
 Onionshare (el cual ha sido integrado en la herramienta Python desarrollada para este proyecto, pero que conviene explicar su funcionamiento) es una herramienta que permite compartir archivos de cualquier tamaño anónimamente. Su funcionamiento es relativamente simple. Convierte a la máquina que ejecuta la herramienta en un servidor web el cual genera una dirección \textbf{.onion} en la que aloja el fichero que elijamos. 
 Con ello, cualquiera que conozca el enlace puede \textbf{descargar el fichero a través de Tor}, por ejemplo, con \textbf{Tor Browser}. 
-Tiene opciones interesantes como la de desmontar el servidor en el momento en el que alguien descargue el archivo subido. Veamos cómo funciona la herramienta de forma sencilla.
+Tiene opciones interesantes como la de desmontar el servidor en el momento en el que alguien descargue el archivo subido (ver Figura~\ref{fig:onionshare}).
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centerline{
 		\mbox{\includegraphics[width=5.00in]{images/onionshare1.png}}
 	}
@@ -658,9 +658,9 @@ Tiene opciones interesantes como la de desmontar el servidor en el momento en el
 	\label{fig:onionshare}
 \end{figure} 
 
-Una vez lanzado el script (\textbf{también tiene una versión con interfaz, pero para el ejemplo se ha decidido utilizar la versión por consola}) podemos abrir el servicio oculto desde cualquier dispositivo que esté utilizando el servicio Tor para poder descargar el archivo.
+Una vez lanzado el script (\textbf{también tiene una versión con interfaz, pero para el ejemplo se ha decidido utilizar la versión por consola}) podemos abrir el servicio oculto desde cualquier dispositivo que esté utilizando el servicio Tor para poder descargar el archivo (ver Figura~\ref{fig:onionsharehiddenservice}).
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centerline{
 		\mbox{\includegraphics[width=5.00in]{images/onionshare2.png}}
 	}
@@ -730,7 +730,7 @@ Vamos a tratar de probar brevemente cada uno de los modos de funcionamiento de e
 	\item{\textit{Information gathering}}: El modo de recopilación de información trata de:
 	\begin{enumerate}
 		\item Establecer una conexión con las autoridades de directorio.
-		\item Descargar los descriptores más recientes para así poder conseguir información a partir de los mismos (información como  la dirección IP del descriptor, versión de Tor en uso, ancho de banda necesitado para realizar la conexión, etcétera). 
+		\item Descargar los descriptores más recientes para así poder conseguir información a partir de los mismos (ver Figura~\ref{fig:tortazo}) (información como  la dirección IP del descriptor, versión de Tor en uso, ancho de banda necesitado para realizar la conexión, etcétera). 
 		\item Esta información puede utilizarse para posteriormente realizar un escaneo de puertos mediante \textbf{nmap} a los \textbf{nodos de salida de Tor}, o bien contra \textbf{servicios ocultos}. 
 	\end{enumerate}
 	
@@ -748,7 +748,7 @@ Vamos a tratar de probar brevemente cada uno de los modos de funcionamiento de e
 	
 	Por último, cabe la posibilidad de usar los descriptores de una instancia TOR que ya esté en ejecución. Para ello es necesario que una instancia Tor esté en ejecución (por ejemplo, lanzando el \textit{Tor Browser}).
 	
-	\begin{figure}[h]
+	\begin{figure}[H]
 		\centerline{
 			\mbox{\includegraphics[width=5.00in]{images/tortazo_OR1.png}}
 		}
