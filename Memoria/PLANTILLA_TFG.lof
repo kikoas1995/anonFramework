@@ -1,31 +1,31 @@
 \select@language {spanish}
 \select@language {spanish}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Porcentaje de poblaci\IeC {\'o}n con perfil en Facebook~\cite {article:FacebookStats} \relax }}{2}{figure.caption.12}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Porcentaje de poblaci\IeC {\'o}n con perfil en Facebook~\cite {article:FacebookStats} \relax }}{2}{figure.caption.11}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Resultados del estudio en Pew Research Center's and American Life Project hecho en Julio de 2014~\cite {article:pew} \relax }}{8}{figure.caption.13}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Funcionamiento de un Web proxy o Proxy service\relax }}{12}{figure.caption.15}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Funcionamiento de un Proxy Cach\IeC {\'e}\relax }}{12}{figure.caption.17}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Funcionamiento de un Proxy transparente~\cite {article:proxy_trans}\relax }}{12}{figure.caption.19}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Ejemplo de una cadena de proxies\relax }}{13}{figure.caption.23}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Cadena din\IeC {\'a}mica\relax }}{14}{figure.caption.24}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Cadena estricta\relax }}{14}{figure.caption.25}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Ejemplo de paquetes IP con diferentes niveles de seguridad de encapsulaci\IeC {\'o}n~\cite {article:ibm_ip}\relax }}{16}{figure.caption.26}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Esquema del \textit {Tunneling mode}~\cite {article:tunnelMode}\relax }}{17}{figure.caption.27}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Imagen extra\IeC {\'\i }da del art\IeC {\'\i }culo \textit {The data of the dark web - The Econommist}~\cite {article:gwern}\relax }}{20}{figure.caption.29}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Funcionamiento b\IeC {\'a}sico de la transmisi\IeC {\'o}n de paquetes en I2P mediante tunelizaci\IeC {\'o}n.\relax }}{21}{figure.caption.31}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces \textit {Output} de la contrase\IeC {\~n}a generada.\relax }}{23}{figure.caption.34}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Configuraci\IeC {\'o}n del \textit {controller}.\relax }}{25}{figure.caption.35}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces \textit {Output} del script cuando es lanzado el servicio oculto.\relax }}{25}{figure.caption.36}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces \textit {Hidden service} en funcionamiento.\relax }}{25}{figure.caption.37}
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Servicio "tor" junto con otros servidores proxy en la herramienta \textit {proxychains}\relax }}{25}{figure.caption.38}
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Ejecuci\IeC {\'o}n de \textit {Onionshare} por consola\relax }}{26}{figure.caption.39}
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Hidden-service creado, con posibilidad de descargar el archivo\relax }}{26}{figure.caption.40}
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Informaci\IeC {\'o}n recogida de los nodos de salida Tor utilizando una instancia en ejecuci\IeC {\'o}n\relax }}{29}{figure.caption.46}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Resultados del estudio en Pew Research Center's and American Life Project hecho en Julio de 2014~\cite {article:pew} \relax }}{8}{figure.caption.12}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Funcionamiento de un Web proxy o Proxy service\relax }}{12}{figure.caption.14}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Funcionamiento de un Proxy Cach\IeC {\'e}\relax }}{12}{figure.caption.16}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Funcionamiento de un Proxy transparente~\cite {article:proxy_trans}\relax }}{12}{figure.caption.18}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Ejemplo de una cadena de proxies\relax }}{13}{figure.caption.22}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Cadena din\IeC {\'a}mica\relax }}{14}{figure.caption.23}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Cadena estricta\relax }}{14}{figure.caption.24}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Ejemplo de paquetes IP con diferentes niveles de seguridad de encapsulaci\IeC {\'o}n~\cite {article:ibm_ip}\relax }}{16}{figure.caption.25}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Esquema del \textit {Tunneling mode}~\cite {article:tunnelMode}\relax }}{17}{figure.caption.26}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Imagen extra\IeC {\'\i }da del art\IeC {\'\i }culo \textit {The data of the dark web - The Econommist}~\cite {article:gwern}\relax }}{20}{figure.caption.28}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Funcionamiento b\IeC {\'a}sico de la transmisi\IeC {\'o}n de paquetes en I2P mediante tunelizaci\IeC {\'o}n.\relax }}{21}{figure.caption.30}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces \textit {Output} de la contrase\IeC {\~n}a generada.\relax }}{23}{figure.caption.33}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Configuraci\IeC {\'o}n del \textit {controller}.\relax }}{25}{figure.caption.34}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces \textit {Output} del script cuando es lanzado el servicio oculto.\relax }}{25}{figure.caption.35}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces \textit {Hidden service} en funcionamiento.\relax }}{25}{figure.caption.36}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Servicio "tor" junto con otros servidores proxy en la herramienta \textit {proxychains}\relax }}{25}{figure.caption.37}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Ejecuci\IeC {\'o}n de \textit {Onionshare} por consola\relax }}{26}{figure.caption.38}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Hidden-service creado, con posibilidad de descargar el archivo\relax }}{26}{figure.caption.39}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Informaci\IeC {\'o}n recogida de los nodos de salida Tor utilizando una instancia en ejecuci\IeC {\'o}n\relax }}{29}{figure.caption.45}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Ejemplo de uso sin ofuscar el cuerpo de texto\relax }}{36}{figure.caption.51}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Ejemplo de uso ofuscando el cuerpo de texto\relax }}{36}{figure.caption.52}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Ejemplo de bandeja de entrada\relax }}{36}{figure.caption.53}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Ejemplo de uso sin ofuscar el cuerpo de texto\relax }}{36}{figure.caption.50}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Ejemplo de uso ofuscando el cuerpo de texto\relax }}{36}{figure.caption.51}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Ejemplo de bandeja de entrada\relax }}{36}{figure.caption.52}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

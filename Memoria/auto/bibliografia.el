@@ -37,6 +37,7 @@
     "article:levpn"
     "article:esp"
     "article:ietf"
+    "article:GPSTracking"
     "article:ibm_ip"
     "article:tunnelMode"
     "article:pptp"
@@ -51,6 +52,7 @@
     "article:inmigrantes"
     "article:matt"
     "article:webscraping"
+    "article:compraventa"
     "article:remailer"
     "cavoukian2009privacy"
     "article:danezis2010"
@@ -64,6 +66,7 @@
     "cao-ndss17"
     "schneider2003least"
     "sanchez2018review"
-    "diaz2015privacy"))
+    "diaz2015privacy"
+    "article:PbDGDPR"))
  :bibtex)
 

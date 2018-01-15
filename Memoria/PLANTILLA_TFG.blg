@@ -3,10 +3,6 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: PLANTILLA_TFG.aux
 The style file: unsrt.bst
 Database file #1: bibliografia.bib
-I was expecting an "="---line 1861 of file bibliografia.bib
- : <<<<<<< 
- :         HEAD
-I'm skipping whatever remains of this entry
 Too many commas in name 1 of "Patrick Carnahan, Dusty Roberts, Zack Shay, Jeff Yeary" for entry article:motivationvirus
 while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "George Danezis, Roger Dingledine, David Hopwood, y Nick Mathewson" for entry article:remailer
@@ -52,4 +48,4 @@ warning$ -- 0
 while$ -- 67
 width$ -- 60
 write$ -- 668
-(There were 3 error messages)
+(There were 2 error messages)
