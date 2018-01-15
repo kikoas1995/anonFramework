@@ -4,13 +4,13 @@
    (TeX-add-to-alist 'LaTeX-provided-class-options
                      '(("book" "a4paper" "11pt" "twoside" "openright" "titlepage")))
    (TeX-add-to-alist 'LaTeX-provided-package-options
-                     '(("geometry" "a4paper" "left=1in" "right=1in" "top=0.6in") ("inputenc" "utf8") ("fontenc" "T1") ("babel" "english" "spanish") ("xy" "all") ("xcolor" "table" "xcdraw")))
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+                     '(("geometry" "a4paper" "left=1in" "right=1in" "top=0.6in") ("inputenc" "utf8") ("fontenc" "T1") ("babel" "english" "spanish") ("xy" "all") ("xcolor" "table" "xcdraw") ("url" "hyphens") ("hyperref" "breaklinks")))
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (TeX-run-style-hooks
     "latex2e"
@@ -25,7 +25,8 @@
     "cap_conclusiones"
     "glosario"
     "anexo_manualuso"
-    "anexo_manualprogramador"
+    "anexo_esquema"
+    "anexo_repositorio"
     "book"
     "bk11"
     "geometry"
@@ -53,16 +54,10 @@
     "url"
     "marvosym"
     "fancybox"
+    "breakurl"
     "hyperref"
     "fancyhdr")
    (TeX-add-symbols
-    '("commentswho" 2)
-    '("doubtwho" 2)
-    '("modifiedsout" 1)
-    '("modified" 1)
-    '("commented" 1)
-    '("comments" 1)
-    '("todo" 1)
     '("NOcaptionFigure" 2)
     '("captionFigure" 2)
     '("lsection" 1)
@@ -70,6 +65,7 @@
     "autor"
     "director"
     "tutor"
+    "ponente"
     "vocal"
     "vocalsup"
     "presidente"
@@ -82,8 +78,6 @@
     "bibliografia")
    (LaTeX-add-lengths
     "salto"
-    "resalto")
-   (LaTeX-add-xcolor-definecolors
-    "dgreen"))
+    "resalto"))
  :latex)
 

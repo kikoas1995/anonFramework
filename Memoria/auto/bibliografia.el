@@ -58,6 +58,7 @@
     "brunton2015obfuscation"
     "pfitzmann2010terminology"
     "caliskan2015anonymizing"
-    "caliskan2015coding"))
+    "caliskan2015coding"
+    "solove2002conceptualizing"))
  :bibtex)
 
