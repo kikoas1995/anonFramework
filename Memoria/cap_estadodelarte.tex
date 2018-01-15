@@ -43,7 +43,7 @@ Cabe mencionar que muchos de los usuarios que navegan día a día no son realmen
 
 La privacidad no debe confundirse con el \textbf{anonimato en la red}. Este último término refiere a aquellas acciones destinadas a garantizar que el acceso a la red se efectúa de forma que no se conoce quien realiza la conexión. Esto es, que no sea posible establecer una relación entre una \textbf{identidad digital} y una \textbf{identidad física}.
 
-Es importante destacar que una identidad física puede estar relacionada a una o varias identidades digitales. La relación entre ambas identidades puede conseguirse mediante una cuenta de usuario, así como la dirección IP desde la cual la entidad física se conecta al servicio o incluso mediante los datos o metadatos que el ISP(\textit{InternetService Provider}) recoge del usuario. La extracción de los datos por parte del ISP se puede conseguir mediante diversas vías:
+Es importante destacar que una identidad física puede estar relacionada a una o varias identidades digitales. La relación entre ambas identidades puede conseguirse mediante una cuenta de usuario, así como la dirección IP desde la cual la entidad física se conecta al servicio o incluso mediante los datos o metadatos que el ISP (\textit{Internet Service Provider}) recoge del usuario. La extracción de los datos por parte del ISP se puede conseguir mediante diversas vías:
 
 \begin{itemize}
 	\item {\textbf{Monitorización:} El término refiere a la recopilación de información y la adquisición de la misma mediante diversos métodos, tales como \textit{spyware}, o intervenciones en el servicio mediante monitorización electrónico (\textit{wiretapping}).}
@@ -81,6 +81,8 @@ Una vez aclarados sendos términos, procedemos a listar las diferentes vías par
 Conviene empezar el capítulo recalcando que Internet no fue concebido como un protocolo de comunicación seguro. 
 Es por esto que a lo largo de su historia han ocurrido varios sucesos que han puesto en riesgo (por diversos motivos) la seguridad del usuario en la red.
 
+la privacidad del usuario se ha visto comprometida en numerosas ocasiones debido a los robos de información personal, en la mayor parte de ocasiones debido al \textit{malware}. Es por ello que esta sección estará dedicada a dar un repaso exhaustivo a la historia de la seguridad en la red para comprender cuál es el foco de los distintos ataques actualmente.
+
 Podemos marcar como primera incursión histórica con respecto a la seguridad un libro publicado por Jon Von Neumann en el año 1949 llamado \textit{The Theory of Self Reproducing Automata}. Dicha publicación sirvió como  base para el desarrollo de los primeros \textbf{virus informáticos}~\cite{article:automata}.
 
 El primer virus que causó un gran impacto social fue el lamado \textbf{virus Creeper}, el cual era un programa experimental autoreplicante creado por \textbf{Bob Thomas} diseñado con fines experimentales y que no causaba un daño real entre las máquinas en las que se iba moviendo ~\cite{article:motivationvirus}.
@@ -108,13 +110,16 @@ Para el año 2005 el número de malware únicos asciende a más de 300.000, y ha
 
 En los últimos años la variedad de ataques de robo de información ha cambiado mucho. Han habido noticias recientes con elementos tecnológicos tan cotidianos como la empresa fabricadora de robots-aspiradora Roomba, la cual vende información a terceros sobre los planos de tu casa~\cite{article:roomba}. 
 
-Con la aparición de los smartphones, surgen nuevas amenazas para nuestra privacidad como \textit{payloads} que corren como un proceso en segundo plano~\cite{article:android} y permiten tracear nuestra ubicación, espiarnos a través de la cámara del dispositivo y un largo etcétera. Esto ha ocasionado que surjan también aplicaciones antivirus en nuestros teléfonos móviles, que actúan de forma \textit{pasiva} vigilando que ningún proceso monitorice de forma maliciosa nuestro dispositivo. 
+Con la aparición de los smartphones, surgen nuevas amenazas para nuestra seguridad y privacidad como \textit{payloads} que corren como un proceso en segundo plano~\cite{article:android} y permiten tracear nuestra ubicación, espiarnos a través de la cámara del dispositivo y un largo etcétera. Esto ha ocasionado que surjan también aplicaciones antivirus en nuestros teléfonos móviles, que actúan de forma \textit{pasiva} vigilando que ningún proceso monitorice de forma maliciosa nuestro dispositivo. 
 
 Como se ha mencionado, está claro que debemos cuidarnos de agentes externos como los distintos tipos de \textit{malware}, los cuales pueden usurpar nuestra identidad, comprometer nuestros \textbf{datos personales}, entre otras cosas. 
 Sin embargo, \textbf{no todo depende del usuario }puesto que muchos de los servicios que utilizamos día a día han sufrido de \textit{leaks} de bases de datos e infiltraciones en el sistema que suponen un riesgo para nuestra privacidad. Un servicio muy útil para comprobar si hemos sido víctimas de ciberataques (con el riesgo que supone para nuestra privacidad) a sitios donde frecuentamos es \url{https://haveibeenpwned.com/}.
 
-Por todo esto, con el incremento del número de amenazas a nuestra privacidad también ha sido necesario que aparezcan herramientas que actúen de forma \textit{activa} y nos permitan utilizar los servicios de Internet de una forma más segura.
+Conforme ha ido avanzando la tecnología, el número de \textit{malware} ha ido creciendo exponencialmente, y así también su propósito. Mientras que en un principio la gran mayoría eran pruebas de concepto, en los últimos años el objetivo ha cambiado su foco hacia la información sensible de los usuarios de la red. 
 
+Asimismo, hemos podido comprobar que no sólo el \textit{malware} es causante de los robos de información, sino que la propia negligencia de algunas empresas en temas relativos a la privacidad de los usuarios también juega un papel importante y es por ello que no debemos perder esto de vista.
+
+Por todo esto, con el incremento del número de amenazas a nuestra privacidad también ha sido necesario que aparezcan herramientas que actúen de forma \textit{activa} y nos permitan utilizar los servicios de Internet de una forma más segura.
 	
 \lsection{Herramientas que ofuscan la identificación del usuario}
 \label{sec:a_favor}
