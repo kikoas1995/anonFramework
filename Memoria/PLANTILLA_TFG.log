@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.3)  14 JAN 2018 22:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.29)  15 JAN 2018 11:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1026,10 +1026,10 @@ LaTeX Info: Redefining \nameref on input line 85.
 
  (./portada.tex
 Package epstopdf Info: Source file: <images/logo_eps.eps>
-(epstopdf)                    date: 2008-02-26 18:00:01
+(epstopdf)                    date: 2018-01-09 08:58:18
 (epstopdf)                    size: 1349715 bytes
 (epstopdf)             Output file: <images/logo_eps-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-19 13:03:42
+(epstopdf)                    date: 2018-01-09 08:58:18
 (epstopdf)                    size: 42740 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/logo_eps-eps-conver
 ted-to.pdf images/logo_eps.eps>
@@ -1044,10 +1044,10 @@ Package pdftex.def Info: images/logo_eps-eps-converted-to.pdf used on input lin
 e 19.
 (pdftex.def)             Requested size: 112.10844pt x 97.92664pt.
 Package epstopdf Info: Source file: <images/logo_uam.eps>
-(epstopdf)                    date: 2008-02-26 17:59:38
+(epstopdf)                    date: 2018-01-09 08:58:18
 (epstopdf)                    size: 868675 bytes
 (epstopdf)             Output file: <images/logo_uam-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-19 13:03:43
+(epstopdf)                    date: 2018-01-09 08:58:18
 (epstopdf)                    size: 118930 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/logo_uam-eps-conver
 ted-to.pdf images/logo_uam.eps>
@@ -3629,328 +3629,322 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--33
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 52--56
-[]\T1/cmr/m/n/10.95 David Lla-ró.  Des-apa-re-ce de in-ter-net con gdpr.  []$\T
-1/cmtt/m/n/10.95 https : / / www . gruposothis . com /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--64
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
 []\T1/cmr/m/n/10.95 Andrea Núñez-Torrón Stock.  Ha-cen fal-ta 1,5 mi-llo-nes ex
 -per-tos en se-gu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--64
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
 \T1/cmr/m/n/10.95 ri-dad pa-ra los pró-xi-mos tres años.  []$\T1/cmtt/m/n/10.95
  http : / / www . ticbeat . com / seguridad /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--71
+Underfull \hbox (badness 10000) in paragraph at lines 67--72
 []\T1/cmr/m/n/10.95 Mark Di-xon.  Pri-vacy and se-cu-rity by de-sign: An en-ter
 -pri-se ar-chi-tec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--71
+Underfull \hbox (badness 10000) in paragraph at lines 67--72
 \T1/cmr/m/n/10.95 tu-re ap-proach.  []$\T1/cmtt/m/n/10.95 https : / / www . ipc
  . on . ca / wp-[]content / uploads / Resources /
  []
 
 
-Underfull \hbox (badness 7012) in paragraph at lines 96--102
+Underfull \hbox (badness 7012) in paragraph at lines 99--105
 []\T1/cmr/m/n/10.95 Lucy Hand-ley.  60 per-cent of peo-ple in the us are wo-rri
 ed about how
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--102
+Underfull \hbox (badness 10000) in paragraph at lines 99--105
 \T1/cmr/m/n/10.95 much com-pa-nies know about them.  []$\T1/cmtt/m/n/10.95 http
 s : / / www . cnbc . com / 2017 / 10 / 17 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--102
+Underfull \hbox (badness 10000) in paragraph at lines 99--105
 \T1/cmtt/m/n/10.95 60-[]percent-[]of-[]people-[]in-[]the-[]us-[]worry-[]about-[
 ]privacy-[]and-[]brands . html$[]\T1/cmr/m/n/10.95 , Oc-tu-
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 105.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 105.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 105.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 105.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 105.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 105.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 105.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 105.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 105.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 105.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 105.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 105.
 [45]
-Underfull \hbox (badness 6428) in paragraph at lines 134--139
+Underfull \hbox (badness 6428) in paragraph at lines 137--142
 []\T1/cmr/m/n/10.95 Fred Cohen.  Com-pu-ter 'vi-rus' is born.  []$\T1/cmtt/m/n/
 10.95 https : / / www . wired . com / 2009 / 11 /
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 141--146
+Underfull \hbox (badness 3291) in paragraph at lines 144--149
 []\T1/cmr/m/n/10.95 Miguel Es-tra-da Ga-ra-vi-lla.  De-li-tos in-for-má-ti-cos.
   []$\T1/cmtt/m/n/10.95 https : / / www . unifr . ch / ddp1 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--153
+Underfull \hbox (badness 10000) in paragraph at lines 151--156
 \T1/cmtt/m/n/10.95 com . au / technology / the-[]birth-[]of-[]the-[]first-[]per
 sonal-[]computer-[]virus-[]brain /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--160
+Underfull \hbox (badness 10000) in paragraph at lines 158--163
 []\T1/cmr/m/n/10.95 Jesús Ma-tu-ra-na.  La bre-ve his-to-ria de los vi-rus en g
 nu/linux,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--160
+Underfull \hbox (badness 10000) in paragraph at lines 158--163
 \T1/cmr/m/n/10.95 ha-ber-los hay-los.  []$\T1/cmtt/m/n/10.95 https : / / www . 
 muyseguridad . net / 2010 / 11 / 29 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--168
+Underfull \hbox (badness 10000) in paragraph at lines 165--172
 []\T1/cmr/m/n/10.95 Bert Ran-kin.  Malwa-re plat-forms ac-ce-le-ra-te malwa-re 
 in-no-va-tion and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--168
+Underfull \hbox (badness 10000) in paragraph at lines 165--172
 \T1/cmr/m/n/10.95 shift en-ter-pri-se de-fen-se in 2017.  []$\T1/cmtt/m/n/10.95
  http : / / sandhill . com / article /
  []
 
 
-Overfull \hbox (55.4087pt too wide) in paragraph at lines 162--168
+Overfull \hbox (58.4348pt too wide) in paragraph at lines 165--172
 \T1/cmtt/m/n/10.95 malware-[]platforms-[]accelerate-[]malware-[]innovation-[]an
-d-[]shift-[]enterprise-[]defense-[]in-[]2017 /
+d-[]shift-[]enterprise-[]defense-[]in-[]2017/$[]\T1/cmr/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 4608) in paragraph at lines 177--182
+Underfull \hbox (badness 4608) in paragraph at lines 181--186
 []\T1/cmr/m/n/10.95 Daniela Mue-na Bus-tos.  Malwa-re pa-ra dis-po-si-ti-vos mó
 -vi-les(android).  []$\T1/cmtt/m/n/10.95 http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--182
+Underfull \hbox (badness 10000) in paragraph at lines 181--186
 \T1/cmtt/m/n/10.95 / / premios . eset-[]la . com / universitario / pdf / malawa
 re _ para _ dispositivos _ moviles _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--193
 []\T1/cmr/m/n/10.95 Patrick Lam-bert.  The ba-sics of using a proxy ser-ver for
  pri-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--193
 \T1/cmr/m/n/10.95 vacy and se-cu-rity.  []$\T1/cmtt/m/n/10.95 https : / / www .
  techrepublic . com / blog / it-[]security /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--193
 \T1/cmtt/m/n/10.95 the-[]basics-[]of-[]using-[]a-[]proxy-[]server-[]for-[]priva
 cy-[]and-[]security/$[]\T1/cmr/m/n/10.95 , Di-ciem-bre
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--196
+Underfull \hbox (badness 10000) in paragraph at lines 195--200
 []\T1/cmr/m/n/10.95 1 and 1 Di-gi-tal Gui-de.  Ser-vi-dor proxy in-ver-so: com-
 po-nen-te cen-tral de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--196
+Underfull \hbox (badness 10000) in paragraph at lines 195--200
 \T1/cmr/m/n/10.95 la se-gu-ri-dad.  []$\T1/cmtt/m/n/10.95 https : / / www . 1an
 d1 . es / digitalguide / servidores / know-[]how /
  []
 
-LaTeX Info: Redefining \. on input line 212.
-LaTeX Info: Redefining \% on input line 212.
+LaTeX Info: Redefining \. on input line 207.
+LaTeX Info: Redefining \% on input line 207.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 207.
 [46]
-Underfull \hbox (badness 10000) in paragraph at lines 213--218
+Underfull \hbox (badness 10000) in paragraph at lines 217--222
 []\T1/cmr/m/n/10.95 Elisa Re-yes.  Im-por-tan-cia de los vpn y las ven-ta-jas d
 e su uso pa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--218
+Underfull \hbox (badness 10000) in paragraph at lines 217--222
 \T1/cmr/m/n/10.95 ra 2016.  []$\T1/cmtt/m/n/10.95 https : / / www . datacenter1
  . com / blog / seguridad-[]informatica /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--218
+Underfull \hbox (badness 10000) in paragraph at lines 217--222
 \T1/cmtt/m/n/10.95 la-[]importancia-[]de-[]los-[]vpn-[]y-[]las-[]ventajas-[]de-
 []su-[]uso-[]para-[]2016/$[]\T1/cmr/m/n/10.95 , No-viem-bre
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--242
+Underfull \hbox (badness 10000) in paragraph at lines 241--246
 []\T1/cmr/m/n/10.95 Sergio De Luz.  Ip-sec. vo-lu-men iii : Esp (car-ga de se-g
 u-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--242
+Underfull \hbox (badness 10000) in paragraph at lines 241--246
 \T1/cmr/m/n/10.95 ri-dad en-cap-su-la-da).  []$\T1/cmtt/m/n/10.95 https : / / w
 ww . redeszone . net / 2011 / 09 / 06 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--249
+Underfull \hbox (badness 10000) in paragraph at lines 248--253
 \T1/cmtt/m/n/10.95 si6networks . com / presentations / inet2010 / fgont-[]inet2
 010-[]introduccion-[]ietf . pdf$[]\T1/cmr/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--256
+Underfull \hbox (badness 10000) in paragraph at lines 255--260
 \T1/cmtt/m/n/10.95 safaribooksonline . com / library / view / virtual-[]private
 -[]networks / 1565925297 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--263
+Underfull \hbox (badness 10000) in paragraph at lines 262--267
 []\T1/cmr/m/n/10.95 Jenifer Cas-te-llano.  Ca-rac-te-rís-ti-cas pro-to-co-los v
 pn (openvpn, sstp, l2tp,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--263
+Underfull \hbox (badness 10000) in paragraph at lines 262--267
 \T1/cmr/m/n/10.95 ikev2 y pptp).  []$\T1/cmtt/m/n/10.95 https : / / www . solve
 tic . com / page / noticias / s / seguridad /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--293
+Underfull \hbox (badness 10000) in paragraph at lines 291--297
 []\T1/cmr/m/n/10.95 Ron Ni-xon.  Las re-des so-cia-les de quie-nes en-tren a es
 -ta-dos uni-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--293
+Underfull \hbox (badness 10000) in paragraph at lines 291--297
 \T1/cmr/m/n/10.95 dos se-rán re-vi-sa-das.  []$\T1/cmtt/m/n/10.95 https : / / w
 ww . nytimes . com / es / 2017 / 10 / 02 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--300
+Underfull \hbox (badness 10000) in paragraph at lines 299--304
 []\T1/cmr/m/n/10.95 Sofía Dia-man-te.  Se-gu-ri-dad vs. pri-va-ci-dad, el de-ba
 -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--300
+Underfull \hbox (badness 10000) in paragraph at lines 299--304
 \T1/cmr/m/n/10.95 te del rol de in-ter-net.  []$\T1/cmtt/m/n/10.95 http : / / w
 ww . lanacion . com . ar /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--307
-[]\T1/cmr/m/n/10.95 Alberto Igle-sias Fra-ga.  ¾qué es el gdpr y có-mo va a re-
+Underfull \hbox (badness 10000) in paragraph at lines 306--311
+[]\T1/cmr/m/n/10.95 Alberto Igle-sias Fra-ga.  ¾qué es el GDPR y có-mo va a re-
 vo-lu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--307
+Underfull \hbox (badness 10000) in paragraph at lines 306--311
 \T1/cmr/m/n/10.95 cio-nar los da-tos en eu-ro-pa?  []$\T1/cmtt/m/n/10.95 http :
  / / www . ticbeat . com / seguridad /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--307
+Underfull \hbox (badness 10000) in paragraph at lines 306--311
 \T1/cmtt/m/n/10.95 que-[]es-[]el-[]gdpr-[]y-[]como-[]va-[]a-[]revolucionar-[]la
 -[]proteccion-[]de-[]datos-[]en-[]europa/$[]\T1/cmr/m/n/10.95 ,
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 309--314
-[]\T1/cmr/m/n/10.95 PandaSecurity.  Gdpr, ¾una opor-tu-ni-dad pa-ra los ci-be-r
+LaTeX Info: Redefining \. on input line 312.
+LaTeX Info: Redefining \% on input line 312.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 312.
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 313--318
+[]\T1/cmr/m/n/10.95 PandaSecurity.  GDPR, ¾una opor-tu-ni-dad pa-ra los ci-be-r
 a-ta-can-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--314
+Underfull \hbox (badness 10000) in paragraph at lines 313--318
 \T1/cmr/m/n/10.95 tes?  []$\T1/cmtt/m/n/10.95 https : / / www . pandasecurity .
  com / spain / mediacenter / seguridad /
  []
 
-LaTeX Info: Redefining \. on input line 314.
-LaTeX Info: Redefining \% on input line 314.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 314.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 314.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 314.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 314.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 314.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 314.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 314.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 314.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 314.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 314.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 314.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 314.
-[47]) (./anexo_manualuso.tex
+) (./anexo_manualuso.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 Package babel Info: Redefining spanish shorthand <<
@@ -4064,7 +4058,7 @@ Package babel Info: Redefining spanish shorthand "?
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
-<images/esquema.png, id=844, 877.2775pt x 1055.945pt>
+<images/esquema.png, id=843, 877.2775pt x 1055.945pt>
 File: images/esquema.png Graphic file (type png)
  <use images/esquema.png>
 Package pdftex.def Info: images/esquema.png used on input line 8.
@@ -4188,35 +4182,34 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
 Here is how much of TeX's memory you used:
  14027 strings out of 493029
  194604 string characters out of 6136234
- 352609 words of memory out of 5000000
+ 352657 words of memory out of 5000000
  16984 multiletter control sequences out of 15000+600000
  29971 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,47p,3244b,742s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/kiko/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/ki
-ko/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1200.600pk> </home/kiko/.texmf-va
-r/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/kiko/.texmf-var/fonts/pk/l
-jfour/jknappen/ec/ecbi1095.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips
-/base/8r.enc} </home/kiko/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600pk
-> </home/kiko/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/kik
-o/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecxc1095.600pk> </home/kiko/.texmf-var
-/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/kiko/.texmf-var/fonts/pk/lj
-four/jknappen/ec/ecti1095.600pk> </home/kiko/.texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecrm1095.600pk> </home/kiko/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx144
-0.600pk> </home/kiko/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk> </h
-ome/kiko/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1095.600pk> </home/kiko/.te
-xmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/kiko/.texmf-var/font
-s/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/kiko/.texmf-var/fonts/pk/ljfour/
-jknappen/ec/eccc2488.600pk> </home/kiko/.texmf-var/fonts/pk/ljfour/jknappen/ec/
-ecrm2488.600pk> </home/kiko/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.600
-pk> </home/kiko/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1728.600pk></usr/sha
-re/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on PLANTILLA_TFG.pdf (67 pages, 1560724 bytes).
+ 41i,12n,47p,3244b,740s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
+e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/t
+ype1/bitstrea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbi10
+95.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbi1200.pfb></usr/share/t
+exmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx144
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1728
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc2488.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texm
+f/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sfrm2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.p
+fb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf
+/fonts/type1/public/cm-super/sfxc1095.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/bookman/ubkd8a.pfb>
+Output written on PLANTILLA_TFG.pdf (67 pages, 1722675 bytes).
 PDF statistics:
- 1598 PDF objects out of 1728 (max. 8388607)
- 863 compressed objects within 9 object streams
+ 983 PDF objects out of 1000 (max. 8388607)
+ 844 compressed objects within 9 object streams
  221 named destinations out of 1000 (max. 500000)
  461 words of extra memory for PDF output out of 10000 (max. 10000000)
 

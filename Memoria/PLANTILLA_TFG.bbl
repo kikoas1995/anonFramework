@@ -45,12 +45,13 @@ The Economist.
 
 \bibitem{book:PrivacyBigDataPublicGood}
 Julia Lane, Victoria Stodden, Stefan Bender, and Helen Nissenbaum.
-\newblock Privacy, big data, and the public good: Frameworks for engagement,
-  2014.
+\newblock {\em Privacy, big data, and the public good: Frameworks for
+  engagement}.
+\newblock Cambridge University Press, 2014.
 
 \bibitem{article:GDPRGoogle}
 David Llaró.
-\newblock Desaparece de internet con gdpr.
+\newblock Desaparece de internet con {GDPR}.
 \newblock \url{https://www.gruposothis.com/desaparece-internet-gdpr}, Noviembre
   2017.
 
@@ -84,7 +85,9 @@ Ann Cavoukian.
 
 \bibitem{article:danezis2010}
 George Danezis and Seda G{\"u}rses.
-\newblock A critical review of 10 years of privacy technology, 2010.
+\newblock A critical review of 10 years of privacy technology.
+\newblock In {\em Proceedings of surveillance cultures: a global surveillance
+  society}, pages 1--16, 2010.
 
 \bibitem{lane2014privacy}
 Julia Lane, Victoria Stodden, Stefan Bender, and Helen Nissenbaum.
@@ -163,8 +166,9 @@ Bert Rankin.
 \newblock Malware platforms accelerate malware innovation and shift enterprise
   defense in 2017.
 \newblock
-  \url{http://sandhill.com/article/malware-platforms-accelerate-malware-innovation-and-shift-enterprise-defense-in-2017/#},
+  \url{http://sandhill.com/article/malware-platforms-accelerate-malware-innovation-and-shift-enterprise-defense-in-2017/},
   Noviembre 2016.
+\newblock Last accessed 15 January 2018.
 
 \bibitem{article:roomba}
 Rosa~Jiménez Cano.
@@ -300,14 +304,14 @@ Sofía Diamante.
 
 \bibitem{article:AEPD}
 Alberto~Iglesias Fraga.
-\newblock ¿qué es el gdpr y cómo va a revolucionar los datos en europa?
+\newblock ¿qué es el {GDPR} y cómo va a revolucionar los datos en europa?
 \newblock
   \url{http://www.ticbeat.com/seguridad/que-es-el-gdpr-y-como-va-a-revolucionar-la-proteccion-de-datos-en-europa/},
   Noviembre 2016.
 
 \bibitem{article:chantajeGDPR}
 PandaSecurity.
-\newblock Gdpr, ¿una oportunidad para los ciberatacantes?
+\newblock {GDPR}, ¿una oportunidad para los ciberatacantes?
 \newblock
   \url{https://www.pandasecurity.com/spain/mediacenter/seguridad/gdpr-oportunidad-ciberatacantes/},
   Diciembre 2017.

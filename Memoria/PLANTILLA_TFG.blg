@@ -9,43 +9,43 @@ Too many commas in name 1 of "George Danezis, Roger Dingledine, David Hopwood, y
 while executing---line 944 of file unsrt.bst
 You've used 51 entries,
             1791 wiz_defined-function locations,
-            676 strings with 11743 characters,
-and the built_in function-call counts, 6712 in all, are:
-= -- 550
+            677 strings with 11777 characters,
+and the built_in function-call counts, 6904 in all, are:
+= -- 574
 > -- 226
-< -- 0
+< -- 1
 + -- 108
 - -- 57
-* -- 135
-:= -- 1030
-add.period$ -- 149
+* -- 148
+:= -- 1056
+add.period$ -- 152
 call.type$ -- 51
-change.case$ -- 50
+change.case$ -- 49
 chr.to.int$ -- 0
 cite$ -- 51
-duplicate$ -- 263
-empty$ -- 916
+duplicate$ -- 280
+empty$ -- 932
 format.name$ -- 57
-if$ -- 1589
+if$ -- 1638
 int.to.chr$ -- 0
 int.to.str$ -- 51
-missing$ -- 3
-newline$ -- 254
+missing$ -- 6
+newline$ -- 257
 num.names$ -- 49
-pop$ -- 302
+pop$ -- 301
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 169
+skip$ -- 172
 stack$ -- 0
-substring$ -- 0
-swap$ -- 51
-text.length$ -- 0
+substring$ -- 19
+swap$ -- 57
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 49
+while$ -- 52
 width$ -- 53
-write$ -- 498
+write$ -- 505
 (There were 2 error messages)
