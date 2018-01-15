@@ -22,14 +22,14 @@ Robert Gibb.
 \newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:ibm_ip}
-IBM.
+{IBM}.
 \newblock Transport mode and tunnel mode.
 \newblock
   \url{https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.1.0/com.ibm.zos.v2r1.halz002/ipsecurity_ipsec_ah_esp_encap_modes.htm}.
 \newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:tunnelMode}
-How vpn work - vpn tunneling.
+How {VPN} work - {VPN} tunneling.
 \newblock
   \url{https://technet.microsoft.com/pt-pt/library/cc779919(v=ws.10).aspx}.
 \newblock Último acceso 15 de Enero de 2018.
@@ -153,7 +153,7 @@ Daniel~J Solove.
 
 \bibitem{article:concernidos}
 Lucy Handley.
-\newblock 60 percent of people in the us are worried about how much companies
+\newblock 60 percent of people in the {US} are worried about how much companies
   know about them.
 \newblock
   \url{https://www.cnbc.com/2017/10/17/60-percent-of-people-in-the-us-worry-about-privacy-and-brands.html},
@@ -162,7 +162,7 @@ Lucy Handley.
 
 \bibitem{article:anopseudo}
 Helen Nissenbaum.
-\newblock Obfuscation: A user guide for privacy and protest.
+\newblock {OBFUSCATION}: A user guide for privacy and protest.
 \newblock Capítulo 2: p.45-46, 2016.
 \newblock Último acceso 15 de Enero de 2018.
 
@@ -189,7 +189,7 @@ Stu Sjouwerman.
 
 \bibitem{article:cloner}
 Yoni Heisler.
-\newblock World’s first computer virus hit the apple ii 35 years ago.
+\newblock World’s first computer virus hit the apple {II} 35 years ago.
 \newblock
   \url{http://bgr.com/2017/03/20/malware-first-computer-virus-apple-elk-cloner/},
   Marzo 2017.
@@ -221,7 +221,7 @@ Claire Connelly.
 
 \bibitem{article:staog}
 Jesús Maturana.
-\newblock La breve historia de los virus en gnu/linux, haberlos haylos.
+\newblock La breve historia de los virus en {GNU}/linux, haberlos haylos.
 \newblock
   \url{https://www.muyseguridad.net/2010/11/29/la-breve-historia-de-los-virus-en-gnulinux-haberlos-hailos/},
   Noviembre 2010.
@@ -269,7 +269,7 @@ Patrick Lambert.
 \newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:nat}
-CISCO Papers.
+{CISCO} Papers.
 \newblock Network address translation.
 \newblock
   \url{https://www.cisco.com/c/es_mx/support/docs/ip/network-address-translation-nat/13772-12.pdf/}.
@@ -301,21 +301,21 @@ Mike~Chapple James M.~Stewart, Ed~Tittel.
 
 \bibitem{article:ipsec}
 Hatem Farag.
-\newblock Ipsec story.
+\newblock {IPSEC} story.
 \newblock \url{https://learningnetwork.cisco.com/docs/DOC-31750}, Diciembre
   2016.
 \newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:levpn}
-Le-VPN.
-\newblock Historia de las vpn.
+Le-{VPN}.
+\newblock Historia de las {VPN}.
 \newblock \url{http://www.le-vpn.com/es/la-historia-de-la-vpn/}, Septiembre
   2016.
 \newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:esp}
 Sergio~De Luz.
-\newblock Ipsec. volumen iii : Esp (carga de seguridad encapsulada).
+\newblock {IPsec}. volumen {III} : {ESP} (carga de seguridad encapsulada).
 \newblock
   \url{https://www.redeszone.net/2011/09/06/ipsec-volumen-iii-esp-carga-de-seguridad-encapsulada/},
   Septiembre 2011.
@@ -323,7 +323,7 @@ Sergio~De Luz.
 
 \bibitem{article:ietf}
 Fernando Gont.
-\newblock Introducción a la ietf (internet engineering task force).
+\newblock Introducción a la {IETF} (internet engineering task force).
 \newblock
   \url{https://www.si6networks.com/presentations/inet2010/fgont-inet2010-introduccion-ietf.pdf},
   2010.
@@ -339,7 +339,8 @@ Mike~Erwin Paul~Wolfe, Charlie~Scott.
 
 \bibitem{article:sstp}
 Jenifer Castellano.
-\newblock Características protocolos vpn (openvpn, sstp, l2tp, ikev2 y pptp).
+\newblock Características protocolos {VPN} (openvpn, {SSTP}, {L2TP}, {IKEv2} y
+  {PPTP}).
 \newblock
   \url{https://www.solvetic.com/page/noticias/s/seguridad/caracteristicas-protocolos-vpn-openvpn-sstp-l2tp-ikev2-pptp},
   Octubre 2017.
@@ -347,12 +348,12 @@ Jenifer Castellano.
 
 \bibitem{article:deepweb}
 Daniel Echeverri.
-\newblock Deep web: Tor, freenet \& i2p.
+\newblock Deep web: Tor, freenet \& {I2P}.
 \newblock Capítulos 1.2, 2, 3, 4, 2016.
 
 \bibitem{article:i2p}
 Infosec Institute.
-\newblock Introduction to anonymizing networks – tor vs i2p.
+\newblock Introduction to anonymizing networks – tor vs {I2P}.
 \newblock
   \url{http://resources.infosecinstitute.com/anonymizing-networks-tor-vs-i2p/},
   Novimebre 2012.
@@ -404,7 +405,7 @@ PandaSecurity.
 
 \bibitem{article:remailer}
 George Danezis, Roger Dingledine, David Hopwood, and Nick Mathewson.
-\newblock Mixminion: Design of a type iii anonymous remailer protocol.
+\newblock Mixminion: Design of a type {III} anonymous remailer protocol.
 \newblock
   \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.508.6690&rep=rep1&type=pdf}.
 \newblock Último acceso 15 de Enero de 2018.
