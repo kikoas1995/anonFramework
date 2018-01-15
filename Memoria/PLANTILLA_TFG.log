@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.3)  15 JAN 2018 13:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.3)  15 JAN 2018 14:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1412,17 +1412,17 @@ LaTeX Info: Redefining \% on input line 2.
 \openout8 = `PLANTILLA_TFG.lof'.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 123.
+(babel)             in language  on input line 122.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 123.
+(babel)             in language  on input line 122.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 123.
+(babel)             in language  on input line 122.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 123.
+(babel)             in language  on input line 122.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 123.
+(babel)             in language  on input line 122.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 123.
+(babel)             in language  on input line 122.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 124.
 Package babel Info: Redefining spanish shorthand >>
@@ -1571,11 +1571,18 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 7.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 7.
+
+Package natbib Warning: Citation `book:GPSTracking' on page 1 undefined on inpu
+t line 26.
+
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 31.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-<images/sn.png, id=361, 764.8575pt x 418.56375pt>
+
+LaTeX Warning: Reference `fig:FBStats' on page 1 undefined on input line 36.
+
+<images/sn.png, id=360, 764.8575pt x 418.56375pt>
 File: images/sn.png Graphic file (type png)
  <use images/sn.png>
 Package pdftex.def Info: images/sn.png used on input line 41.
@@ -1585,35 +1592,36 @@ Package pdftex.def Info: images/sn.png used on input line 41.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 49.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 49.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 49.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 49.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 49.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 49.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 49.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 49.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 49.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 49.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 49.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 49.
+(babel)             in language  on input line 48.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 
-      [1
+l.48 E
+      n otros casos el iniciar sesión con la cuenta de Google o Facebook si...
+[1
 
 ]
 Package babel Info: Redefining spanish shorthand <<
@@ -1640,38 +1648,38 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 66.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 66.
-LaTeX Info: Redefining \. on input line 71.
-LaTeX Info: Redefining \% on input line 71.
+LaTeX Info: Redefining \. on input line 70.
+LaTeX Info: Redefining \% on input line 70.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 70.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.71 	\item A
-             nálisis: El capítulo tres consta de la serie de requisitos, d...
+l.70 	\item E
+             stado  del  Arte: El segundo capítulo explica todos y cada uno...
 [2 <./images/sn.png>]
 LaTeX Info: Redefining \. on input line 78.
 LaTeX Info: Redefining \% on input line 78.
@@ -1779,7 +1787,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 18.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 18.
-[5] <images/chart_privacy.png, id=404, 572.1375pt x 329.23pt>
+[5] <images/chart_privacy.png, id=403, 572.1375pt x 329.23pt>
 File: images/chart_privacy.png Graphic file (type png)
 
 <use images/chart_privacy.png>
@@ -1915,7 +1923,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 115.
 
-<images/proxy_web.png, id=447, 1600.98125pt x 733.74126pt>
+<images/proxy_web.png, id=446, 1600.98125pt x 733.74126pt>
 File: images/proxy_web.png Graphic file (type png)
 
 <use images/proxy_web.png>
@@ -1951,14 +1959,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 144.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 144.
-[9] <images/proxy_cache.png, id=454, 1274.7625pt x 757.83125pt>
+[9] <images/proxy_cache.png, id=453, 1274.7625pt x 757.83125pt>
 File: images/proxy_cache.png Graphic file (type png)
 
 <use images/proxy_cache.png>
 Package pdftex.def Info: images/proxy_cache.png used on input line 148.
 (pdftex.def)             Requested size: 216.81pt x 128.88742pt.
 
-<images/proxy_transparent.png, id=455, 1001.7425pt x 676.5275pt>
+<images/proxy_transparent.png, id=454, 1001.7425pt x 676.5275pt>
 File: images/proxy_transparent.png Graphic file (type png)
 
 <use images/proxy_transparent.png>
@@ -1996,14 +2004,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 174--176
 
  []
 
-<images/proxy_chain.png, id=467, 723.70375pt x 221.82875pt>
+<images/proxy_chain.png, id=466, 723.70375pt x 221.82875pt>
 File: images/proxy_chain.png Graphic file (type png)
 
 <use images/proxy_chain.png>
 Package pdftex.def Info: images/proxy_chain.png used on input line 190.
 (pdftex.def)             Requested size: 216.81pt x 66.45435pt.
 
-<images/proxy_dynamic.png, id=468, 718.685pt x 236.885pt>
+<images/proxy_dynamic.png, id=467, 718.685pt x 236.885pt>
 File: images/proxy_dynamic.png Graphic file (type png)
 
 <use images/proxy_dynamic.png>
@@ -2013,7 +2021,7 @@ Package pdftex.def Info: images/proxy_dynamic.png used on input line 204.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/proxy_strict.png, id=469, 406.51875pt x 172.645pt>
+<images/proxy_strict.png, id=468, 406.51875pt x 172.645pt>
 File: images/proxy_strict.png Graphic file (type png)
 
 <use images/proxy_strict.png>
@@ -2121,13 +2129,13 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 279.
  [13]
-<images/IPsec.png, id=507, 695.59875pt x 319.1925pt>
+<images/IPsec.png, id=506, 695.59875pt x 319.1925pt>
 File: images/IPsec.png Graphic file (type png)
  <use images/IPsec.png>
 Package pdftex.def Info: images/IPsec.png used on input line 294.
 (pdftex.def)             Requested size: 361.34999pt x 165.81058pt.
 
-<images/vpn.png, id=510, 376.40625pt x 167.62625pt>
+<images/vpn.png, id=509, 376.40625pt x 167.62625pt>
 File: images/vpn.png Graphic file (type png)
  <use images/vpn.png>
 Package pdftex.def Info: images/vpn.png used on input line 309.
@@ -2260,7 +2268,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 396.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 396.
- [17] <images/darknet_markets.png, id=542, 642.4pt x 820.06375pt>
+ [17] <images/darknet_markets.png, id=541, 642.4pt x 820.06375pt>
 File: images/darknet_markets.png Graphic file (type png)
 
 <use images/darknet_markets.png>
@@ -2296,7 +2304,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 415.
  [18 <./images/darknet_markets.png>]
-<images/tunnel_i2p.png, id=552, 1325.95375pt x 752.8125pt>
+<images/tunnel_i2p.png, id=551, 1325.95375pt x 752.8125pt>
 File: images/tunnel_i2p.png Graphic file (type png)
 
 <use images/tunnel_i2p.png>
@@ -2364,7 +2372,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 479.
  [20]
-<images/hashed_pwd.png, id=567, 729.72626pt x 54.2025pt>
+<images/hashed_pwd.png, id=566, 729.72626pt x 54.2025pt>
 File: images/hashed_pwd.png Graphic file (type png)
 
 <use images/hashed_pwd.png>
@@ -2424,28 +2432,28 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 523.
  [22]
-<images/controller_auth.png, id=578, 821.0675pt x 194.7275pt>
+<images/controller_auth.png, id=577, 821.0675pt x 194.7275pt>
 File: images/controller_auth.png Graphic file (type png)
 
 <use images/controller_auth.png>
 Package pdftex.def Info: images/controller_auth.png used on input line 527.
 (pdftex.def)             Requested size: 361.34999pt x 85.69818pt.
 
-<images/hs_running.png, id=579, 729.72626pt x 154.5775pt>
+<images/hs_running.png, id=578, 729.72626pt x 154.5775pt>
 File: images/hs_running.png Graphic file (type png)
 
 <use images/hs_running.png>
 Package pdftex.def Info: images/hs_running.png used on input line 537.
 (pdftex.def)             Requested size: 361.34999pt x 76.54321pt.
 
-<images/hs_running2.png, id=580, 1158.3275pt x 143.53625pt>
+<images/hs_running2.png, id=579, 1158.3275pt x 143.53625pt>
 File: images/hs_running2.png Graphic file (type png)
 
 <use images/hs_running2.png>
 Package pdftex.def Info: images/hs_running2.png used on input line 549.
 (pdftex.def)             Requested size: 361.34999pt x 44.77611pt.
 
-<images/proxychains_tor.png, id=581, 1291.82625pt x 412.54124pt>
+<images/proxychains_tor.png, id=580, 1291.82625pt x 412.54124pt>
 File: images/proxychains_tor.png Graphic file (type png)
 
 <use images/proxychains_tor.png>
@@ -2479,14 +2487,14 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 569.
  [23 <./images/controller_auth.png> <./images/hs_running.png> <./images/hs_runn
 ing2.png> <./images/proxychains_tor.png>]
-<images/onionshare1.png, id=587, 726.715pt x 235.88126pt>
+<images/onionshare1.png, id=586, 726.715pt x 235.88126pt>
 File: images/onionshare1.png Graphic file (type png)
 
 <use images/onionshare1.png>
 Package pdftex.def Info: images/onionshare1.png used on input line 573.
 (pdftex.def)             Requested size: 361.34999pt x 117.29247pt.
 
-<images/onionshare2.png, id=588, 996.72375pt x 419.5675pt>
+<images/onionshare2.png, id=587, 996.72375pt x 419.5675pt>
 File: images/onionshare2.png Graphic file (type png)
 
 <use images/onionshare2.png>
@@ -2608,7 +2616,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 666.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 666.
- [26] <images/tortazo_OR1.png, id=617, 1551.7975pt x 512.91624pt>
+ [26] <images/tortazo_OR1.png, id=616, 1551.7975pt x 512.91624pt>
 File: images/tortazo_OR1.png Graphic file (type png)
 
 <use images/tortazo_OR1.png>
@@ -3056,7 +3064,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 139.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 139.
- <images/sin_ofuscar.png, id=666, 462.72874pt x 124.465pt>
+ <images/sin_ofuscar.png, id=665, 462.72874pt x 124.465pt>
 File: images/sin_ofuscar.png Graphic file (type png)
 
 <use images/sin_ofuscar.png>
@@ -3067,7 +3075,7 @@ Overfull \hbox (26.46104pt too wide) in paragraph at lines 155--156
  [][] 
  []
 
-<images/recibido_sin.png, id=667, 320.19624pt x 115.43124pt>
+<images/recibido_sin.png, id=666, 320.19624pt x 115.43124pt>
 File: images/recibido_sin.png Graphic file (type png)
 
 <use images/recibido_sin.png>
@@ -3103,7 +3111,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 168.
  [33]
-<images/con_ofuscar.png, id=675, 462.72874pt x 130.4875pt>
+<images/con_ofuscar.png, id=674, 462.72874pt x 130.4875pt>
 File: images/con_ofuscar.png Graphic file (type png)
 
 <use images/con_ofuscar.png>
@@ -3114,14 +3122,14 @@ Overfull \hbox (26.46104pt too wide) in paragraph at lines 173--174
  [][] 
  []
 
-<images/recibido_con.png, id=676, 302.12875pt x 124.465pt>
+<images/recibido_con.png, id=675, 302.12875pt x 124.465pt>
 File: images/recibido_con.png Graphic file (type png)
 
 <use images/recibido_con.png>
 Package pdftex.def Info: images/recibido_con.png used on input line 179.
 (pdftex.def)             Requested size: 187.90244pt x 77.40869pt.
 
-<images/inbox1.png, id=678, 541.02126pt x 111.41624pt>
+<images/inbox1.png, id=677, 541.02126pt x 111.41624pt>
 File: images/inbox1.png Graphic file (type png)
  <use images/inbox1.png>
 Package pdftex.def Info: images/inbox1.png used on input line 196.
@@ -3954,7 +3962,7 @@ Package babel Info: Redefining spanish shorthand "?
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
-<images/esquema.png, id=846, 877.2775pt x 1055.945pt>
+<images/esquema.png, id=845, 877.2775pt x 1055.945pt>
 File: images/esquema.png Graphic file (type png)
  <use images/esquema.png>
 Package pdftex.def Info: images/esquema.png used on input line 8.
@@ -4057,9 +4065,12 @@ Package babel Info: Redefining spanish shorthand "?
 [53
 
 ])
+
+Package natbib Warning: There were undefined citations.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
- (./PLANTILLA_TFG.aux
+(./PLANTILLA_TFG.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 LaTeX Info: Redefining \. on input line 27.
@@ -4071,15 +4082,18 @@ Package rerunfilecheck Info: File `PLANTILLA_TFG.out' has not changed.
 (rerunfilecheck)             Checksum: E0F7D465F6F77FBD41EDA152041E864B;2878.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 160.
  ) 
 Here is how much of TeX's memory you used:
- 14261 strings out of 493029
- 198128 string characters out of 6136234
+ 14263 strings out of 493029
+ 198159 string characters out of 6136234
  362889 words of memory out of 5000000
- 17204 multiletter control sequences out of 15000+600000
+ 17206 multiletter control sequences out of 15000+600000
  29971 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,12n,77p,3244b,746s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4103,10 +4117,10 @@ pk> </home/kiko/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1728.600pk></usr/sha
 re/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on PLANTILLA_TFG.pdf (67 pages, 1560677 bytes).
+Output written on PLANTILLA_TFG.pdf (67 pages, 1560932 bytes).
 PDF statistics:
  1597 PDF objects out of 1728 (max. 8388607)
- 865 compressed objects within 9 object streams
+ 864 compressed objects within 9 object streams
  221 named destinations out of 1000 (max. 500000)
  461 words of extra memory for PDF output out of 10000 (max. 10000000)
 
