@@ -48,6 +48,13 @@ Julia Lane, Victoria Stodden, Stefan Bender, and Helen Nissenbaum.
   2014.
 \newblock Último acceso 15 de Enero de 2018.
 
+\bibitem{paper:OECD}
+OECD.
+\newblock Directrices de la ocde sobre protección de la privacidad y flujos
+  transfronterizos de datos personales.
+\newblock \url{http://www.oecd.org/sti/ieconomy/15590267.pdf}, 2002.
+\newblock Último acceso 16 de Enero de 2018.
+
 \bibitem{article:GPSTracking}
 Chris Smith.
 \newblock Google has been secretly tracked your android phone, even if you
@@ -164,6 +171,15 @@ Lucy Handley.
 Helen Nissenbaum.
 \newblock {OBFUSCATION}: A user guide for privacy and protest.
 \newblock Capítulo 2: p.45-46, 2016.
+\newblock Último acceso 15 de Enero de 2018.
+
+\bibitem{article:dirIP}
+Javier~Rubio Alamillo.
+\newblock El tjue considera la ip dinámica como dato personal frente al
+  estado.
+\newblock
+  \url{http://peritoinformaticocolegiado.es/el-tjue-considera-la-ip-dinamica-como-dato-personal-frente-al-estado/},
+  Enero 2017.
 \newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:automata}
@@ -415,6 +431,14 @@ Renita~Crystal Pereira.
 \newblock Web scraping of social networks.
 \newblock \url{https://www.ijircce.com/upload/2015/sacaim/43_710.pdf}, Octubre
   2015.
+\newblock Último acceso 15 de Enero de 2018.
+
+\bibitem{article:psd2}
+Francisco Uria.
+\newblock Novedades en el régimen de los servicios de pago: Psd2.
+\newblock
+  \url{https://blogs.elconfidencial.com/espana/blog-fide/2018-01-04/novedades-en-el-regimen-de-los-servicios-de-pago-psd2_1500694/},
+  Enero 2018.
 \newblock Último acceso 15 de Enero de 2018.
 
 \end{thebibliography}

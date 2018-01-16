@@ -5,27 +5,24 @@
 \label{sec:conceptos}
 La privacidad es un concepto bastante complejo, una palabra con tantas
 acepciones que en algunos casos puede resultar engañosa o, incluso,
-sin sentido alguno. Los temas donde se trata este
-\comments{es artículo, no pronombre. No lleva tilde: verifica esto en
-  el texto.} concepto van desde las leyes y derechos hasta la
+sin sentido alguno. Los temas donde se trata este concepto van desde las leyes y derechos hasta la
 tecnología, pasando por campos como la
-  filosofía. \comments{Ojo, uno de los objetivos de una gran parte de
-  la filosofía es evitar la ambigüedad. Quitaría este calificativo. }.
+  filosofía.
 
 Por otro lado, el contexto en el que suele ser utilizada va desde los
 ajustes de un navegador hasta uno de los debates más importantes sobre
 el desarrollo de la sociedad.
 
 En resumen, los usos del concepto de privacidad abarcan un rango
-muy amplio \comments{evita hipérboles: muy amplio} de
+muy amplio muy amplio de
 temas y es por ello por lo que dicho término es difícil de definir. De
 acuerdo a ~\cite{article:danezis2010} se tienen diversas nociones
 básicas sobre la privacidad.
 
 En primer lugar, podemos hablar de \textbf{privacidad como
-  confidencialidad}, que se define como "una tradición liberal
+  confidencialidad}, que se define como ``una tradición liberal
 individualista donde se le concede a la persona una autonomía libre
-tanto de un estado opresor como de normas sociales". En el campo de la
+tanto de un estado opresor como de normas sociales''. En el campo de la
 informática, esto se consigue con tecnologías que abogan por la
 confidencialidad de los datos, y que proporciona servicios que
 minimizan, anonimizan o aseguran la colección de información personal
@@ -38,7 +35,7 @@ ella~\cite{lane2014privacy}.  En este caso, la privacidad se entiende
 como el derecho de un usuario a decidir qué información sobre él puede
 ser difundida y bajo qué circunstancia. Este concepto de control sirve
 como fundamento para los actuales sistemas
-\textbf{IM}(\textit{identity management}), los cuales deben hacer un
+\textbf{IM} (\textit{identity management}), los cuales deben hacer un
 uso razonable y comedido de la información personal de los
 usuarios. Sin embargo, en un principio esto no era así.  Dichos
 sistemas, los cuales nacieron en la década de 1990, no tomaban en ese
@@ -122,15 +119,22 @@ Por ende, la principal diferencia entre ambos términos radica en que
 mientras en el anonimato la identidad es totalmente desconocida, en el
 pseudoanonimato se aprovecha el hecho de utilizar un pseudónimo para
 esconder una identidad real.  En este proyecto se ha trabajado con
-métodos tanto para lograr un anonimato como para lograr un
-pseudoanonimato. \comments{En este respecto conviene  retomar la
-  cuestión relativa a la asociación entre identidad física e identidad
-digital. Dichio vínculo se establece mediante tres tipos de
-mecanismos: algo que el usuario conoce, algo que el usuario que posee
-y algo que el usuario es. En este trabajo se analizan procedimientos
-para disociar la identidad física de procedimientos de autenticación
-basados en localización mediante la dirección IP de un usuario, así
-como de mecanismos de validación de usuarios mediante contraseña. }
+métodos tanto para lograr anonimato como para lograr
+pseudoanonimato. 
+
+Como se mencionó en la anterior sección, el objetivo de aumentar el grado
+de anonimato es hacer desaparecer o, al menos, dificultar la proyección entre
+la identidad física de un individuo y su respectiva (o respectivas) identidad 
+digital. El enlace entre ambas identidades se establece mediante los siguientes
+mecanismos:
+\begin{itemize}
+	\item Algo que el usuario conoce.
+	\item Algo que el usuario posee.
+	\item Algo que el usuario es.
+\end{itemize}
+
+Teniendo esta idea clara, es preciso constatar que este proyecto se centra, sobre todo, en el estudio de técnicas para disgregar la identidad física
+en procedimientos de autenticación basados en ubicación mediante la dirección IP de un usuario (la cual, por cierto, en la Unión Europea es considerada un dato personal cuando aparece junto a una marca de tiempo ~\cite{article:dirIP}).
 
 Una vez aclarados sendos términos, procedemos a listar las diferentes vías para lograr el anonimato:
 
@@ -143,10 +147,17 @@ Una vez aclarados sendos términos, procedemos a listar las diferentes vías par
 
 \lsection{Hechos relevantes con respecto a la seguridad en la red} \label{sec:historia}
 
-Conviene empezar el capítulo recalcando que Internet no fue concebido como un protocolo de comunicación seguro. 
-Es por esto que a lo largo de su historia han ocurrido varios sucesos que han puesto en riesgo (por diversos motivos) la seguridad del usuario en la red.
+Para comprender la magnitud de la importancia de amenazas a la privacidad en la red es necesario situarnos en una etapa temprana de Internet, con el fin de observar cómo tanto las preocupaciones de los usuarios como los objetivos de ciberataques han ido variando durante el transcurso de los años. Por ello, es interesante hacer un repaso a los hechos más importantes relativos a la seguridad tecnológica que marcarían el camino hasta llegar a la situación actual.
 
-la privacidad del usuario se ha visto comprometida en numerosas ocasiones debido a los robos de información personal, en la mayor parte de ocasiones debido al \textit{malware}. Es por ello que esta sección estará dedicada a dar un repaso exhaustivo a la historia de la seguridad en la red para comprender cuál es el foco de los distintos ataques actualmente.
+Puesto que hablaremos de seguridad informática, es indispensable tener claros los tres pilares en los que se fundamenta la gestión de la seguridad de la información. Estos son:
+\begin{itemize}
+	\item Confidencialidad: Un elemento básico de la seguridad informática que garantiza que el acceso a la información se limita únicamente a usuarios autorizados.
+	\item Integridad: El segundo elemento asegura que la información en cuestión no es modificada por personas no autorizadas.
+	\item Disponibilidad: La última piedra angular de la seguridad de la información preserva que la información esté disponible en el momento que sea necesaria.
+\end{itemize}
+
+Conviene empezar la sección recalcando que Internet no fue concebido como un protocolo de comunicación seguro. 
+Es por esto que a lo largo de su historia han ocurrido varios sucesos que han puesto en riesgo (por diversos motivos) la seguridad del usuario en la red.
 
 Podemos marcar como primera incursión histórica con respecto a la seguridad un libro publicado por Jon Von Neumann en el año 1949 llamado \textit{The Theory of Self Reproducing Automata}. Dicha publicación sirvió como  base para el desarrollo de los primeros \textbf{virus informáticos}~\cite{article:automata}.
 
@@ -173,14 +184,14 @@ En el año 1996, con la aparición del complemento de navegador Flash(que permit
 El año 2000 el número de gusanos informáticos que se encuentran en equipos domésticos es desproporcionado. Asimismo, en esta década los ciberdelincuentes aprenden a anonimizarse más sofisticadamente y hacen más difícil su identificación.
 Para el año 2005 el número de malware únicos asciende a más de 300.000, y ha ascendido más de un 1000\% en diez años. Para el año 2008 dicha cifra asciende 5 millones de malware únicos~\cite{article:number_malware}.
 
-En los últimos años la variedad de ataques de robo de información ha cambiado mucho. Han habido noticias recientes con elementos tecnológicos tan cotidianos como la empresa fabricadora de robots-aspiradora Roomba, la cual vende información a terceros sobre los planos de tu casa~\cite{article:roomba}. 
+En los últimos años la variedad de amenazas de robo de información ha cambiado mucho. El origen de hurtos de información sensible no se limitan a aplicaciones o sistemas maliciosos, sino en algunos casos a grandes corporaciones cuyas políticas de privacidad con los usuarios, o bien no están bien definidas o directamente son engañosas (un ejemplo reciente son una conocida empresa de robots-aspiradora, la cual vende información a terceros sobre los planos de los domicilios~\cite{article:roomba}). 
 
 Con la aparición de los smartphones, surgen nuevas amenazas para nuestra seguridad y privacidad como \textit{payloads} que corren como un proceso en segundo plano~\cite{article:android} y permiten tracear nuestra ubicación, espiarnos a través de la cámara del dispositivo y un largo etcétera. Esto ha ocasionado que surjan también aplicaciones antivirus en nuestros teléfonos móviles, que actúan de forma \textit{pasiva} vigilando que ningún proceso monitorice de forma maliciosa nuestro dispositivo. 
 
 Como se ha mencionado, está claro que debemos cuidarnos de agentes externos como los distintos tipos de \textit{malware}, los cuales pueden usurpar nuestra identidad, comprometer nuestros \textbf{datos personales}, entre otras cosas. 
-Sin embargo, \textbf{no todo depende del usuario }puesto que muchos de los servicios que utilizamos día a día han sufrido de \textit{leaks} de bases de datos e infiltraciones en el sistema que suponen un riesgo para nuestra privacidad. Un servicio muy útil para comprobar si hemos sido víctimas de ciberataques (con el riesgo que supone para nuestra privacidad) a sitios donde frecuentamos es \url{https://haveibeenpwned.com/}.
+Sin embargo, \textbf{no todo depende del usuario }puesto que muchos de los servicios que utilizamos día a día han sufrido de \textit{leaks} de bases de datos e infiltraciones en el sistema que suponen un riesgo para nuestra privacidad. Un servicio muy útil para comprobar si hemos sido víctimas de ciberataques (con el riesgo que supone para nuestra privacidad) es \url{https://haveibeenpwned.com/}.
 
-Conforme ha ido avanzando la tecnología, el número de \textit{malware} ha ido creciendo exponencialmente, y así también su propósito. Mientras que en un principio la gran mayoría eran pruebas de concepto, en los últimos años el objetivo ha cambiado su foco hacia la información sensible de los usuarios de la red. 
+Conforme ha ido avanzando la tecnología, el número de \textit{malware} ha ido creciendo de forma masiva, y así también su propósito. Lo que en un principio eran pruebas de concepto, pasaron a ser verdaderas amenazas para los sistemas. Sin embargo, el foco en los últimos años el objetivo ha cambiado hacia la información sensible de los usuarios de la red. 
 
 Asimismo, hemos podido comprobar que no sólo el \textit{malware} es causante de los robos de información, sino que la propia negligencia de algunas empresas en temas relativos a la privacidad de los usuarios también juega un papel importante y es por ello que no debemos perder de vista que, aparte de proteger la confidencialidad de la información, también se debe hacer lo propio con la privacidad.
 
@@ -477,9 +488,9 @@ Otro término muy utilizado es el de \textit{darknet}. Una \textit{darknet }es u
 En numerosas ocasiones se relaciona dicho tipo de redes con la ciberdelincuencia. Esto es debido a que estas redes proporcionan un muy buen grado de privacidad y anonimato al usuario, lo cual es aprovechado para realizar actividades ilegales tales como la venta de armas o drogas. 
 De hecho, un estudio realizado entre Diciembre de 2013 y Julio de 2015 por un investigador apodado Gwern Branwen sobre las ventas en numerosos mercados de las \textit{darknets}~\cite{article:gwern} revela que se llegaron a recaudar más de 27 millones de dólares en drogas ilegales (ver Figura~\ref{fig:gwern}).
 
-\begin{figure}[H]
+\begin{figure}[h]
 	\centerline{
-		\mbox{\includegraphics[width=2.70in]{images/darknet_markets.png}}
+		\mbox{\includegraphics[width=2.90in]{images/darknet_markets.png}}
 	}
 	\caption{Imagen extraída del artículo \textit{The data of the dark web - The Econommist}~\cite{article:gwern}}.
 	\label{fig:gwern}
@@ -496,12 +507,12 @@ Las \textit{darknets} más conocidas a día de hoy son Tor, I2P y Freenet.
 I2P es una darknet o red anónima que nace en el año 2003- Su base funcional es similar a la de Tor. Está escrita en lenguaje Java, con algunos añadidos en C~\cite{article:i2p}.
 Una de las ventajas de esta red es el permitir la creación de cualquier tipo de servicio sin mucha complejidad. Es posible poner en marcha servidores HTTP, SSH, FTP o SMB en cualquier instancia I2P sin apenas dificultad. Además, dichos servicios sólo permanecerán accesibles por usuarios internos de I2P.
 
-Existen servicios ocultos de almacenamiento, foros, wikis, documentación, servicios de correo electrónico, repositorios git ocultos, etcétera.
+Existen servicios ocultos de almacenamiento, foros, wikis, documentación, servicios de correo electrónico, repositorios Git ocultos, etcétera.
 
 La estructura de una red I2P funciona de la siguiente manera.
 Existen una serie de túneles cuyo objetivo es el envío y recepción de paquetes entre los emisores y receptores que se encuentren en la red (ver Figura~\ref{fig:I2PTunneling}). Un túnel es básicamente el conjunto de enrutadores que se encarga de enviar información a un destino determinado, permitiendo una comunicación \textbf{anónima} entre instancias I2P.
 En el momento que un usuario lanza una instancia del software I2P automáticamente se convierte en un enrutador y así, en parte de los túneles que crean otras instancias I2P.
-Una característica de estos túneles es que son de sentido único. Por este motivo, para que una instancia I2P pueda intervenir en las dos partes de la comunicación (emisión y recepción de paquetes)debecrear túneles de salida y de entrada. Los datos que viajan entre cada enrutador del túnel van cifraados y cada enrutador que recibe el paquete sólo puede acceder a la información correspondiente al siguiente enrutador al que se le debe enviar el paquete.
+Una característica de estos túneles es que son de sentido único. Por este motivo, para que una instancia I2P pueda intervenir en las dos partes de la comunicación (emisión y recepción de paquetes) debe crear túneles de salida y de entrada. Los datos que viajan entre cada enrutador del túnel van cifrados y cada enrutador que recibe el paquete sólo puede acceder a la información correspondiente al siguiente \textit{router} al que se le debe enviar el paquete.
 
 	\begin{figure}[h]
 		\centerline{
@@ -602,7 +613,7 @@ Tras haber generado la contraseña \textit{hash}, es necesario reemplazarla por 
 		/etc/tor/torrc
 	}
 
-Lo único que queda para poder hacer uso del script es aplicar la contraseña propia al parámetro \textit{password} de la función \textit{authenticate} del controlador de Stem(en el caso del ejemplo de arriba, "\textit{trabajofindegrado}"). El resultado sería el siguiente (ver Figura~\ref{fig:controller}):
+Lo único que queda para poder hacer uso del script es aplicar la contraseña propia al parámetro \textit{password} de la función \textit{authenticate} del controlador de Stem(en el caso del ejemplo de arriba, ``\textit{trabajofindegrado}''). El resultado sería el siguiente (ver Figura~\ref{fig:controller}):
 
 	\begin{figure}[H]
 		\centerline{
@@ -676,11 +687,11 @@ En apartados anteriores hemos visto varias tecnologías con las que podemos camu
 
 \subsubsection{CacheCloak}
 
-Un usuario que haga uso de un smartphone(es decir, un usuario estándar), debe afrontar riesgos en cuanto a su privacidad en el momento en el que comparte su localización real con los \textbf{LSB} (Servicios Basados en Ubicación). 
+Un usuario que haga uso de un smartphon debe afrontar riesgos en cuanto a su privacidad en el momento en el que comparte su localización real con los \textbf{LSB} (Servicios Basados en Ubicación). 
 Es por esto que nace una tecnología llamada \textit{CacheCloak}, un sistema que permite habilitar una \textbf{anonimización en tiempo real} del servicio de localización.
-La manera en la que funciona es simple: Un servidor(de confianza) intermedio recibe la localización real del usuario, la procesa utilizando \textit{CacheCloak} y envía dicha ubicación al LSB.
+La manera en la que funciona es simple: Un servidor (de confianza) intermedio recibe la localización real del usuario, la procesa utilizando \textit{CacheCloak} y envía dicha ubicación al LSB.
 Además que la calidad del servicio no sufre, el objetivo (conseguir un buen grado de anonimato) se cumple, puesto que los LSB no consiguen identificar al usuario nada más que un corto período de tiempo. 
-La forma de conseguirlo es mediante una predicción de movilidad(basada en trayectos ya existentes de otros usuarios) que realiza el servidor(mediante métodos estocásticos) y medidas de entropía.
+La forma de conseguirlo es mediante una predicción de movilidad (basada en trayectos ya existentes de otros usuarios) que realiza el servidor (mediante métodos estocásticos) y medidas de entropía.
 
 \subsubsection{AdNauseam}
 
@@ -700,16 +711,16 @@ FaceCloak es otro plug-in de navegador cuyo objetivo es la ofuscación de los da
 
 \subsubsection{Ofuscación de estilometría de documentos}
 
-La estilometría es una métrica que hace usos de elementos de estilo para atribuir un autor a un documento. Puede ser empleada tanto para un documento de texto, ()para ello tendrá en cuenta la longitud de frases, palabras, sintaxis, formato, signos de puntuación entre otros), así como para ficheros de código fuente (asociación de un usuario mediante el estilo del código). 
+La estilometría es una métrica que hace usos de elementos de estilo para atribuir un autor a un documento. Puede ser empleada tanto para un documento de texto (para ello tendrá en cuenta la longitud de frases, palabras, sintaxis, formato, signos de puntuación entre otros), como para ficheros de código fuente (asociación de un usuario mediante el estilo del código). 
 
-Existen diversas formas de intentar "evitar" la atribución de autores a documentos. 
+Existen diversas formas de intentar ``evitar'' la atribución de autores a documentos. 
 
 Una de ellas, podría consistir simplemente en la \textbf{traducción mecánica} de texto desarrollado a diferentes idiomas y, tras ello, la traducción inversa al idioma original. Esto, si bien es efectivo para textos cortos, hace que en los largos se pierda una cantidad considerable de información y sentido al contenido.
 
 La imitación de otros autores es otra medida que se utiliza comúnmente. Hay ejemplos prácticos de análisis de textos de autores para crear nuevos textos a partir de ellos. Un ejemplo es el de \textit{Insta-Trump} (\url{http://trump.frost.works/}), el cual genera discursos a partir de otros ya existentes del presidente del gobierno de los Estados Unidos. Esto es logrado mediante \textbf{cadenas de Markov}.
 
 Por último, mencionar que existen una serie de ataques de ofuscación contra análsis estilométrico que permiten crear textos sin aparente estilo distintivo, dificultando la labor de identificar al autor.
-Un ejemplo es \textbf{Anonymouth}, una herramienta que proporciona al usuario advertencias sobre métricas que debería evitar a la hora de redactar textos(como longitudes de palabra, bigramas, etcétera).
+Un ejemplo es \textbf{Anonymouth}, una herramienta que proporciona al usuario advertencias sobre métricas que debería evitar a la hora de redactar textos (como longitudes de palabra, bigramas, etcétera).
 
 \lsection{Herramientas que ayudan a la identificación de usuarios} \label{sec:identificacion}
 \subsection{Introducción}

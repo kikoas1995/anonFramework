@@ -74,7 +74,7 @@ El usuario hará uso de los argumentos a la hora de lanzar el programa para que 
 	Se brinda al usuario la posibilidad de lanzar un servicio que apoya todas las medidas políticas propuestas recientemente, todo ello de forma automática.\\			
 	\linebreak		
 	\textbf{Requisito Funcional \#19: El usuario podrá registrar un usuario en un foro de discusión.}\\
-	este servicio automatiza el proceos de registro de un usuario en un foro de discusión. En este caso, automatiza la confirmación por correo, \textbf{además de resolver un pequeño captcha} que solicita la página al registrarse. \\
+	este servicio automatiza el proceso de registro de un usuario en un foro de discusión. En este caso, automatiza la confirmación por correo, \textbf{además de resolver un pequeño captcha} que solicita la página al registrarse. \\
 	\linebreak	
 	\textbf{Requisito Funcional \#20: El usuario podrá loguearse con una cuenta ya creada en un foro de discusión.}\\
 	Este requisito automatiza el hecho de realizar un inicio de sesión la página web de un foro de discusión, previo registro. \\
@@ -140,7 +140,7 @@ En esta aplicación se han tenido en cuenta dos modos de ejecución.
 
 La funcionalidad de mailing la podemos dividir en los módulos en los que está compuesta. 
 
-El \textbf{módulo de envío de correos anónimo} se encarga de la extracción de información de la página \url{http://anonymouse.org/anonemail.html}. La extracción de información se realiza mediante el uso de la librería \textbf{\textit{mechanize}}. Esta potente librería disponible en Python se utiliza para automatizar información con páginas web. Automáticamente almacena y envía \textit{cookies}, permite redirecciones web y puede \textbf{interactuar y enviar formularios}(lo que nos permite el envío de correos por medio de esta página).
+El \textbf{módulo de envío de correos anónimo} se encarga de la extracción de información de la página \url{http://anonymouse.org/anonemail.html}. La extracción de información se realiza mediante el uso de la librería \textbf{\textit{mechanize}}. Esta potente librería disponible en Python se utiliza para automatizar información con páginas web. Automáticamente almacena y envía \textit{cookies}, permite redirecciones web y puede \textbf{interactuar y enviar formularios} (lo que nos permite el envío de correos por medio de esta página).
 Se ha incluido una modificación en las \textit{headers} del navegador, para tratar de evitar el traceo de identidad.
 
 También se ha añadido la posibilidad de realizar un proceso de \textbf{ofuscación de estilometría} rápido y simple. Para ello se hace uso del ofuscador disponible en la página \url{https://skaillz.net/obfuscator/}. La ofuscación se realiza mediante un doble proceso de traducción automático. 
@@ -209,12 +209,12 @@ Por ello, el uso que se le da es bastante distinto al de la primera bandeja menc
 Es la sección con mayor trabajo de la aplicación. El objetivo de esta sección es automatizar \textbf{procesos de registro e inicio de sesión en diversas páginas web.}
 Para ello se ha optado por el uso de una clase abstracta \textbf{"Bot"}, la cual contiene las funciones \textbf{signup} y \textbf{login}.
 
-Todos y cada uno de los módulos relativos a la generación de cuentas anónimas \textbf{heredan} dicha clase abstracta. Por tanto, cada uno de ellos implementa como mínimo una función de registro y otra de inicio de sesión en una página web, \textbf{pero hay ciertos módulos que cuentan con funcionalidades extra}, como el caso del módulo \textbf{instagram.py}, que cuenta con una función para seguir a un usuario y dar "Me gusta" a sus publicaciones. 
+Todos y cada uno de los módulos relativos a la generación de cuentas anónimas \textbf{heredan} dicha clase abstracta. Por tanto, cada uno de ellos implementa como mínimo una función de registro y otra de inicio de sesión en una página web, \textbf{pero hay ciertos módulos que cuentan con funcionalidades extra}, como el caso del módulo \textbf{instagram.py}, que cuenta con una función para seguir a un usuario y dar ``Me gusta'' a sus publicaciones. 
 
 Se han implementado módulos de creación y uso de cuentas automáticas en diversas páginas como:
 
 \begin{itemize}
-	\item Redes sociales (Facebook e Instagram)
+	\item Redes sociales (Facebook e Instagram).
 	\item Un periódico online (con funcionalidad para visualizar titulares de las noticias directamente desde consola, así como realizar comentarios en ellas).
 	\item Un foro de discusión (con funcionalidad para visualizarlos temas de discusión más recientes directamente desde consola, así como realizar comentarios en ellos).
 	\item Una plataforma web sobre medidas políticas (con funcionalidad para apoyar automáticamente las medidas más recientes).
@@ -222,7 +222,7 @@ Se han implementado módulos de creación y uso de cuentas automáticas en diver
 
 Como se ha comentado en el capítulo anterior, para el registro de varias de las páginas implementadas se debe hacer uso de una bandeja de entrada temporal para la confirmación de e-mails de verificación.
  
-Asimismo, se ha procurado lidiar con problemas como \textbf{captchas} para comprobar si el usuario es humano(se ha conseguido "\textit{saltar}" el captcha en el registro del foro de discusión. No obstante otros más complejos como los captchas de reconocimiento de letras, aun con el uso de librerías enfocadas en ellos, no obtienen buen índice de acierto). 
+Asimismo, se ha procurado lidiar con problemas como \textbf{captchas} para comprobar si el usuario es humano (se ha conseguido ``\textit{saltar}'' el captcha en el registro del foro de discusión. No obstante otros más complejos como los captchas de reconocimiento de letras, aun con el uso de librerías enfocadas en ellos, no obtienen buen índice de acierto). 
 
 Es importante recalcar cómo funciona el sistema de \textbf{cuentas}. En el momento que se lanza la función de \textbf{registro} en cualquiera de las páginas implementadas, la herramienta guarda al usuario registrado en una tabla de la base de datos dedicada a esa página. Con ello, se logra realizar un inicio de sesión \textbf{extrayendo un usuario ya registrado de la tabla de la base de datos}. Todo ello es realizado de forma automática, sin que el usuario necesite hacer uso de dicha base de datos intencionadamente.
 
@@ -243,7 +243,7 @@ La herramienta contiene un módulo dedicado a la implementación de una base de 
 
 El encriptación, la cual usa un esquema AES de 256 bit transparente al usuario, se consigue mediante el uso de la librería \textbf{pysqlcipher}.
 
-El módulo dedicado a la base de datos, contiene varias funciones para el manejo de la misma. Dichas funciones son llamadas desde los módulos de la sección de \textbf{accounts}. Entre ellas hay funciones para la inserción de tuplas(con creación automática de la tabla en el caso de que no exista), consultas para obtener una tupla concreta o aleatoria.
+El módulo dedicado a la base de datos, contiene varias funciones para el manejo de la misma. Dichas funciones son llamadas desde los módulos de la sección de \textbf{accounts}. Entre ellas hay funciones para la inserción de tuplas (con creación automática de la tabla en el caso de que no exista), consultas para obtener una tupla concreta o aleatoria.
 
 La base de datos que se crea contiene tantas tablas como páginas en las que se ha implementado un registro de usuarios, y todas ellas tendrán la misma estructura, contando con campos como \textbf{username registrado, contraseña y e-mail de registro.}
 
@@ -291,7 +291,7 @@ Tras ello, se prosiguió con el desarrollo de los módulos incluidos en el paque
 \begin{itemize}
 	\item \textbf{mailer.py}: Contiene la funcionalidad de envío de correos anónimos. Como extra se añade la posibilidad de ofuscar el contenidos del correo a enviar mediante un módulo llamado \textbf{obfuscator.py}, el cual realiza una ofuscación estilométrica rápida y eficaz.
 	\item \textbf{TemporaryInbox1.py}: Contiene la bandeja de entrada temporal en tiempo real.
-	\item \textbf{TemporaryInbox2.py}: Contiene la funcionalidad de verificación de e-mails de confirmación para el registro de cuentas(haciendo uso de una bandeja de entrada temporal).
+	\item \textbf{TemporaryInbox2.py}: Contiene la funcionalidad de verificación de e-mails de confirmación para el registro de cuentas (haciendo uso de una bandeja de entrada temporal).
 \end{itemize}
 
 Una vez finalizada la sección de \textit{mailing}, se realizó el paquete \textit{db}, el cual contiene el módulo \textbf{criptodb.py}, que sería utilizado para la funcionalidad del paquete de \textit{accounts}.

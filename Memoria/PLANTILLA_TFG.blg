@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: PLANTILLA_TFG.aux
 The style file: unsrt.bst
 Database file #1: bibliografia.bib
-You've used 58 entries,
+You've used 61 entries,
             1791 wiz_defined-function locations,
-            719 strings with 13150 characters,
-and the built_in function-call counts, 9009 in all, are:
-= -- 823
-> -- 300
+            734 strings with 13800 characters,
+and the built_in function-call counts, 9427 in all, are:
+= -- 862
+> -- 312
 < -- 3
-+ -- 136
-- -- 78
-* -- 239
-:= -- 1391
-add.period$ -- 219
-call.type$ -- 58
-change.case$ -- 56
++ -- 142
+- -- 81
+* -- 246
+:= -- 1457
+add.period$ -- 231
+call.type$ -- 61
+change.case$ -- 59
 chr.to.int$ -- 0
-cite$ -- 58
-duplicate$ -- 355
-empty$ -- 1101
-format.name$ -- 78
-if$ -- 2129
+cite$ -- 61
+duplicate$ -- 370
+empty$ -- 1155
+format.name$ -- 81
+if$ -- 2228
 int.to.chr$ -- 0
-int.to.str$ -- 58
+int.to.str$ -- 61
 missing$ -- 9
-newline$ -- 336
-num.names$ -- 56
-pop$ -- 347
+newline$ -- 354
+num.names$ -- 59
+pop$ -- 365
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 169
+skip$ -- 175
 stack$ -- 0
 substring$ -- 123
-swap$ -- 88
+swap$ -- 91
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 67
-width$ -- 60
-write$ -- 668
+while$ -- 70
+width$ -- 63
+write$ -- 704
