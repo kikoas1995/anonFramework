@@ -1,6 +1,6 @@
 \select@language {spanish}
 \select@language {spanish}
-\contentsline {chapter}{\IeC {\'I}ndice de Figuras}{\es@scroman {ix}}{chapter*.9}
+\contentsline {chapter}{\IeC {\'I}ndice}{\es@scroman {ix}}{chapter*.9}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivaci\IeC {\'o}n del proyecto}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Objetivos y enfoque}{3}{section.1.2}
@@ -56,7 +56,7 @@
 \contentsline {section}{\numberline {5.1}Conclusiones}{41}{section.5.1}
 \contentsline {section}{\numberline {5.2}Trabajo futuro}{42}{section.5.2}
 \contentsline {chapter}{Glosario de acr\IeC {\'o}nimos}{45}{chapter*.56}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{46}{chapter*.56}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{47}{section*.57}
 \contentsline {chapter}{\numberline {A}Manual de utilizaci\IeC {\'o}n}{53}{appendix.Alph1}
 \contentsline {chapter}{\numberline {B}Esquema del sistema}{55}{appendix.Alph2}
 \contentsline {chapter}{\numberline {C}Repositorio del proyecto}{57}{appendix.Alph3}

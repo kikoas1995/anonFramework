@@ -12,7 +12,7 @@ A continuación se muestra cada uno de los requisitos funcionales y no funcional
 \subsubsection{Requisitos generales del sistema}
 \begin{adjustwidth}{0.5cm}{}
 \textbf{Requisito Funcional \#1: No habrá problemas de dependencias.}\\
-La herramienta podrá ser ejecutada sin que el usuario final necesite instalar librerías extra (más allá del servicio Tor).\\
+La herramienta podrá ser ejecutada sin que el usuario final necesite instalar bibliotecas extra (más allá del servicio Tor).\\
 \linebreak
 \textbf{Requisito Funcional \#2: Las funciones de la aplicación podrán ser lanzadas mediante una interfaz por \textit{shell}.}\\
 Esta interfaz requerirá que el usuario seleccione la opción que desea realizar. Por lo tanto, requiere que el usuario interaccione con el sistema.\\	
@@ -121,13 +121,13 @@ Esta sección se encarga de explicar al detalle las decisiones de diseño tomada
 
 La herramienta, cuyo objetivo es el de facilitar al usuario el realizar tareas básicas manteniendo siempre la premisa de un buen anonimato, así como la automatización de ciertos procesos, ha sido diseñada en lenguaje Python. 
 
-Se ha elegido Python (en su versión 2.7) puesto que la gran mayoría de herramientas de auditoría han sido diseñadas en este lenguaje, y es posible reutilizar código así como importar librerías muy útiles en el campo de la seguridad informática.
+Se ha elegido Python (en su versión 2.7) puesto que la gran mayoría de herramientas de auditoría han sido diseñadas en este lenguaje, y es posible reutilizar código así como importar bibliotecas muy útiles en el campo de la seguridad informática.
 
 El desarrollo en Python, además, simplifica la codificación debido a su sencilla sintaxis, muy próxima al simple pseudocódigo. Además, puesto que el orden de tiempo para ejecutar las tareas depende en gran medida de las respuestas web y no tanto de la eficiencia del lenguaje, no se ha considerado el hecho de utilizar un lenguaje de más bajo nivel.
 
 La programación del proyecto ha sido elaborada en un entorno Linux, concretamente en una distribución Ubuntu, y únicamente ha sido probada en este sistema operativo.
 
-En todo el proyecto se ha seguido un proceso de \textit{web-scraping}~\cite{article:webscraping} (utilizando distintas librerías) para poder utilizar los servicios de un sitio web de forma \textbf{sencilla, por consola, rápida y automática en la gran parte de los casos.}
+En todo el proyecto se ha seguido un proceso de \textit{web-scraping}~\cite{article:webscraping} (utilizando distintas bibliotecas) para poder utilizar los servicios de un sitio web de forma \textbf{sencilla, por consola, rápida y automática en la gran parte de los casos.}
 
 En esta aplicación se han tenido en cuenta dos modos de ejecución:
 
@@ -140,7 +140,7 @@ En esta aplicación se han tenido en cuenta dos modos de ejecución:
 
 La funcionalidad de mailing la podemos dividir en los módulos en los que está compuesta. 
 
-El \textbf{módulo de envío de correos anónimo} se encarga de la extracción de información de la página \url{http://anonymouse.org/anonemail.html}. La extracción de información se realiza mediante el uso de la librería \textbf{\textit{mechanize}}. Esta potente librería disponible en Python se utiliza para automatizar información con páginas web. Automáticamente almacena y envía \textit{cookies}, permite redirecciones web y puede \textbf{interactuar y enviar formularios} (lo que nos permite el envío de correos por medio de esta página).
+El \textbf{módulo de envío de correos anónimo} se encarga de la extracción de información de la página \url{http://anonymouse.org/anonemail.html}. La extracción de información se realiza mediante el uso de la biblioteca \textbf{\textit{mechanize}}. Esta potente biblioteca disponible en Python se utiliza para automatizar información con páginas web. Automáticamente almacena y envía \textit{cookies}, permite redirecciones web y puede \textbf{interactuar y enviar formularios} (lo que nos permite el envío de correos por medio de esta página).
 Se ha incluido una modificación en las \textit{headers} del navegador, para tratar de evitar el traceo de identidad.
 
 También se ha añadido la posibilidad de realizar un proceso de \textbf{ofuscación de estilometría} rápido y simple. Para ello se hace uso del ofuscador disponible en la página \url{https://skaillz.net/obfuscator/}. La ofuscación se realiza mediante un doble proceso de traducción automático. 
@@ -188,7 +188,7 @@ Debido a la cola de mensajes de la página, el envío se puede llegar a demorar 
 
 En cuanto a bandejas de entrada volátiles, se han implementado \textbf{dos}. El motivo es que muchas de las páginas utilizadas en la sección de \textit{accounts} bloqueaban alguna de las dos, así que convenía tener una alternativa.
 
-En la \textbf{primera} se hace uso de la página \url{https://tempail.com/} para poder visualizar los correos entrantes en tiempo real directamente desde la interfaz del programa (ver Figura~\ref{fig:tempail_inbox}). Se hizo uso de las librerías \textbf{requests} y \textbf{html} para lograr la funcionalidad deseada. A continuación una captura de la bandeja de entrada en funcionamiento:
+En la \textbf{primera} se hace uso de la página \url{https://tempail.com/} para poder visualizar los correos entrantes en tiempo real directamente desde la interfaz del programa (ver Figura~\ref{fig:tempail_inbox}). Se hizo uso de las bibliotecas \textbf{requests} y \textbf{html} para lograr la funcionalidad deseada. A continuación una captura de la bandeja de entrada en funcionamiento:
 
 \begin{figure}[H]
 	\centerline{
@@ -198,7 +198,7 @@ En la \textbf{primera} se hace uso de la página \url{https://tempail.com/} para
 	\label{fig:tempail_inbox}
 \end{figure}
 
-La otra bandeja de entrada volátil hace uso de la web \url{https://temptami.com/}, un servicio de bandeja de entrada temporal algo menos conocido que tempail y, por ende, con menos restricciones para el uso en registros de diversas páginas como FaceBook. A diferencia de los anteriores módulos, esta página hace necesario realizar \textit{web-scraping} teniendo en cuenta código JavaScript. Es por ello que la librería para examinar la página ahora es \textbf{Selenium}, una librería que provee al usuario de automatización de procesos en páginas web, mediante un \textbf{WebDriver}, que es el nombre de la interfaz donde se ejecutan dichos procesos. 
+La otra bandeja de entrada volátil hace uso de la web \url{https://temptami.com/}, un servicio de bandeja de entrada temporal algo menos conocido que tempail y, por ende, con menos restricciones para el uso en registros de diversas páginas como FaceBook. A diferencia de los anteriores módulos, esta página hace necesario realizar \textit{web-scraping} teniendo en cuenta código JavaScript. Es por ello que la biblioteca para examinar la página ahora es \textbf{Selenium}, una biblioteca que provee al usuario de automatización de procesos en páginas web, mediante un \textbf{WebDriver}, que es el nombre de la interfaz donde se ejecutan dichos procesos. 
 
 La bandeja de entrada temporal del servicio \textbf{TempTami}, por ende, tiene como objetivo principal la validación de \textbf{correos de confirmación} para el registro en varias páginas web, que veremos en el apartado siguiente. 
 
@@ -222,11 +222,11 @@ Se han implementado módulos de creación y uso de cuentas automáticas en diver
 
 Como se ha comentado en el capítulo anterior, para el registro de varias de las páginas implementadas se debe hacer uso de una bandeja de entrada temporal para la confirmación de e-mails de verificación.
  
-Asimismo, se ha procurado lidiar con problemas como \textbf{captchas} para comprobar si el usuario es humano (se ha conseguido ``\textit{saltar}'' el captcha en el registro del foro de discusión. No obstante otros más complejos como los captchas de reconocimiento de letras, aun con el uso de librerías enfocadas en ellos, no obtienen buen índice de acierto). 
+Asimismo, se ha procurado lidiar con problemas como \textbf{captchas} para comprobar si el usuario es humano (se ha conseguido ``\textit{saltar}'' el captcha en el registro del foro de discusión. No obstante otros más complejos como los captchas de reconocimiento de letras, aun con el uso de bibliotecas enfocadas en ellos, no obtienen buen índice de acierto). 
 
 Es importante recalcar cómo funciona el sistema de \textbf{cuentas}. En el momento que se lanza la función de \textbf{registro} en cualquiera de las páginas implementadas, la herramienta guarda al usuario registrado en una tabla de la base de datos dedicada a esa página. Con ello, se logra realizar un inicio de sesión \textbf{extrayendo un usuario ya registrado de la tabla de la base de datos}. Todo ello es realizado de forma automática, sin que el usuario necesite hacer uso de dicha base de datos intencionadamente.
 
-Todos estos módulos han sido implementados usando la librería \textbf{Selenium}, debido a la existencia de código JavaScript en prácticamente todas las páginas estudiadas. 
+Todos estos módulos han sido implementados usando la biblioteca \textbf{Selenium}, debido a la existencia de código JavaScript en prácticamente todas las páginas estudiadas. 
 
 Cabe destacar que las \textbf{páginas grandes} como Facebook e Instagram, restringen el número de registros en un tiempo determinado \textbf{usando la misma IP.} Es por esto que se ha considerado dar a elegir entre el uso de dos \textbf{WebDrivers}. 
 
@@ -241,7 +241,7 @@ Mientras que el uso del WebDriver de Firefox con configuración por defecto agil
 
 La herramienta contiene un módulo dedicado a la implementación de una base de datos \textbf{SQLite }que, además, \textbf{está cifrada}.
 
-El encriptación, la cual usa un esquema AES de 256 bit transparente al usuario, se consigue mediante el uso de la librería \textbf{pysqlcipher}.
+El encriptación, la cual usa un esquema AES de 256 bit transparente al usuario, se consigue mediante el uso de la biblioteca \textbf{pysqlcipher}.
 
 El módulo dedicado a la base de datos, contiene varias funciones para el manejo de la misma. Dichas funciones son llamadas desde los módulos de la sección de \textbf{accounts}. Entre ellas hay funciones para la inserción de tuplas (con creación automática de la tabla en el caso de que no exista), consultas para obtener una tupla concreta o aleatoria.
 
@@ -263,7 +263,7 @@ La base de datos que se crea contiene tantas tablas como páginas en las que se 
 \section{Implementación, desarrollo y pruebas}
 \subsection{Librerías utilizadas}
 
-La herramienta desarrollada hace uso de las siguientes librerías:
+La herramienta desarrollada hace uso de las siguientes bibliotecas:
 
 \begin{itemize}
 	\item \textbf{mechanize}: Para la implementación del módulo de envío de e-mails.
@@ -277,7 +277,7 @@ La herramienta desarrollada hace uso de las siguientes librerías:
 	\item \textbf{names}: Librería que genera nombres y apellidos aleatorios.	Es utilizada para el registro de cuentas automático.
 \end{itemize}
 
-Además de estas, se ha realizado un estudio de la red Tor, así como sus servicios ocultos, donde se han utilizado las siguientes librerías:
+Además de estas, se ha realizado un estudio de la red Tor, así como sus servicios ocultos, donde se han utilizado las siguientes bibliotecas:
 \begin{itemize}
 	\item \textbf{Tortazo}: Herramienta con la que es posible realizar auditorías de servicios ocultos en Tor, así como recopilación de información de nodos de salida.
 	\item \textbf{stem}: Stem permite controlar una instancia Tor desde Python, así como la creación de un servicio oculto.

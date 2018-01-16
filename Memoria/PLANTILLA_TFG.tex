@@ -37,6 +37,7 @@
      citecolor    = black,
      bookmarksnumbered
 }
+\usepackage{lscape}
 
 
 %% Modificación de la plantilla para adaptarla a los requisitos de PFC
@@ -122,7 +123,7 @@
 
 \newpage \thispagestyle{empty} % Página vacía
 
-\addcontentsline{toc}{chapter}{Índice de Figuras}    %Para que aparezca en el índice
+\addcontentsline{toc}{chapter}{Índice}    %Para que aparezca en el índice
 \renewcommand{\listfigurename}{Índice de Figuras} 
 \listoffigures
 %\addcontentsline{toc}{chapter}{Índice de Tablas}    %Para que aparezca en el índice
@@ -147,6 +148,10 @@
 
 \input{glosario}
 
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Bibliografía}    %Agregamos al índice el capitulo de bibliografía 
 \bibliographystyle{unsrt}   %plain pero ordenado en orden de aparacicion en documento principal
 \bibliography{bibliografia}
 
