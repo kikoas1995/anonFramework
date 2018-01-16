@@ -3,6 +3,5 @@
  (lambda ()
    (LaTeX-add-labels
     "chap:intro"
-    "fig:norm_Daugman"))
- :latex)
+    "fig:FBStats")))
 

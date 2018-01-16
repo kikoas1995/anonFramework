@@ -1,46 +1,46 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: PLANTILLA_TFG.aux
 The style file: unsrt.bst
 Database file #1: bibliografia.bib
-You've used 61 entries,
+You've used 63 entries,
             1791 wiz_defined-function locations,
-            734 strings with 13800 characters,
-and the built_in function-call counts, 9427 in all, are:
-= -- 862
-> -- 312
-< -- 3
-+ -- 142
-- -- 81
-* -- 246
-:= -- 1457
-add.period$ -- 231
-call.type$ -- 61
-change.case$ -- 59
+            745 strings with 14114 characters,
+and the built_in function-call counts, 9958 in all, are:
+= -- 915
+> -- 327
+< -- 4
++ -- 148
+- -- 85
+* -- 270
+:= -- 1529
+add.period$ -- 238
+call.type$ -- 63
+change.case$ -- 60
 chr.to.int$ -- 0
-cite$ -- 61
-duplicate$ -- 370
-empty$ -- 1155
-format.name$ -- 81
-if$ -- 2228
+cite$ -- 63
+duplicate$ -- 401
+empty$ -- 1212
+format.name$ -- 85
+if$ -- 2360
 int.to.chr$ -- 0
-int.to.str$ -- 61
-missing$ -- 9
-newline$ -- 354
-num.names$ -- 59
-pop$ -- 365
+int.to.str$ -- 63
+missing$ -- 12
+newline$ -- 364
+num.names$ -- 61
+pop$ -- 378
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 175
+skip$ -- 191
 stack$ -- 0
-substring$ -- 123
-swap$ -- 91
-text.length$ -- 3
+substring$ -- 155
+swap$ -- 103
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 70
-width$ -- 63
-write$ -- 704
+while$ -- 75
+width$ -- 65
+write$ -- 726

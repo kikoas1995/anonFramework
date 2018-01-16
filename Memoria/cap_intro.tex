@@ -26,8 +26,7 @@ pueden averiguar mediante el inicio de sesión en una red WiFi). Existen, de hec
 Por otro lado está el tema de las redes sociales. Con el auge de
 Facebook, Instagram y Twitter, gran parte de la población (en el caso
 de Norteamérica, casi dos terceras partes) tiene perfil propio en la
-plataforma Facebook \modified{(ver Figura~\ref{fig:FBStats})}.
-
+plataforma Facebook (ver Figura~\ref{fig:FBStats}).
 \begin{figure}[!hbtp]
 	\centerline{
 		\mbox{\includegraphics[width=4.00in]{images/sn.png}}
@@ -35,14 +34,6 @@ plataforma Facebook \modified{(ver Figura~\ref{fig:FBStats})}.
 	\caption{Porcentaje de población con perfil en Facebook~\cite{article:FacebookStats} }
 	\label{fig:FBStats}
 \end{figure}
-
-\comments{Bueno, en realidad el problema viene cuando alguien utiliza
-  la información que cedes a un servicio para algo distinto para lo
-  que diste permiso. Este tipo de amenaza puede concretarse a través
-  de ataques de ingeniería social que permiten agregar información
-  desde distintas fuentes (por ejemplo, perfiles de redes sociales) \cite{hadnagy2010social}, o
-por comportamientos negligentes o vulneración de los compromisos de
-servicio por parte del proveedor. }
 Esto de por sí no es un dato negativo, el problema viene cuando para
 realizar un registro en una página (como por ejemplo, la web de un
 diario), la forma más sencilla es conectando con tu perfil personal de
@@ -55,70 +46,81 @@ de Facebook, donde aparecen fotos, dirección física, entre otros (por
 suerte, esto es algo que desde hace poco podemos
 evitar~\cite{article:GDPRGoogle} gracias a la
 Ley de Protección de Datos europea, que se adoptará en Mayo de 2018 y respecto a la cual se hará hincapié en este
-documento).
-\comments{En realidad, la GDPR no evita el problema, sanciona si
-  existe tal problema. }
+documento). A todo ello, además, habría que añadir los riesgos
+existentes al hacer pública información de corte personal en redes
+sociales sin un control adecuado para evitar ataques de \textbf{ingeniería
+social} \cite{backstrom2007wherefore,hadnagy2010social}.
+
 
 En otros casos el iniciar sesión con la cuenta de Google o Facebook
 sirve para que dichas empresas conozcan mejor tus gustos y aficiones,
-para así ofrecerte publicidad a medida. Si bien esto no es realmente una invasión a la privacidad por parte del servicio utilizado (excepto en el caso de que el proveedor no cumple con las normas de uso del servicio), estamos proporcionando pasivamente de información personal a terceros, muchas veces desde nuestro desconocimiento, la cual puede ser utilizada con fines económicos que benefician a la empresa en cuestión ~\cite{article:compraventa}. 
+para así ofrecerte publicidad a medida. Si bien esto no es realmente
+una invasión a la privacidad por parte del servicio utilizado (excepto
+en el caso de que el proveedor no cumple con las normas de uso del
+servicio), estamos proporcionando pasivamente de información personal
+a terceros, muchas veces desde nuestro desconocimiento, la cual puede
+ser utilizada con fines económicos que benefician a la empresa en
+cuestión ~\cite{article:compraventa}. De nuevo, esta práctica por sí
+sola no vulnera la privacidad a menos que el proveedor de servicio no
+cumpla con lo que el usuario aceptó al registrarse en el servicio en
+cuestión \cite{diaz2015privacy}. De hecho, es posible una
+identificación de un usuario de forma anónima (véase
+\url{https://privacypass.github.io/}), sin que ello impida la creación
+de perfiles de usuario y el consiguiente despliegue de un sistema de
+recomendación.
 
-De hecho, es posible una identificación de un usuario de forma anónima, sin que ello impida la monitorización del mismo (véase \url{https://privacypass.github.io/})
 
- \comments{Esta circunstancia
-  no tiene por qué suponer una erosión de nuestra privacidad, de forma
-que sólo se configura como tal en aquello supuestos en los que el
-proveedor de servicios no respeta los términos que el usuario aceptó
-para disfrutar el servicio en cuestión \cite{diaz2015privacy}. Es más, no siempre es
-necesario llevar a cabo una identificación biunívoca de un usuario
-para proporcionar un servicio y garantizar unos niveles de protección
-de una plataforma. En efecto, es factible identificar usuarios de
-forma anónima y pseudo-anónima \url{https://privacypass.github.io/},
-sin que eso imposibilite un debido control de acceso y una necesaria
-monitorización de actividad de usuario.}
 
-En definitiva, al igual que en nuestra vida diaria existen peligros a los que debemos enfrentarnos, como los robos, nuestra actividad en la red también conlleva varias amenazas, como suplantaciones de identidad o hurto de información personal. Es más, gran parte de los riesgos en el ciberespacio son debidos a la compleja proyección entre nuestra identidad real y la digital (mediante la cual somos aceptados en cierto servicio concreto). Dicha proyección es realizada  normalmente por un tercero, al que delegamos la confianza para la correcta gestión de nuestro \textit{yo} digital, y el riesgo reside en que dicha entidad no siempre actúa de forma ética.
+En definitiva, al igual que en nuestra vida diaria existen peligros a
+los que debemos enfrentarnos, como los robos, nuestra actividad en la
+red también conlleva varias amenazas, como suplantaciones de identidad
+o hurto de información personal. Es más, gran parte de los riesgos en
+el ciberespacio son debidos a la compleja proyección entre nuestra
+identidad real y la digital (mediante la cual somos aceptados en un
+servicio concreto). Dicha proyección es realizada normalmente por un
+tercero, al que delegamos la confianza para la correcta gestión de
+nuestro \textit{yo} digital, y el riesgo reside en que dicha entidad
+no siempre actúa de forma ética.
 
-En el ámbito de la seguridad informática, existe un principio que trata de impedir la ocurrencia de estas amenazas (entre otras muchas) y es el \textbf{Principio del mínimo privilegio~\cite{schneider2003least}}, una piedra angular de la seguridad que sugiere que toda acción debe ser realizada con los mínimos privilegios posibles, de forma que cualquier fallo o ataque tenga el mínimo impacto. 
+En el ámbito de la seguridad informática, existe un principio que
+trata de impedir la ocurrencia de estas amenazas (entre otras muchas)
+y es el \textbf{principio del mínimo
+  privilegio}~\cite{schneider2003least}, una piedra angular de la
+seguridad que sugiere que toda acción debe ser realizada con los
+mínimos privilegios posibles, de forma que cualquier fallo o ataque
+tenga el mínimo impacto.
 
-Además, muchas de estas vulneraciones a la privacidad podrían evitarse en el momento que toda entidad que ofrezca un servicio dejase claro mediante unas \textbf{normas de uso} cuáles son sus propósitos, y qué implica que el usuario las acepte (mediante un \textbf{consentimiento informado}~\cite{lane2014privacy} ). Esto, claro está, también supone la implicación del usuario en preocuparse sobre qué información personal va a estar expuesta a la hora de utilizar un servicio\cite{sanchez2018review}. 
+Además, muchas de estas vulneraciones de la privacidad podrían
+evitarse en el momento que toda entidad que ofrezca un servicio dejase
+claro mediante unas \textbf{normas de uso} cuáles son sus propósitos,
+y qué implica que el usuario las acepte (mediante un
+\textbf{consentimiento informado}~\cite{lane2014privacy}). Esto,
+claro está, también supone la implicación del usuario en preocuparse
+sobre qué información personal va a estar expuesta a la hora de
+utilizar un servicio \cite{sanchez2018review}.
 
 En este caso, a un proveedor de servicio se le proporciona únicamente la información mínima para la correcta realización del servicio, momento en el cual se le dará consentimiento explícito en caso de estar de acuerdo en utilizar el servicio en cuestión. 
 
-\modified{De acuerdo con todo lo anterior, parece
-  claro que la navegación por el denominado ciberespacio no está
-  exenta de peligros. Si en el mundo físico podemos sufrir robos, en
-  el ciberespacio igualmente podemos sufrir sustracción de datos y
-  suplantación de nuestra identidad. De hecho, una gran parte de los
-  problemas que surgen  en el ciberespacio vienen derivados por la
-  complejidad asociada a la conversión de nuestra identidad física en
-  identidad digital, esto es, la identidad en base a la cual somos
-  validados como usuarios legítimos de una cierta aplicación o de un
-  cierto servicio. Esta conversión se realiza normalmente por una
-  tercer parte o entidad en la que confiamos para gestionar nuestra
-  identidad (digital) y proporcionarnos los permisos y privilegios
-  necesarios para utilizar una aplicación o servicio. Este marco
-  operativo descansa, pues, sobre un modelo de confianza que no
-  siempre es satisfecho \ldots}
-
-La motivación de este proyecto reside tanto en un estudio de diversas
-tecnologías para proteger la privacidad de un usuario mediante el
-anonimato como en identificar un conjunto de técnicas que suponen una
-amenaza para nuestra privacidad.
+De acuerdo con todo lo anterior, la motivación de este proyecto
+responde a la necesidad de dotar al usuario final de recursos para
+evaluar y proteger su privacidad. Así, en este proyecto se efectúa un
+estudio de diversas tecnologías para proteger la privacidad de un
+usuario mediante el anonimato. Además, se estudia un conjunto de
+técnicas que pueden suponer una amenaza para nuestra privacidad.
  
 Parte de la motivación también reside mi interés en el ámbito de la
 seguridad informática. Es un tema de suma importancia (algo que puede
 apreciarse en la creciente demanda de expertos en ciberseguridad hoy
-en día~\cite{article:expCiberseguridad}) y además sirve para poner en
-práctica metodologías y lenguajes estudiados en el grado.
+en día~\cite{article:expCiberseguridad}) y, por otro lado, sirve para
+poner en práctica metodologías y lenguajes estudiados en el grado.
 
 En definitiva, el proyecto abarca un software modular compuesto de
-varias herramientas funcionales por sí mismas y donde además el
+varias herramientas funcionales por sí mismas, donde el
 requisito principal es la seguridad del
-sistema(\textit{security-by-design}~\cite{paper:secbydesign}), y sobre
-todo que dicho sistema respete la privacidad del usuario
-(\textit{privacy-by-design}~\cite{paper:privacybydesign}
-~\cite{cavoukian2009privacy}). Además, este requisito pasará a ser
+sistema (\textit{security-by-design}~\cite{paper:secbydesign}) y, sobre
+todo, que dicho sistema respete la privacidad del usuario
+(\textit{privacy-by-design}~\cite{paper:privacybydesign,cavoukian2009privacy}). Es
+más, este requisito pasará a ser
 obligatorio a partir de que entre en vigor la GDPR~\cite{article:PbDGDPR}  por
 lo que las empresas desarrolladoras de software deberán tener en
 cuenta la privacidad de los datos de cada usuario en las fases de
@@ -127,25 +129,15 @@ diseño de todos los proyectos.
 
 \lsection{Objetivos y enfoque}
 
-Principalmente se pretenden lograr dos objetivos fundamentales en este proyecto.
-
-El primero es el de hacernos conocedores más a fondo de las diferentes
-vías a la hora de anonimizarnos en Internet, las variadas herramientas
-que pretenden conseguir este objetivo (así como las que pretenden
-identificar a un usuario), \modified{como también de las diferentes
-  nociones} del término
-privacidad~\cite{article:danezis2010}. \comments{Te conviene destacar
-  algo en esta línea $\rightarrow$ En este último punto, conviene
-  destacar que este trabajo está fundamentalmente concernido con la
-  dimensión tecnológica de la privacidad. Así, en el presente texto no
-  se abordará el debate vigente en el ámbito legal entre las
-  consideraciones de la privacidad desde la óptica estadounidense
-  (privacidad como secreto, \emph{privacy-as-secrecy}) y la valoración
-  de la privacidada en clave europea (privacidad como derecho
-  inalieable del sujeto físico, \emph{privacy-as-personhood})
-  \cite{solove2002conceptualizing}.} En conclusión, \modified{el
-  presente proyecto trata} realizar una investigación exhaustiva sobre
-la \modified{dimensión tecnológica} privacidad y los caminos para
+Principalmente se pretenden lograr dos objetivos fundamentales en este
+proyecto. El primero es el de hacernos conocedores más a fondo de las
+diferentes vías a la hora de anonimizarnos en Internet, las variadas
+herramientas que pretenden conseguir este objetivo (así como las que
+pretenden identificar a un usuario), como también de las
+  diferentes nociones del término
+privacidad~\cite{article:danezis2010}. En conclusión, el presente
+  proyecto trata realizar una investigación exhaustiva sobre la
+dimensión tecnológica privacidad y los caminos para
 asegurarla.
 
 Por otro lado, y quizá el objetivo más importante, es el de poner en

@@ -64,17 +64,24 @@ Chris Smith.
   November 2017.
 \newblock Último acceso 15 de Enero de 2018.
 
-\bibitem{hadnagy2010social}
-Christopher Hadnagy.
-\newblock {\em Social engineering: The art of human hacking}.
-\newblock John Wiley \& Sons, 2010.
-
 \bibitem{article:GDPRGoogle}
 David Llaró.
 \newblock Desaparece de internet con {GDPR}.
 \newblock \url{https://www.gruposothis.com/desaparece-internet-gdpr}, Noviembre
   2017.
 \newblock Último acceso 15 de Enero de 2018.
+
+\bibitem{backstrom2007wherefore}
+Lars Backstrom, Cynthia Dwork, and Jon Kleinberg.
+\newblock Wherefore art thou r3579x?: anonymized social networks, hidden
+  patterns, and structural steganography.
+\newblock In {\em Proceedings of the 16th international conference on World
+  Wide Web}, pages 181--190. ACM, 2007.
+
+\bibitem{hadnagy2010social}
+Christopher Hadnagy.
+\newblock {\em Social engineering: The art of human hacking}.
+\newblock John Wiley \& Sons, 2010.
 
 \bibitem{article:compraventa}
 Manuel Contreras.
@@ -157,30 +164,6 @@ George Danezis and Seda G{\"u}rses.
 Daniel~J Solove.
 \newblock Conceptualizing privacy.
 \newblock {\em California law review}, pages 1087--1155, 2002.
-
-\bibitem{article:concernidos}
-Lucy Handley.
-\newblock 60 percent of people in the {US} are worried about how much companies
-  know about them.
-\newblock
-  \url{https://www.cnbc.com/2017/10/17/60-percent-of-people-in-the-us-worry-about-privacy-and-brands.html},
-  Octubre 2017.
-\newblock Último acceso 15 de Enero de 2018.
-
-\bibitem{article:anopseudo}
-Helen Nissenbaum.
-\newblock {OBFUSCATION}: A user guide for privacy and protest.
-\newblock Capítulo 2: p.45-46, 2016.
-\newblock Último acceso 15 de Enero de 2018.
-
-\bibitem{article:dirIP}
-Javier~Rubio Alamillo.
-\newblock El tjue considera la ip dinámica como dato personal frente al
-  estado.
-\newblock
-  \url{http://peritoinformaticocolegiado.es/el-tjue-considera-la-ip-dinamica-como-dato-personal-frente-al-estado/},
-  Enero 2017.
-\newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:automata}
 John~Von Neumann.
@@ -266,6 +249,35 @@ Daniela~Muena Bustos.
 \newblock
   \url{http://premios.eset-la.com/universitario/pdf/malaware_para_dispositivos_moviles_android.pdf},
   2014.
+\newblock Último acceso 15 de Enero de 2018.
+
+\bibitem{article:concernidos}
+Lucy Handley.
+\newblock 60 percent of people in the {US} are worried about how much companies
+  know about them.
+\newblock
+  \url{https://www.cnbc.com/2017/10/17/60-percent-of-people-in-the-us-worry-about-privacy-and-brands.html},
+  Octubre 2017.
+\newblock Último acceso 15 de Enero de 2018.
+
+\bibitem{article:anopseudo}
+Helen Nissenbaum.
+\newblock {OBFUSCATION}: A user guide for privacy and protest.
+\newblock Capítulo 2: p.45-46, 2016.
+\newblock Último acceso 15 de Enero de 2018.
+
+\bibitem{vacca2013}
+John Vacca.
+\newblock {\em Managing Information Security}.
+\newblock Elsevier, 2013.
+
+\bibitem{article:dirIP}
+Javier~Rubio Alamillo.
+\newblock El tjue considera la ip dinámica como dato personal frente al
+  estado.
+\newblock
+  \url{http://peritoinformaticocolegiado.es/el-tjue-considera-la-ip-dinamica-como-dato-personal-frente-al-estado/},
+  Enero 2017.
 \newblock Último acceso 15 de Enero de 2018.
 
 \bibitem{article:proxy}

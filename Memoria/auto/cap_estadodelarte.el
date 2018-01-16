@@ -3,9 +3,9 @@
  (lambda ()
    (LaTeX-add-labels
     "chap:estadodelarte"
+    "sec:historia"
     "sec:conceptos"
     "fig:estudioPew"
-    "sec:historia"
     "sec:a_favor"
     "fig:web_proxy"
     "fig:proxy_cache"
@@ -16,16 +16,16 @@
     "key"
     "fig:IPtypes"
     "fig:tunnelMode"
-    "fig:norm_Daugman"
+    "fig:gwern"
     "fig:I2PTunneling"
     "fig:TorPwd"
     "fig:controller"
     "fig:StemOut"
     "fig:hiddenserviceonline"
+    "fig:pctor"
     "fig:onionshare"
     "fig:onionsharehiddenservice"
     "sec:identificacion"
     "fig:tortazo"
-    "sec:social"))
- :latex)
+    "sec:social")))
 

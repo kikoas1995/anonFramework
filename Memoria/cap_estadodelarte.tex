@@ -180,14 +180,14 @@ Como se mencionó en la anterior sección, el objetivo de aumentar el grado
 de anonimato es hacer desaparecer o, al menos, dificultar la proyección entre
 la identidad física de un individuo y su respectiva (o respectivas) identidad 
 digital. El enlace entre ambas identidades se establece mediante los siguientes
-mecanismos:
+mecanismos \cite[p. 77]{vacca2013}:
 \begin{itemize}
 	\item Algo que el usuario conoce.
 	\item Algo que el usuario posee.
 	\item Algo que el usuario es.
 \end{itemize}
 
-Teniendo esta idea clara, es preciso constatar que este proyecto se centra, sobre todo, en el estudio de técnicas para disgregar la identidad física
+Teniendo esta idea clara, es preciso constatar que este proyecto se centra, sobre todo, en la creación de pseudoanónimos y en el estudio de técnicas para disgregar la identidad física
 en procedimientos de autenticación basados en ubicación mediante la dirección IP de un usuario (la cual, por cierto, en la Unión Europea es considerada un dato personal cuando aparece junto a una marca de tiempo ~\cite{article:dirIP}).
 
 Una vez aclarados sendos términos, procedemos a listar las diferentes vías para lograr el anonimato:
@@ -518,7 +518,7 @@ Una característica de estos túneles es que son de sentido único. Por este mot
 
 	\begin{figure}[h]
 		\centerline{
-			\mbox{\includegraphics[width=5.00in]{images/tunnel_i2p.png}}
+			\mbox{\includegraphics[width=4.00in]{images/tunnel_i2p.png}}
 		}
 		\caption{Funcionamiento básico de la transmisión de paquetes en I2P mediante tunelización.}
 		\label{fig:I2PTunneling}
@@ -576,7 +576,7 @@ Tor es una red anónima que a diferencia de las anteriores mencionadas, está to
 El servicio Tor permite defenderte contra el análisis de tráfico, y avoca por la privacidad y libertad del usuario. La forma en la que lo consigue es haciendo "rebotar" nuestra información en distintos \textbf{nodos Tor} intermedios con el objetivo de que el origen de la información se oculte lo máximo posible.
 Conforme los paquetes van avanzando por los nodos intermedios, \textbf{se van cifrando }de forma progresiva, como las capas de una cebolla(de ahí su nombre, \textbf{\textit{The onion router}}).
 Dicha encriptación se consigue haciendo uso de las claves públicas de los nodos intermedios. El nodo final es el que descifra el paquete para hacerlo llegar al servidor.
-Los usos principales que se le suele dar al software Tor es el de garantizarnos un buen grado de anonimato y el de darnos acceso a los \textbf{\textit{hidden-services} .onion.}.
+Los usos principales que se le suele dar al software Tor es el de garantizarnos un buen grado de anonimato y el de darnos acceso a los \textbf{\textit{hidden-services} .onion}.
 
 Sin embargo, Tor es un servicio que puede dar lugar a fugas o \textit{leaks} de información, que pueden facilitar la identificación de un usuario que busca proteger su privacidad. Un ejemplo de ello es que el uso de los nodos Tor \textbf{únicamente soporta el protocolo TCP}. 
 Esto conlleva a que, en el momento en el que se utilice un protocolo como UDP o ICMP, las peticiones no pasarán a través de los nodos Tor (también llamado \textbf{circuito virtual}), sino que se establece una conexión directa entre cliente y destino.
@@ -592,7 +592,6 @@ Crear un servicio oculto con Tor es muy sencillo, y un tutorial del mismo puede 
 	}
 
 No obstante, y debido a que este trabajo está orientado al desarrollo de una herramienta \textbf{Python}, a continuación se explicará de manera breve cómo es posible crear un servicio oculto haciendo uso de varias librerías Python, entre ellas \textbf{Stem y Flask}.
-La explicación del código fuente puede ser consultada en el \textbf{Anexo A }.
 
 En primer lugar es necesario haber instalado Tor previamente y, si tenemos una instancia de Tor corriendo, detenerla haciendo uso del comando:
 
@@ -655,7 +654,7 @@ Para  ello, basta con ir al archivo de configuración de \textit{proxychains} (C
 	\centering{
 		\mbox{\includegraphics[width=4.00in]{images/proxychains_tor.png}}
 	}
-	\caption{Servicio "tor" junto con otros servidores proxy en la herramienta \textit{proxychains}}
+	\caption{Servicio Tor junto con otros servidores proxy en la herramienta \textit{proxychains}}
 	\label{fig:pctor}
 \end{figure} 
 Otra herramienta que se beneficia de Tor es \textbf{Onionshare}. 
@@ -733,7 +732,7 @@ Sin embargo, existen también aplicaciones cuyo objetivo es atacar dichas tecnol
 \subsubsection{Tortazo}
 Tortazo es, en pocas palabras, un framework de pruebas de auditoría para realizar \textit{pentesting} sobre \textit{\textbf{hidden services}} (independientemente del protocolo que utilicen, SMB, FTP...) y \textbf{repetidores de salida} en Tor.
 
-El proyecto es relativamente reciente y fue creado por \textbf{\textit{Adastra}}, el creador del blog \url{https://thehackerway.net}
+El proyecto es relativamente reciente y fue creado por \textbf{\textit{Adastra}}, el creador del blog \url{https://thehackerway.net}.
 
 Cuenta con tres modos de funcionamiento, y entre estos modos destaca el modo para \textbf{botnet} el cual ataca servicios SSH por fuerza bruta, y permite descubrir sitios .onion (a partir de una dirección .onion parcial o bien a partir de la generación totalmente aleatoria de 16 caracteres en Base32), y un largo etcétera. Cuenta con una arquitectura basada modular que facilita el añadido de \textit{plug-ins} y permite acoplar herramientas de pentesting conocidas como \textbf{nmap o W3AF.}
 

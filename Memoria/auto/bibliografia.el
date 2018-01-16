@@ -4,11 +4,13 @@
    (LaTeX-add-bibitems
     "article:internet"
     "article:google"
+    "article:dirIP"
     "book:PrivacyBigDataPublicGood"
     "article:FacebookStats"
     "article:GDPRGoogle"
     "article:GDPR"
     "article:expCiberseguridad"
+    "article:psd2"
     "paper:secbydesign"
     "paper:privacybydesign"
     "article:concernidos"
@@ -51,6 +53,7 @@
     "article:chantajeGDPR"
     "article:inmigrantes"
     "article:matt"
+    "paper:OECD"
     "article:webscraping"
     "article:compraventa"
     "article:remailer"
@@ -67,6 +70,7 @@
     "schneider2003least"
     "sanchez2018review"
     "diaz2015privacy"
-    "article:PbDGDPR"))
- :bibtex)
+    "article:PbDGDPR"
+    "backstrom2007wherefore"
+    "vacca2013")))
 
