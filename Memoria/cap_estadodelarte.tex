@@ -1,6 +1,60 @@
 \chapter{Estado del arte}
 \label{chap:estadodelarte}
 
+\lsection{Hechos relevantes con respecto a la seguridad en la red} \label{sec:historia}
+
+Para comprender la magnitud de la importancia de amenazas a la privacidad en la red es necesario situarnos en una etapa temprana de Internet, con el fin de observar cómo tanto las preocupaciones de los usuarios como los objetivos de ciberataques han ido variando durante el transcurso de los años. Por ello, es interesante hacer un repaso a los hechos más importantes relativos a la seguridad tecnológica que marcarían el camino hasta llegar a la situación actual.
+
+Puesto que hablaremos de seguridad informática, es indispensable tener claros los tres pilares en los que se fundamenta la gestión de la seguridad de la información. Estos son:
+\begin{itemize}
+	\item Confidencialidad: Un elemento básico de la seguridad informática que garantiza que el acceso a la información se limita únicamente a usuarios autorizados.
+	\item Integridad: El segundo elemento asegura que la información en cuestión no es modificada por personas no autorizadas.
+	\item Disponibilidad: La última piedra angular de la seguridad de la información preserva que la información esté disponible en el momento que sea necesaria.
+\end{itemize}
+
+Conviene empezar la sección recalcando que Internet no fue concebido como un protocolo de comunicación seguro. 
+Es por esto que a lo largo de su historia han ocurrido varios sucesos que han puesto en riesgo (por diversos motivos) la seguridad del usuario en la red.
+
+Podemos marcar como primera incursión histórica con respecto a la seguridad un libro publicado por Jon Von Neumann en el año 1949 llamado \textit{The Theory of Self Reproducing Automata}. Dicha publicación sirvió como  base para el desarrollo de los primeros \textbf{virus informáticos}~\cite{article:automata}.
+
+El primer virus que causó un gran impacto social fue el lamado \textbf{virus Creeper}, el cual era un programa experimental autoreplicante creado por \textbf{Bob Thomas} diseñado con fines experimentales y que no causaba un daño real entre las máquinas en las que se iba moviendo ~\cite{article:motivationvirus}.
+Realmente fue desplazándose de ordenador en ordenador alrededor de toda la red ARPANET (la precursora de lo que es a día de hoy internet).
+
+En 1973 Robert Metcalfe, un trabajador de ARPANET y el cuál fundó 3Com (uno de los fabricantes de redes informáticas más importantes), advertía que una incursión a la red interna desde el exterior era algo extremadamente sencillo y, de hecho, son atribuidas durante la década de los 70 varias intrusiones a la red por parte de estudiantes de secundaria. 
+Durante esta etapa no se produjeron descubrimientos destacables con respecto a la seguridad informática. De hecho, en el año 1978 un grupo de científicos propusieron un proyecto de cifrado de paquetes TCP/IP pero encontraron muchas trabas, algunas de ellas incluso por la Agencia de Seguridad Nacional~\cite{article:nsa_tcp}. Por ello, dicho proyecto (que bien podría haber marcado otro camino en la historia de la seguridad en la informática) fue abandonado. 
+
+En 1981 apareció el segundo virus reconocido a nivel mundial, el llamado \textbf{Elk Cloner}~\cite{article:cloner}. Atacaba computadoras Apple II, aunque su único propósito era el de reproducirse en otros dispositivos y no efectuaba ningún daño propiamente dicho. Uno de los datos más impactantes es que fue diseñado por un joven de 15 años. Su propagación era mediante el disquete. 
+Este virus sentó la base para los siguientes que fueron apareciendo, los cuales contendrían todo tipo de código destructivo (robo de información, manipulación de los mismos, destrucción de software y hardware...) y se propagarían por más medios, como el correo electrónico e Internet.
+Debido a la aparición de los numerosos softwares maliciosos en esta época fueron apareciendo empresas que proporcionaban herramientas para proteger los equipos, los \textbf{antivirus}.
+
+En el año 1983, se hizo obligatorio que los usuarios de la red ARPANET utilizasen el protocolo TCP/IP. Este hecho estableció un estándar en la comunicación entre redes y favoreció la aparición de la World Wide Web.
+Este fue además el año en el que se utilizó por primera vez el término \textit{virus informático} en una tesis académica, dirigida por Fred Cohen~\cite{article:cohen}.
+
+En 1986 se aprueba una ley llamada La \textit{Ley De Fraude Y Abuso Cibernético}~\cite{article:ley} la cual aparece como contramedida al virus más dañino hasta la fecha como fue Brain~\cite{article:brain}, el primer virus compatible con máquinas IBM. La ley defendía a los usuarios del \textbf{robo de datos}, del acceso a la red no autorizado y demás delitos relacionados con la tecnología.
+
+Los tres años siguientes siguieron apareciendo compañías que velaban por la seguridad como Symantec, la cual lanzó el conocido antivirus Norton en el año 1991.
+Sin embargo, esto no hizo que el número de robos de información cesara. Al contrario, pues con la aparición del primer navegador web surgieron nuevas formas de ataque y \textit{phising}. Asimismo surgieron los primeros ataques de denegación de servicio.
+
+En el año 1996, con la aparición del complemento de navegador Flash(que permite la reproducción de vídeo y música) surgen por ende nuevas formas de ataques, debido a las numerosas vulnerabilidades del plug-in. El correo electrónico, que cada vez se encuentra más vigente, también permite recibir correspondencia con un objetivo de robar información personal. En este año también aparece el primer virus creado para el sistema Linux~\cite{article:staog}, llamado Staog.
+
+El año 2000 el número de gusanos informáticos que se encuentran en equipos domésticos es desproporcionado. Asimismo, en esta década los ciberdelincuentes aprenden a anonimizarse más sofisticadamente y hacen más difícil su identificación.
+Para el año 2005 el número de malware únicos asciende a más de 300.000, y ha ascendido más de un 1000\% en diez años. Para el año 2008 dicha cifra asciende 5 millones de malware únicos~\cite{article:number_malware}.
+
+En los últimos años la variedad de amenazas de robo de información ha cambiado mucho. El origen de hurtos de información sensible no se limitan a aplicaciones o sistemas maliciosos, sino en algunos casos a grandes corporaciones cuyas políticas de privacidad con los usuarios, o bien no están bien definidas o directamente son engañosas (un ejemplo reciente son una conocida empresa de robots-aspiradora, la cual vende información a terceros sobre los planos de los domicilios~\cite{article:roomba}). 
+
+Con la aparición de los smartphones, surgen nuevas amenazas para nuestra seguridad y privacidad como \textit{payloads} que corren como un proceso en segundo plano~\cite{article:android} y permiten tracear nuestra ubicación, espiarnos a través de la cámara del dispositivo y un largo etcétera. Esto ha ocasionado que surjan también aplicaciones antivirus en nuestros teléfonos móviles, que actúan de forma \textit{pasiva} vigilando que ningún proceso monitorice de forma maliciosa nuestro dispositivo. 
+
+Como se ha mencionado, está claro que debemos cuidarnos de agentes externos como los distintos tipos de \textit{malware}, los cuales pueden usurpar nuestra identidad, comprometer nuestros \textbf{datos personales}, entre otras cosas. 
+Sin embargo, \textbf{no todo depende del usuario }puesto que muchos de los servicios que utilizamos día a día han sufrido de \textit{leaks} de bases de datos e infiltraciones en el sistema que suponen un riesgo para nuestra privacidad. Un servicio muy útil para comprobar si hemos sido víctimas de ciberataques (con el riesgo que supone para nuestra privacidad) es \url{https://haveibeenpwned.com/}.
+
+Conforme ha ido avanzando la tecnología, el número de \textit{malware} ha ido creciendo de forma masiva, y así también su propósito. Lo que en un principio eran pruebas de concepto, pasaron a ser verdaderas amenazas para los sistemas. Sin embargo, el foco en los últimos años el objetivo ha cambiado hacia la información sensible de los usuarios de la red. 
+
+Asimismo, hemos podido comprobar que no sólo el \textit{malware} es causante de los robos de información, sino que la propia negligencia de algunas empresas en temas relativos a la privacidad de los usuarios también juega un papel importante y es por ello que no debemos perder de vista que, aparte de proteger la confidencialidad de la información, también se debe hacer lo propio con la privacidad.
+
+Por todo esto, con el incremento del número de amenazas a nuestra privacidad también ha sido necesario que aparezcan herramientas que actúen de forma \textit{activa} y nos permitan utilizar los servicios de Internet de una forma más segura.
+
+Muchas de dichas herramientas (sobre todo las focalizadas en ofuscación de tráfico de red) serán desarrolladas en este capítulo, así como otras cuyo objetivo es bien distinto; la identificación del usuario.
+
 \lsection{Privacidad y anonimato: conceptos}
 \label{sec:conceptos}
 La privacidad es un concepto bastante complejo, una palabra con tantas
@@ -144,58 +198,6 @@ Una vez aclarados sendos términos, procedemos a listar las diferentes vías par
 	\item Anonimato de comunicación: Esto involucra una no vinculación entre emisor y receptor, de forma que es posible identificarlos a ambos por separado pero no la asociación entre ellos.
 
 \end{itemize}
-
-\lsection{Hechos relevantes con respecto a la seguridad en la red} \label{sec:historia}
-
-Para comprender la magnitud de la importancia de amenazas a la privacidad en la red es necesario situarnos en una etapa temprana de Internet, con el fin de observar cómo tanto las preocupaciones de los usuarios como los objetivos de ciberataques han ido variando durante el transcurso de los años. Por ello, es interesante hacer un repaso a los hechos más importantes relativos a la seguridad tecnológica que marcarían el camino hasta llegar a la situación actual.
-
-Puesto que hablaremos de seguridad informática, es indispensable tener claros los tres pilares en los que se fundamenta la gestión de la seguridad de la información. Estos son:
-\begin{itemize}
-	\item Confidencialidad: Un elemento básico de la seguridad informática que garantiza que el acceso a la información se limita únicamente a usuarios autorizados.
-	\item Integridad: El segundo elemento asegura que la información en cuestión no es modificada por personas no autorizadas.
-	\item Disponibilidad: La última piedra angular de la seguridad de la información preserva que la información esté disponible en el momento que sea necesaria.
-\end{itemize}
-
-Conviene empezar la sección recalcando que Internet no fue concebido como un protocolo de comunicación seguro. 
-Es por esto que a lo largo de su historia han ocurrido varios sucesos que han puesto en riesgo (por diversos motivos) la seguridad del usuario en la red.
-
-Podemos marcar como primera incursión histórica con respecto a la seguridad un libro publicado por Jon Von Neumann en el año 1949 llamado \textit{The Theory of Self Reproducing Automata}. Dicha publicación sirvió como  base para el desarrollo de los primeros \textbf{virus informáticos}~\cite{article:automata}.
-
-El primer virus que causó un gran impacto social fue el lamado \textbf{virus Creeper}, el cual era un programa experimental autoreplicante creado por \textbf{Bob Thomas} diseñado con fines experimentales y que no causaba un daño real entre las máquinas en las que se iba moviendo ~\cite{article:motivationvirus}.
-Realmente fue desplazándose de ordenador en ordenador alrededor de toda la red ARPANET (la precursora de lo que es a día de hoy internet).
-
-En 1973 Robert Metcalfe, un trabajador de ARPANET y el cuál fundó 3Com (uno de los fabricantes de redes informáticas más importantes), advertía que una incursión a la red interna desde el exterior era algo extremadamente sencillo y, de hecho, son atribuidas durante la década de los 70 varias intrusiones a la red por parte de estudiantes de secundaria. 
-Durante esta etapa no se produjeron descubrimientos destacables con respecto a la seguridad informática. De hecho, en el año 1978 un grupo de científicos propusieron un proyecto de cifrado de paquetes TCP/IP pero encontraron muchas trabas, algunas de ellas incluso por la Agencia de Seguridad Nacional~\cite{article:nsa_tcp}. Por ello, dicho proyecto (que bien podría haber marcado otro camino en la historia de la seguridad en la informática) fue abandonado. 
-
-En 1981 apareció el segundo virus reconocido a nivel mundial, el llamado \textbf{Elk Cloner}~\cite{article:cloner}. Atacaba computadoras Apple II, aunque su único propósito era el de reproducirse en otros dispositivos y no efectuaba ningún daño propiamente dicho. Uno de los datos más impactantes es que fue diseñado por un joven de 15 años. Su propagación era mediante el disquete. 
-Este virus sentó la base para los siguientes que fueron apareciendo, los cuales contendrían todo tipo de código destructivo (robo de información, manipulación de los mismos, destrucción de software y hardware...) y se propagarían por más medios, como el correo electrónico e Internet.
-Debido a la aparición de los numerosos softwares maliciosos en esta época fueron apareciendo empresas que proporcionaban herramientas para proteger los equipos, los \textbf{antivirus}.
-
-En el año 1983, se hizo obligatorio que los usuarios de la red ARPANET utilizasen el protocolo TCP/IP. Este hecho estableció un estándar en la comunicación entre redes y favoreció la aparición de la World Wide Web.
-Este fue además el año en el que se utilizó por primera vez el término \textit{virus informático} en una tesis académica, dirigida por Fred Cohen~\cite{article:cohen}.
-
-En 1986 se aprueba una ley llamada La \textit{Ley De Fraude Y Abuso Cibernético}~\cite{article:ley} la cual aparece como contramedida al virus más dañino hasta la fecha como fue Brain~\cite{article:brain}, el primer virus compatible con máquinas IBM. La ley defendía a los usuarios del \textbf{robo de datos}, del acceso a la red no autorizado y demás delitos relacionados con la tecnología.
-
-Los tres años siguientes siguieron apareciendo compañías que velaban por la seguridad como Symantec, la cual lanzó el conocido antivirus Norton en el año 1991.
-Sin embargo, esto no hizo que el número de robos de información cesara. Al contrario, pues con la aparición del primer navegador web surgieron nuevas formas de ataque y \textit{phising}. Asimismo surgieron los primeros ataques de denegación de servicio.
-
-En el año 1996, con la aparición del complemento de navegador Flash(que permite la reproducción de vídeo y música) surgen por ende nuevas formas de ataques, debido a las numerosas vulnerabilidades del plug-in. El correo electrónico, que cada vez se encuentra más vigente, también permite recibir correspondencia con un objetivo de robar información personal. En este año también aparece el primer virus creado para el sistema Linux~\cite{article:staog}, llamado Staog.
-
-El año 2000 el número de gusanos informáticos que se encuentran en equipos domésticos es desproporcionado. Asimismo, en esta década los ciberdelincuentes aprenden a anonimizarse más sofisticadamente y hacen más difícil su identificación.
-Para el año 2005 el número de malware únicos asciende a más de 300.000, y ha ascendido más de un 1000\% en diez años. Para el año 2008 dicha cifra asciende 5 millones de malware únicos~\cite{article:number_malware}.
-
-En los últimos años la variedad de amenazas de robo de información ha cambiado mucho. El origen de hurtos de información sensible no se limitan a aplicaciones o sistemas maliciosos, sino en algunos casos a grandes corporaciones cuyas políticas de privacidad con los usuarios, o bien no están bien definidas o directamente son engañosas (un ejemplo reciente son una conocida empresa de robots-aspiradora, la cual vende información a terceros sobre los planos de los domicilios~\cite{article:roomba}). 
-
-Con la aparición de los smartphones, surgen nuevas amenazas para nuestra seguridad y privacidad como \textit{payloads} que corren como un proceso en segundo plano~\cite{article:android} y permiten tracear nuestra ubicación, espiarnos a través de la cámara del dispositivo y un largo etcétera. Esto ha ocasionado que surjan también aplicaciones antivirus en nuestros teléfonos móviles, que actúan de forma \textit{pasiva} vigilando que ningún proceso monitorice de forma maliciosa nuestro dispositivo. 
-
-Como se ha mencionado, está claro que debemos cuidarnos de agentes externos como los distintos tipos de \textit{malware}, los cuales pueden usurpar nuestra identidad, comprometer nuestros \textbf{datos personales}, entre otras cosas. 
-Sin embargo, \textbf{no todo depende del usuario }puesto que muchos de los servicios que utilizamos día a día han sufrido de \textit{leaks} de bases de datos e infiltraciones en el sistema que suponen un riesgo para nuestra privacidad. Un servicio muy útil para comprobar si hemos sido víctimas de ciberataques (con el riesgo que supone para nuestra privacidad) es \url{https://haveibeenpwned.com/}.
-
-Conforme ha ido avanzando la tecnología, el número de \textit{malware} ha ido creciendo de forma masiva, y así también su propósito. Lo que en un principio eran pruebas de concepto, pasaron a ser verdaderas amenazas para los sistemas. Sin embargo, el foco en los últimos años el objetivo ha cambiado hacia la información sensible de los usuarios de la red. 
-
-Asimismo, hemos podido comprobar que no sólo el \textit{malware} es causante de los robos de información, sino que la propia negligencia de algunas empresas en temas relativos a la privacidad de los usuarios también juega un papel importante y es por ello que no debemos perder de vista que, aparte de proteger la confidencialidad de la información, también se debe hacer lo propio con la privacidad.
-
-Por todo esto, con el incremento del número de amenazas a nuestra privacidad también ha sido necesario que aparezcan herramientas que actúen de forma \textit{activa} y nos permitan utilizar los servicios de Internet de una forma más segura.
 	
 \lsection{Herramientas que ofuscan la identificación del usuario}
 \label{sec:a_favor}
